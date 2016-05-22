@@ -1,0 +1,12 @@
+Installation:
+
+GMDB_Addon.zip nach ../Programme/World of Warcraft/Interface/addons entpacken
+
+
+Daten Bereitstellen:
+
+Im Ordner ../Programme/World of Warcraft/WTF/Account/User/SavedVariables die Datei GMDB.lua auf www.gmdb-forum.de im Downloadcenter hochladen.
+
+Zum Upload wird eine Registrierung und Freischaltung benötigt.
+
+Vor jedem WoW Patch die gmdb.lua hochladen und anschließend löschen.

@@ -1,0 +1,9 @@
+## Interface: 40300
+## Title: GMDB Addon 4.3
+## Modifie by Klark20
+## Version: Version 4.3.0.15050
+## X-Version: Light
+## Notes: GMDB Addon
+## SavedVariables: GMDB_Collector, GMDB_Main
+## DefaultState: Enabled
+GMDB_Collector.xml
