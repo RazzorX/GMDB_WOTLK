@@ -42,7 +42,7 @@ function self_OnEvent(self, event, ...)
 		self:RegisterEvent("GOSSIP_SHOW");
 
         if not AlreadyLoad then
-            DEFAULT_CHAT_FRAME:AddMessage("|cffffff00<GMDB>|r Addon "..ADDON_VERSION.." charg\195\169.");
+            DEFAULT_CHAT_FRAME:AddMessage("|cffffff00<GMDB>|r Addon "..ADDON_VERSION.." geladen.");
             AlreadyLoad = true
         end
     end
@@ -347,8 +347,8 @@ end
 
 function self_GetUnitId(unit)
     guid = UnitGUID(unit);
-    id = tonumber(string.sub(guid,7,10), 16);
-    return id;
+    id = guid:match("%a+-%d+-%d+-%d+-%d+-(%d+)-.+")
+    return tonumber(id);
 end
 
 function self_Debug(phrase)
