@@ -72,7 +72,7 @@ UPDATE gossip_texts SET content_loc3='Zeigt mir was ihr dabei habt.' WHERE entry
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532017;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532018;
 
--- -3534000 COT HYJAL
+-- -3534000 COT THE BATTLE OF MT. HYJAL
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3534000;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3534001;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3534002;
@@ -115,7 +115,7 @@ UPDATE gossip_texts SET content_loc3='Also, wie plant der ewige Drachenschwarm e
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3595012;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3595013;
 
--- -3599000 U N B E K A N N T
+-- -3599000 HALLS OF STONE
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3599000;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3599001;
 
@@ -145,7 +145,7 @@ UPDATE gossip_texts SET content_loc3='Bringt Eure Leute in Sicherheit, wir werde
 UPDATE gossip_texts SET content_loc3='Ich fordere Euch heraus, Todesritter!' WHERE entry=-3609000;
 UPDATE gossip_texts SET content_loc3='Ich bin bereit, Hochlord. Die Belagerung der Kapelle des hoffnungsvollen Lichts kann beginnen!' WHERE entry=-3609001;
 
--- -3631000 ICC
+-- -3631000 ICECROWN CITADEL
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3631000;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3631001;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3631002;
@@ -173,7 +173,7 @@ UPDATE gossip_texts SET content_loc3='Natürlich!' WHERE entry=-3649005;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649016;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649017;
 
--- -3650000 U N B E K A N N T
+-- -3650000 TRIAL OF THE CHAMPION
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3650000;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3650001;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3650002;

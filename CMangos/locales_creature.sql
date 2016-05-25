@@ -16,8 +16,10 @@ UPDATE locales_creature SET name_loc3='Minenspinne' WHERE entry=43;
 UPDATE locales_creature SET name_loc3='Murlocfutterwühler' WHERE entry=46;
 UPDATE locales_creature SET name_loc3='Skelettkrieger' WHERE entry=48;
 UPDATE locales_creature SET name_loc3='Corina Stähler', subname_loc3='Waffenschmiedin' WHERE entry=54;
+UPDATE locales_creature SET name_loc3='Ed der fiese Schmied' WHERE entry=55;
 UPDATE locales_creature SET name_loc3='Ruklar der Fallensteller' WHERE entry=60;
 UPDATE locales_creature SET name_loc3='Thuros Flinkfinger' WHERE entry=61;
+UPDATE locales_creature SET name_loc3='Gug Fettkerze' WHERE entry=62;
 UPDATE locales_creature SET name_loc3='Tharynn Bouden', subname_loc3='Handwerkswaren' WHERE entry=66;
 UPDATE locales_creature SET name_loc3='Stadtwache von Sturmwind' WHERE entry=68;
 UPDATE locales_creature SET name_loc3='Erkrankter wilder Waldwolf' WHERE entry=69;
@@ -22673,6 +22675,7 @@ UPDATE locales_creature SET name_loc3='Wächterin des Sanktums Xerestrasza' WHER
 UPDATE locales_creature SET name_loc3='Kopfloser Geist', subname_loc3='Dungeonmeister' WHERE entry=40435;
 UPDATE locales_creature SET name_loc3='Pfadfinder des Irdenen Rings', subname_loc3='Dungeonmeister' WHERE entry=40436;
 UPDATE locales_creature SET name_loc3='Mitgenommener Brauer', subname_loc3='Dungeonmeister' WHERE entry=40437;
+UPDATE locales_creature SET name_loc3='Winkeladvokat des Dampfdruckkartells', subname_loc3='Dungeonmeister' WHERE entry=40438;
 UPDATE locales_creature SET name_loc3='Mitgenommener Braumeister', subname_loc3='Dungeonmeister' WHERE entry=40441;
 UPDATE locales_creature SET name_loc3='Späher des Irdenen Rings', subname_loc3='Dungeonmeister' WHERE entry=40443;
 UPDATE locales_creature SET name_loc3='Nar\'biss der Beschwörer', subname_loc3='Heretiker von Neptulon' WHERE entry=40446;

@@ -235,7 +235,7 @@ UPDATE creature_ai_texts SET content_loc3='Euch zu töten wird einfach.' WHERE e
 UPDATE creature_ai_texts SET content_loc3='Ihr werdet schon bald tot sein!' WHERE entry=-230;
 UPDATE creature_ai_texts SET content_loc3='Ich werde Euch aufschlitzen!' WHERE entry=-231;
 UPDATE creature_ai_texts SET content_loc3='Die Bruderschaft wird von Insekten nicht behindert.' WHERE entry=-232;
-UPDATE creature_ai_texts SET content_loc3='So viel zu tun, so viel zu tun! Wohin geht die Zeit?' WHERE entry=-233;
+UPDATE creature_ai_texts SET content_loc3='So viel Arbeit, so viel Arbeit! Wo bleibt nur die Zeit?' WHERE entry=-233;
 UPDATE creature_ai_texts SET content_loc3='Ein stürmischer Wind umhüllt Vakkiz als er sich bedrohlich in Eure Richtung windet.' WHERE entry=-234;
 UPDATE creature_ai_texts SET content_loc3='%s Fleisch zerbirst vor unbändigen Zorn!' WHERE entry=-235;
 UPDATE creature_ai_texts SET content_loc3='%s entblößt ihre Zähne und faucht alle um sie herum bedrohlich an.' WHERE entry=-236;
@@ -1392,11 +1392,11 @@ UPDATE creature_ai_texts SET content_loc3='Nein, nein, nein! Komm zurück!' WHER
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1388;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1389;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1390;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1391;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1392;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1393;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1394;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1395;
+UPDATE creature_ai_texts SET content_loc3='Ich sah den selben Blick in seinen Augen als er starb. Terenas konnte es kaum glauben. Hahahaha!' WHERE entry=-1391;
+UPDATE creature_ai_texts SET content_loc3='Erstickt an Eurem Leid!' WHERE entry=-1392;
+UPDATE creature_ai_texts SET content_loc3='Euer Fleisch soll vor Euren eigenen Augen verwesen!' WHERE entry=-1393;
+UPDATE creature_ai_texts SET content_loc3='Verottet zu nichts!' WHERE entry=-1394;
+UPDATE creature_ai_texts SET content_loc3='Ja... lauft... Lauft Eurem Schicksal entgegen... Seine kalte Umarmung erwartet Euch.' WHERE entry=-1395;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1396;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1397;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1398;
@@ -1433,4 +1433,5 @@ UPDATE creature_ai_texts SET content_loc3='Kehrt zu Kuros zurück. Ich werde ihn
 UPDATE creature_ai_texts SET content_loc3='%s wird bewusstlos.' WHERE entry=-1429;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1430;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1431;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1432;
 SET NAMES 'latin1';

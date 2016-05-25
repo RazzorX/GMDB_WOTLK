@@ -97,9 +97,9 @@ UPDATE script_texts SET content_loc3='Oh, diese Schmerzen...' WHERE entry=-10001
 UPDATE script_texts SET content_loc3='Alles tut so weh. Lasst es aufhören, bitte!' WHERE entry=-1000181;
 UPDATE script_texts SET content_loc3='Aaagggh... Ich bin verletzt. Könnt Ihr mir helfen?' WHERE entry=-1000182;
 UPDATE script_texts SET content_loc3='Ich weiß nicht, ob ich es schaffen werde. Bitte, helft mir!' WHERE entry=-1000183;
-UPDATE script_texts SET content_loc3='Ja, Meister. Alles verläuft wie geplant.' WHERE entry=-1000184;
-UPDATE script_texts SET content_loc3='%s hält sich die Muschel an das Ohr.' WHERE entry=-1000185;
-UPDATE script_texts SET content_loc3='Und jetzt werde ich Euch aufschlitzen!' WHERE entry=-1000186;
+UPDATE script_texts SET content_loc3='Tochter!' WHERE entry=-1000184;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1000185;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1000186;
 UPDATE script_texts SET content_loc3='Danke, $Glieber:liebe:c; $C. Ihr habt mein Leben gerettet!' WHERE entry=-1000187;
 UPDATE script_texts SET content_loc3='Einsatzbereit. Eindringlinge werden neutralisiert.' WHERE entry=-1000188;
 UPDATE script_texts SET content_loc3='Ziel ermittelt. Initiiere Sicherheitsroutinen.' WHERE entry=-1000189;
@@ -1111,6 +1111,22 @@ UPDATE script_texts SET content_loc3='Ohne meine Streitkräfte werdet Ihr den Li
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001195;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001196;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001197;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001198;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001199;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001200;
+UPDATE script_texts SET content_loc3='3...' WHERE entry=-1001201;
+UPDATE script_texts SET content_loc3='2...' WHERE entry=-1001202;
+UPDATE script_texts SET content_loc3='1...' WHERE entry=-1001203;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001204;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001205;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001206;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001207;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001208;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001209;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001210;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001211;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001212;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001213;
 
 -- -1 033 000 SHADOWFANG KEEP
 UPDATE script_texts SET content_loc3='Folgt mir und ich werde die Tür zum Hof für Euch öffnen.' WHERE entry=-1033000;
@@ -1484,6 +1500,10 @@ UPDATE script_texts SET content_loc3='Ihr habt es geschafft... Ihr habt Baron To
 UPDATE script_texts SET content_loc3='Ihr habt heute an einem einzigen Tag ruiniert, was ich über Jahre hinweg erschaffen habe! Dafür werdet ihr alle von meiner Hand sterben!' WHERE entry=-1329016;
 UPDATE script_texts SET content_loc3='Glaubt ihr Dummköpfe etwa, ihr könntet mich so leicht besiegen? Stellt euch der wahren Macht der Nathrezim!' WHERE entry=-1329017;
 UPDATE script_texts SET content_loc3='Verdammt sollt ihr alle sein, sterbliche Wesen! All meine Rachepläne, all mein Hass... alles zu Asche verbrannt...' WHERE entry=-1329018;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1329019;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1329020;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1329021;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1329022;
 
 -- -1 349 000 MARAUDON
 
@@ -2333,7 +2353,7 @@ UPDATE script_texts SET content_loc3='Ich mag es lieber praktisch...' WHERE entr
 UPDATE script_texts SET content_loc3='Eine kleine Unannehmlichkeit.' WHERE entry=-1554025;
 UPDATE script_texts SET content_loc3='Sieht aus als hättet ihr verloren.' WHERE entry=-1554026;
 UPDATE script_texts SET content_loc3='Das Projekt wird fortgesetzt...' WHERE entry=-1554027;
--- UPDATE script_texts SET content_loc3='REUSE_ME' WHERE entry=-1554028;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1554028;
 
 -- -1 555 000 SHADOW LABYRINTH
 UPDATE script_texts SET content_loc3='Ungläubige sind in das Heiligtum eingedrungen! Wehleidiges Gesindel... Ihr müsst erst noch die wahre Bedeutung von Leid kennenlernen!' WHERE entry=-1555000;
@@ -4190,7 +4210,7 @@ UPDATE script_texts SET content_loc3='Möge der Schwarm Euch überwältigen!' WH
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1649076;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1649077;
 
--- -1 650 000 ?????????
+-- -1 650 000 TRIAL OF THE CHAMPION
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1650000;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1650001;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1650002;
@@ -4334,7 +4354,7 @@ UPDATE script_texts SET content_loc3='Endlich hat Sindragosa diesen ewig plapper
 UPDATE script_texts SET content_loc3='Helden! Wir werden die Untoten aufhalten solange wir können, bis in den Tod. Kümmert euch um den Geißelfürsten!' WHERE entry=-1658068;
 UPDATE script_texts SET content_loc3='Mutige Champions, wir schulden euch unser Leben, unsere Freiheit... Es mag nur eine winzige Geste sein, doch ich schwöre, das von diesem Tag an, jeder um eure Taten wissen wird und um den gleißenden Pfad des Lichts den ihr durch diese dunkle Zitadelle gebahnt habt.' WHERE entry=-1658069;
 
--- -1 668 000 ?????????
+-- -1 668 000 ICC: HALLS OF REFLECTION
 UPDATE script_texts SET content_loc3='Der Meister blickte auf sein Reich und sah... Makel. Sein Urteil war schnell und gnadenlos: DEN TOD FÜR ALLE!' WHERE entry=-1668000;
 UPDATE script_texts SET content_loc3='Eure Verbündeten sind hier, Jaina, wie ihr verspracht. Ihr werdet alle zu mächtigen Dienern der Geißel.' WHERE entry=-1668001;
 UPDATE script_texts SET content_loc3='Seine Macht ist zu groß, wir müssen diesen Ort sofort verlassen! Meine Magie kann ihn nur kurze Zeit halten! Beeilt Euch, Helden!' WHERE entry=-1668002;
