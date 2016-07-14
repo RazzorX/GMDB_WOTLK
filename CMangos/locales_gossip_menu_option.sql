@@ -420,6 +420,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Barbier' WHERE menu_id=2
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ein Lehrer für eine Klasse' WHERE menu_id=2849 AND id=12;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ein Lehrer für einen Beruf' WHERE menu_id=2849 AND id=13;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Schlosser' WHERE menu_id=2849 AND id=14;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=2871 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Süßes oder Saures!' WHERE menu_id=2890 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte dieses Gasthaus zu meinem Heimatort machen.' WHERE menu_id=2890 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um.' WHERE menu_id=2890 AND id=5;
