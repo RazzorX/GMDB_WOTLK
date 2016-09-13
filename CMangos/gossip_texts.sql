@@ -73,23 +73,23 @@ UPDATE gossip_texts SET content_loc3='Zeigt mir was ihr dabei habt.' WHERE entry
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532018;
 
 -- -3534000 COT THE BATTLE OF MT. HYJAL
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3534000;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3534001;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3534002;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3534003;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3534004;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3534005;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3534006;
+UPDATE gossip_texts SET content_loc3='Meine Gefährten und ich werden Euch zur Seite stehen, Lady Prachtmeer.' WHERE entry=-3534000;
+UPDATE gossip_texts SET content_loc3='Was auch immer Archimonde gegen uns ins Feld schicken mag, wir sind bereit, Lady Prachtmeer.' WHERE entry=-3534001;
+UPDATE gossip_texts SET content_loc3='Wir werden uns wiedersehen, Lady Prachtmeer.' WHERE entry=-3534002;
+UPDATE gossip_texts SET content_loc3='Ich werde Euch zur Seite stehen, Thrall!' WHERE entry=-3534003;
+UPDATE gossip_texts SET content_loc3='Wir haben nichts zu befürchten.' WHERE entry=-3534004;
+UPDATE gossip_texts SET content_loc3='Wir werden uns wiedersehen, Thrall.' WHERE entry=-3534005;
+UPDATE gossip_texts SET content_loc3='Ich wäre dankbar für jegliche Hilfe, die Ihr bieten könnt, Priesterin.' WHERE entry=-3534006;
 
 -- -3560000 ESCAPE FROM DURNHOLDE (OLD HILLSBRAD)
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3560000;
+UPDATE gossip_texts SET content_loc3='Wir sind bereit, um Euch hier herauszuholen, Thrall.' WHERE entry=-3560000;
 UPDATE gossip_texts SET content_loc3='Ich brauche ein Bündel Brandbomben.' WHERE entry=-3560001;
 UPDATE gossip_texts SET content_loc3='Taretha kann dich nicht sehen, Thrall.' WHERE entry=-3560002;
 UPDATE gossip_texts SET content_loc3='Die Situation ist recht kompliziert, Thrall. Es wäre das Beste für Euch, wenn Ihr nun in die Berge aufbrecht, bevor noch mehr von Schwarzmoors Männer hier auftauchen. Wir stellen sicher, dass Taretha in Sicherheit ist.' WHERE entry=-3560003;
 UPDATE gossip_texts SET content_loc3='Wir sind bereit, Thrall.' WHERE entry=-3560004;
-UPDATE gossip_texts SET content_loc3='Seltsamer Zauber?' WHERE entry=-3560005;
+UPDATE gossip_texts SET content_loc3='Seltsamer Zauberer?' WHERE entry=-3560005;
 UPDATE gossip_texts SET content_loc3='Keine Sorge! Wir werden Euch hier herausholen, Taretha. Ich bezweifle, dass der Zauberer sich zu weit von hier entfernen würde.' WHERE entry=-3560006;
-UPDATE gossip_texts SET content_loc3='Tarrens Mühle' WHERE entry=-3560007;
+UPDATE gossip_texts SET content_loc3='Tarrens Mühle.' WHERE entry=-3560007;
 
 -- -3564000 BLACK TEMPLE
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3564000;
@@ -106,14 +106,14 @@ UPDATE gossip_texts SET content_loc3='Sehr wohl, Chromie' WHERE entry=-3595002;
 UPDATE gossip_texts SET content_loc3='Warum wurde ich zu dieser speziellen Zeit und an diesen speziellen Ort zurückgeschickt?' WHERE entry=-3595003;
 UPDATE gossip_texts SET content_loc3='Was war die Entscheidung?' WHERE entry=-3595004;
 UPDATE gossip_texts SET content_loc3='Also, wie plant der ewige Drachenschwarm einzugreifen?' WHERE entry=-3595005;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3595006;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3595007;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3595008;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3595009;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3595010;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3595011;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3595012;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3595013;
+UPDATE gossip_texts SET content_loc3='Chromie, Ihr und ich wissen beide, was in dieser Zeitlinie passieren wird. Wir haben das alles schon mal gesehen. Könntet Ihr uns ein wenig vorspringen lassen, dahin, wo wirklich was los ist?' WHERE entry=-3595006;
+UPDATE gossip_texts SET content_loc3='Ja, bitte!' WHERE entry=-3595007;
+UPDATE gossip_texts SET content_loc3='Ja, mein Prinz. Wir sind bereit.' WHERE entry=-3595008;
+UPDATE gossip_texts SET content_loc3='Wir tun nur, was das Beste für Lordaeron ist, Eure Hoheit.' WHERE entry=-3595009;
+UPDATE gossip_texts SET content_loc3='Geht voran, Prinz Arthas.' WHERE entry=-3595010;
+UPDATE gossip_texts SET content_loc3='Ich bin so weit.' WHERE entry=-3595011;
+UPDATE gossip_texts SET content_loc3='Für Lordaeron!' WHERE entry=-3595012;
+UPDATE gossip_texts SET content_loc3='Ich bin bereit, den Schreckenslord zu bekämpfen, mein Lord.' WHERE entry=-3595013;
 
 -- -3599000 HALLS OF STONE
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3599000;
@@ -122,19 +122,19 @@ UPDATE gossip_texts SET content_loc3='Also, wie plant der ewige Drachenschwarm e
 -- -3603000 ULDUAR
 UPDATE gossip_texts SET content_loc3='Teleport zum Basislager der Expedition.' WHERE entry=-3603000;
 UPDATE gossip_texts SET content_loc3='Teleport zum Gestaltungsgelände.' WHERE entry=-3603001;
-UPDATE gossip_texts SET content_loc3='Teleport zur kolossalen Schmiede.' WHERE entry=-3603002;
+UPDATE gossip_texts SET content_loc3='Teleport zur Kolossalen Schmiede.' WHERE entry=-3603002;
 UPDATE gossip_texts SET content_loc3='Teleport zum Schrottplatz.' WHERE entry=-3603003;
-UPDATE gossip_texts SET content_loc3='Teleport zur Vorkammer von Ulduar' WHERE entry=-3603004;
-UPDATE gossip_texts SET content_loc3='Teleport zum zerschmetterten Gang.' WHERE entry=-3603005;
-UPDATE gossip_texts SET content_loc3='Teleport zum Konservatorium.' WHERE entry=-3603006;
-UPDATE gossip_texts SET content_loc3='Teleport zum Funke der Imagination.' WHERE entry=-3603007;
-UPDATE gossip_texts SET content_loc3='Teleport zum Gefängnis von Yogg-Saron' WHERE entry=-3603008;
+UPDATE gossip_texts SET content_loc3='Teleport zur Vorkammer von Ulduar.' WHERE entry=-3603004;
+UPDATE gossip_texts SET content_loc3='Teleport zum Zerschmetterten Gang.' WHERE entry=-3603005;
+UPDATE gossip_texts SET content_loc3='Teleport zum Konservatorium des Lebens.' WHERE entry=-3603006;
+UPDATE gossip_texts SET content_loc3='Teleport zum Funken der Imagination.' WHERE entry=-3603007;
+UPDATE gossip_texts SET content_loc3='Teleport zum Gefängnis von Yogg-Saron.' WHERE entry=-3603008;
 UPDATE gossip_texts SET content_loc3='Wir sind bereit zu helfen!' WHERE entry=-3603009;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3603010;
+UPDATE gossip_texts SET content_loc3='Sekundäre Verteidigungssysteme aktivieren.' WHERE entry=-3603010;
 UPDATE gossip_texts SET content_loc3='Bestätigt' WHERE entry=-3603011;
-UPDATE gossip_texts SET content_loc3='Wir sind bereit. Der Angriff kann beginnen!' WHERE entry=-3603012;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3603013;
-UPDATE gossip_texts SET content_loc3='Ja' WHERE entry=-3603014;
+UPDATE gossip_texts SET content_loc3='Wir sind bereit. Lasst den Angriff beginnen!' WHERE entry=-3603012;
+UPDATE gossip_texts SET content_loc3='Bitte gewährt uns Eure Hilfe, Hüter. Gemeinsam werden wir Yogg-Saron vernichten.' WHERE entry=-3603013;
+UPDATE gossip_texts SET content_loc3='Ja.' WHERE entry=-3603014;
 
 -- -3608000 VIOLET HOLD
 UPDATE gossip_texts SET content_loc3='Sollten wir Ärger bekommen, so aktiviert die Kristalle, klar?' WHERE entry=-3608000;
@@ -155,17 +155,17 @@ UPDATE gossip_texts SET content_loc3='Ich bin bereit, Hochlord. Die Belagerung d
 
 -- -3649000 TRIAL OF THE CRUSADER
 UPDATE gossip_texts SET content_loc3='Ja. Wir sind bereit für die Prüfungen, die vor uns liegen.' WHERE entry=-3649000;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649001;
+UPDATE gossip_texts SET content_loc3='Immer her mit der ersten Herausforderung!' WHERE entry=-3649001;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649002;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649003;
+UPDATE gossip_texts SET content_loc3='Welche neue Herausforderung erwartet uns?' WHERE entry=-3649003;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649004;
 UPDATE gossip_texts SET content_loc3='Natürlich!' WHERE entry=-3649005;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649006;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649007;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649008;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649009;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649010;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649011;
+UPDATE gossip_texts SET content_loc3='Gebt das Signal! Wir sind bereit!' WHERE entry=-3649006;
+UPDATE gossip_texts SET content_loc3='So stark, hm?' WHERE entry=-3649007;
+UPDATE gossip_texts SET content_loc3='Val\'kyr? Mit denen werden wir fertig.' WHERE entry=-3649008;
+UPDATE gossip_texts SET content_loc3='Wir wissen Eure Worte des Lobes zu schätzen, Zeremonienmeister des Kolosseums.' WHERE entry=-3649009;
+UPDATE gossip_texts SET content_loc3='Wie merkwürdig...' WHERE entry=-3649010;
+UPDATE gossip_texts SET content_loc3='Wir sind für die nächste Herausforderung bereit.' WHERE entry=-3649011;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649012;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649013;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3649014;

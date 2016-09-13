@@ -1,9 +1,11 @@
-## Interface: 40300
-## Title: GMDB Addon 4.3
-## Modifie by Klark20
-## Version: Version 4.3.0.15050
+## Interface: 70000
+## Title: GMDB
+## Title-deDE: GMDB
+## Modified by Klark20 | RazzorX
+## Version: 1.2
 ## X-Version: Light
 ## Notes: GMDB Addon
+## Notes-deDE: GMDB Addon
 ## SavedVariables: GMDB_Collector, GMDB_Main
 ## DefaultState: Enabled
 GMDB_Collector.xml

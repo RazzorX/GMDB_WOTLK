@@ -2,7 +2,7 @@
 -- ** GMDB Addon (http://udbforums.org/index.php?board=41.0)
 -- **********************************************************
 
-ADDON_VERSION = "Version 1.1";
+ADDON_VERSION = "Version 1.2";
 DEBUG_MODE    = false
 local AlreadyLoad = false
 local self, event = {};
@@ -57,7 +57,7 @@ function self_OnEvent(self, event, ...)
         self:UnregisterEvent("QUEST_PROGRESS");
         self:UnregisterEvent("QUEST_COMPLETE");
         self:UnregisterEvent("QUEST_FINISHED");
-		self:UnregisterEvent("GOSSIP_SHOW");
+        self:UnregisterEvent("GOSSIP_SHOW");
     end
 
     if event == "CHAT_MSG_MONSTER_WHISPER" then self_MonsterSprache("WHISPER", ...); end
@@ -69,9 +69,8 @@ function self_OnEvent(self, event, ...)
     if event == "QUEST_DETAIL" then self_QuestDetail(); end
     if event == "QUEST_PROGRESS" then self_QuestProgress(); end
     if event == "QUEST_COMPLETE" then self_QuestComplete(); end
-	if event == "GOSSIP_SHOW" then self_GossipText(); end
+    if event == "GOSSIP_SHOW" then self_GossipText(); end
 end
-
 
 -- **********************
 -- ** FONCTIONS Quests **
@@ -110,11 +109,11 @@ function self_QuestDetail()
 
     GMDB_Main.totquest = GMDB_Main.totquest + 1;
     PosTab = GMDB_Main.totquest;
-    GMDB_Collector.Quests["Quest_"..PosTab] = {};
-    GMDB_Collector.Quests["Quest_"..PosTab].Title       = QuestTitle;
-    GMDB_Collector.Quests["Quest_"..PosTab].Objectives    = QuestObj;
-    GMDB_Collector.Quests["Quest_"..PosTab].Details = QuestDesc;
-    GMDB_Collector.Quests["Quest_"..PosTab].Quelle      = Quelle;
+    GMDB_Collector.Quests["Quest_"..PosTab]            = {};
+    GMDB_Collector.Quests["Quest_"..PosTab].Title      = QuestTitle;
+    GMDB_Collector.Quests["Quest_"..PosTab].Objectives = QuestObj;
+    GMDB_Collector.Quests["Quest_"..PosTab].Details    = QuestDesc;
+    GMDB_Collector.Quests["Quest_"..PosTab].Quelle     = Quelle;
 end
 
 function self_QuestProgress()
@@ -198,7 +197,6 @@ function self_GetQuestQuelle()
     return Quelle;
 end
 
-
 -- *************************
 -- ** FONCTIONS TEXTES IA **
 -- *************************
@@ -228,6 +226,7 @@ function self_MonsterSprache(ART, arg1, arg2, arg3)
     GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WAS = WAS;
     GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].SPRACHE = SPRACHE;
 end
+
 -- ************************
 -- ** FONCTION GOSSIP *****
 -- ************************
@@ -238,60 +237,59 @@ function self_GossipText()
     typegossip = {};
     nbTitel = GetNumGossipOptions(); 
     Titel["1"],typegossip["1"],Titel["2"],typegossip["2"],Titel["3"],typegossip["3"],Titel["4"],typegossip["4"],Titel["5"],typegossip["5"],Titel["6"],typegossip["6"],Titel["7"],typegossip["7"],Titel["8"],typegossip["8"],Titel["9"],typegossip["9"],Titel["10"],typegossip["10"],Titel["11"],typegossip["11"],Titel["12"],typegossip["12"],Titel["13"],typegossip["13"],Titel["14"],typegossip["14"],Titel["15"],typegossip["15"],Titel["16"],typegossip["16"],Titel["17"],typegossip["17"],Titel["18"],typegossip["18"],Titel["19"],typegossip["19"],Titel["20"],typegossip["20"] = GetGossipOptions();
-    if typegossip["1"] == nil then    
+    if typegossip["1"] == nil then
         typegossip["1"] = "none"
-	if Titel ~= nil then return nil;
-	end
+    if Titel ~= nil then return nil;
+    end
     end
 
     local cible = self_CleanMe(UnitName("npc"));
     local npcid = self_GetUnitId("target");
-	gossipId = "pnj||"..cible.."||"..npcid;
+    gossipId = "pnj||"..cible.."||"..npcid;
     PosTab = GMDB_Main.totgossip + 1;
-    nbTitel = GetNumGossipOptions();  
+    nbTitel = GetNumGossipOptions();
     erreurTitel = 0 ;
 
     for i = 1, GMDB_Main.totgossip, 1 do
         if GMDB_Collector.Gossip["gossip_"..i] then
 
-	    if GMDB_Collector.Gossip["gossip_"..i].Name == gossipId then
-	        self_Debug("gossip trouver "..typegossip["1"]  );
-		
-	        if GMDB_Collector.Gossip["gossip_"..i].Name == gossipId then
+        if GMDB_Collector.Gossip["gossip_"..i].Name == gossipId then
+            self_Debug("gossip trouver "..typegossip["1"]  );
 
-	            nbTitel = GMDB_Collector.Gossip["gossip_"..i].nbTitel ;
+            if GMDB_Collector.Gossip["gossip_"..i].Name == gossipId then
 
-		    for k = 1, nbTitel, 1 do
-			if Titel[""..k..""] ~= nil then 
-		            for l = 1, nbTitel, 1 do
+                nbTitel = GMDB_Collector.Gossip["gossip_"..i].nbTitel ;
+
+            for k = 1, nbTitel, 1 do
+            if Titel[""..k..""] ~= nil then
+                    for l = 1, nbTitel, 1 do
                                 if nbTitel_Collector.gossip["gossip_"..i].Titel["Titel_"..l] == Titel[""..k..""] then
-			            self_Debug("gossip a le meme text "..Titel[""..k..""] );
-		                else
-			            erreurTitel = erreurTitel + 1 ;
-			        end
-		            end
-		            if erreurTitel == nbTitel then
-    		                nbTitel = nbTitel + 1;
-				erreurTitel = 0 ;
-		                self_Debug("Nouveau Titel "..Titel[""..k..""].." "..nbTitel );
-		                GMDB_Collector.Gossip["gossip_"..i].nbTitel = nbTitel ;
-		                GMDB_Collector.Gossip["gossip_"..i].Titel["Titel_"..nbTitel] = Titel[""..k..""];
-    		            end
-			end
-		    end
-
-		    return;
+                        self_Debug("gossip a le meme text "..Titel[""..k..""] );
+                        else
+                        erreurTitel = erreurTitel + 1 ;
+                    end
+                    end
+                    if erreurTitel == nbTitel then
+                            nbTitel = nbTitel + 1;
+                        erreurTitel = 0 ;
+                        self_Debug("Nouveau Titel "..Titel[""..k..""].." "..nbTitel );
+                        GMDB_Collector.Gossip["gossip_"..i].nbTitel = nbTitel ;
+                        GMDB_Collector.Gossip["gossip_"..i].Titel["Titel_"..nbTitel] = Titel[""..k..""];
+                        end
+                    end
                 end
+            return;
             end
         end
     end
+end
 
     GMDB_Main.totgossip = GMDB_Main.totgossip + 1;
     GMDB_Collector.Gossip["gossip_"..PosTab] = {};
-	GMDB_Collector.Gossip["gossip_"..PosTab].Name = gossipId ;
+    GMDB_Collector.Gossip["gossip_"..PosTab].Name = gossipId ;
     GMDB_Collector.Gossip["gossip_"..PosTab].Titel = {};
     for i = 1, nbTitel, 1 do
-	GMDB_Collector.Gossip["gossip_"..PosTab].Titel["Titel_"..i] = Titel[""..i..""] ;
+    GMDB_Collector.Gossip["gossip_"..PosTab].Titel["Titel_"..i] = Titel[""..i..""] ;
     end
 end
 
@@ -303,11 +301,11 @@ function self_CleanMe(toclean)
     if toclean == nil then return ""; end
     toclean = string.gsub(toclean, "\n", "$B");
     toclean = string.gsub(toclean, "\r", "");
-	toclean = string.gsub(toclean, "'", "''");
+    toclean = string.gsub(toclean, "'", "''");
     toclean = string.gsub(toclean, "dbquote", "\"");
     toclean = string.gsub(toclean, UnitName("player"), "$N");
-	toclean = string.gsub(toclean, UnitClass("player"), "$C");
-	toclean = string.gsub(toclean, UnitRace("player"), "$R");
+    toclean = string.gsub(toclean, UnitClass("player"), "$C");
+    toclean = string.gsub(toclean, UnitRace("player"), "$R");
     return toclean;
 end
 
@@ -326,11 +324,11 @@ function self_PurgeCollector()
     GMDB_Collector = {};
     GMDB_Collector.Sprache = {};
     GMDB_Collector.Quests = {};
-	GMDB_Collector.Gossip = {};
+    GMDB_Collector.Gossip = {};
     GMDB_Main = {};
     GMDB_Main.totSprache = 0;
     GMDB_Main.totquest = 0;
-	GMDB_Main.totgossip = 0;
+    GMDB_Main.totgossip = 0;
     GMDB_Main.Realm = GetCVar("realmName");
 end
 
