@@ -9275,6 +9275,7 @@ UPDATE locales_gameobject SET name_loc3='Noth - Ausgangstür' WHERE entry=181201
 UPDATE locales_gameobject SET name_loc3='Heigan der Unreine - Eingangstür' WHERE entry=181202;
 UPDATE locales_gameobject SET name_loc3='Heigan der Unreine - Ausgangstür' WHERE entry=181203;
 UPDATE locales_gameobject SET name_loc3='Geheiligter Boden' WHERE entry=181206;
+UPDATE locales_gameobject SET name_loc3='Runenverzierte Dämonenklinge' WHERE entry=181207;
 UPDATE locales_gameobject SET name_loc3='Maexxna - Äußere Tür zum Spinnennest' WHERE entry=181209;
 UPDATE locales_gameobject SET name_loc3='Flügel der Todesritter, Augenportal' WHERE entry=181210;
 UPDATE locales_gameobject SET name_loc3='Seuchenflügel, Augenportal' WHERE entry=181211;

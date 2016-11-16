@@ -14492,6 +14492,7 @@ UPDATE locales_item SET name_loc3='Stabkopf von Atiesh' WHERE entry=22733;
 UPDATE locales_item SET name_loc3='Stabfuß von Atiesh' WHERE entry=22734;
 UPDATE locales_item SET name_loc3='Forschungsnotizen' WHERE entry=22735;
 UPDATE locales_item SET name_loc3='Andonisus, Der Seelenschlächter', description_loc3='Die Klinge scheint aus dieser Existenzebene zu verblassen. Es sieht aus, als sei sie nicht von dieser Welt.' WHERE entry=22736;
+UPDATE locales_item SET name_loc3='Atiesh, Hohestab des Wächters', description_loc3='Ein Wesen von großer Bösartigkeit ist in diesem Stab gefangen.' WHERE entry=22737;
 UPDATE locales_item SET name_loc3='Foliant der Verwandlung: Schildkröte', description_loc3='Lehrt Verwandlung: Schildkröte.' WHERE entry=22739;
 UPDATE locales_item SET name_loc3='Lederhose der Vorhut' WHERE entry=22740;
 UPDATE locales_item SET name_loc3='Echsenlederhose der Vorhut' WHERE entry=22741;
@@ -34803,6 +34804,7 @@ UPDATE locales_item SET name_loc3='Parfüm "Nirwana"', description_loc3='Liebe w
 UPDATE locales_item SET name_loc3='Duftwasser "Courage"', description_loc3='In der Liebe wie im Krieg' WHERE entry=49859;
 UPDATE locales_item SET name_loc3='Duftwasser "Djinn"', description_loc3='Der Hauch von Raffinesse' WHERE entry=49860;
 UPDATE locales_item SET name_loc3='Duftwasser "MASKULIN"', description_loc3='Moschus für Männer' WHERE entry=49861;
+UPDATE locales_item SET name_loc3='Materialien der Chemiemanufaktur Krone', description_loc3='Im Inneren könnt Ihr das Klimpern von Glas hören... nicht fallenlassen!' WHERE entry=49867;
 UPDATE locales_item SET name_loc3='Lichträcher' WHERE entry=49869;
 UPDATE locales_item SET name_loc3='Getempertes Quel\'Delar' WHERE entry=49870;
 UPDATE locales_item SET name_loc3='Wiederhergestelltes Quel\'Delar' WHERE entry=49871;

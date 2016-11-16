@@ -66,4 +66,6 @@ UPDATE game_event SET description='Dunkelmond-Jahrmarkt wird aufgebaut 2 (Wälde
 UPDATE game_event SET description='Dunkelmond-Jahrmarkt wird aufgebaut 1 (Mulgore)' WHERE entry=64;
 UPDATE game_event SET description='Dunkelmond-Jahrmarkt wird aufgebaut 2 (Mulgore)' WHERE entry=65;
 UPDATE game_event SET description='Dunkelmond-Jahrmarkt wird aufgebaut 1 (Wald von Elwynn)' WHERE entry=66;
+UPDATE game_event SET description='Schlotternächte - Glut des Weidenmanns' WHERE entry=67;
+UPDATE game_event SET description='Schlotternächte - Bansheekönigin' WHERE entry=68;
 SET NAMES 'latin1';
