@@ -89,14 +89,14 @@ UPDATE script_texts SET content_loc3='Die Narren, die mich verbannt haben, sind 
 UPDATE script_texts SET content_loc3='NEEeeeiiiinnnn!' WHERE entry=-1000173;
 UPDATE script_texts SET content_loc3='Gut, $N, Ihr steht unter dem Einfluss des Zaubers. Ich muss das schnell analysieren, dann können wir reden.' WHERE entry=-1000174;
 UPDATE script_texts SET content_loc3='Vielen Dank, Sterblicher.' WHERE entry=-1000175;
-UPDATE script_texts SET content_loc3='Vielen Dank, $C. Ich gehe am besten zur Absturzstelle und sehe, was ich dort tun kann. Bis zum nächsten Mal.' WHERE entry=-1000176;
-UPDATE script_texts SET content_loc3='Wo bin ich? Wer seid Ihr? Oh nein! Was ist mit dem Schiff passiert?' WHERE entry=-1000177;
-UPDATE script_texts SET content_loc3='Ihr habt mich gerettet! Ich stehe in Euer Schuld, die ich nie zurückzahlen kann. Ich werde sehen ob ich den anderen helfen kann.' WHERE entry=-1000178;
-UPDATE script_texts SET content_loc3='Aaagggh... Wo bin ich? Ist das alles, was vom Schiff übrig ist?' WHERE entry=-1000179;
-UPDATE script_texts SET content_loc3='Oh, diese Schmerzen...' WHERE entry=-1000180;
-UPDATE script_texts SET content_loc3='Alles tut so weh. Lasst es aufhören, bitte!' WHERE entry=-1000181;
-UPDATE script_texts SET content_loc3='Aaagggh... Ich bin verletzt. Könnt Ihr mir helfen?' WHERE entry=-1000182;
-UPDATE script_texts SET content_loc3='Ich weiß nicht, ob ich es schaffen werde. Bitte, helft mir!' WHERE entry=-1000183;
+-- UPDATE script_texts SET content_loc3='REUSE ME' WHERE entry=-1000176; -- UNGENUTZT
+-- UPDATE script_texts SET content_loc3='REUSE ME' WHERE entry=-1000177; -- UNGENUTZT
+-- UPDATE script_texts SET content_loc3='REUSE ME' WHERE entry=-1000178; -- UNGENUTZT
+-- UPDATE script_texts SET content_loc3='REUSE ME' WHERE entry=-1000179; -- UNGENUTZT
+-- UPDATE script_texts SET content_loc3='REUSE ME' WHERE entry=-1000180; -- UNGENUTZT
+-- UPDATE script_texts SET content_loc3='REUSE ME' WHERE entry=-1000181; -- UNGENUTZT
+-- UPDATE script_texts SET content_loc3='REUSE ME' WHERE entry=-1000182; -- UNGENUTZT
+-- UPDATE script_texts SET content_loc3='REUSE ME' WHERE entry=-1000183; -- UNGENUTZT
 UPDATE script_texts SET content_loc3='Tochter!' WHERE entry=-1000184;
 UPDATE script_texts SET content_loc3='Jetzt gibt es kein Zurück mehr, $N. Bleibt in meiner Nähe und haltet mir den Rücken frei.' WHERE entry=-1000185;
 UPDATE script_texts SET content_loc3='Da ist es! Seht Ihr, wo der große rote Kristall aus der Vektorspule hervorragt? Dort muss ich die erste Sprengladung anbringen.' WHERE entry=-1000186;
@@ -1129,6 +1129,16 @@ UPDATE script_texts SET content_loc3='Ich... ich kann es kaum glauben, es ist vo
 UPDATE script_texts SET content_loc3='Geht zurück zur Blutwacht. Wir sehen uns dort...' WHERE entry=-1001213;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001214;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001215;
+UPDATE script_texts SET content_loc3='Das Letzte woran ich mich erinnern kann ist, dass das Schiff abstürzte und wir uns in die Kapseln begaben. Ich werde sehen, wie ich helfen kann. Vielen Dank!' WHERE entry=-1001216;
+UPDATE script_texts SET content_loc3='Wo bin ich? Wer seid Ihr? Oh nein! Was ist mit dem Schiff passiert?' WHERE entry=-1001217;
+UPDATE script_texts SET content_loc3='Ihr habt mich gerettet! Ich stehe in Euer Schuld, die ich nie zurückzahlen kann. Ich werde sehen ob ich den anderen helfen kann.' WHERE entry=-1001218;
+UPDATE script_texts SET content_loc3='Aaagggh... Wo bin ich? Ist das alles, was vom Schiff übrig ist?' WHERE entry=-1001219;
+UPDATE script_texts SET content_loc3='Vielen Dank, $C. Ich gehe am besten zur Absturzstelle und sehe, was ich dort tun kann. Bis zum nächsten Mal.' WHERE entry=-1001220;
+UPDATE script_texts SET content_loc3='Huch? Was ist passiert? Oh... Mein Kopf fühlt sich an, als würde er gleich explodieren! Ich kehre besser zur Absturzstelle zurück.' WHERE entry=-1001221;
+UPDATE script_texts SET content_loc3='Oh, diese Schmerzen...' WHERE entry=-1001222;
+UPDATE script_texts SET content_loc3='Alles tut so weh. Lasst es aufhören, bitte!' WHERE entry=-1001223;
+UPDATE script_texts SET content_loc3='Aaagggh... Ich bin verletzt. Könnt Ihr mir helfen?' WHERE entry=-1001224;
+UPDATE script_texts SET content_loc3='Ich weiß nicht, ob ich es schaffen werde. Bitte, helft mir!' WHERE entry=-1001225;
 
 -- -1 033 000 SHADOWFANG KEEP
 UPDATE script_texts SET content_loc3='Folgt mir und ich werde die Tür zum Hof für Euch öffnen.' WHERE entry=-1033000;

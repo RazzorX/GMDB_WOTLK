@@ -94,7 +94,7 @@ UPDATE locales_points_of_interest SET icon_name_loc3='Thamner Pol' WHERE entry=8
 UPDATE locales_points_of_interest SET icon_name_loc3='Paxton Ganter' WHERE entry=88;
 UPDATE locales_points_of_interest SET icon_name_loc3='Auktionshaus Darnassus' WHERE entry=89;
 UPDATE locales_points_of_interest SET icon_name_loc3='Bank von Darnassus' WHERE entry=90;
-UPDATE locales_points_of_interest SET icon_name_loc3='Rut\'theran' WHERE entry=91;
+UPDATE locales_points_of_interest SET icon_name_loc3='Hippogryphenmeister von Rut\'theran' WHERE entry=91;
 UPDATE locales_points_of_interest SET icon_name_loc3='Gildenmeister von Darnassus' WHERE entry=92;
 UPDATE locales_points_of_interest SET icon_name_loc3='Gasthaus von Darnassus' WHERE entry=93;
 UPDATE locales_points_of_interest SET icon_name_loc3='Briefkasten von Darnassus' WHERE entry=94;
@@ -440,7 +440,7 @@ UPDATE locales_points_of_interest SET icon_name_loc3='Jandis Arboretum' WHERE en
 UPDATE locales_points_of_interest SET icon_name_loc3='Bergbauunternehmen Rotschlucht' WHERE entry=435;
 UPDATE locales_points_of_interest SET icon_name_loc3='Kodolederer' WHERE entry=436;
 UPDATE locales_points_of_interest SET icon_name_loc3='Magars Tuchwaren' WHERE entry=437;
-UPDATE locales_points_of_interest SET icon_name_loc3='Magielehrer von Darnassus' WHERE entry=438;
+UPDATE locales_points_of_interest SET icon_name_loc3='Magierlehrer von Darnassus' WHERE entry=438;
 UPDATE locales_points_of_interest SET icon_name_loc3='Paladinlehrer von Darnassus' WHERE entry=439;
 UPDATE locales_points_of_interest SET icon_name_loc3='Kräuterkundelehrer von Darnassus' WHERE entry=440;
 UPDATE locales_points_of_interest SET icon_name_loc3='Kampfmeister der Exodar' WHERE entry=441;

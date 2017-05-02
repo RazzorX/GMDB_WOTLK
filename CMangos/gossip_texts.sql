@@ -116,8 +116,8 @@ UPDATE gossip_texts SET content_loc3='Für Lordaeron!' WHERE entry=-3595012;
 UPDATE gossip_texts SET content_loc3='Ich bin bereit, den Schreckenslord zu bekämpfen, mein Lord.' WHERE entry=-3595013;
 
 -- -3599000 HALLS OF STONE
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3599000;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3599001;
+UPDATE gossip_texts SET content_loc3='Brann, es wäre uns eine Ehre!' WHERE entry=-3599000;
+UPDATE gossip_texts SET content_loc3='Lasst uns auf aufbrechen, genug Geschichtsunterricht!' WHERE entry=-3599001;
 
 -- -3603000 ULDUAR
 UPDATE gossip_texts SET content_loc3='Teleport zum Basislager der Expedition.' WHERE entry=-3603000;

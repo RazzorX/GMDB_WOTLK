@@ -6,7 +6,7 @@ UPDATE game_event SET description='Winterhauchfest' WHERE entry=2;
 UPDATE game_event SET description='Dunkelmond-Jahrmarkt (Wälder von Terokkar)' WHERE entry=3;
 UPDATE game_event SET description='Dunkelmond-Jahrmarkt (Wald von Elwynn)' WHERE entry=4;
 UPDATE game_event SET description='Dunkelmond-Jahrmarkt (Mulgore)' WHERE entry=5;
-UPDATE game_event SET description='Neujahr' WHERE entry=6;
+UPDATE game_event SET description='Neujahrsfeier' WHERE entry=6;
 UPDATE game_event SET description='Mondfest' WHERE entry=7;
 UPDATE game_event SET description='Liebe liegt in der Luft' WHERE entry=8;
 UPDATE game_event SET description='Piratentag' WHERE entry=9;

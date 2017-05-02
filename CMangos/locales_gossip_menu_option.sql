@@ -263,7 +263,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr könnt kochen? Ich auch! Könnt Ihr mir vielleicht ein besonderes Rezept verraten?' WHERE menu_id=1443 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr seid Alchemist? Ich auch. Vielleicht könnt Ihr mich lehren, was Ihr wisst...' WHERE menu_id=1443 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=1465 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Erzählt mir mehr über die Hippogryphe.' WHERE menu_id=1482 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Erzählt mir mehr über die Hippogryphen.' WHERE menu_id=1482 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin an einer Hexenmeisterausbildung interessiert.' WHERE menu_id=1503 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=1503 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen Talentspezialisierung.' WHERE menu_id=1503 AND id=2;
@@ -2339,6 +2339,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte mich dem Kam
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich habe den unterzeichneten Haftungsausschluss! Feuert mich zum singenden Bergrücken!' WHERE menu_id=8454 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8455 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8455 AND id=1;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8455 AND id=2;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8460 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte das Schlachtfeld betreten.' WHERE menu_id=8462 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte das Schlachtfeld betreten.' WHERE menu_id=8463 AND id=0;
@@ -2610,6 +2611,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='<Fliegt auf dem Drachenf
 UPDATE locales_gossip_menu_option SET option_text_loc3='<Fliegt auf dem Drachenfalken in die Sonnenweiten.>' WHERE menu_id=9143 AND id=2;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9155 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9156 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9162 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9165 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Erzähl mir, was hier vor sich geht, Kurbelzisch.' WHERE menu_id=9171 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Erzähl mir Eure Geschichte, Kurbelzisch.' WHERE menu_id=9171 AND id=1;
@@ -2828,7 +2830,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich habe meinen bezauber
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich habe meinen bezauberten Halsreif verloren!' WHERE menu_id=9709 AND id=6;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich habe meinen bezauberten Halsreif verloren!' WHERE menu_id=9709 AND id=7;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte mich dem Kampf anschließen!' WHERE menu_id=9711 AND id=0;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9712 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit, den Schreckenslord zu bekämpfen, mein Lord.' WHERE menu_id=9712 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit, mit der Destillation zu beginnen, uh, Schluckspecht.' WHERE menu_id=9713 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Stefan hat mir erzählt, Ihr würdet den Zweck dieses Gegenstands erklären.' WHERE menu_id=9714 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Stefan hat mir erzählt, Ihr würdet den Zweck dieses Gegenstands erklären.' WHERE menu_id=9714 AND id=1;
@@ -3280,8 +3282,8 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Teleport zur Kolossalen 
 UPDATE locales_gossip_menu_option SET option_text_loc3='Teleport zum Schrottplatz.' WHERE menu_id=10389 AND id=4;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Teleport zur Vorkammer von Ulduar.' WHERE menu_id=10389 AND id=5;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Teleport zum Zerschmetterten Gang.' WHERE menu_id=10389 AND id=6;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in Euren Waren stöbern.' WHERE menu_id=10408 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Ich benötige eine Ausbildung.' WHERE menu_id=10408 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um.' WHERE menu_id=10408 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=10408 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit für den Kampf!' WHERE menu_id=10453 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit für den Kampf!' WHERE menu_id=10456 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit für den Kampf!' WHERE menu_id=10460 AND id=0;
