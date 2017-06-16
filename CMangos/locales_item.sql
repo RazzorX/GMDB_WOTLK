@@ -7966,6 +7966,7 @@ UPDATE locales_item SET name_loc3='Pfeife des elfenbeinfarbenen Raptors', descri
 UPDATE locales_item SET name_loc3='Arkanbeschleuniger', description_loc3='Dies wird als Katalysator zur Transformation der in den Kesseln der Geißel befindlichen Toxine benutzt.' WHERE entry=13320;
 UPDATE locales_item SET name_loc3='Grüner Roboschreiter', description_loc3='Lehrt Euch, wie man diese Laufmaschine beschwört.' WHERE entry=13321;
 UPDATE locales_item SET name_loc3='Unlackierter Roboschreiter', description_loc3='Lehrt Euch, wie man diese Laufmaschine beschwört.' WHERE entry=13322;
+UPDATE locales_item SET name_loc3='Leuchtend grüner Roboschreiter', description_loc3='Lehrt Euch, wie man diese Laufmaschine beschwört.' WHERE entry=13325;
 UPDATE locales_item SET name_loc3='Weißer Roboschreiter Mod. B', description_loc3='Lehrt Euch, wie man dieses Reittier beschwört. Das ist ein sehr schnelles Reittier.' WHERE entry=13326;
 UPDATE locales_item SET name_loc3='Eisblauer Roboschreiter Mod. A', description_loc3='Lehrt Euch, wie man dieses Reittier beschwört. Das ist ein sehr schnelles Reittier.' WHERE entry=13327;
 UPDATE locales_item SET name_loc3='Schwarzer Widder', description_loc3='Lehrt Euch, wie man dieses Reittier beschwört. Das ist ein sehr schnelles Reittier.' WHERE entry=13328;
@@ -36241,6 +36242,7 @@ UPDATE locales_item SET name_loc3='Flammender Hippogryph', description_loc3='Leh
 UPDATE locales_item SET name_loc3='Aufstellbares Statuenpodest' WHERE entry=54212;
 UPDATE locales_item SET name_loc3='Vol\'jins Kriegstrommeln' WHERE entry=54215;
 UPDATE locales_item SET name_loc3='Landros Geschenkkiste', description_loc3='WARNUNG: Ohne Gewähr. Enthält möglicherweise kein tatsächliches Reittier.' WHERE entry=54218;
+UPDATE locales_item SET name_loc3='Ein schlüpfriger Romantikschmöker: Blaue Stunden' WHERE entry=54291;
 UPDATE locales_item SET name_loc3='Steuerung für einen blauen Krachbummflitzer' WHERE entry=54343;
 UPDATE locales_item SET name_loc3='Blauer Aufziehraketenbot', description_loc3='Lehrt Euch, wie man diesen Begleiter beschwört.' WHERE entry=54436;
 UPDATE locales_item SET name_loc3='Winzige grüne Stoffpuppe' WHERE entry=54437;

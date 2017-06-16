@@ -51,7 +51,7 @@ UPDATE script_texts SET content_loc3='Wir haben schon zu viele Rückschläge ein
 UPDATE script_texts SET content_loc3='Ich kehre zur Festung der Stürme zurück. Sorgt dafür, dass ich kein Grund habe zurückzukehren!' WHERE entry=-1000135;
 UPDATE script_texts SET content_loc3='Ja, mein Herr!' WHERE entry=-1000136;
 UPDATE script_texts SET content_loc3='Kümmert Euch darum, Ardonis!' WHERE entry=-1000137;
-UPDATE script_texts SET content_loc3='Avruus Magie... kontrolliert mich noch immer. Ihr müsst mich bekämpfen, Sterblicher. Nur so kann der Zauber gebrochen werden!' WHERE entry=-1000138;
+-- UPDATE script_texts SET content_loc3='REUSE ME' WHERE entry=-1000138;
 UPDATE script_texts SET content_loc3='Avruus Magie ist gebrochen! Ich bin wieder frei!' WHERE entry=-1000139;
 UPDATE script_texts SET content_loc3='Auf geht\'s!' WHERE entry=-1000140;
 UPDATE script_texts SET content_loc3='$N, lasst uns den Vorraum zu unserer Rechten nehmen.' WHERE entry=-1000141;
@@ -1139,6 +1139,22 @@ UPDATE script_texts SET content_loc3='Oh, diese Schmerzen...' WHERE entry=-10012
 UPDATE script_texts SET content_loc3='Alles tut so weh. Lasst es aufhören, bitte!' WHERE entry=-1001223;
 UPDATE script_texts SET content_loc3='Aaagggh... Ich bin verletzt. Könnt Ihr mir helfen?' WHERE entry=-1001224;
 UPDATE script_texts SET content_loc3='Ich weiß nicht, ob ich es schaffen werde. Bitte, helft mir!' WHERE entry=-1001225;
+UPDATE script_texts SET content_loc3='Danke, dass Ihr das getan habt, $R. Ich... ich glaube, ich weiß jetzt, wie ich zu meinem Vater zurückkomme. Bitte lasst nicht zu, dass die bösen Dinger mir schaden.' WHERE entry=-1001226;
+UPDATE script_texts SET content_loc3='Ich war so sicher, dass ich sterben würde wie all die Anderen!' WHERE entry=-1001227;
+UPDATE script_texts SET content_loc3='Ich kann die Aura meines Vaters spüren. Er befindet sich definitiv in dieser Richtung... Kommt, $N.' WHERE entry=-1001228;
+UPDATE script_texts SET content_loc3='Der Nebel ist der Tod... Emotionslos, ohne Erbarmen.' WHERE entry=-1001229;
+UPDATE script_texts SET content_loc3='So kalt...' WHERE entry=-1001230;
+UPDATE script_texts SET content_loc3='Was war das? Habt Ihr das gesehen?' WHERE entry=-1001231;
+UPDATE script_texts SET content_loc3='Alle sind tot... alle und alles...' WHERE entry=-1001232;
+UPDATE script_texts SET content_loc3='Ich sehe vor uns eine Lücke im Nebel. Wir kommen näher!' WHERE entry=-1001233;
+UPDATE script_texts SET content_loc3='Wie sollen wir durch den Nebel durchkommen?' WHERE entry=-1001234;
+UPDATE script_texts SET content_loc3='VATER! Vater, ich bin gerettet!' WHERE entry=-1001235;
+UPDATE script_texts SET content_loc3='Tochter! Ihr seid zurückgekehrt!' WHERE entry=-1001236;
+UPDATE script_texts SET content_loc3='%s umarmt den Ältesten Muhtoo.' WHERE entry=-1001237;
+UPDATE script_texts SET content_loc3='Muhtoo dankt Euch, $N.' WHERE entry=-1001238;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001239;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001240;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001241;
 
 -- -1 033 000 SHADOWFANG KEEP
 UPDATE script_texts SET content_loc3='Folgt mir und ich werde die Tür zum Hof für Euch öffnen.' WHERE entry=-1033000;

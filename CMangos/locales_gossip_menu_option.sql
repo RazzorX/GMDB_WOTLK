@@ -1383,6 +1383,9 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Interessant, fahrt bitte
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bitte fahrt fort.' WHERE menu_id=5727 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich weiß nur wenig über die Hochgeborenen und so gut wie nichts über die Shen\'dralar.' WHERE menu_id=5728 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was ist hier passiert, Geist?' WHERE menu_id=5729 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5731 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5733 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5735 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Jetzt, da ich der König bin, was habt Ihr für mich?' WHERE menu_id=5739 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Nun gut... zeigt mir den Tribut!' WHERE menu_id=5740 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Den großen Verlust bedauern.' WHERE menu_id=5743 AND id=0;
@@ -1391,6 +1394,8 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Das hört sich nach eine
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5749 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Transportiert mich zum geschmolzenen Kern, Lothos.' WHERE menu_id=5750 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin auf der Suche nach einem großen und mächtigen Hexenmeister.' WHERE menu_id=5845 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5846 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5847 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5849 AND id=1;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5851 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich benötige eine Ausbildung.' WHERE menu_id=5853 AND id=0;
@@ -2611,7 +2616,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='<Fliegt auf dem Drachenf
 UPDATE locales_gossip_menu_option SET option_text_loc3='<Fliegt auf dem Drachenfalken in die Sonnenweiten.>' WHERE menu_id=9143 AND id=2;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9155 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9156 AND id=0;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9162 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Schickt mich zu Garroshs Landeplatz, Yanni.' WHERE menu_id=9162 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9165 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Erzähl mir, was hier vor sich geht, Kurbelzisch.' WHERE menu_id=9171 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Erzähl mir Eure Geschichte, Kurbelzisch.' WHERE menu_id=9171 AND id=1;
@@ -2631,6 +2636,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Stopp, noch mal. Was hab
 UPDATE locales_gossip_menu_option SET option_text_loc3='Weiter.' WHERE menu_id=9181 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Stopp, noch mal. Was habt Ihr als letztes gesagt?' WHERE menu_id=9181 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Stopp, noch mal. Was habt Ihr als letztes gesagt?' WHERE menu_id=9182 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Es ist mir peinlich, es sagen zu müssen, Nork, aber mein Deserteur ist mir verloren gegangen.' WHERE menu_id=9184 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9190 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wer seid Ihr?' WHERE menu_id=9199 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was führt Euch zum Sonnenbrunnen?' WHERE menu_id=9199 AND id=1;
