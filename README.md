@@ -1,15 +1,18 @@
 GMDB_NEU für CMaNGOS WotlK 3.3.5a (3.3.5.12340)
 ===============================================
 
-GMDB_NEU ist ein Deutsch-Update für die CMaNGOS WotlK (https://github.com/cmangos/mangos-wotlk) Datenbank.
+GMDB_NEU ist ein Deutsch-Update für die CMaNGOS WotlK Datenbank.
+( https://github.com/cmangos/mangos-wotlk | https://github.com/cmangos/wotlk-db )
 
 ------------------------------------------------------------
 
-Hinweis: GMDB_NEU ist im momentanen Stand der Dinge weder vollständig übersetzt, noch sind die
+Hinweis:
 
-         schon übersetzten Sachen zu 100% korrekt. Es ist ein reines Freizeitprojekt und es wird
-         
-         nur hin und wieder erweitert.
+- GMDB_NEU ist im momentanen Stand der Dinge weder vollständig übersetzt, noch sind die
+
+  schon übersetzten Sachen zu 100% korrekt. Es ist ein reines Freizeitprojekt und es wird
+
+  nur hin und wieder erweitert.
 
 ------------------------------------------------------------
 
