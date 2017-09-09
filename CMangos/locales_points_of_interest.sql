@@ -276,7 +276,7 @@ UPDATE locales_points_of_interest SET icon_name_loc3='Schurkenlehrer von Unterst
 UPDATE locales_points_of_interest SET icon_name_loc3='Priesterlehrer von Unterstadt' WHERE entry=270;
 UPDATE locales_points_of_interest SET icon_name_loc3='Champion Cyssa Dämmerrose' WHERE entry=271;
 UPDATE locales_points_of_interest SET icon_name_loc3='Magierlehrer von Unterstadt' WHERE entry=272;
-UPDATE locales_points_of_interest SET icon_name_loc3='Teppelin von Unterstadt' WHERE entry=273;
+UPDATE locales_points_of_interest SET icon_name_loc3='Zeppelin von Unterstadt' WHERE entry=273;
 UPDATE locales_points_of_interest SET icon_name_loc3='Archibald' WHERE entry=274;
 UPDATE locales_points_of_interest SET icon_name_loc3='Anya Maulray' WHERE entry=275;
 UPDATE locales_points_of_interest SET icon_name_loc3='Briefkasten von Unterstadt' WHERE entry=276;

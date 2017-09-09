@@ -1235,6 +1235,9 @@ UPDATE db_script_string SET content_loc3='Ich schätze, das war\'s. Weg sind wir
 UPDATE db_script_string SET content_loc3='Das war das schlechteste Bier, das ich jemals hatte.' WHERE entry=2000001230;
 UPDATE db_script_string SET content_loc3='Hey Leute! Wartet mal!' WHERE entry=2000001231;
 -- UPDATE db_script_string SET content_loc3='' WHERE entry=2000001232;
+UPDATE db_script_string SET content_loc3='Bis dann, Ihr Penner. Ich bin dann mal weg!' WHERE entry=2000001233;
+UPDATE db_script_string SET content_loc3='Ich hab\'s geschafft. Endlich Freiheit!' WHERE entry=2000001234;
+UPDATE db_script_string SET content_loc3='Psst... $R, hier drüben! Neben dem toten Wal.' WHERE entry=2000001235;
 UPDATE db_script_string SET content_loc3='Opus will etwas Gold von Cuergo... mit Wurm.' WHERE entry=2000005001;
 UPDATE db_script_string SET content_loc3='Bijou ist verloren! KRÄCHZ! *hust*' WHERE entry=2000005002;
 UPDATE db_script_string SET content_loc3='Kibler wird derzeit von der G.E.T.A. geprüft.' WHERE entry=2000005003;
@@ -1730,10 +1733,10 @@ UPDATE db_script_string SET content_loc3='Was für ein Haufen Irrer! Glaubt Ihr 
 -- UPDATE db_script_string SET content_loc3='' WHERE entry=2000005522;
 -- UPDATE db_script_string SET content_loc3='' WHERE entry=2000005523;
 -- UPDATE db_script_string SET content_loc3='' WHERE entry=2000005524;
--- UPDATE db_script_string SET content_loc3='' WHERE entry=2000005525;
--- UPDATE db_script_string SET content_loc3='' WHERE entry=2000005526;
--- UPDATE db_script_string SET content_loc3='' WHERE entry=2000005527;
--- UPDATE db_script_string SET content_loc3='' WHERE entry=2000005528;
+UPDATE db_script_string SET content_loc3='Habt Dank dafür, dass Ihr uns befreit habt, Sterbliche. Seid auf der Hut: der blaue Schwarm weiß von Eurer Anweisenheit und ist gewarnt. In diesem Moment entsendet Malygos Varos Wolkenwanderer und seine Ringwächter, um das Oculus zu verteidigen. Ihr werdet unsere Hilfe brauchen, um eine Chance zu haben.' WHERE entry=2000005525;
+UPDATE db_script_string SET content_loc3='Eindringlinge, euer Sieg währt nur kurz. Ich bin Kommandant Varos Wolkenwanderer. Meine Drachen kontrollieren den Himmel und schützen diese Energiezufuhr. Ich persönlich werde dafür sorgen, dass das Oculus euch nicht in die Hände fällt!' WHERE entry=2000005526;
+UPDATE db_script_string SET content_loc3='Der schwindlerische Magierlord Urom schützt den dritten Ring. Es wird so aussehen, als sei er allein und wehrlos, doch lasst Euch durch den Schein nicht trügen! Urom ist ein mächtiger Beschwörer, der eine ganze Menagerie geisterhafter Kreaturen befehligt. Ihr findet ihn oben.' WHERE entry=2000005527;
+UPDATE db_script_string SET content_loc3='Eure größte Herausforderung liegt vor Euch. Leywächter Eregos ist ein blauer Drache mit gewaltigen Kräften. Ihr könnt ihn über dem höchsten Ring fliegen sehen.' WHERE entry=2000005528;
 -- UPDATE db_script_string SET content_loc3='' WHERE entry=2000005529;
 -- UPDATE db_script_string SET content_loc3='' WHERE entry=2000005530;
 -- UPDATE db_script_string SET content_loc3='' WHERE entry=2000005531;
