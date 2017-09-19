@@ -18,7 +18,7 @@ UPDATE gossip_texts SET content_loc3='Warum... ja, natürlich. Ich möchte ihnen
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000112;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000113;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000114;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000115;
+UPDATE gossip_texts SET content_loc3='Dreht den Schlüssel, um die Maschine zu starten.' WHERE entry=-3000115;
 
 -- -3033 000 SHADOWFANG KEEP
 UPDATE gossip_texts SET content_loc3='Öffnet bitte die Tür zum Hof.' WHERE entry=-3033000;
@@ -94,10 +94,10 @@ UPDATE gossip_texts SET content_loc3='Tarrens Mühle.' WHERE entry=-3560007;
 -- -3564000 BLACK TEMPLE
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3564000;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3564001;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3564002;
+UPDATE gossip_texts SET content_loc3='Wir sind bereit, Illidan zu konfrontieren.' WHERE entry=-3564002;
 
 -- -3568000 ZUL'AMAN
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3568000;
+UPDATE gossip_texts SET content_loc3='Danke für den Ratschlag, aber wir haben vor, Zul\'Aman dennoch zu erforschen.' WHERE entry=-3568000;
 
 -- -3595000 CULLING OF STRATHOLME
 UPDATE gossip_texts SET content_loc3='Was glaubt Ihr, was sie vorhaben?' WHERE entry=-3595000;
