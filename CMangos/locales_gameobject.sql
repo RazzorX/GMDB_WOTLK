@@ -11761,6 +11761,7 @@ UPDATE locales_gameobject SET name_loc3='Höllenbestie' WHERE entry=184835;
 UPDATE locales_gameobject SET name_loc3='Lagerfeuer' WHERE entry=184836;
 UPDATE locales_gameobject SET name_loc3='Lagerfeuer' WHERE entry=184837;
 UPDATE locales_gameobject SET name_loc3='Lagerfeuer' WHERE entry=184838;
+UPDATE locales_gameobject SET name_loc3='Ei des Wyrmkults Spawner' WHERE entry=184839;
 UPDATE locales_gameobject SET name_loc3='Ei des Wyrmkults' WHERE entry=184840;
 UPDATE locales_gameobject SET name_loc3='Torgos\' Fluch' WHERE entry=184842;
 UPDATE locales_gameobject SET name_loc3='Torgos\' Fluch' WHERE entry=184843;

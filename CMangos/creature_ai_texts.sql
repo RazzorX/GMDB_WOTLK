@@ -11,22 +11,22 @@ UPDATE creature_ai_texts SET content_loc3='Mehr Knochen zum abnagen!!!' WHERE en
 UPDATE creature_ai_texts SET content_loc3='Grrrr...Frischfleisch' WHERE entry=-6;
 UPDATE creature_ai_texts SET content_loc3='Du nicht nehmen Kerze!' WHERE entry=-7;
 UPDATE creature_ai_texts SET content_loc3='Yiieeeee! Ich weglaufen!' WHERE entry=-8;
-UPDATE creature_ai_texts SET content_loc3='Wer wagt es, mich zu stören? Sterbt!' WHERE entry=-9;
-UPDATE creature_ai_texts SET content_loc3='Feuer und Leid!' WHERE entry=-10;
-UPDATE creature_ai_texts SET content_loc3='Zerfallt zu Asche!' WHERE entry=-11;
-UPDATE creature_ai_texts SET content_loc3='Ich genieße euren Schmerz!' WHERE entry=-12;
-UPDATE creature_ai_texts SET content_loc3='Sucht Ihr etwas? Vielleicht den Tod?' WHERE entry=-13;
-UPDATE creature_ai_texts SET content_loc3='Euer Leben wird mir gehören!' WHERE entry=-14;
-UPDATE creature_ai_texts SET content_loc3='Sagt nicht, ich hätte Euch nicht gewarnt...' WHERE entry=-15;
-UPDATE creature_ai_texts SET content_loc3='Ihr werdet nicht weit kommen...' WHERE entry=-16;
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-9; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-10; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-11; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-12; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-13; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-14; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-15; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-16; -- ungenutzt
 UPDATE creature_ai_texts SET content_loc3='Unverschämter Narr! Ihr wolltet Zelemars Blut stehlen? Dafür werdet Ihr mit Eurem eigenen bezahlen!' WHERE entry=-17;
 UPDATE creature_ai_texts SET content_loc3='Sieg! Für Agammagan!' WHERE entry=-18;
 UPDATE creature_ai_texts SET content_loc3='Ich werd\' Euch kochen, dann werd\' ich Euch verspeisen!' WHERE entry=-19;
 UPDATE creature_ai_texts SET content_loc3='Ich hoffe, Ihr sterbt alle... schmerzvoll!' WHERE entry=-20;
 UPDATE creature_ai_texts SET content_loc3='Mission erfüllt!' WHERE entry=-21;
 UPDATE creature_ai_texts SET content_loc3='Van Cleef gut zahlen für Euer Kopfens!' WHERE entry=-22;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-23;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-24;
+UPDATE creature_ai_texts SET content_loc3='Die Litanei der Verdammnis gehört nun uns!' WHERE entry=-23;
+UPDATE creature_ai_texts SET content_loc3='Der Meister wird von diesem Frevel erfahren! Ihr werdet bis in alle Ewigkeit gejagt werden!' WHERE entry=-24;
 UPDATE creature_ai_texts SET content_loc3='Dieser Ort wird zu Eurem Grab werden!' WHERE entry=-25;
 UPDATE creature_ai_texts SET content_loc3='<Zorniges Brüllen>' WHERE entry=-26;
 UPDATE creature_ai_texts SET content_loc3='Welch\' Verschwendung...' WHERE entry=-27;
@@ -89,12 +89,12 @@ UPDATE creature_ai_texts SET content_loc3='Eine unvorhergesehene... Wendung...' 
 UPDATE creature_ai_texts SET content_loc3='Zweimal messen; einmal schneiden!' WHERE entry=-84;
 UPDATE creature_ai_texts SET content_loc3='Wenn ich die Teilung richtig berechnet habe, solltet Ihr jetzt tot sein.' WHERE entry=-85;
 UPDATE creature_ai_texts SET content_loc3='Ich prophezeihe Euch einen schmerzhaften Tod.' WHERE entry=-86;
-UPDATE creature_ai_texts SET content_loc3='Verzieht Euch, solange Ihr noch könnt.' WHERE entry=-87;
-UPDATE creature_ai_texts SET content_loc3='Verdammt, bin ich gut!' WHERE entry=-88;
-UPDATE creature_ai_texts SET content_loc3='Gemeinheit!' WHERE entry=-89;
-UPDATE creature_ai_texts SET content_loc3='Los, zeigt mir, was Ihr drauf habt! Ich kann was einstecken!' WHERE entry=-90;
-UPDATE creature_ai_texts SET content_loc3='Denkt Ihr, Ihr könnt mir Wehtun? Denkt Ihr ich habe Angst vor Euch?' WHERE entry=-91;
-UPDATE creature_ai_texts SET content_loc3='Ich habe Euch gewarnt!' WHERE entry=-92;
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-87; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-88; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-89; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-90; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-91; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-92; -- ungenutzt
 UPDATE creature_ai_texts SET content_loc3='Unsere Arbeit duldet keine Unterbrechung!' WHERE entry=-93;
 UPDATE creature_ai_texts SET content_loc3='Zwingt mich nicht, euch zu töten!' WHERE entry=-94;
 UPDATE creature_ai_texts SET content_loc3='Das habt ihr euch selbst zuzuschreiben!' WHERE entry=-95;
@@ -141,7 +141,7 @@ UPDATE creature_ai_texts SET content_loc3='Ihr Fremdlinge werdet büßen, dass i
 UPDATE creature_ai_texts SET content_loc3='Pah! Meine Macht herrscht hier!' WHERE entry=-136;
 UPDATE creature_ai_texts SET content_loc3='Ich werde wiedergeboren, sterbliche Wesen! Incendius wird mich aus der Asche auferstehen lassen!' WHERE entry=-137;
 UPDATE creature_ai_texts SET content_loc3='Es ist so kalt, Dunkelheit umfängt mich... übertreibe ich schon wieder?' WHERE entry=-138;
--- UPDATE creature_ai_texts SET content_loc3='%s behält $N im Blickfeld!' WHERE entry=-139;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-139;
 UPDATE creature_ai_texts SET content_loc3='Wir werden euch zerquetschen!' WHERE entry=-140;
 UPDATE creature_ai_texts SET content_loc3='Eindringlinge! Löst den Alarm aus!' WHERE entry=-141;
 UPDATE creature_ai_texts SET content_loc3='Greift zu solange es noch heiß ist!' WHERE entry=-142;
@@ -151,12 +151,12 @@ UPDATE creature_ai_texts SET content_loc3='Schützt die Mechanar, koste es was e
 UPDATE creature_ai_texts SET content_loc3='Ihr hört ein leises öffnendes Geräusch...' WHERE entry=-146;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-147;
 UPDATE creature_ai_texts SET content_loc3='Juhuu! Danke!' WHERE entry=-148;
-UPDATE creature_ai_texts SET content_loc3='%s tritt in eine Raserei ein!' WHERE entry=-149;
+UPDATE creature_ai_texts SET content_loc3='%s wird instabil und löst sich in nichts auf!' WHERE entry=-149;
 UPDATE creature_ai_texts SET content_loc3='Werdet Ihr mir dabei helfen, meinen Hund zu finden?' WHERE entry=-150;
 UPDATE creature_ai_texts SET content_loc3='Ich vermisse meinen Hund, sooo sehr!' WHERE entry=-151;
 UPDATE creature_ai_texts SET content_loc3='%s wächst, als er $N sieht!' WHERE entry=-152;
 UPDATE creature_ai_texts SET content_loc3='%s Kraft verschwindet!' WHERE entry=-153;
--- UPDATE creature_ai_texts SET content_loc3='Illidan\'s Regierung!' WHERE entry=-154;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-154;
 UPDATE creature_ai_texts SET content_loc3='%s fängt an, die Näherungsbombe scharf zu machen!' WHERE entry=-155;
 UPDATE creature_ai_texts SET content_loc3='Das Blut gibt uns Kraft!' WHERE entry=-156;
 UPDATE creature_ai_texts SET content_loc3='Lok narash!' WHERE entry=-157;
@@ -244,8 +244,8 @@ UPDATE creature_ai_texts SET content_loc3='Idiot! Die Essenz des Habichts wird n
 UPDATE creature_ai_texts SET content_loc3='Die Zeit des Rabens ist Nachts, aber eure wird hier enden!' WHERE entry=-239;
 UPDATE creature_ai_texts SET content_loc3='Ihr wagt es, die loyalen Anhänger des Rabens zu stören?' WHERE entry=-240;
 UPDATE creature_ai_texts SET content_loc3='Ihr werdet für eure Anmaßung sterben, Druide!' WHERE entry=-241;
-UPDATE creature_ai_texts SET content_loc3='Ihr wagt es, die loyalen Anhänger des Rabens zu stören?' WHERE entry=-242;
-UPDATE creature_ai_texts SET content_loc3='Ihr werdet für eure Anmaßung sterben, Druide!' WHERE entry=-243;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-242;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-243;
 UPDATE creature_ai_texts SET content_loc3='Jemand kommen und Grek Steckbrief vorlesen! Grek kann nicht lesen.' WHERE entry=-244;
 UPDATE creature_ai_texts SET content_loc3='Grek probieren!' WHERE entry=-245;
 UPDATE creature_ai_texts SET content_loc3='Dieses Öl nicht gut für Grek! Sieht Grek aus wie Ihr, Schwächling in Robe?' WHERE entry=-246;
@@ -257,37 +257,37 @@ UPDATE creature_ai_texts SET content_loc3='%s wird ohnmächtig.' WHERE entry=-25
 UPDATE creature_ai_texts SET content_loc3='Kommt her, $R. Ihr wollt Euch doch nicht in ein Verlies wagen, oder? Drecksarbeit, und wozu? Für einen nutzlosen Schnickschnack? Nee, Ihr braucht eines meiner Amulette. Funktionieren garantiert!' WHERE entry=-252;
 UPDATE creature_ai_texts SET content_loc3='Gefährlich da draußen, was? Wisst Ihr, was Ihr braucht? Schutz. Ich kann Euch helfen, den Tod selbst zu besiegen! Tragt diesen Wahnsinnsstein um Euren Hals, so, und dann könnt Ihr zurückkehren, wenn Ihr Euch in der Geisterwelt befindet! Ihr müsst nur noch schnell zu Eurem Körper und da seid Ihr wieder, frisch und neugeboren!' WHERE entry=-253;
 UPDATE creature_ai_texts SET content_loc3='Erstaunliche Amulette! Unglaubliche Kuriositäten! Diese neumodischen Juwelenschleifer sind nichts gegen die erfahrenen und wahrlich mystischen Methoden des alten Gaunah! Macht Euch mit diesen magischen Amuletten besser! Zum Schleuderpreis!' WHERE entry=-254;
-UPDATE creature_ai_texts SET content_loc3='Ich könnte schwören ich hätte mehr Äpfel gehabt. Grok!' WHERE entry=-255;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-255;
 UPDATE creature_ai_texts SET content_loc3='Wenn niemand helfen. Grok zerschmettern!' WHERE entry=-256;
 UPDATE creature_ai_texts SET content_loc3='Schaut her, $C! Ich habe was für Euch. Genau das, was Ihr braucht. Es ist Seife, ja... und sie hat ne Schleife! Nichts für ungut, $GSüsser:Süsse;, aber Ihr hättet es mal wieder nötig, nich\' wahr?' WHERE entry=-257;
-UPDATE creature_ai_texts SET content_loc3='He! He da, $r! Ich hab genau das Richtige für Euch. Habt Ihr je nen Tikbalang gesehen? Schlimme Biester. Klauen Euch glatt vom Fleck weg. Ihr braucht einen meiner Tikbalangschutzzauber! Hält garantiert alle Tikbalang fern!' WHERE entry=-258;
+UPDATE creature_ai_texts SET content_loc3='He! He da, $R! Ich hab genau das Richtige für Euch. Habt Ihr je nen Tikbalang gesehen? Schlimme Biester. Klauen Euch glatt vom Fleck weg. Ihr braucht einen meiner Tikbalangschutzzauber! Hält garantiert alle Tikbalang fern!' WHERE entry=-258;
 UPDATE creature_ai_texts SET content_loc3='Grok brauchen Hilfe! Warum niemand helfen?' WHERE entry=-259;
 UPDATE creature_ai_texts SET content_loc3='Mog\'dorg der Weise schicken Grok zur Stadt, Hilfe für Blutmaul holen. Grok gehen.' WHERE entry=-260;
 UPDATE creature_ai_texts SET content_loc3='Speerspitzenklan nicht kämpfen fair. Haben Gronn um ihnen zu helfen. Du gehen nach Schergrat. Rede mit Mog\'dorg dem Weisen. Töte Gromm.' WHERE entry=-261;
 UPDATE creature_ai_texts SET content_loc3='Ihr seht müde aus, $C. Ich hab\' etwas für Euch. Diese Amulette können Euch helfen, über Hindernisse zu springen und durch Flüsse zu schwimmen, als wärt Ihr drin geboren. Die peppen Euer Essen auf, dass Wunden sich direkt vor Euren Augen schließen!' WHERE entry=-262;
-UPDATE creature_ai_texts SET content_loc3='Warum schreit diese arme Ork so? Jemand sollte nachschauen was dort vor sich geht!' WHERE entry=-263;
-UPDATE creature_ai_texts SET content_loc3='Ich fühle, dass der Krieg schnell näher kommt. Der Obstverkäufer hat bereits einen Oger angeworben ihm zu helfen. Ich sollte auch Helfer anwerben.' WHERE entry=-264;
-UPDATE creature_ai_texts SET content_loc3='Ihr seht aus, als hättet Ihr Liebeskummer. Zieht Euch jemand Bestimmtes runter? Keine Sorge, keine Sorge. Kauft mir dieses Medaillon ab, zieht es an, wenn Ihr Euer Herzblatt seht, und keiner kann Euch widerstehen, $GSüsser:Süsse;!' WHERE entry=-265;
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-263; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-264; -- ungenutzt
+UPDATE creature_ai_texts SET content_loc3='Ihr seht aus, als hättet Ihr Liebeskummer. Zieht Euch jemand Bestimmtes runter? Keine Sorge, keine Sorge. Kauft mir dieses Medaillon ab, zieht es an, wenn Ihr Euer Herzblatt seht, und keiner kann Euch widerstehen, $GSüsser:Süße;!' WHERE entry=-265;
 UPDATE creature_ai_texts SET content_loc3='Ich hungrig. Früchte sehen lecker aus.' WHERE entry=-266;
-UPDATE creature_ai_texts SET content_loc3='OBSTHÄNDLER!!! Dein Karren steht uns immernoch im Weg. Wir geben dir noch eine Stunde um ihn aus unserem Gebiet zu schaffen. Teste unsere Geduld nicht noch weiter!' WHERE entry=-267;
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-267; -- ungenutzt
 UPDATE creature_ai_texts SET content_loc3='Grok werden wütend wenn Winzlinge nicht nach Schergrat gehen und mit Mog\'dorg reden.' WHERE entry=-268;
 UPDATE creature_ai_texts SET content_loc3='Nichts geht über einen kühlen Krug, um meine Krapfen hinunterzuspülen.' WHERE entry=-269;
 UPDATE creature_ai_texts SET content_loc3='Ja, das hat gesessen. Krapfen zu verkaufen! Holt Euch hier frische Krapfen!' WHERE entry=-270;
-UPDATE creature_ai_texts SET content_loc3='Yeah, yeah, ich bin der Muffin-Mann. Wisst ihr warum? Weil ich Muffins verkaufe, deshalb!' WHERE entry=-271;
+UPDATE creature_ai_texts SET content_loc3='Ja ja, ich bin der Krapfenmann. Wisst Ihr warum? Weil ich Krapfen verkaufe!' WHERE entry=-271;
 UPDATE creature_ai_texts SET content_loc3='Ich habe Krapfen hier drüben. Kommt \'rüber!' WHERE entry=-272;
-UPDATE creature_ai_texts SET content_loc3='So soll es sein.' WHERE entry=-273;
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-273; -- ungenutzt
 UPDATE creature_ai_texts SET content_loc3='%s scheint genug geschwächt, um eingefangen zu werden.' WHERE entry=-274;
 UPDATE creature_ai_texts SET content_loc3='Dieses Land gehört mir, schon lange bevor Euer bemitleidenswertes Volk hier Fuß gefasst hat.' WHERE entry=-275;
 UPDATE creature_ai_texts SET content_loc3='Wer sich hierher wagt, ist mein! Ihr seid da keine Ausnahme.' WHERE entry=-276;
-UPDATE creature_ai_texts SET content_loc3='Natürlich, mein Freund. Womit kann ich Euch dienen?' WHERE entry=-277;
-UPDATE creature_ai_texts SET content_loc3='Eine edle Bitte. Es wäre mir eine Ehre, Erothem.' WHERE entry=-278;
-UPDATE creature_ai_texts SET content_loc3='Meine Freunde, bitte stimmt in mein bescheidenes Flehen an das Licht ein.' WHERE entry=-279;
-UPDATE creature_ai_texts SET content_loc3='Gelobtes Licht, wir flehen Dich an...' WHERE entry=-280;
-UPDATE creature_ai_texts SET content_loc3='Wir haben unsere Kinder in den Kampf gegen die Dunkelheit geschickt.' WHERE entry=-281;
-UPDATE creature_ai_texts SET content_loc3='Bitte segne und beschütze sie und schenkt ihnen Erfolg über die, die uns schaden wollen...' WHERE entry=-282;
-UPDATE creature_ai_texts SET content_loc3='Schenkt uns weiter Euren Segen für unser uraltes Heim.' WHERE entry=-283;
-UPDATE creature_ai_texts SET content_loc3='Schenkt uns Nachsicht mit unseren elfischen Besuchern.' WHERE entry=-284;
-UPDATE creature_ai_texts SET content_loc3='Bei den Naaru, so sei es' WHERE entry=-285;
+UPDATE creature_ai_texts SET content_loc3='Antelarion sagt, ich bin von einem großen Vogel gefallen, und er hat mich aufgefangen. Er ist so süß!' WHERE entry=-277;
+UPDATE creature_ai_texts SET content_loc3='Antelarion, ist der Wald jetzt sicher zum Spielen?' WHERE entry=-278;
+UPDATE creature_ai_texts SET content_loc3='Ich bin gerade 4 Jahre alt.' WHERE entry=-279;
+UPDATE creature_ai_texts SET content_loc3='Ich glaube, ich komme aus Eng-Land. Weißt du, wo das ist?' WHERE entry=-280;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-281;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-282;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-283;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-284;
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-285; -- ungenutzt
 UPDATE creature_ai_texts SET content_loc3='%s nickt' WHERE entry=-286;
 UPDATE creature_ai_texts SET content_loc3='Verloren einige unserer besten Soldaten an diesem Tag.' WHERE entry=-287;
 UPDATE creature_ai_texts SET content_loc3='Aber das ist noch nicht das Schlimmste. Bevor wir uns zurückziehen konnten, entdeckte uns eine Gruppe von denen und griff uns an.' WHERE entry=-288;
@@ -315,8 +315,8 @@ UPDATE creature_ai_texts SET content_loc3='Er ist so diszipliniert!' WHERE entry
 UPDATE creature_ai_texts SET content_loc3='Ich will einmal genau so werden wie die Grubenkämpfer!' WHERE entry=-310;
 UPDATE creature_ai_texts SET content_loc3='Dieses Exemplar ist etwas besser geraten als das letzte. Aber dennoch hat es denselben schwachen Knochenbau wie die anderen. Wenn Ihr einen von denen beschwört, dann seid Ihr auf dem richtigen Weg.' WHERE entry=-311;
 UPDATE creature_ai_texts SET content_loc3='Wie macht er das?' WHERE entry=-312;
--- UPDATE creature_ai_texts SET content_loc3='PLS REUSE' WHERE entry=-313;
--- UPDATE creature_ai_texts SET content_loc3='PLS REUSE' WHERE entry=-314;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-313;
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-314; -- ungenutzt
 UPDATE creature_ai_texts SET content_loc3='Wann immer ihr Sklaven eine Pause nehmem wollt, der Friedhof ist direkt dort drüben.' WHERE entry=-315;
 UPDATE creature_ai_texts SET content_loc3='Falls ich hier irgendwelche faulen Sklaven finde, packe ich sie auf ein Katapult und schieße sie direkt zum Schwarzen Tempel.' WHERE entry=-316;
 UPDATE creature_ai_texts SET content_loc3='Flieht Matrone! Sie sind ohne Skrupel...' WHERE entry=-317;
@@ -485,7 +485,7 @@ UPDATE creature_ai_texts SET content_loc3='Ich sehe Euch, Insekt! Kommt näher.'
 UPDATE creature_ai_texts SET content_loc3='Mit der Macht der wilden Götter, die in unseren Venen brennt, wird niemand, nicht einmal der Lichkönig, in unserem Weg stehen können!' WHERE entry=-480;
 UPDATE creature_ai_texts SET content_loc3='Sie wagen es, uns anzugreifen? Die Narren! Wissen sie denn nicht, dass wir nun allmächtig sind?!' WHERE entry=-481;
 UPDATE creature_ai_texts SET content_loc3='Erledigt sie und dann ziehen wir weiter in den Süden, um ihre Brüder zu töten!' WHERE entry=-482;
-UPDATE creature_ai_texts SET content_loc3='Ich werden den Argentumkreuzzug zerstören! Ich werde die Geißel zerquetschen!' WHERE entry=-483;
+UPDATE creature_ai_texts SET content_loc3='Ich werde den Argentumkreuzzug zerstören! Ich werde die Geißel zerquetschen!' WHERE entry=-483;
 UPDATE creature_ai_texts SET content_loc3='Tötet diese Eindringlinge, die es gewagt haben, unseren Altar zu besudeln!' WHERE entry=-484;
 UPDATE creature_ai_texts SET content_loc3='Nehmt einen tiefen Schluck, Brüder!' WHERE entry=-485;
 UPDATE creature_ai_texts SET content_loc3='Sseratus\' Mojo ist unser! Nun werden alle von der Macht der Drakkari zerquetscht werden!' WHERE entry=-486;
@@ -509,7 +509,7 @@ UPDATE creature_ai_texts SET content_loc3='Alles verläuft nach Plan, Lord Falke
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-504;
 UPDATE creature_ai_texts SET content_loc3='Diese Gefängnisse sollen sofort wiederaufgefüllt werden oder Malygos wird wissen warum!' WHERE entry=-505;
 UPDATE creature_ai_texts SET content_loc3='Bringt mir mehr Gefangene! Ruht erst, wenn Azeroth von diesen rücksichtslosen Magiewirkern gereinigt wurde!' WHERE entry=-506;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-507;
+UPDATE creature_ai_texts SET content_loc3='Füllt diese Gefängnisse mit Magiern! Befehl von Malygos!' WHERE entry=-507;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-508;
 UPDATE creature_ai_texts SET content_loc3='Ahh! Es kommt direkt in unsere Richtung!' WHERE entry=-509;
 UPDATE creature_ai_texts SET content_loc3='Kaganishu!' WHERE entry=-510;
@@ -767,7 +767,7 @@ UPDATE creature_ai_texts SET content_loc3='Der Tod belauert uns! Zerstört es!' 
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-762;
 UPDATE creature_ai_texts SET content_loc3='Wow, das ist einfach nur nutzlos. Lasst es mich erneut probieren.' WHERE entry=-763;
 UPDATE creature_ai_texts SET content_loc3='Verlasst diesen Ort!' WHERE entry=-764;
-UPDATE creature_ai_texts SET content_loc3='Tod den Eindringlingen!' WHERE entry=-765;
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-765; -- ungenutzt
 UPDATE creature_ai_texts SET content_loc3='Ihr werdet mich nicht bezwingen, kümmerlicher $R!' WHERE entry=-766;
 UPDATE creature_ai_texts SET content_loc3='Ah, gut... mehr Teile!' WHERE entry=-767;
 UPDATE creature_ai_texts SET content_loc3='Ihr könnt uns nicht aufhalten!' WHERE entry=-768;
@@ -966,7 +966,7 @@ UPDATE creature_ai_texts SET content_loc3='Ich liebe den Geruch des Nethers am M
 UPDATE creature_ai_texts SET content_loc3='Das riecht wie...' WHERE entry=-961;
 UPDATE creature_ai_texts SET content_loc3='...Sieg.' WHERE entry=-962;
 UPDATE creature_ai_texts SET content_loc3='Sieht aus, als hätte ich mir den falschen Tag ausgesucht, um den Manadurst aufzugeben.' WHERE entry=-963;
-UPDATE creature_ai_texts SET content_loc3='Ausgezeichnet. Wir müssen uns auf die Reinigung von Nagrand konzentrieren!' WHERE entry=-964;
+-- UPDATE creature_ai_texts SET content_loc3='REUSE' WHERE entry=-964; -- ungenutzt
 UPDATE creature_ai_texts SET content_loc3='Die Macht des Risses gehört uns!' WHERE entry=-965;
 UPDATE creature_ai_texts SET content_loc3='Kernüberladung diagnostiziert. Fehlfunktion des Systems diagnostiziert...' WHERE entry=-966;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-967;
@@ -1421,11 +1421,11 @@ UPDATE creature_ai_texts SET content_loc3='$C - ich verschlinge Euer Licht!' WHE
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1417;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1418;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1419;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1420;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1421;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1422;
+UPDATE creature_ai_texts SET content_loc3='Schmetterzehe macht sich zum Angriff bereit.' WHERE entry=-1420;
+UPDATE creature_ai_texts SET content_loc3='ROKDAR ZERSCHMETTERT WURM $N!' WHERE entry=-1421;
+UPDATE creature_ai_texts SET content_loc3='Näher... Kommt näher... seht, was die Leere bringt!' WHERE entry=-1422;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1423;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1424;
+UPDATE creature_ai_texts SET content_loc3='Kein netter Oger mehr! Ihr Mogor weh tun!!' WHERE entry=-1424;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1425;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1426;
 UPDATE creature_ai_texts SET content_loc3='Jetzt haben wir Euch, Matis der Grausame!' WHERE entry=-1427;
@@ -1454,13 +1454,13 @@ UPDATE creature_ai_texts SET content_loc3='Schaut nur, was sich da verlaufen hat
 UPDATE creature_ai_texts SET content_loc3='Ich werde Euren Kadaver persönlich in den Ozean wuchten!' WHERE entry=-1450;
 UPDATE creature_ai_texts SET content_loc3='Ihr taugt nicht einmal, um an Leviroth verfüttert zu werden.' WHERE entry=-1451;
 UPDATE creature_ai_texts SET content_loc3='Ihr habt Euch zu weit von Eurem ach so tollen Festland entfernt, $R.' WHERE entry=-1452;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1453;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1454;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1455;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1456;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1457;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1458;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1459;
+UPDATE creature_ai_texts SET content_loc3='Bereitet Euch auf ewige Qualen vor, Sterbliche!' WHERE entry=-1453;
+UPDATE creature_ai_texts SET content_loc3='WAS?! Wer wagt es, die Brennende Legion zu stören?' WHERE entry=-1454;
+UPDATE creature_ai_texts SET content_loc3='Ich werde den Klang Eurer Knochen genießen, wie sie über dem Feuer knistern und knacken!' WHERE entry=-1455;
+UPDATE creature_ai_texts SET content_loc3='Nichts wird Euren Untergang verhindern!' WHERE entry=-1456;
+UPDATE creature_ai_texts SET content_loc3='Ihr WAGT ES, mich anzugreifen?' WHERE entry=-1457;
+UPDATE creature_ai_texts SET content_loc3='Für diese Beleidigung werdet Ihr qualvoll bis in alle Ewigkeit leiden!' WHERE entry=-1458;
+UPDATE creature_ai_texts SET content_loc3='Lasst die Hunde los!' WHERE entry=-1459;
 UPDATE creature_ai_texts SET content_loc3='Meine Axt ist die Eure, Held! Gemeinsam werden wir diese Insekten zerstören!' WHERE entry=-1460;
 UPDATE creature_ai_texts SET content_loc3='Ich muss zur Kriegshymnenfeste zurückkehren, Held! Möget Ihr im Blut Eurer Feinde schwimmen und in Euch an Ihrem Leid laben!' WHERE entry=-1461;
 UPDATE creature_ai_texts SET content_loc3='Ich muss zur Kriegshymnenfeste zurückkehren. Kämpft erbittert, Held!' WHERE entry=-1462;
@@ -1669,4 +1669,84 @@ UPDATE creature_ai_texts SET content_loc3='Spielen!' WHERE entry=-1640;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1665;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1666;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1667;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1668;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1669;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1670;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1671;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1672;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1673;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1674;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1675;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1676;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1677;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1678;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1679;
+UPDATE creature_ai_texts SET content_loc3='Es ist ein Vergnügen... dem Meister zu dienen.' WHERE entry=-1680;
+UPDATE creature_ai_texts SET content_loc3='Letzten Endes werdet Ihr versagen.' WHERE entry=-1681;
+UPDATE creature_ai_texts SET content_loc3='Mein Leben... für den Meister.' WHERE entry=-1682;
+UPDATE creature_ai_texts SET content_loc3='Ich das nicht mehr aushalten!' WHERE entry=-1683;
+UPDATE creature_ai_texts SET content_loc3='Ich verlieren Appetit. Corki sein Kacke.' WHERE entry=-1684;
+UPDATE creature_ai_texts SET content_loc3='Halt die Klappe!' WHERE entry=-1685;
+UPDATE creature_ai_texts SET content_loc3='Ich ihn überhaupt nicht mehr essen wollen.' WHERE entry=-1686;
+UPDATE creature_ai_texts SET content_loc3='Heh Fettwanst, wie gehst du auf die Toilette mit all dem Fett?' WHERE entry=-1687;
+UPDATE creature_ai_texts SET content_loc3='Nun esst mich schon! Ich halte es nicht mehr aus, hier eingeschlossen zu sein, umgeben von fetten, stinkenden Flegeln.' WHERE entry=-1688;
+UPDATE creature_ai_texts SET content_loc3='Ich will meine Mami!' WHERE entry=-1689; -- korrekt? basiert möglicherweise auf dem Geschlecht des Spielers
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1690;
+UPDATE creature_ai_texts SET content_loc3='Heh Dickschädel, wie wär\'s mit etwas zu essen?' WHERE entry=-1691;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1692;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1693;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1694;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1695;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1696;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1697;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1698;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1699;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1700;
+UPDATE creature_ai_texts SET content_loc3='Fügt noch ein bisschen Knochenschmalz hinzu! Vielleicht auch noch etwas herkömmliches Fett, wenn Ihr schon dabei seid. Diese Mag\'har werden Grollhufschmalz sicher mögen.' WHERE entry=-1701;
+UPDATE creature_ai_texts SET content_loc3='Sind die Zutaten schon zerhackt und gekocht? Was hält Euch auf?!' WHERE entry=-1702;
+UPDATE creature_ai_texts SET content_loc3='Heute müssen noch ein Dutzend Gerichte fertig werden! Legt einen Zahn zu!' WHERE entry=-1703;
+UPDATE creature_ai_texts SET content_loc3='Wasser kocht nun mal nicht schneller, Schlaukopf!' WHERE entry=-1704;
+UPDATE creature_ai_texts SET content_loc3='Ja, ja! Haltet die Klappe und lasst mich diesen Eintopf kochen!' WHERE entry=-1705;
+UPDATE creature_ai_texts SET content_loc3='Es ist so weit, wenn\'s so weit ist, verdammt!' WHERE entry=-1706;
+UPDATE creature_ai_texts SET content_loc3='Heh Fettwanst, gibt es einen Grund, warum Ihr in einem Loch in der Wand voller Mist leben müsst?' WHERE entry=-1707;
+UPDATE creature_ai_texts SET content_loc3='Kann ich etwas zu essen haben, bitte? Das ist ja unerhört!' WHERE entry=-1708;
+UPDATE creature_ai_texts SET content_loc3='Ich weiß nicht, was schlimmer riecht: Eure Füße oder vergammelter Fisch mit altem Käse.' WHERE entry=-1709;
+UPDATE creature_ai_texts SET content_loc3='Gratulation. Hier stinkt es schlimmer als in den Ruinen.' WHERE entry=-1710;
+UPDATE creature_ai_texts SET content_loc3='%s beginnt, eine Melodie zu pfeifen, bricht aber plötzlich ab und jammert.' WHERE entry=-1711;
+UPDATE creature_ai_texts SET content_loc3='%s stöhnt vor Schmerzen.' WHERE entry=-1712;
+UPDATE creature_ai_texts SET content_loc3='%s stöhnt, als er die empfindliche Haut um seine Wunde berührt.' WHERE entry=-1713;
+UPDATE creature_ai_texts SET content_loc3='%s stöhnt vor Schmerzen wegen seiner Wunde.' WHERE entry=-1714;
+UPDATE creature_ai_texts SET content_loc3='%s bewegt sich und stöhnt vor Schmerzen wegen seiner Wunde.' WHERE entry=-1715;
+UPDATE creature_ai_texts SET content_loc3='%s schaut seine Freunde an und gibt einen Schmerzenslaut von sich.' WHERE entry=-1716;
+UPDATE creature_ai_texts SET content_loc3='%s wacht vom eigenen Schnarchen auf.' WHERE entry=-1717;
+UPDATE creature_ai_texts SET content_loc3='Gut gemacht, Soldaten! Wir lassen uns nicht so einfach etwas von diesen Hordenbastarden vormachen!' WHERE entry=-1718;
+UPDATE creature_ai_texts SET content_loc3='Wir schmelzen diesen Haufen Schrott ein und schmieden uns daraus ein paar Waffen! Schauen wir doch mal, wie der Legion eine Ladung Teufelshäscher nach Art der Allianz schmeckt!' WHERE entry=-1719;
+UPDATE creature_ai_texts SET content_loc3='Reißt es ein, Soldaten! Wir schaffen das Ding zurück nach Sturmwind!' WHERE entry=-1720;
+UPDATE creature_ai_texts SET content_loc3='Lasst sie ruhig noch eine dieser überdimensionierten Blechbüchsen nach uns werfen! Wir zeigen denen, aus welchem Holz die Allianz geschnitzt ist!' WHERE entry=-1721;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1722;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1723;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1724;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1725;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1726;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1727;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1728;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1729;
+UPDATE creature_ai_texts SET content_loc3='Genug! Ich habe genug von Euch schmutzigen Warmblütern!' WHERE entry=-1730;
+UPDATE creature_ai_texts SET content_loc3='Ich bedaure, Euch mitteilen zu müssen, dass wir heute zehn weitere Soldaten nach Hause schicken mussten... in Leichensäcken.' WHERE entry=-1731;
+UPDATE creature_ai_texts SET content_loc3='Die Hand von %s beginnt vor arkaner Energie zu glühen!' WHERE entry=-1732;
+UPDATE creature_ai_texts SET content_loc3='Haha... ich mickrigen $R töten werde. Trophäe aus Schädel machen!' WHERE entry=-1733;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1734;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1735;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1736;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1737;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1738;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1739;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1740;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1741;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1742;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1743;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1744;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1745;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1746;
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1747;
 SET NAMES 'latin1';
