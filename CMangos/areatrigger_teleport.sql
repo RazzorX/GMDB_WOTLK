@@ -36,8 +36,8 @@ UPDATE areatrigger_teleport SET name='Das Scharlachrote Kloster - Bibliothek (Au
 UPDATE areatrigger_teleport SET name='Das Scharlachrote Kloster - Kathedrale (Eingang)' WHERE id=610;
 UPDATE areatrigger_teleport SET name='Das Scharlachrote Kloster - Waffenkammer (Eingang)' WHERE id=612;
 UPDATE areatrigger_teleport SET name='Das Scharlachrote Kloster - Bibliothek (Eingang)' WHERE id=614;
-UPDATE areatrigger_teleport SET name='Sturmwind - Zauberer-Heiligtum (Eingang)' WHERE id=702;
-UPDATE areatrigger_teleport SET name='Sturmwind - Zauberer-Heiligtum (Ausgang)' WHERE id=704;
+UPDATE areatrigger_teleport SET name='Sturmwind - Magiersanktum (Ausgang)' WHERE id=702;
+UPDATE areatrigger_teleport SET name='Sturmwind - Magiersanktum (Eingang)' WHERE id=704;
 UPDATE areatrigger_teleport SET name='Uldaman Nebeneingang (Ausgang)' WHERE id=882;
 UPDATE areatrigger_teleport SET name='Uldaman Nebeneingang (Eingang)' WHERE id=902;
 UPDATE areatrigger_teleport SET name='Zul\'Farrak (Ausgang)' WHERE id=922;

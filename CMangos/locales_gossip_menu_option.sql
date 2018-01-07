@@ -40,6 +40,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ausgebildet 
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=141 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen Talentspezialisierung.' WHERE menu_id=141 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='<Nehmt den Brief>' WHERE menu_id=141 AND id=4;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=161 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wo befindet sich der Schlüssel für dieses Schloss?' WHERE menu_id=262 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wo befindet sich der Schlüssel für dieses Schloss?' WHERE menu_id=264 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Teleportiert mich bitte nach Darnassus.' WHERE menu_id=321 AND id=0;
@@ -223,6 +224,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Datenkarte für Höchsts
 UPDATE locales_gossip_menu_option SET option_text_loc3='Weiter.' WHERE menu_id=1053 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit anzufangen.' WHERE menu_id=1080 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte etwas von Euch kaufen.' WHERE menu_id=1120 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=1141 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Erzählt mir mehr, Trenton.' WHERE menu_id=1142 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was wisst Ihr über das Gasthaus \"Zur Süßen Ruh\"?' WHERE menu_id=1161 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=1186 AND id=0;
@@ -1757,11 +1759,12 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Korfax, wo kann ich Dunk
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wo finde ich Knochenfragmente?' WHERE menu_id=7101 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wo kann ich Teile einer Gruftbestie finden?' WHERE menu_id=7102 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Rayne, wo finde ich Wildwedel?' WHERE menu_id=7104 AND id=1;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=7139 AND id=0;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=7139 AND id=1;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=7139 AND id=2;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Was ist das für ein Ort?' WHERE menu_id=7139 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Wo ist Medivh?' WHERE menu_id=7139 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Wie findet man sich im Turm zurecht?' WHERE menu_id=7139 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bitte bringt mich zu der Bibliothek des Wächters.' WHERE menu_id=7139 AND id=3;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wer ist Mittnacht?' WHERE menu_id=7142 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=7143 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig Eure Ware betrachten.' WHERE menu_id=7146 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ja, ich würde gerne einen Flug in die Geisterlande erwerben.' WHERE menu_id=7149 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig Eure Waren betrachten.' WHERE menu_id=7162 AND id=0;
@@ -1769,7 +1772,6 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Meisterkoch, könnt Ihr 
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bietet Ihr auch Kochbedarfswaren an?' WHERE menu_id=7171 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr seid nun frei und könnt gehen. Der Weg nach draußen ist sicher.' WHERE menu_id=7176 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='<Das Regenerationsgebräu verabreichen.>' WHERE menu_id=7177 AND id=0;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=7178 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ein bisschen Undankbar, oder? Der Weg nach draußen ist frei, flieht schnell!' WHERE menu_id=7179 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='<Das Regenerationsgebräu verabreichen.>' WHERE menu_id=7182 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='<Das Regenerationsgebräu verabreichen.>' WHERE menu_id=7185 AND id=0;
@@ -2014,7 +2016,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Warum repariert Ihr dies
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was tut Ihr hier?' WHERE menu_id=7759 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Berater, was gibt es Neues?' WHERE menu_id=7760 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Gibt es etwas, das ich für Euch tun kann, Großmutter?' WHERE menu_id=7762 AND id=0;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=7763 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Was ist diese Aufgabe?' WHERE menu_id=7763 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=7764 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was kann man da tun? Ich habe viele verschiedene Dinge versucht. Ich habe mein bestes getan, um den Leuten von Nagrand zu helfen. Jedes Mal, wenn ich an Garrosh herantrete, schickt er mich fort.' WHERE menu_id=7765 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Glaubt Ihr das?' WHERE menu_id=7766 AND id=0;
@@ -2149,6 +2151,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte etwas von Eu
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8033 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Schauen wir mal, was Ihr da habt.' WHERE menu_id=8034 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='<mehr>' WHERE menu_id=8044 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8047 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8058 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='JA!' WHERE menu_id=8060 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='NEIN!' WHERE menu_id=8060 AND id=1;
@@ -2211,6 +2214,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Schneiderei' WHERE menu_
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr seid frei, Ältester. Bringt Eurem Stamm die Geister zurück.' WHERE menu_id=8161 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr seid frei, Ältester. Bringt Eurem Stamm die Geister zurück.' WHERE menu_id=8162 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr seid frei, Ältester. Bringt Eurem Stamm die Geister zurück.' WHERE menu_id=8163 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8172 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Drachenfalkenmeister' WHERE menu_id=8185 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Gildenmeister' WHERE menu_id=8185 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Das Gasthaus' WHERE menu_id=8185 AND id=2;
@@ -2277,7 +2281,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Bringt mich zum singende
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8304 AND id=3;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8304 AND id=4;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte zu einem alten Ort zurückfliegen!' WHERE menu_id=8304 AND id=5;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8306 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Warum seid Ihr so weit von Toshleys Station entfernt?' WHERE menu_id=8306 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Die Bank der Aldor' WHERE menu_id=8315 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Die Bank der Seher' WHERE menu_id=8315 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Das Gasthaus der Aldor' WHERE menu_id=8317 AND id=0;
@@ -2423,8 +2427,8 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='<Karrog beschwören.>' W
 UPDATE locales_gossip_menu_option SET option_text_loc3='<Vakkiz den Windzürner beschwören.>' WHERE menu_id=8660 AND id=3;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8662 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Zeigt mir, was Ihr verkauft.' WHERE menu_id=8664 AND id=0;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8672 AND id=0;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8673 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='1 instabiles Fläschchen der Bestie für 10 Apexissplitter erwerben' WHERE menu_id=8672 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Kristallschmiede von Bash\'ir für einen weiteren Kauf verwenden.' WHERE menu_id=8673 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Kronk, erzählt mir von den aufgeladenen Kristallfokussen.' WHERE menu_id=8679 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='<Terrok beschwören.>' WHERE menu_id=8687 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin ein Verbündeter der Expedition des Cenarius, Mortog. Zeigt mir Eure Waren.' WHERE menu_id=8692 AND id=0;
@@ -2482,7 +2486,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte dieses Gasth
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich benötige einige Komponenten, Sorely.' WHERE menu_id=8808 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8820 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Zeigt mir, was Ihr verkauft.' WHERE menu_id=8826 AND id=0;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8833 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Was habt Ihr zum Essen anzubieten, Celeste?' WHERE menu_id=8833 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte dieses Gasthaus zu meinem Heimatort machen.' WHERE menu_id=8833 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Süßes oder Saures!' WHERE menu_id=8833 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Könnt Ihr mich nach Theramore senden? Ich habe Lady Jaina eine dringende Nachricht von König Wrynn zu überbringen.' WHERE menu_id=8846 AND id=0;

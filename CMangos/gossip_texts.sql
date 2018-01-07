@@ -92,7 +92,7 @@ UPDATE gossip_texts SET content_loc3='Keine Sorge! Wir werden Euch hier herausho
 UPDATE gossip_texts SET content_loc3='Tarrens Mühle.' WHERE entry=-3560007;
 
 -- -3564000 BLACK TEMPLE
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3564000;
+UPDATE gossip_texts SET content_loc3='Ich bin bei Euch, Akama.' WHERE entry=-3564000;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3564001;
 UPDATE gossip_texts SET content_loc3='Wir sind bereit, Illidan zu konfrontieren.' WHERE entry=-3564002;
 

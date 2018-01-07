@@ -93,7 +93,7 @@ UPDATE game_event SET description='Shattrath - Tägliche Heroische Dungeonquest 
 UPDATE game_event SET description='Shattrath - Tägliche Heroische Dungeonquest - Gesucht: Horizontiss\' Schriftrolle' WHERE entry=1021;
 UPDATE game_event SET description='Shattrath - Tägliche Heroische Dungeonquest - Gesucht: Die Aufzeichnungen des Kriegsherren' WHERE entry=1022;
 UPDATE game_event SET description='Shattrath - Tägliche Heroische Dungeonquest - Gesucht: Gesucht: Der Siegelring von Prinz Kael\'thas' WHERE entry=1023;
-UPDATE game_event SET description='Klockenläuten zur vollen Stunde' WHERE entry=1024;
+UPDATE game_event SET description='Glockenläuten zur vollen Stunde' WHERE entry=1024;
 -- UPDATE game_event SET description='' WHERE entry=1100;
 -- UPDATE game_event SET description='' WHERE entry=1101;
 -- UPDATE game_event SET description='' WHERE entry=1102;

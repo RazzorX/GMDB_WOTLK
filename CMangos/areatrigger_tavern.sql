@@ -2,12 +2,11 @@
 
 SET NAMES 'utf8';
 UPDATE areatrigger_tavern SET name='Westfall - Späherkuppe Gasthaus' WHERE id=71;
-UPDATE areatrigger_tavern SET name='Schlingendorntal - Nesingwarys Expedition' WHERE id=98;
 UPDATE areatrigger_tavern SET name='Alteracgebirge - Strahnbrad' WHERE id=178;
 UPDATE areatrigger_tavern SET name='Wald von Elwynn - Goldhain - Gasthaus zur Höhle des Löwen' WHERE id=562;
-UPDATE areatrigger_tavern SET name='Rotkammgebirge - Rathaus von Seenhain' WHERE id=682;
+UPDATE areatrigger_tavern SET name='Rotkammgebirge - Gasthaus Seenhain' WHERE id=682;
 UPDATE areatrigger_tavern SET name='Dämmerwald - Dunkelhain - Taverne Zum roten Raben' WHERE id=707;
-UPDATE areatrigger_tavern SET name='Vorgebirge des Hügellands - Rathaus von Süderstade' WHERE id=708;
+UPDATE areatrigger_tavern SET name='Vorgebirge des Hügellands - Gasthaus von Süderstade' WHERE id=708;
 UPDATE areatrigger_tavern SET name='Düstermarschen - Die Insel Theramore' WHERE id=709;
 UPDATE areatrigger_tavern SET name='Dun Morogh - Kharanos - Brauerei Donnerbräu' WHERE id=710;
 UPDATE areatrigger_tavern SET name='Loch Modan - Thelsamar - Gasthof zum Starkbierlager' WHERE id=712;
