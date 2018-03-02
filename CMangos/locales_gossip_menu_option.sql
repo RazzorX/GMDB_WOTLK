@@ -2676,6 +2676,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Stopp, noch mal. Was hab
 UPDATE locales_gossip_menu_option SET option_text_loc3='Stopp, noch mal. Was habt Ihr als letztes gesagt?' WHERE menu_id=9182 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Es ist mir peinlich, es sagen zu müssen, Nork, aber mein Deserteur ist mir verloren gegangen.' WHERE menu_id=9184 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9190 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9190 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wer seid Ihr?' WHERE menu_id=9199 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was führt Euch zum Sonnenbrunnen?' WHERE menu_id=9199 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wie können wir Euch behilflich sein?' WHERE menu_id=9200 AND id=0;
@@ -2709,6 +2710,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich muss Euch noch etwas
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9335 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9415 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche noch etwas von Eurem guten Grog, Mack.' WHERE menu_id=9416 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9417 AND id=0; -- TEMP GOSSIP
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9418 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9422 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Entfernt das Auge der Propheten aus dem Gesicht des Götzen.' WHERE menu_id=9426 AND id=0;

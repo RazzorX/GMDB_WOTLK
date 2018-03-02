@@ -503,10 +503,10 @@ UPDATE script_texts SET content_loc3='Danke, $N. Ich werde Euch nie vergessen! I
 UPDATE script_texts SET content_loc3='%s flüstert $N das Geheimnis zu, wie man die Geldkassette öffnet.' WHERE entry=-1000587;
 UPDATE script_texts SET content_loc3='%s verschwindet im Sumpf.' WHERE entry=-1000588;
 UPDATE script_texts SET content_loc3='Kroshius leben? Kroshius zermalmen!' WHERE entry=-1000589;
-UPDATE script_texts SET content_loc3='Jippie!' WHERE entry=-1000590;
-UPDATE script_texts SET content_loc3='Ich glaube, diese seltsamen großen Leute wollten uns essen! Igitt!' WHERE entry=-1000591;
-UPDATE script_texts SET content_loc3='Juhu, wir sind frei!.' WHERE entry=-1000592;
-UPDATE script_texts SET content_loc3='Eklig!' WHERE entry=-1000593;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1000590;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1000591;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1000592;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1000593;
 UPDATE script_texts SET content_loc3='Endlich... nun kann ich ruhen.' WHERE entry=-1000594;
 UPDATE script_texts SET content_loc3='Ich bin so müde. Lasst mich für einen Moment ruhen.' WHERE entry=-1000595;
 UPDATE script_texts SET content_loc3='Ich kann die Schreie nicht mehr hören. Ist dies das Ende?' WHERE entry=-1000596;
@@ -1163,13 +1163,13 @@ UPDATE script_texts SET content_loc3='Achtung, $N! Feinde voraus!' WHERE entry=-
 UPDATE script_texts SET content_loc3='Wir sind fast bei der Zuflucht. Beeilung.' WHERE entry=-1001247;
 UPDATE script_texts SET content_loc3='Ich kann die anderen Druiden von hier aus sehen. Habt Dank, $N. Ich bin sicher, Ysiel wird Euch für Eure Taten belohnen!' WHERE entry=-1001248;
 UPDATE script_texts SET content_loc3='Ihr entkommt uns nicht, Druide!' WHERE entry=-1001249;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1001250;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1001251;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1001252;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1001253;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1001254;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1001255;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1001256;
+UPDATE script_texts SET content_loc3='WIR SCHLAGEN ZU!' WHERE entry=-1001250;
+UPDATE script_texts SET content_loc3='$N wird uns bei unserem Angriff begleiten. Lasst uns meinen Ahnen Frieden geben!' WHERE entry=-1001251;
+UPDATE script_texts SET content_loc3='Ein Hinterhalt. Gebt ihnen ihren Frieden wieder!' WHERE entry=-1001252;
+UPDATE script_texts SET content_loc3='Ich werde nicht ruhen, bis dieser Ort seinen Frieden wieder hat.' WHERE entry=-1001253;
+UPDATE script_texts SET content_loc3='Sammelt Eure Kräfte. Stahlkiefers Todesort liegt nicht weit vor uns.' WHERE entry=-1001254;
+UPDATE script_texts SET content_loc3='Da ist das Banner des Hundes und dort liegt sein Leichnam. Was ist das? Er ist hier!' WHERE entry=-1001255;
+UPDATE script_texts SET content_loc3='Ihr habt gut gekämpft. Nun geht nach Norden zu Eurem Orcaußenposten und informiert Euren Oberanführer Bor\'gorok über unseren Erfolg!' WHERE entry=-1001256;
 
 -- -1 033 000 SHADOWFANG KEEP
 UPDATE script_texts SET content_loc3='Folgt mir und ich werde die Tür zum Hof für Euch öffnen.' WHERE entry=-1033000;
@@ -1493,6 +1493,7 @@ UPDATE script_texts SET content_loc3='Gul\'dan sagt die Wahrheit! Wir sollten so
 
 -- -1 289 000 SCHOLOMANCE
 UPDATE script_texts SET content_loc3='Der Unterricht hat begonnen!' WHERE entry=-1289000;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1289001;
 
 -- -1 309 000 ZUL'GURUB
 UPDATE script_texts SET content_loc3='Möge das Schlachten beginnen!' WHERE entry=-1309000;
