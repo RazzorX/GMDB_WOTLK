@@ -9102,6 +9102,7 @@ UPDATE locales_gameobject SET name_loc3='Knallfrösche' WHERE entry=180873;
 UPDATE locales_gameobject SET name_loc3='Zünder für Raketenbündel' WHERE entry=180874;
 UPDATE locales_gameobject SET name_loc3='Bosskampf Altar' WHERE entry=180875;
 UPDATE locales_gameobject SET name_loc3='Elunes Segen FALLE FREUNDLICH' WHERE entry=180876;
+UPDATE locales_gameobject SET name_loc3='Elunes Segen FALLE QUESTCREDIT' WHERE entry=180877;
 UPDATE locales_gameobject SET name_loc3='WaffenShopFeuerwerksFass' WHERE entry=180878;
 UPDATE locales_gameobject SET name_loc3='ElfenHolzTisch' WHERE entry=180879;
 UPDATE locales_gameobject SET name_loc3='Munitionsbox Blau' WHERE entry=180880;

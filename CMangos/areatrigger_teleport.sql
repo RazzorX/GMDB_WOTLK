@@ -213,6 +213,7 @@ UPDATE areatrigger_teleport SET name='Naxxanar: 1.Etage -> Dach' WHERE id=5340;
 UPDATE areatrigger_teleport SET name='Naxxanar: 1.Etage -> 2.Etage' WHERE id=5341;
 UPDATE areatrigger_teleport SET name='Ulduar (Eingang)' WHERE id=5379;
 UPDATE areatrigger_teleport SET name='Ulduar (Ausgang)' WHERE id=5381;
+UPDATE areatrigger_teleport SET name='(Oben)Kurbelzisch Fallschirmsprung-Teleporter' WHERE id=5440;
 UPDATE areatrigger_teleport SET name='Arena - Orgrimmar - Teleportziel 3' WHERE id=5447;
 UPDATE areatrigger_teleport SET name='Tor Sholazarbecken -> Un\'goro' WHERE id=5461;
 UPDATE areatrigger_teleport SET name='Tor Un\'goro -> Sholazarbecken' WHERE id=5462;

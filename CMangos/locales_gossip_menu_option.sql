@@ -292,6 +292,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte dieses Gasth
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um.' WHERE menu_id=1582 AND id=3;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte einen Blick in mein Schließfach werfen.' WHERE menu_id=1623 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um.' WHERE menu_id=1624 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=1628 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was macht Ihr hier draußen?' WHERE menu_id=1662 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Erstaunlich! Ich habe noch nie mit einer Geisterscheinung gesprochen. Ich möchte lernen!' WHERE menu_id=1663 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bitte sprecht weiter.' WHERE menu_id=1664 AND id=0;
@@ -751,6 +752,9 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich suche Ausbildung.' WHERE menu_id=3645 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=3645 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen Talentspezialisierung.' WHERE menu_id=3645 AND id=2;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3651 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3651 AND id=1;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3651 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Das werde ich, Tirion.' WHERE menu_id=3681 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Das ist ja schrecklich.' WHERE menu_id=3682 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Danke, Tirion. Aber was ist nun mit Eurer Identität?' WHERE menu_id=3683 AND id=0;
@@ -1874,6 +1878,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Wer oder was genau ist Y
 UPDATE locales_gossip_menu_option SET option_text_loc3='Warum leidet Ihr?' WHERE menu_id=7478 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte dieses Gasthaus zu meinem Heimatort machen.' WHERE menu_id=7481 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in Euren Waren stöbern.' WHERE menu_id=7481 AND id=2;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=7482 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wie gründe ich eine Gilde?' WHERE menu_id=7484 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein Gildenwappen herstellen.' WHERE menu_id=7484 AND id=1;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=7486 AND id=0;
@@ -2716,6 +2721,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche noch etwas v
 UPDATE locales_gossip_menu_option SET option_text_loc3='Entfernt das Auge der Propheten aus dem Gesicht des Götzen.' WHERE menu_id=9426 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte dieses Gasthaus zu meinem Heimatort machen.' WHERE menu_id=9427 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in Euren Waren stöbern.' WHERE menu_id=9427 AND id=3;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=9429 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in Euren Waren stöbern.' WHERE menu_id=9453 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bitte erlaubt mir, auf einem der Drachen zu den Gemächern der Königin im obersten Stockwerk des Tempels zu reiten.' WHERE menu_id=9455 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Habt Ihr vielleicht einen Drachen übrig, der mich zu Lord Afrasastrasz in der Mitte des Tempels bringen kann?' WHERE menu_id=9455 AND id=1;
@@ -3013,6 +3019,9 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE 
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=9894 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit, das Schicksal von Krolmir zu erfahren.' WHERE menu_id=9899 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='König Jokkum, wenn Ihr gestattet: Dürfte ich fragen, was aus Krolmir geworden ist?' WHERE menu_id=9900 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich würde gerne ein Katapult bauen.' WHERE menu_id=9904 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich würde gerne einen Verwüster bauen.' WHERE menu_id=9904 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich würde gern eine Belagerungsmaschine bauen.' WHERE menu_id=9904 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Es tut mir leid, Eure Ruhe stören zu müssen, Häuptling, aber der Geist Eures Bruders könnte in Gefahr sein. Würdet Ihr mir berichten, an was Ihr Euch von ihm erinnern könnt?' WHERE menu_id=9906 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Erzählt mir von diesem Vorschlag.' WHERE menu_id=9907 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was ist dann passiert?' WHERE menu_id=9908 AND id=0;

@@ -2523,6 +2523,7 @@ UPDATE locales_npc_text SET Text0_0_loc3='Je mehr Ansehen Ihr Euch in unserem Or
 UPDATE locales_npc_text SET Text0_0_loc3='Ich biete in unserem zerstörten Land so viel Schutz an, wie ich nur kann.', Text0_1_loc3='Ich biete in unserem zerstörten Land so viel Schutz an, wie ich nur kann.' WHERE entry=8618;
 UPDATE locales_npc_text SET Text0_0_loc3='Es ist so gut Euch zu sehen, $G Bruder : Schwester;! Dieser Ort jagt mir eine Gänsehaut ein. Profitiert von den vielen Gelegenheiten, die diese Verlassenen Euch hier bieten.' WHERE entry=8619;
 UPDATE locales_npc_text SET Text0_0_loc3='Es ist nicht meine Schuld... ES IST NICHT MEINE SCHULD!!!$B$BHätten sie einfach gemacht, was ich ihnen gesagt hatte, wäre jetzt alles in Ordnung. Aber nein! Sie wollten ja nicht hören.$B$BJetzt sind sie alle tot.$B$BIch will einfach nur nach Hause. Zurück nach Silbermond. Ich bin so müde.' WHERE entry=8620;
+-- UPDATE locales_npc_text SET Text0_0_loc3='' WHERE entry=8623;
 UPDATE locales_npc_text SET Text0_0_loc3='Ich handle mit Komfort... vergesst Euren Tatendrang, $R. Fühlt Euch in meinem Gasthaus ganz wie zu Hause...' WHERE entry=8634;
 UPDATE locales_npc_text SET Text0_1_loc3='Hallo, $C. Falls Ihr es nicht schon längst getan habt, solltet Ihr unbedingt mit Weltenwanderin Solanna sprechen.' WHERE entry=8638;
 UPDATE locales_npc_text SET Text0_0_loc3='Wenn Ihr ein Teil Eurer Zandalarirüstung verloren habt, kann ich Euch vielleicht weiterhelfen.' WHERE entry=8642;
@@ -2573,6 +2574,7 @@ UPDATE locales_npc_text SET Text0_0_loc3='Ich hörte so einiges über Eure Helde
 UPDATE locales_npc_text SET Text0_1_loc3='Ich entbiete Euch meinen Gruß, $C.' WHERE entry=8750;
 UPDATE locales_npc_text SET Text0_0_loc3='Ich habe keine Zeit für Geschwätz, $C. Ich muss zusehen, dass alle Pilger auf die bevorstehende lange Reise vorbereitet sind.' WHERE entry=8751;
 UPDATE locales_npc_text SET Text0_0_loc3='Willkommen in der Falkenwacht, $C. Ich kümmere mich um die Bedürfnisse der Pilger und helfe ihnen, sich auf die weitere Reise vorzubereiten. Falls Ihr Euch ebenfalls auf die Pilgerreise begeben wollt, kommt zu mir und ich versorge Euch mit allen Informationen, die Ihr braucht.' WHERE entry=8752;
+-- UPDATE locales_npc_text SET Text0_0_loc3='' WHERE entry=8753;
 UPDATE locales_npc_text SET Text0_1_loc3='Wandelt immer im Licht, $N.' WHERE entry=8754;
 UPDATE locales_npc_text SET Text0_1_loc3='Willkommen in der Zuflucht der Weltenwanderer. Wir sind Waldläufer, die geschworen haben, unser Volk vor Feinden nah und fern zu verteidigen.' WHERE entry=8755;
 UPDATE locales_npc_text SET Text0_1_loc3='Ich glaube, so langsam bereue ich es, mich auf diese Pilgerreise eingelassen zu haben. Natürlich habe ich gewusst, dass die Reise anstrengend sein würde, aber auf die Beschwerlichkeiten der Scherbenwelt war ich nicht vorbereitet.$B$BUm die Sache noch schlimmer zu machen, scheint dieser Taleris mich unbedingt loswerden zu wollen und das bevor ich mich vollständig wieder erholt habe.' WHERE entry=8756;
@@ -2677,12 +2679,13 @@ UPDATE locales_npc_text SET Text0_0_loc3='Senkt Eure Stimme, $C!', Text1_0_loc3=
 UPDATE locales_npc_text SET Text0_0_loc3='Wie kommt Ihr mit der Suche nach dem Mal voran?' WHERE entry=8964;
 UPDATE locales_npc_text SET Text0_0_loc3='Das ist ein wunderbarer Tag, $C!' WHERE entry=8965;
 UPDATE locales_npc_text SET Text0_0_loc3='Ich kann Euch nicht oft genug danken, dass Ihr mir meine Pilgerreise ermöglicht habt!' WHERE entry=8966;
+-- UPDATE locales_npc_text SET Text0_0_loc3='' WHERE entry=8969;
 UPDATE locales_npc_text SET Text0_0_loc3='Alles ist vorbereitet. Seid Ihr bereit, für Euer Bühnendebüt?' WHERE entry=8970;
 UPDATE locales_npc_text SET Text0_0_loc3='Keine Sorge, Ihr macht das schon! Ihr seid ein Naturtalent!' WHERE entry=8971;
 UPDATE locales_npc_text SET Text0_0_loc3='Die meisten Mondweidenhirsche grasen südlich und östlich der Azurwacht.' WHERE entry=8972;
 UPDATE locales_npc_text SET Text0_0_loc3='Am einfachsten ist es nördlich der Azurwacht, dort grasen eine Menge Mondweidenböcke.$B$BGute Jagd, $N!' WHERE entry=8973;
 UPDATE locales_npc_text SET Text0_0_loc3='Anscheinend kommen die meisten infizierten Nachtpirscherjungen aus dem Norden. An Eurer Stelle würde ich dort meine Jagd beginnen.' WHERE entry=8974;
-UPDATE locales_npc_text SET Text0_0_loc3='Oh, das war aber ein kompletter Fehlschlag. Nehmen wir an, das wäre eine Probe gewesen. Bereit, wieder auf die Bühne zu gehen?', Text0_1_loc3='Oh, das war aber ein kompletter Fehlschlag. Nehmen wir an, das wäre eine Probe gewesen. Bereit, wieder auf die Bühne zu gehen?' WHERE entry=8975;
+UPDATE locales_npc_text SET Text0_0_loc3='Oh, das war aber ein kompletter Fehlschlag. Nehmen wir an, das wäre eine Probe gewesen. Bereit, wieder auf die Bühne zu gehen?' WHERE entry=8975;
 UPDATE locales_npc_text SET Text0_0_loc3='Seht Ihr nicht, dass ich beschäftigt bin?' WHERE entry=8978;
 UPDATE locales_npc_text SET Text0_0_loc3='Ein schwieriges Publikum, aber die werdet Ihr schon in den Griff kriegen. Bereit für einen neuen Versuch?' WHERE entry=8981;
 UPDATE locales_npc_text SET Text0_0_loc3='Die romantischen Stücke sind die schwierigsten, aber dieses Mal wird es besser laufen. Ihr habt TALENT. Bereit?' WHERE entry=8982;

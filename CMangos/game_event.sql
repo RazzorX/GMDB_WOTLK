@@ -13,7 +13,6 @@ UPDATE game_event SET description='Winterhauchfest - Geschenke' WHERE entry=9;
 UPDATE game_event SET description='Kinderwoche' WHERE entry=10;
 UPDATE game_event SET description='Erntedankfest' WHERE entry=11;
 UPDATE game_event SET description='Schlotternächte' WHERE entry=12;
-UPDATE game_event SET description='Invasion der Elementare' WHERE entry=13;
 UPDATE game_event SET description='Anglerwettbewerb im Schlingendorntal (Aufruf)' WHERE entry=14;
 UPDATE game_event SET description='Anglerwettbewerb im Schlingendorntal' WHERE entry=15;
 UPDATE game_event SET description='Gurubashiarena' WHERE entry=16;
@@ -69,6 +68,10 @@ UPDATE game_event SET description='Dunkelmond-Jahrmarkt wird aufgebaut 2 (Mulgor
 UPDATE game_event SET description='Dunkelmond-Jahrmarkt wird aufgebaut 1 (Wald von Elwynn)' WHERE entry=66;
 UPDATE game_event SET description='Schlotternächte - Glut des Weidenmanns' WHERE entry=67;
 UPDATE game_event SET description='Schlotternächte - Bansheekönigin' WHERE entry=68;
+UPDATE game_event SET description='Invasion der Elementare: Feuer' WHERE entry=200;
+UPDATE game_event SET description='Invasion der Elementare: Luft' WHERE entry=201;
+UPDATE game_event SET description='Invasion der Elementare: Erde' WHERE entry=202;
+UPDATE game_event SET description='Invasion der Elementare: Wasser' WHERE entry=203;
 UPDATE game_event SET description='Shattrath - Tägliche Dungeonquest - Gesucht: Schildwachen der Arkatraz' WHERE entry=1000;
 UPDATE game_event SET description='Shattrath - Tägliche Dungeonquest - Gesucht: Myrmidonen des Echsenkessels' WHERE entry=1001;
 UPDATE game_event SET description='Shattrath - Tägliche Dungeonquest - Gesucht: Bösartige Ausbilderinnen' WHERE entry=1002;
