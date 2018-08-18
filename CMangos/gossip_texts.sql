@@ -12,9 +12,9 @@ UPDATE gossip_texts SET content_loc3='Ezekiel sagte, Ihr hättet da ein bestimmt
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000106;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000107;
 UPDATE gossip_texts SET content_loc3='Habt Ihr einen Moment Zeit für mich, mein Herr?' WHERE entry=-3000108;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000109;
+UPDATE gossip_texts SET content_loc3='Ich bin bereit, Oronok. Lasst uns Cyrukh zerstören und die Elemente befreien!' WHERE entry=-3000109;
 UPDATE gossip_texts SET content_loc3='Warum... ja, natürlich. Ich möchte ihnen gleich hier im Gebäude etwas zeigen, Herr Ambossar.' WHERE entry=-3000110;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000111;
+UPDATE gossip_texts SET content_loc3='Ich bin bereit, Anachoret. Fangen wir mit dem Exorzismus an.' WHERE entry=-3000111;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000112;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000113;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000114;
@@ -71,6 +71,7 @@ UPDATE gossip_texts SET content_loc3='Zeigt mir was ihr dabei habt.' WHERE entry
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532016;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532017;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532018;
+-- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532019;
 
 -- -3534000 COT THE BATTLE OF MT. HYJAL
 UPDATE gossip_texts SET content_loc3='Meine Gefährten und ich werden Euch zur Seite stehen, Lady Prachtmeer.' WHERE entry=-3534000;

@@ -167,7 +167,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Die dunkle Fürstin hat die He
 -- Klippenbehüter Langhorn
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=10537;
 -- Pamela Rotpfad
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=10926;
+UPDATE locales_questgiver_greeting SET Text_loc3='Mir ist irgendwie nie warm...' WHERE entry=10926;
 -- Fürst Nicholas Zverenhoff
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=11039;
 -- Tsunaman

@@ -472,8 +472,8 @@ UPDATE mangos_string SET content_loc3='   Zufällig' WHERE entry=528;
 UPDATE mangos_string SET content_loc3='   Wegpunkt' WHERE entry=529;
 UPDATE mangos_string SET content_loc3='   Zufällig (Tier)' WHERE entry=530;
 UPDATE mangos_string SET content_loc3='   Verwirrt' WHERE entry=531;
-UPDATE mangos_string SET content_loc3='   Spieler %s (lowguid %u) als Ziel gesetzt' WHERE entry=532;
-UPDATE mangos_string SET content_loc3='   Kreatur %s (lowguid %u) als Ziel gesetzt' WHERE entry=533;
+UPDATE mangos_string SET content_loc3='   Spieler %s (lowguid %u) als Ziel gesetzt, Distanz %f, Blickwinkel %f' WHERE entry=532;
+UPDATE mangos_string SET content_loc3='   Kreatur %s (lowguid %u) als Ziel gesetzt, Distanz %f, Blickwinkel %f' WHERE entry=533;
 UPDATE mangos_string SET content_loc3='   Gezielt auf <NULL>' WHERE entry=534;
 UPDATE mangos_string SET content_loc3='   Zum Ausgangspunkt auf (X:%f Y:%f Z:%f)' WHERE entry=535;
 UPDATE mangos_string SET content_loc3='   Zum Ausgangspunkt auf Spieler angewendet?!?' WHERE entry=536;
@@ -910,4 +910,6 @@ UPDATE mangos_string SET content_loc3='|cffffff00Die Allianz hat 200 Silithyst g
 -- UPDATE mangos_string SET content_loc3='' WHERE entry=1672;
 -- UPDATE mangos_string SET content_loc3='' WHERE entry=1673;
 -- UPDATE mangos_string SET content_loc3='' WHERE entry=1674;
+-- UPDATE mangos_string SET content_loc3='' WHERE entry=1702;
+-- UPDATE mangos_string SET content_loc3='' WHERE entry=1703;
 SET NAMES 'latin1';
