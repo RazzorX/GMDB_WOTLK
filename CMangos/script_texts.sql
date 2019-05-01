@@ -119,7 +119,7 @@ UPDATE script_texts SET content_loc3='HURRA! ICH BIN GERETTET!' WHERE entry=-100
 UPDATE script_texts SET content_loc3='Süße, süße Umarmung... nimm mich auf...' WHERE entry=-1000203;
 UPDATE script_texts SET content_loc3='%s sieht fragend zu Euch auf. Vielleicht solltet Ihr der Sache auf den Grund gehen?' WHERE entry=-1000204;
 UPDATE script_texts SET content_loc3='%s sieht fragend zu Euch.' WHERE entry=-1000205;
-UPDATE script_texts SET content_loc3='%s beginnt das Futter auszupicken.' WHERE entry=-1000206;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1000206; -- ungenutzt
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1000207;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1000208;
 UPDATE script_texts SET content_loc3='Nun gut. Lasst uns sehen, was Ihr vorzuzeigen habt, $N.' WHERE entry=-1000209;
@@ -296,7 +296,7 @@ UPDATE script_texts SET content_loc3='Ah, die köstliche Salzluft von Ratschet.'
 UPDATE script_texts SET content_loc3='Kapitän Blendsonn, $N hat mich befreit! $N, der Hauptmann wird Eure Tapferkeit sicher belohnen.' WHERE entry=-1000380;
 UPDATE script_texts SET content_loc3='Ich fühle die gequälten Geister, $N. Wir müssen da entlang. Kommt schnell!' WHERE entry=-1000381;
 UPDATE script_texts SET content_loc3='Gebt Acht!' WHERE entry=-1000382;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1000383;
+UPDATE script_texts SET content_loc3='Naga greifen an! Verteidigt Euch!' WHERE entry=-1000383;
 UPDATE script_texts SET content_loc3='Gebt mir Schutz, $N, Ich muss ihre üble Magie durchbrechen!' WHERE entry=-1000384;
 UPDATE script_texts SET content_loc3='Die Naga der Echsennarbe sind besonders grausam gegenüber ihren Gefangenen. Es ist ein Wunder, dass ich in diesem nassen Gefängnis überhaupt so lange überlebt habe. Die Erdenmutter sei Dank.' WHERE entry=-1000385;
 UPDATE script_texts SET content_loc3='Jetzt müssen wir den Ausgang finden.' WHERE entry=-1000386;
@@ -324,7 +324,7 @@ UPDATE script_texts SET content_loc3='Rin\'ji kann jetzt die Straße sehen, $N. 
 UPDATE script_texts SET content_loc3='Rin\'ji wird Euch Geheimnis sagen... $N sollte zu den Aussichtsklippen gehen. Rin\'ji hat dort auf der Insel was versteckt.' WHERE entry=-1000408;
 UPDATE script_texts SET content_loc3='Ihr finden, Ihr behalten. Niemandem erzählen, dass Rin\'ji mit Euch geredet!' WHERE entry=-1000409;
 UPDATE script_texts SET content_loc3='Hier kommen sie! Verteidigt euch!' WHERE entry=-1000410;
--- UPDATE script_texts SET content_loc3='REUSE' WHERE entry=-1000411; -- ungenutzt
+UPDATE script_texts SET content_loc3='Kommt $N. Seht die Macht des Alptraums...' WHERE entry=-1000411;
 -- UPDATE script_texts SET content_loc3='REUSE' WHERE entry=-1000412; -- ungenutzt
 -- UPDATE script_texts SET content_loc3='REUSE' WHERE entry=-1000413; -- ungenutzt
 -- UPDATE script_texts SET content_loc3='REUSE' WHERE entry=-1000414; -- ungenutzt
@@ -387,9 +387,9 @@ UPDATE script_texts SET content_loc3='Heute muss Euer Glückstag sein. Gut, ich 
 UPDATE script_texts SET content_loc3='Danke übrigens, dass Ihr mir den Rücken freigehalten habt.' WHERE entry=-1000471;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1000472;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1000473;
--- UPDATE script_texts SET content_loc3='REUSE_ME' WHERE entry=-1000474; -- ungenutzt
--- UPDATE script_texts SET content_loc3='REUSE_ME' WHERE entry=-1000475; -- ungenutzt
--- UPDATE script_texts SET content_loc3='REUSE_ME' WHERE entry=-1000476; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1000474;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1000475;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1000476;
 UPDATE script_texts SET content_loc3='Lasst uns diesen Ort verlassen. Ich habe genug von diesen Irren!' WHERE entry=-1000477;
 UPDATE script_texts SET content_loc3='Ihr werdet nirgendwo hingehen, Narr!' WHERE entry=-1000478;
 UPDATE script_texts SET content_loc3='Seht Euch vor! Dort kommen mehr Kultisten!' WHERE entry=-1000479;
@@ -710,12 +710,12 @@ UPDATE script_texts SET content_loc3='Wir können diese verderbten Kreaturen bes
 UPDATE script_texts SET content_loc3='Gebt nicht auf! Kämpft, bis zum Tod!' WHERE entry=-1000794;
 UPDATE script_texts SET content_loc3='Au! In Ordnung, ich gehe zurück an die Arbeit, $N!' WHERE entry=-1000795;
 -- UPDATE script_texts SET content_loc3='REUSE_ME' WHERE entry=-1000796; -- ungenutzt
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1000797;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1000798;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1000799;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1000800;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1000801;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1000802;
+UPDATE script_texts SET content_loc3='%s krächzt und macht sich auf in Richtung Shalasversteck. Beeilt Euch, zu folgen!' WHERE entry=-1000797;
+UPDATE script_texts SET content_loc3='%s wartet kurz vor dem Baum und begibt sich dann hinein.' WHERE entry=-1000798;
+UPDATE script_texts SET content_loc3='%s scheint nach etwas zu suchen, und möchte, dass Ihr folgt.' WHERE entry=-1000799;
+UPDATE script_texts SET content_loc3='%s fliegt nach unten zur Plattform! Ihr solltet springen, wenn Ihr den Anschluss nicht verlieren wollt. Beeilt Euch!' WHERE entry=-1000800;
+UPDATE script_texts SET content_loc3='%s krächzt laut!' WHERE entry=-1000801;
+UPDATE script_texts SET content_loc3='Endlich wurde ich von diesem schrecklichen Fluch befreit! Vielen Dank! Bitte berichtet Rilak dem Erlösten, dass es mir gut geht. Meine Mission führt nach Skettis. Terokk muss besiegt werden!' WHERE entry=-1000802;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1000803;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1000804;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1000805;
@@ -1081,8 +1081,8 @@ UPDATE script_texts SET content_loc3='Vorsicht! Ein $N greift an!' WHERE entry=-
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001165;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001166;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001167;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1001168;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1001169;
+UPDATE script_texts SET content_loc3='Die Naga quälen die Wassergeister. Sie beschwören Chaos und Zerstörung herauf!' WHERE entry=-1001168;
+UPDATE script_texts SET content_loc3='Die Naga respektieren die Natur nicht. Sie verdrehen und verderben sie, damit sie ihren Zwecken dient. Sie bringen die Geister auf.' WHERE entry=-1001169;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001170;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001171;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001172;
@@ -1206,7 +1206,25 @@ UPDATE script_texts SET content_loc3='Das hätte besser laufen können, $N. Komm
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001290;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001291;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1001292;
-
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001293;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001294;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001295;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001296;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001297;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001298;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001299;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001300;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001301;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001302;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001303;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001304;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001305;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001306;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001307;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001308;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001309;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001310;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1001311;
 UPDATE script_texts SET content_loc3='WIR SCHLAGEN ZU!' WHERE entry=-1001312;
 UPDATE script_texts SET content_loc3='$N wird uns bei unserem Angriff begleiten. Lasst uns meinen Ahnen Frieden geben!' WHERE entry=-1001313;
 UPDATE script_texts SET content_loc3='Ein Hinterhalt. Gebt ihnen ihren Frieden wieder!' WHERE entry=-1001314;
@@ -1246,8 +1264,20 @@ UPDATE script_texts SET content_loc3='Ihr werdet keinen Erfolg haben, Sterbliche
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1015026;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1015027;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1015028;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1015029;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1015030;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1015031;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1015032;
 
 -- -1 020 000 WOTLK texts
+UPDATE script_texts SET content_loc3='Der Zeppelin nach Orgrimmar ist soeben eingetroffen! Wer nach Durotar will, sollte an Bord gehen!' WHERE entry=-1020001;
+UPDATE script_texts SET content_loc3='Der Zeppelin nach Unterstadt ist soeben eingetroffen! Wer nach Tirisfal will, sollte an Bord gehen!' WHERE entry=-1020002;
+UPDATE script_texts SET content_loc3='Der Zeppelin nach Grom\'gol ist soeben eingetroffen! Wer in das Schlingendorntal will, sollte an Bord gehen!' WHERE entry=-1020003;
+UPDATE script_texts SET content_loc3='Der Zeppelin legt in weniger als einer Minute für einen Rundflug über die Bucht ab. Oh, und nur falls mich jemand befreien möchte, ich bin auf dem Dock.' WHERE entry=-1020004;
+UPDATE script_texts SET content_loc3='Mein Zeppelin hat angedockt. Obwohl ich gefangen gehalten werde und er auseinanderfällt, wird er in zwei Minuten wieder vom Dock ablegen.' WHERE entry=-1020005;
+UPDATE script_texts SET content_loc3='Der Zeppelin zum Hafen der Vergeltung ist soeben angekommen! Wer in den Heulenden Fjord will, sollte an Bord gehen!' WHERE entry=-1020006;
+UPDATE script_texts SET content_loc3='Der Zeppelin zur Kriegshymnenfeste ist gerade angekommen! Alle an Bord in Richtung Boreanische Tundra!' WHERE entry=-1020007;
+UPDATE script_texts SET content_loc3='Der Zeppelin nach Donnerfels ist angekommen! Alles an Bord für eine geschmeidige Fahrt über das Brachland!' WHERE entry=-1020008;
 
 -- -1 033 000 SHADOWFANG KEEP
 UPDATE script_texts SET content_loc3='Folgt mir und ich werde die Tür zum Hof für Euch öffnen.' WHERE entry=-1033000;
@@ -2142,20 +2172,20 @@ UPDATE script_texts SET content_loc3='Beugt euch meinem Willen.' WHERE entry=-15
 
 -- -1 540 000 SHATTERED HALLS
 UPDATE script_texts SET content_loc3='Ihr wollt uns alle auf einmal bekämpfen? Das wird sicherlich amüsant!' WHERE entry=-1540000;
-UPDATE script_texts SET content_loc3='Den könnt Ihr haben, ich brauche ihn nicht mehr.' WHERE entry=-1540001;
-UPDATE script_texts SET content_loc3='Ja, schlagt ihn windelweich! Sein Schädel ist so hart wie der eines Ogers.' WHERE entry=-1540002;
-UPDATE script_texts SET content_loc3='Verschwendet keine Zeit mit ihm, er ist schwach.' WHERE entry=-1540003;
-UPDATE script_texts SET content_loc3='Ihr wollt ihn? Nun gut, dann nehmt ihn!' WHERE entry=-1540004;
-UPDATE script_texts SET content_loc3='Ein armer Wicht am Boden. Los, holt Euch den nächsten!' WHERE entry=-1540005;
-UPDATE script_texts SET content_loc3='Ach, was für eine Verschwendung... Der Nächste!' WHERE entry=-1540006;
-UPDATE script_texts SET content_loc3='Ich hätte ihn ohnehin umgebracht.' WHERE entry=-1540007;
-UPDATE script_texts SET content_loc3='Danke, dass Ihr mir die Mühe erspart habt. Nun darf ich mich ein wenig vergnügen.' WHERE entry=-1540008;
-UPDATE script_texts SET content_loc3='Bettelt um Euer erbärmliches Leben!' WHERE entry=-1540009;
-UPDATE script_texts SET content_loc3='Lauf, Feigling, lauf!' WHERE entry=-1540010;
-UPDATE script_texts SET content_loc3='Euer Schmerz bereitet mir Freude!' WHERE entry=-1540011;
-UPDATE script_texts SET content_loc3='Ich langweile mich jetzt schon.' WHERE entry=-1540012;
-UPDATE script_texts SET content_loc3='Kommt schon!... Zeigt mir einen echten Kampf.' WHERE entry=-1540013;
-UPDATE script_texts SET content_loc3='Da war es ja noch amüsanter diese Peons zu quälen.' WHERE entry=-1540014;
+UPDATE script_texts SET content_loc3='Danke, dass Ihr mir die Mühe erspart habt. Nun darf ich mich ein wenig vergnügen.' WHERE entry=-1540001;
+UPDATE script_texts SET content_loc3='Kommt schon!... Zeigt mir einen echten Kampf.' WHERE entry=-1540002;
+UPDATE script_texts SET content_loc3='Den könnt Ihr haben, ich brauche ihn nicht mehr.' WHERE entry=-1540003;
+UPDATE script_texts SET content_loc3='Ja, schlagt ihn windelweich! Sein Schädel ist so hart wie der eines Ogers.' WHERE entry=-1540004;
+UPDATE script_texts SET content_loc3='Verschwendet keine Zeit mit ihm, er ist schwach.' WHERE entry=-1540005;
+UPDATE script_texts SET content_loc3='Ihr wollt ihn? Nun gut, dann nehmt ihn!' WHERE entry=-1540006;
+UPDATE script_texts SET content_loc3='Ein armer Wicht am Boden. Los, holt Euch den nächsten!' WHERE entry=-1540007;
+UPDATE script_texts SET content_loc3='Ach, was für eine Verschwendung... Der Nächste!' WHERE entry=-1540008;
+UPDATE script_texts SET content_loc3='Ich hätte ihn ohnehin umgebracht.' WHERE entry=-1540009;
+UPDATE script_texts SET content_loc3='Bettelt um Euer erbärmliches Leben!' WHERE entry=-1540010;
+UPDATE script_texts SET content_loc3='Lauf, Feigling, lauf!' WHERE entry=-1540011;
+UPDATE script_texts SET content_loc3='Euer Schmerz bereitet mir Freude!' WHERE entry=-1540012;
+UPDATE script_texts SET content_loc3='Da war es ja noch amüsanter diese Peons zu quälen.' WHERE entry=-1540013;
+UPDATE script_texts SET content_loc3='Ich langweile mich jetzt schon.' WHERE entry=-1540014;
 UPDATE script_texts SET content_loc3='Ihr verliert.' WHERE entry=-1540015;
 UPDATE script_texts SET content_loc3='Sterbt doch einfach.' WHERE entry=-1540016;
 UPDATE script_texts SET content_loc3='Was... für eine Schande.' WHERE entry=-1540017;
@@ -2609,6 +2639,8 @@ UPDATE script_texts SET content_loc3='%s tritt in die Leere ein...' WHERE entry=
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1557033;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1557034;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1557035;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1557036;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1557037;
 
 -- -1 558 000 AUCHENAI CRYPTS
 UPDATE script_texts SET content_loc3='Ihr habt den Ruheplatz unserer Ahnen besudelt. Für dieses Vergehen kann es nur eine Strafe geben... wie passend das ihr zu einem Ort der Toten gekommen seid, denn bald werdet ihr auch zu ihnen gehören.' WHERE entry=-1558000;

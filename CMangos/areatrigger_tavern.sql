@@ -2,6 +2,7 @@
 
 SET NAMES 'utf8';
 UPDATE areatrigger_tavern SET name='Westfall - Späherkuppe Gasthaus' WHERE id=71;
+UPDATE areatrigger_tavern SET name='Schlingendorntal - Nesingwarys Expedition' WHERE id=98;
 UPDATE areatrigger_tavern SET name='Alteracgebirge - Strahnbrad' WHERE id=178;
 UPDATE areatrigger_tavern SET name='Wald von Elwynn - Goldhain - Gasthaus zur Höhle des Löwen' WHERE id=562;
 UPDATE areatrigger_tavern SET name='Rotkammgebirge - Gasthaus Seenhain' WHERE id=682;

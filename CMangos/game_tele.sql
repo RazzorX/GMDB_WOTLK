@@ -1425,4 +1425,6 @@ UPDATE game_tele SET name='PrüfungdesChampions' WHERE id=1421;
 UPDATE game_tele SET name='Schattengewölbe' WHERE id=1422;
 UPDATE game_tele SET name='DasSchattengewölbe' WHERE id=1423;
 UPDATE game_tele SET name='K3' WHERE id=1424;
+UPDATE game_tele SET name='AusmerzenvonStratholme' WHERE id=1425;
+UPDATE game_tele SET name='GefroreneHallen' WHERE id=1426;
 SET NAMES 'latin1';

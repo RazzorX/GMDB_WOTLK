@@ -72,6 +72,8 @@ UPDATE gossip_texts SET content_loc3='Zeigt mir was ihr dabei habt.' WHERE entry
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532017;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532018;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532019;
+-- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532020;
+-- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532021;
 
 -- -3534000 COT THE BATTLE OF MT. HYJAL
 UPDATE gossip_texts SET content_loc3='Meine Gefährten und ich werden Euch zur Seite stehen, Lady Prachtmeer.' WHERE entry=-3534000;

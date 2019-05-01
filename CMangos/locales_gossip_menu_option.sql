@@ -200,7 +200,11 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Lederverarbeitung' WHERE
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bergbau' WHERE menu_id=751 AND id=9;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Kürschnerei' WHERE menu_id=751 AND id=10;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Schneiderei' WHERE menu_id=751 AND id=11;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Sprecht bitte weiter, oh Held...' WHERE menu_id=840 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Sprecht bitte weiter, oh Held...' WHERE menu_id=840 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=840 AND id=1;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=840 AND id=2;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=841 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=842 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was könnte schlimmer sein als der Tod?' WHERE menu_id=880 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Das werde ich.' WHERE menu_id=881 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Verlasst Euch auf mich, oh Held.' WHERE menu_id=882 AND id=0;
@@ -367,6 +371,8 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich würde gern Kochunte
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=2059 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=2060 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=2061 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=2061 AND id=1;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=2062 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=2076 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wo befindet sich der Zeppelin gerade?' WHERE menu_id=2101 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Das Auktionshaus' WHERE menu_id=2121 AND id=0;
@@ -755,6 +761,13 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3651 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3651 AND id=1;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3651 AND id=2;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3664 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3665 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3666 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3667 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3668 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3669 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=3670 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Das werde ich, Tirion.' WHERE menu_id=3681 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Das ist ja schrecklich.' WHERE menu_id=3682 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Danke, Tirion. Aber was ist nun mit Eurer Identität?' WHERE menu_id=3683 AND id=0;
@@ -2455,6 +2468,8 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig Eu
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig Eure Ware betrachten.' WHERE menu_id=8724 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8725 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Jho\'nass, zeigt mir Eurer Angebot.' WHERE menu_id=8726 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8750 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8750 AND id=1;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8751 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8752 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=8754 AND id=0;
@@ -3443,5 +3458,8 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche ein cenarisc
 UPDATE locales_gossip_menu_option SET option_text_loc3='Könnt Ihr mir beibringen, wie man die Schurkenfertigkeiten anwendet?' WHERE menu_id=21221 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=21221 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen Talentspezialisierung.' WHERE menu_id=21221 AND id=2;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=56000 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=56001 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=56002 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=56003 AND id=0;
 SET NAMES 'latin1';

@@ -13566,8 +13566,8 @@ UPDATE locales_gameobject SET name_loc3='Ritualobjekt der Tuskarr', castbarcapti
 UPDATE locales_gameobject SET name_loc3='Ritualobjekt der Tuskarr', castbarcaption_loc3='Einsammeln' WHERE entry=187671;
 UPDATE locales_gameobject SET name_loc3='Überreste von Weissager Grimmläufer', castbarcaption_loc3='Einsammeln' WHERE entry=187673;
 UPDATE locales_gameobject SET name_loc3='Ith\'rix\' gehärteter Knochenpanzer' WHERE entry=187674;
-UPDATE locales_gameobject SET name_loc3='Großes Feuer der boreanischen Tundra' WHERE entry=187675;
-UPDATE locales_gameobject SET name_loc3='Kleines Feuer der boreanischen Tundra' WHERE entry=187676;
+UPDATE locales_gameobject SET name_loc3='Großes Feuer der Boreanischen Tundra' WHERE entry=187675;
+UPDATE locales_gameobject SET name_loc3='Kleines Feuer der Boreanischen Tundra' WHERE entry=187676;
 UPDATE locales_gameobject SET name_loc3='Verseuchte Erde', castbarcaption_loc3='Einsammeln' WHERE entry=187677;
 UPDATE locales_gameobject SET name_loc3='Blue aura, short column, scale 6' WHERE entry=187679;
 UPDATE locales_gameobject SET name_loc3='Überreste von Weissager Grimmläufer' WHERE entry=187680;
@@ -15128,6 +15128,7 @@ UPDATE locales_gameobject SET name_loc3='Teleporterplatte' WHERE entry=191574;
 UPDATE locales_gameobject SET name_loc3='Portal des Verteidigers' WHERE entry=191575;
 UPDATE locales_gameobject SET name_loc3='Transporterakku', castbarcaption_loc3='Aufnehmen' WHERE entry=191576;
 UPDATE locales_gameobject SET name_loc3='Seelengefängnis von Acherus' WHERE entry=191577;
+UPDATE locales_gameobject SET name_loc3='Erzbischof Landgrens Leichnam und Lordkommandant Arete sind nicht anwesend' WHERE entry=191578;
 UPDATE locales_gameobject SET name_loc3='Aretes Tor' WHERE entry=191579;
 UPDATE locales_gameobject SET name_loc3='Seelengefängnis von Acherus' WHERE entry=191580;
 UPDATE locales_gameobject SET name_loc3='Seelengefängnis von Acherus' WHERE entry=191581;
