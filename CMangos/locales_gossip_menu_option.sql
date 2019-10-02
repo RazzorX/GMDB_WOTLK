@@ -1,9 +1,11 @@
 #####  locales_gossip_menu_option  #####
 
-SET NAMES 'utf8';
 INSERT IGNORE INTO locales_gossip_menu_option (menu_id, id) SELECT menu_id, id FROM gossip_menu_option;
 UPDATE locales_gossip_menu_option SET option_text_loc3=NULL, box_text_loc3=NULL;
+ALTER TABLE locales_gossip_menu_option ORDER BY id ASC;
+ALTER TABLE locales_gossip_menu_option ORDER BY menu_id ASC;
 
+SET NAMES 'utf8';
 UPDATE locales_gossip_menu_option SET option_text_loc3='GOSSIP_OPTION_QUESTGIVER' WHERE menu_id=0 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in Euren Waren stöbern.' WHERE menu_id=0 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche einen Flug.' WHERE menu_id=0 AND id=2;
@@ -276,7 +278,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr könnt kochen? Ich auch! Könnt Ihr mir vielleicht ein besonderes Rezept verraten?' WHERE menu_id=1443 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr seid Alchemist? Ich auch. Vielleicht könnt Ihr mich lehren, was Ihr wisst...' WHERE menu_id=1443 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=1465 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Erzählt mir mehr über die Hippogryphen.' WHERE menu_id=1482 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Erzählt mir mehr über die Hippogryphe.' WHERE menu_id=1482 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin an einer Hexenmeisterausbildung interessiert.' WHERE menu_id=1503 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=1503 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen Talentspezialisierung.' WHERE menu_id=1503 AND id=2;
@@ -1420,6 +1422,8 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Was ist hier passiert, G
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5731 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5733 AND id=0;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5735 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5738 AND id=0;
+-- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=5739 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Jetzt, da ich der König bin, was habt Ihr für mich?' WHERE menu_id=5739 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Nun gut... zeigt mir den Tribut!' WHERE menu_id=5740 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Den großen Verlust bedauern.' WHERE menu_id=5743 AND id=0;

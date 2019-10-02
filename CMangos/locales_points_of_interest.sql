@@ -1,9 +1,10 @@
 #####  locales_points_of_interest  #####
 
-SET NAMES 'utf8';
 INSERT IGNORE INTO locales_points_of_interest (entry) SELECT entry FROM points_of_interest;
 UPDATE locales_points_of_interest SET icon_name_loc3 = NULL;
+ALTER TABLE locales_points_of_interest ORDER BY entry ASC;
 
+SET NAMES 'utf8';
 UPDATE locales_points_of_interest SET icon_name_loc3='Gasthaus Zur Höhle des Löwen' WHERE entry=1;
 UPDATE locales_points_of_interest SET icon_name_loc3='Zaldimar Wefhellt' WHERE entry=2;
 UPDATE locales_points_of_interest SET icon_name_loc3='Bruder Wilhelm' WHERE entry=3;

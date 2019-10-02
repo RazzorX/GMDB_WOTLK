@@ -1,9 +1,10 @@
 #####  locales_creature  #####
 
-SET NAMES 'utf8';
 INSERT IGNORE INTO locales_creature (entry) SELECT entry FROM creature_template;
 UPDATE locales_creature SET name_loc3='', subname_loc3=NULL;
+ALTER TABLE locales_creature ORDER BY entry ASC;
 
+SET NAMES 'utf8';
 UPDATE locales_creature SET name_loc3='Wegpunkt (Nur für GMs sichtbar)', subname_loc3='Visual' WHERE entry=1;
 UPDATE locales_creature SET name_loc3='Fleischfresser' WHERE entry=3;
 UPDATE locales_creature SET name_loc3='Koboldgezücht' WHERE entry=6;

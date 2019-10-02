@@ -101,6 +101,15 @@ UPDATE gossip_texts SET content_loc3='Wir sind bereit, Illidan zu konfrontieren.
 
 -- -3568000 ZUL'AMAN
 UPDATE gossip_texts SET content_loc3='Danke für den Ratschlag, aber wir haben vor, Zul\'Aman dennoch zu erforschen.' WHERE entry=-3568000;
+-- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3568001;
+-- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3568002;
+-- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3568003;
+-- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3568004;
+-- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3568005;
+-- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3568006;
+-- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3568007;
+-- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3568008;
+-- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3568009;
 
 -- -3595000 CULLING OF STRATHOLME
 UPDATE gossip_texts SET content_loc3='Was glaubt Ihr, was sie vorhaben?' WHERE entry=-3595000;

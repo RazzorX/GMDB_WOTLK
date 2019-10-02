@@ -665,6 +665,8 @@ UPDATE mangos_string SET content_loc3='Die Arenapunkte für die Spieler, die onl
 UPDATE mangos_string SET content_loc3='Ändere Spieleranzahl, Arenapunkte etc. für geladene Arenateams, sende geänderte Werte an die Spieler, die online sind...' WHERE entry=744;
 UPDATE mangos_string SET content_loc3='Änderung abgeschlossen.' WHERE entry=745;
 UPDATE mangos_string SET content_loc3='Abgleichen der Arenapunkte abgeschlossen.' WHERE entry=746;
+-- UPDATE mangos_string SET content_loc3='' WHERE entry=747;
+-- UPDATE mangos_string SET content_loc3='' WHERE entry=748;
 UPDATE mangos_string SET content_loc3='Nicht genug Spieler. Das Spiel wird in %u Min. beendet.' WHERE entry=750;
 UPDATE mangos_string SET content_loc3='Nicht genug Spieler. Das Spiel wird in %u Sekunden beendet.' WHERE entry=751;
 UPDATE mangos_string SET content_loc3='Nur die Allianz kann dieses Portal benutzen.' WHERE entry=752;

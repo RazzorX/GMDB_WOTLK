@@ -1,10 +1,11 @@
 #####  locales_achievement_reward  #####
 
-SET NAMES 'utf8';
 INSERT IGNORE INTO locales_achievement_reward (entry, gender) SELECT entry, gender FROM achievement_reward WHERE subject IS NOT NULL OR text IS NOT NULL;
 DELETE FROM locales_achievement_reward WHERE NOT EXISTS (SELECT entry FROM achievement_reward WHERE locales_achievement_reward.entry = achievement_reward.entry);
 UPDATE locales_achievement_reward SET subject_loc3='', text_loc3=NULL;
+ALTER TABLE locales_achievement_reward ORDER BY entry ASC;
 
+SET NAMES 'utf8';
 UPDATE locales_achievement_reward SET subject_loc3='Glückwunsch', text_loc3='Viele Glückwünsche bezüglich Eurer Überzeugung, auch die 80, Saison der Abenteuer zu erreichen. Ihr seid zweifellos dem ziel ergeben, Azeroth vom Bösen zu befreien.$B$BObwohl der Weg hierher keine Kleinigkeit war, steht der Wahre Kampf erst noch bevor.$B$BKämpft weiter!$B$BRhonin' WHERE entry=13 AND gender=2;
 UPDATE locales_achievement_reward SET subject_loc3='Ihr seid rumgekommen!', text_loc3='Nun seht Euch mal an!$B$BUnd ich dachte, ich hätte hier an diesem eisigen Ort schon einiges gesehen! Diesem Zwerg scheint es offensichtlich, dass das Feuer eines Forschers in Euren Augen brennt.$B$BTrage diesen Wappenrock mit Stolz, dann wissen Eure Freunde, wem sie nach dem Weg fragen müssen, wenn die Zeit gekommen ist!$B$BMacht weiter so!$B$BBrann Bronzebart' WHERE entry=45 AND gender=2;
 UPDATE locales_achievement_reward SET subject_loc3='Für die Allianz!', text_loc3='Krieg überzieht unsere Länder. Nur die tapfersten aller Helden wagen es, der Horde dort einen Schlag zu versetzen, wo es wehtut. Ihr gehört zu eben diesen Helden.$B$BDer Schlag, den Ihr der Führung der Horde versetzt habt, bereitet unseren Weg für den finalen Angriff. Die Horde wird sich vor der Macht der Allianz verbeugen.$B$BEure Taten bleiben nicht ungewürdigt. Reitet mit Stolz!$B$B--Euer König' WHERE entry=614 AND gender=2;

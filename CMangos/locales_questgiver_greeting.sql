@@ -1,11 +1,12 @@
 #####  locales_questgiver_greeting  #####
 
-SET NAMES 'utf8';
 INSERT IGNORE INTO locales_questgiver_greeting (Entry, Type) SELECT Entry, Type FROM questgiver_greeting;
 UPDATE locales_questgiver_greeting SET Text_loc3=NULL;
+ALTER TABLE locales_questgiver_greeting ORDER BY Entry ASC;
 
+SET NAMES 'utf8';
 -- Marschall Gryan Starkmantel
-UPDATE locales_questgiver_greeting SET Text_loc3='In Westfall hat sich üble Verderbnis eingeschlichen. Während ich auf dem Schlachtfeld von Lordaeron meine Pflicht tat, wurden diese anständig geführten Höfe überfallen, und zu Schlupfwinkeln für Schläger und Mörder umfunktioniert. Die Volksmiliz ist auf Eure Hilfe angewiesen.' WHERE entry=234;
+UPDATE locales_questgiver_greeting SET Text_loc3='In Westfall hat sich üble Verderbnis eingeschlichen. Während ich auf dem Schlachtfeld von Lordaeron meine Pflicht tat, wurden diese anständig geführten Höfe überfallen und zu Schlupfwinkeln für Schläger und Mörder umfunktioniert. Die Volksmiliz ist auf Eure Hilfe angewiesen.' WHERE entry=234;
 -- Salma Saldean
 UPDATE locales_questgiver_greeting SET Text_loc3='Willkommen in unserer bescheidenen Hütte! Wir freuen uns über jedes freundliche Gesicht. Und Ihr habt so starke Arme. Mein Mann und ich sind ständig auf der Suche nach jemanden, der uns auf dem Hof hilft. Jetzt, wo die ganzen guten Leute weg sind, ist es nicht einfach, kräftige Helfer zu bekommen.' WHERE entry=235;
 -- Bauer Brauenwirbel
@@ -35,7 +36,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt. Ihr seht aus w
 -- Grelin Weißbart
 UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, Jungchen. Mein Name ist Grelin Weißbart. Ich soll untersuchen, welche Bedrohung von den Trollen im Eisklammtal ausgeht, deren Zahl ständig anwächst. Was ich festgestellt habe? Naja, es ist schon etwas besorgniserregend...' WHERE entry=786;
 -- Unteroffizier Willem
-UPDATE locales_questgiver_greeting SET Text_loc3='Guten Tag, $C. Normalerweise würde ich jetzt meine Runde machen und die Leute von Sturmwind beschützen, doch viele der Wachen von Sturmwind kämpfen in fremden Landen. Daher mache ich jetzt hier Vertretung und setzt Kopfgelder aus, wo ich doch eigendlich lieber auf Patrouille sein würde...' WHERE entry=823;
+UPDATE locales_questgiver_greeting SET Text_loc3='Guten Tag, $C. Normalerweise würde ich jetzt meine Runde machen und die Leute von Sturmwind beschützen, doch viele der Wachen von Sturmwind kämpfen in fremden Landen. Daher mache ich jetzt hier Vertretung und setze Kopfgelder aus, wo ich doch eigendlich lieber auf Patrouille sein würde...' WHERE entry=823;
 -- Büttel Conacher
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=900;
 -- Gebirgsjäger Sturmlanze
@@ -151,9 +152,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Die dunkle Fürstin hat die He
 -- Chefingenieur Bilgenritzel
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=7407;
 -- Rok Orhan
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=7777;
+UPDATE locales_questgiver_greeting SET Text_loc3=NULL WHERE entry=7777;
 -- Oran Schlangenfuß
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=7825;
+UPDATE locales_questgiver_greeting SET Text_loc3=NULL WHERE entry=7825;
 -- Tran'rek
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=7876;
 -- Sicherheitschef Bilgenritzel
@@ -171,7 +172,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Mir ist irgendwie nie warm...'
 -- Fürst Nicholas Zverenhoff
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=11039;
 -- Tsunaman
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=11862;
+UPDATE locales_questgiver_greeting SET Text_loc3=NULL WHERE entry=11862;
 -- Rilak der Erlöste
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=22292;
 SET NAMES 'latin1';

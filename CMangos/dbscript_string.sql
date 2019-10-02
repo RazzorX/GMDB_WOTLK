@@ -20,7 +20,7 @@ UPDATE dbscript_string SET content_loc3='Das sind nicht Shangos Spuren.' WHERE e
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000015;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000016;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000017;
-UPDATE dbscript_string SET content_loc3='Du da! Bleib wachsam! Es könnten Eindringlinge in der Nähe sein.' WHERE entry=2000000018;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000018; -- ungenutzt
 UPDATE dbscript_string SET content_loc3='Habt Geduld, $N. Die Fackel ist fast fertig.' WHERE entry=2000000019;
 UPDATE dbscript_string SET content_loc3='Das ist interessant...' WHERE entry=2000000020;
 UPDATE dbscript_string SET content_loc3='Ich muss Noram und Horatio kontaktieren.' WHERE entry=2000000021;
@@ -35,7 +35,7 @@ UPDATE dbscript_string SET content_loc3='Folgt mir, $N. Ich werde bald mit der B
 UPDATE dbscript_string SET content_loc3='Das macht Sinn!' WHERE entry=2000000030;
 UPDATE dbscript_string SET content_loc3='Euer Körper gehört mir! Unsere Schicksale sind für immer verflochten!' WHERE entry=2000000031;
 UPDATE dbscript_string SET content_loc3='Seid gewappnet, $N, denn der Dämon in dieser Kugel ist eine Teufelsbestie.' WHERE entry=2000000032;
-UPDATE dbscript_string SET content_loc3='Ja, Sir. Ich werde den Höllenorcs keine Schande machen!' WHERE entry=2000000033;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000033; -- ungenutzt
 UPDATE dbscript_string SET content_loc3='Kommt, $N. Fürst Sturmgrimm erwartet Euch.' WHERE entry=2000000034;
 UPDATE dbscript_string SET content_loc3='Krieger des Drachenmals, schart euch zusammen! Einer unter euch hat den Rang des Hochlords erreicht! Verneigt euch aus Ehrfurcht! Zeigt eure Hochachtung und Loyalität gegenüber Hochlord $N!' WHERE entry=2000000035;
 UPDATE dbscript_string SET content_loc3='Fürst Illidan wird hier bald eintreffen.' WHERE entry=2000000036;
@@ -263,10 +263,10 @@ UPDATE dbscript_string SET content_loc3='Was hat das zu bedeuten?! Halt! Ich ver
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000258;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000259;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000260;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000261;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000262;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000263;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000264;
+UPDATE dbscript_string SET content_loc3='He, Nagmara! Wie wäre es mit einem Becher Dunkeleisenbier?' WHERE entry=2000000261; -- 860
+UPDATE dbscript_string SET content_loc3='Nagmara! Ist noch Hammelfleisch übrig?' WHERE entry=2000000262; -- 861
+UPDATE dbscript_string SET content_loc3='Herrin, sagt Stöpsel, dass ich noch mehr von seinem Bier möchte. Ich bekomme nicht genug davon!' WHERE entry=2000000263; -- 862
+UPDATE dbscript_string SET content_loc3='He, Nag, würdet Ihr mir davon wohl eine Scheibe abschneiden...' WHERE entry=2000000264; -- 863
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000265;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000266;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000267;
@@ -319,16 +319,16 @@ UPDATE dbscript_string SET content_loc3='Vielen Dank das Ihr mich gerettet habt,
 UPDATE dbscript_string SET content_loc3='Ihr könnt uns nicht davon abhalten, die Öffentlichkeit über Jainas Feigheit aufzuklären!' WHERE entry=2000000314;
 UPDATE dbscript_string SET content_loc3='Wenn Ihr glaubt, uns aufhalten zu können, dann irrt Ihr Euch, Freundchen.' WHERE entry=2000000315;
 UPDATE dbscript_string SET content_loc3='Die Leute werden Admiral Prachtmeer als den Helden kennen, der er wirklich war!' WHERE entry=2000000316;
-UPDATE dbscript_string SET content_loc3='Unverschämter Narr! Ihr wolltet Zelemars Blut stehlen? Dafür werdet Ihr mit Eurem eigenen bezahlen!' WHERE entry=2000000317;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000317; -- ungenutzt
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000318;
 UPDATE dbscript_string SET content_loc3='Warum macht Ihr das? Habe ich Euch zu Lebzeiten etwas böses angetan?' WHERE entry=2000000319;
 UPDATE dbscript_string SET content_loc3='Ah, ich sehe es jetzt in Eurem Geiste. Es ist die Arbeit eines meiner früheren Schüler... Mehlar Dämmerklinge. Es ist traurig zu sehen das sein Herz so düster geworden ist.' WHERE entry=2000000320;
 UPDATE dbscript_string SET content_loc3='Kehrt zu ihm zurück. Kehrt zurück zu Mehlar und sagt ihm, das ich ihm vergebe und das ich verstehe warum er glaubt das tun zu müssen.' WHERE entry=2000000321;
 UPDATE dbscript_string SET content_loc3='Ich kann nur hoffen das er das Licht sehen wird und statt dessen seine Energie dafür einsetzen das einst wunderschöne Quel\'Thalas wiederherzustellen.' WHERE entry=2000000322;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000323;
-UPDATE dbscript_string SET content_loc3='Vielleicht wird Ograbisi Euren Kopf als winzig kleinen Hut tragen, wenn ich mit Euch fertig bin.' WHERE entry=2000000324;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000325;
-UPDATE dbscript_string SET content_loc3='Ograbisi braucht neuen Hut.' WHERE entry=2000000326;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000323; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000324; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000325; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000326; -- ungenutzt
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000327;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000328;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000329;
@@ -602,8 +602,8 @@ UPDATE dbscript_string SET content_loc3='Die Allianz wird für ihren Verrat beza
 UPDATE dbscript_string SET content_loc3='Ihr behaupt, unser Leben wäre nicht besser als vorher? Wie könnt ihr die Besserung unserer Lebensumstände einfach verleugnen?' WHERE entry=2000000597;
 UPDATE dbscript_string SET content_loc3='Lor\'themar hat Silbermond zu etwas gemacht, auf das man wieder stolz sein kann!' WHERE entry=2000000598;
 UPDATE dbscript_string SET content_loc3='Unsere neuen Verbündeten werden uns zu alter Größe verhelfen. Dieses Bündnis ist die Wahrheit und man wird uns nicht noch einmal verraten!' WHERE entry=2000000599;
-UPDATE dbscript_string SET content_loc3='Vielen Dank, dass Ihr mich befreit habt, $N! Ich werde es alleine nach Shattrath schaffen.' WHERE entry=2000000600;
-UPDATE dbscript_string SET content_loc3='Gut gemacht! Beeilt Euch, lasst sie uns nicht einfangen!' WHERE entry=2000000601;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000600; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000601; -- ungenutzt
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000602;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000603;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000604;
@@ -862,13 +862,13 @@ UPDATE dbscript_string SET content_loc3='Nun, schauen wir mal...' WHERE entry=20
 UPDATE dbscript_string SET content_loc3='Beim Übersetzen dieses Textes habe ich wohl mehr über die trunkenen Anwandlungen eines gewissen \'Andrew Clementine\' erfahren als über den eigentlichen Autoren des Tagebuchs.' WHERE entry=2000000857;
 UPDATE dbscript_string SET content_loc3='Aber egal. Abgesehen von Herrn Clementines, äh, \'Beitrag\', scheint dies das Tagebuch einer Person namens Nolkai zu sein. Die Einträge am Ende beschreiben eine brutale Schlacht.' WHERE entry=2000000858;
 UPDATE dbscript_string SET content_loc3='Seht Euch diese Passage an...' WHERE entry=2000000859;
-UPDATE dbscript_string SET content_loc3='He, Nagmara! Wie wäre es mit einem Becher Dunkeleisenbier?' WHERE entry=2000000860;
-UPDATE dbscript_string SET content_loc3='Nagmara! Ist noch Hammelfleisch übrig?' WHERE entry=2000000861;
-UPDATE dbscript_string SET content_loc3='Herrin, sagt Stöpsel, dass ich noch mehr von seinem Bier möchte. Ich bekomme nicht genug davon!' WHERE entry=2000000862;
-UPDATE dbscript_string SET content_loc3='He, Nag, würdet Ihr mir davon wohl eine Scheibe abschneiden...' WHERE entry=2000000863;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000864;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000865;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000866;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000860; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000861; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000862; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000863; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000864; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000865; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000866; -- ungenutzt
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000867;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000868;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000869;
@@ -1065,20 +1065,20 @@ UPDATE dbscript_string SET content_loc3='1...' WHERE entry=2000001046;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001060;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001061;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001062;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001063;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001064;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001065;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001066;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001067;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001068;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001069;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001070;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001071;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001072;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001073;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001074;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001075;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001076;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001063; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001064; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001065; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001066; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001067; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001068; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001069; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001070; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001071; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001072; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001073; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001074; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001075; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001076; -- ungenutzt
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001077;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001078;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001079;
@@ -1110,14 +1110,14 @@ UPDATE dbscript_string SET content_loc3='Bitte, Vater, ich bin nicht so stark wi
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001105;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001106;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001107;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001108;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001109;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001110;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001111;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001112;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001113;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001114;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001115;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001108; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001109; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001110; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001111; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001112; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001113; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001114; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001115; -- ungenutzt
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001116;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001117;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001118;
@@ -1238,7 +1238,7 @@ UPDATE dbscript_string SET content_loc3='Hey Leute! Wartet mal!' WHERE entry=200
 UPDATE dbscript_string SET content_loc3='Bis dann, Ihr Penner. Ich bin dann mal weg!' WHERE entry=2000001233;
 UPDATE dbscript_string SET content_loc3='Ich hab\'s geschafft. Endlich Freiheit!' WHERE entry=2000001234;
 UPDATE dbscript_string SET content_loc3='Psst... $R, hier drüben! Neben dem toten Wal.' WHERE entry=2000001235;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001236;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001236; -- ungenutzt
 UPDATE dbscript_string SET content_loc3='Schneller! Wir müssen Ende des Tages fliegen oder der Lichkönig wird uns ganz sicher vernichten.' WHERE entry=2000001237;
 UPDATE dbscript_string SET content_loc3='Wenn der Lichkönig herausfindet, dass wir Talramas aufgrund einer Fehlfunktion kaputt gemacht haben, werden wir alle eingeäschert.' WHERE entry=2000001238;
 UPDATE dbscript_string SET content_loc3='Diese Reparaturen liegen hinter dem Zeitplan zurück!' WHERE entry=2000001239;
@@ -1607,11 +1607,11 @@ UPDATE dbscript_string SET content_loc3='Was hat das zu bedeuten?! Ich bin mit m
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001602;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001603;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001604;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001605;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001606;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001607;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001608;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001609;
+UPDATE dbscript_string SET content_loc3='Schützen! Front und Mitte! Geißel in Sicht!' WHERE entry=2000001605;
+UPDATE dbscript_string SET content_loc3='Schützen, Sichern und laden!' WHERE entry=2000001606;
+UPDATE dbscript_string SET content_loc3='Die Nerub\'ar wurden für ihre ihren Vorstoß bestraft!' WHERE entry=2000001607;
+UPDATE dbscript_string SET content_loc3='Lasst die Streitkräfte des Lichkönigs auf den Kadaver dieses Wichtes starren und sie wissen, dass die Horde nicht nachgeben wird.' WHERE entry=2000001608;
+UPDATE dbscript_string SET content_loc3='Sammelt Euch, Soldaten! Sammelt Euch und holt Euch Eure Trophäen aus dem Panzer Eures Feindes!' WHERE entry=2000001609;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001610;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001611;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001612;
@@ -1806,10 +1806,10 @@ UPDATE dbscript_string SET content_loc3='Peppi, ich könnte schwören, dass Ihr 
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001801;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001802;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001803;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001804;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001805;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001806;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001807;
+UPDATE dbscript_string SET content_loc3='Stimmt, dasch sollte helfen. Glaub\' ich... Hicks.' WHERE entry=2000001804;
+UPDATE dbscript_string SET content_loc3='Der Vrykul umklammert seine Kehle, während er beginnt zu würgen und in wilde Zuckungen verfällt.' WHERE entry=2000001805;
+UPDATE dbscript_string SET content_loc3='Das ist die neue Seuche der Verlassenen?!' WHERE entry=2000001806;
+UPDATE dbscript_string SET content_loc3='Was für ein kranker Spinner seid Ihr?' WHERE entry=2000001807;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000001808;
 UPDATE dbscript_string SET content_loc3='Aus der zerschlissenen Erde wurde das Sakrament gestohlen. Der Schild von Aesirites ist verloren. Nun wird ewige Ruhelosigkeit herrschen.' WHERE entry=2000001809;
 UPDATE dbscript_string SET content_loc3='Der Stab des Sturmfurors wurde stibitzt. Verflucht sei dieses Land! Die Stürme werden niemals Ruhe geben!' WHERE entry=2000001810;
@@ -1959,8 +1959,8 @@ UPDATE dbscript_string SET content_loc3='Der Wind berichtet von den Bewegungen u
 UPDATE dbscript_string SET content_loc3='Sehr gut. Wenn diese Entscheidung getroffen wurde, werde ich bereit sein. Lasst uns hoffen, dass es nicht zu spät sein wird.' WHERE entry=2000005040;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005041;
 UPDATE dbscript_string SET content_loc3='Es gibt eine neue Bekanntmachung! Abenteurer und Helden, versammelt Euch um den Aushang!' WHERE entry=2000005042;
-UPDATE dbscript_string SET content_loc3='ICH WERDE ALLES ZERSTÖREN' WHERE entry=2000005043;
-UPDATE dbscript_string SET content_loc3='UNS ALLE, MEHR UND MEHR' WHERE entry=2000005044;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005043; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005044; -- ungenutzt
 UPDATE dbscript_string SET content_loc3='Fragt mich nicht, wo ich es her habe...' WHERE entry=2000005045;
 UPDATE dbscript_string SET content_loc3='Nach dieser Schicht werde ich dieser Kopfgeldsache mal nachgehen.' WHERE entry=2000005046;
 UPDATE dbscript_string SET content_loc3='Ihr wollt also nach der Schicht das Kopfgeld für diesen Steckbrief sammeln?' WHERE entry=2000005047;
@@ -2015,10 +2015,10 @@ UPDATE dbscript_string SET content_loc3='Ich habe noch nicht rausfinden können 
 UPDATE dbscript_string SET content_loc3='%s wirft das Schwert in den seichten Teich.' WHERE entry=2000005096;
 UPDATE dbscript_string SET content_loc3='Ich habe herausgefunden, das wenn ich etwas in das Wasser werfe und ich es dann wiederbekomme, das es unglaublich verbessert wurde.' WHERE entry=2000005097;
 UPDATE dbscript_string SET content_loc3='Nun gut, was immer es ist, es funktioniert super!' WHERE entry=2000005098;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005099; -- ungenutzt
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005100; -- ungenutzt
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005101; -- ungenutzt
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005102; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005099;
+UPDATE dbscript_string SET content_loc3='Vielleicht wird Ograbisi Euren Kopf als winzig kleinen Hut tragen, wenn ich mit Euch fertig bin.' WHERE entry=2000005100;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005101;
+UPDATE dbscript_string SET content_loc3='Ograbisi braucht neuen Hut.' WHERE entry=2000005102;
 UPDATE dbscript_string SET content_loc3='Ich rackere mir hier die alten Knochen ab! Schleppe sämtliches Wasser aus der Gegend heran.' WHERE entry=2000005103;
 UPDATE dbscript_string SET content_loc3='Wo ist das Wasser, Emma? Hast du Wasser geholt, Emma? Wenn ich nicht wäre, würd\' das Pack gar nicht wissen, wie Wasser aussieht.' WHERE entry=2000005104;
 UPDATE dbscript_string SET content_loc3='Natürlich rede ich mit mir selbst. Das ist die einzige Möglichkeit, in dieser Stadt ein nettes Gespräch zu führen.' WHERE entry=2000005105;
@@ -2075,7 +2075,7 @@ UPDATE dbscript_string SET content_loc3='Aber was passiert, wenn die resultieren
 UPDATE dbscript_string SET content_loc3='Aber ist es nicht genau das, was die anfänglichen Probleme mit Adept Sylerias magischen Formeln verursachte?' WHERE entry=2000005160;
 UPDATE dbscript_string SET content_loc3='Das wird jedoch den magischen Fokus aus der Balance bringen und im Äther eine umgekehrte Vibration verursachen.' WHERE entry=2000005161;
 UPDATE dbscript_string SET content_loc3='Würde das nicht bewirken, dass die Bindung sich löst, wenn sie nicht vor Beginn des Zauberns richtig verankert wurde?' WHERE entry=2000005162;
-UPDATE dbscript_string SET content_loc3='Die resultierenden Energien könnten natürlich kollabieren und das könnte wiederum einen Energiefluss erzeugen, der Euch die nächsten Wochen eine Migräne bescheren würde.' WHERE entry=2000005163;
+UPDATE dbscript_string SET content_loc3='Die resultierenden Energien könnten natürlich kollabieren und das könnte wiederum einen Energiefluxus erzeugen, der Euch die nächsten Wochen eine Migräne bescheren würde.' WHERE entry=2000005163;
 UPDATE dbscript_string SET content_loc3='Zumindest wären wir dann nicht da, um sauber machen zu müssen.' WHERE entry=2000005164;
 UPDATE dbscript_string SET content_loc3='Hui, und das alles für einen Liebestrank. Hoffentlich ist er es wert.' WHERE entry=2000005165;
 UPDATE dbscript_string SET content_loc3='Nur, wenn wir nicht die richtigen Initialisierungsprozeduren befolgen.' WHERE entry=2000005166;
@@ -2086,10 +2086,10 @@ UPDATE dbscript_string SET content_loc3='Seid nicht immer so negativ. Die Chance
 UPDATE dbscript_string SET content_loc3='Wenn wir die surianische Theorie benutzen, dann ja, aber nicht, wenn wir den y\'serianischen Ansatz verfolgen.' WHERE entry=2000005171;
 UPDATE dbscript_string SET content_loc3='Aber wenn wir es mit einem Ankergewinde auf angemessenem Energiefluss stabilisieren könnten, sollte es funktionieren.' WHERE entry=2000005172;
 UPDATE dbscript_string SET content_loc3='Wenn wir eine geeignete Sequenz benutzen, sollte es funktionieren. Es werden vor Beginn nur sorgfältige Studien nötig sein.' WHERE entry=2000005173;
-UPDATE dbscript_string SET content_loc3='Wir dürfen unseren Herrn nicht enttäuschen! Kael\'thas wird uns erlösen!' WHERE entry=2000005174;
-UPDATE dbscript_string SET content_loc3='Hmm... Frost-, Feuer- und Arkanverteidigung reagieren schneller als bei Serie 7, aber die Naturverteidigung bleibt passiv.' WHERE entry=2000005175;
-UPDATE dbscript_string SET content_loc3='Hmm...' WHERE entry=2000005176;
-UPDATE dbscript_string SET content_loc3='Puh, geschafft.' WHERE entry=2000005177;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005174; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005175; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005176; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005177; -- ungenutzt
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005178; -- ungenutzt
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005179; -- ungenutzt
 UPDATE dbscript_string SET content_loc3='Hallo, Charys. Meine Liste ist fertig. Könnt Ihr mir bitte all dies besorgen, besonders die letzte Zutat?' WHERE entry=2000005180;
@@ -2122,7 +2122,8 @@ UPDATE dbscript_string SET content_loc3='Seid der erste aus Eurem Umfeld der den
 UPDATE dbscript_string SET content_loc3='Abgeleitet von innovativer Militärtechnologie der Offensive der Zerschmetterten Hand, es entfernt hartnäckige Flecken mit Leichtigkeit!' WHERE entry=2000005207;
 UPDATE dbscript_string SET content_loc3='Ob Rotwein-, Grasflecken oder sogar tierische Hinterlassenschaften... Kein Fleck ist dem elektrostatischen Makulationsblaster gewachsen!' WHERE entry=2000005208;
 UPDATE dbscript_string SET content_loc3='Zögert nicht! Bestellt jetzt und Ihr erhaltet mein ultrakinetisches Waffelbügeleisen ohne Aufpreis!' WHERE entry=2000005209;
-UPDATE dbscript_string SET content_loc3='Ich werde niemals aufhören. Niemals...' WHERE entry=2000005210;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005210; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005211; -- ungenutzt
 UPDATE dbscript_string SET content_loc3='Lose! Löst Eure Gewinnlose des Dunkelmond-Jahrmarkts hier ein! Wundersame und exotische Preise warten auf Euch!' WHERE entry=2000005212;
 UPDATE dbscript_string SET content_loc3='Fürchtet Euch nicht! Alle Schicksale können für diejenigen, die wissen wie, wargenommen werden.' WHERE entry=2000005213;
 UPDATE dbscript_string SET content_loc3='Hey! Schmeckt euch die Sauce? Die Sauce ist gut, oder etwa nicht?' WHERE entry=2000005214;
@@ -2131,19 +2132,24 @@ UPDATE dbscript_string SET content_loc3='Amüsiert sich auch jeder? Fantastisch!
 UPDATE dbscript_string SET content_loc3='Hallo Freunde und willkommen auf dem unglaublichsten Jahrmarkt, den Azeroth je gesehen hat!$B$BKommt herbei und seht Euch um. Erlebt das, wovon die meisten nur träumen! Erfreut Euch an den Wundern und Mysterien aus aller Welt! Der Dunkelmond-Jahrmarkt hat keine Kosten und Mühen gescheut, um Alt und Jung eine Show sondergleichen zu bieten!' WHERE entry=2000005217;
 UPDATE dbscript_string SET content_loc3='Hey, kann mir mal jemand helfen, das Ding hier einzufangen!' WHERE entry=2000005218;
 UPDATE dbscript_string SET content_loc3='Das sollte Telaar die Hilfe bringen, die sie benötigen!' WHERE entry=2000005219;
-UPDATE dbscript_string SET content_loc3='BETET, DASS IHR MIR DIENEN DÜRFT' WHERE entry=2000005220;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005220; -- ungenutzt
 UPDATE dbscript_string SET content_loc3='Der Dunkelmond-Jahrmarkt ist das größte Ereignis in der ganzen Scherbenwelt' WHERE entry=2000005221;
 UPDATE dbscript_string SET content_loc3='Vergesst nicht Erfrischungen und Souvenirs zu kaufen!' WHERE entry=2000005223;
 UPDATE dbscript_string SET content_loc3='Kommt zu mir Ihr wahren Gläubigen, und seht was die Zukunft Euch bringen wird!' WHERE entry=2000005227;
 UPDATE dbscript_string SET content_loc3='Ich hätte die durchsichtige Pille nehmen sollen.' WHERE entry=2000005228;
 UPDATE dbscript_string SET content_loc3='Ich werde nicht gut genug bezahlt für diese Ausscheidungen des Stiers!' WHERE entry=2000005229;
-UPDATE dbscript_string SET content_loc3='ICH GEMEINER OGER' WHERE entry=2000005230;
-UPDATE dbscript_string SET content_loc3='ICH SPÜRE DEN TOD KOMMEN' WHERE entry=2000005231;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005230; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005231; -- ungenutzt
 UPDATE dbscript_string SET content_loc3='Je länger Ihr wartet, umso weniger Zukunft habt Ihr für mich zum vorhersagen.' WHERE entry=2000005232;
 UPDATE dbscript_string SET content_loc3='Lehnt Euch einfach zurück und hört dieses ta... *hic* dieses tai... *hic* dieses taiii *hic* Verdammt!' WHERE entry=2000005233;
 UPDATE dbscript_string SET content_loc3='Ich kann diese Steuern nicht annehmen! F.I.C.A. für mich? F.I.C.A. für EUCH!' WHERE entry=2000005234;
-UPDATE dbscript_string SET content_loc3='KEINER WIRD AN MIR VORBEIKOMMEN' WHERE entry=2000005235;
-UPDATE dbscript_string SET content_loc3='ICH SPÜRE DEN TOD KOMMEN' WHERE entry=2000005236;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005235; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005236; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005237; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005238; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005239; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005240; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005241; -- ungenutzt
 UPDATE dbscript_string SET content_loc3='Hmm... ich frage mich...' WHERE entry=2000005242;
 UPDATE dbscript_string SET content_loc3='Nun, wo ist es?' WHERE entry=2000005243;
 UPDATE dbscript_string SET content_loc3='Dumme Magier... verbrauchen alle Reagenzien und besorgen nie Ersatz.' WHERE entry=2000005244;
@@ -2450,12 +2456,12 @@ UPDATE dbscript_string SET content_loc3='Nach alledem was wir durch sind? Na dan
 UPDATE dbscript_string SET content_loc3='Ich bin dann mal weg!' WHERE entry=2000005551;
 UPDATE dbscript_string SET content_loc3='Wer wagt es in mein Reich einzutreten? Kommt! Kommt und werdet verzehrt!' WHERE entry=2000005552;
 UPDATE dbscript_string SET content_loc3='Lasst uns weiter vor gehen!' WHERE entry=2000005553;
-UPDATE dbscript_string SET content_loc3='...murmel... feurige Blütenblätter... murmel...' WHERE entry=2000005554;
-UPDATE dbscript_string SET content_loc3='...rhabarber rhabarber...' WHERE entry=2000005555;
-UPDATE dbscript_string SET content_loc3='...mit der richtigen Mischung, vielleicht...' WHERE entry=2000005556;
-UPDATE dbscript_string SET content_loc3='...dornige Ranken... murmel... autsch!' WHERE entry=2000005557;
-UPDATE dbscript_string SET content_loc3='Verschwindet von hier, es sind zu viele! Flieht, solange Ihr noch könnt!' WHERE entry=2000005558;
-UPDATE dbscript_string SET content_loc3='Helft uns! Hilfe!' WHERE entry=2000005559;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005554; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005555; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005556; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005557; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005558; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005559; -- ungenutzt
 UPDATE dbscript_string SET content_loc3='Unsere Freunde haben sich wacker geschlagen, Brann, aber noch sind wir nicht fertig.' WHERE entry=2000005560;
 UPDATE dbscript_string SET content_loc3='Das mag sein, aber es ist nur eine Frage der Zeit, bis es uns gelingt, uns erneut Zugang nach Ulduar zu verschaffen. Habt Ihr schon einen Weg gefunden, wie man sich hineinteleportieren könnte?' WHERE entry=2000005561;
 UPDATE dbscript_string SET content_loc3='Nicht im Geringsten. Ich vermute, es hat etwas mit dem riesigen, mechanischen Konstrukt zu tun, dass unsere Späher vor dem Tor entdeckt haben.' WHERE entry=2000005562;
@@ -2535,31 +2541,31 @@ UPDATE dbscript_string SET content_loc3='FEUER NACH EIGENEM ERMESSEN!' WHERE ent
 UPDATE dbscript_string SET content_loc3='Schützen, formiert Euch und nehmt Eure Position ein!' WHERE entry=2000005636;
 UPDATE dbscript_string SET content_loc3='Wir haben es geschafft! Wir haben Tethyr besiegt!' WHERE entry=2000005637;
 UPDATE dbscript_string SET content_loc3='Wir haben das Meeresungeheuer besiegt!' WHERE entry=2000005638;
-UPDATE dbscript_string SET content_loc3='Erhebe dich, Reiter...' WHERE entry=2000005639;
-UPDATE dbscript_string SET content_loc3='Deine Zeit ist gekommen...' WHERE entry=2000005640;
-UPDATE dbscript_string SET content_loc3='Heut\' Nacht sei dein Leben...' WHERE entry=2000005641;
-UPDATE dbscript_string SET content_loc3='Auf ewig genommen!' WHERE entry=2000005642;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005639; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005640; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005641; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005642; -- ungenutzt
 UPDATE dbscript_string SET content_loc3='Ihr seid am Ziel, die Suche ist vorbei. Das Schicksal soll entscheiden, wer der Sieger sei.' WHERE entry=2000005643;
 UPDATE dbscript_string SET content_loc3='%s lacht.' WHERE entry=2000005644;
 UPDATE dbscript_string SET content_loc3='Ich... ich bin gestorben... Ich hatte so große Schmerzen... gefangen in Dunkelheit... Könnt Ihr mich sehen, $R?' WHERE entry=2000005645;
-UPDATE dbscript_string SET content_loc3='Zu Befehl!' WHERE entry=2000005646;
-UPDATE dbscript_string SET content_loc3='Wartet hier, $N. Mein Spionagebot wird Lescovar so schnell wie möglich rausbringen. Seid bereit! Greift nur an wenn Ihr die gesamte Unterhaltung angehört habt.' WHERE entry=2000005647;
-UPDATE dbscript_string SET content_loc3='Ihnen beiden einen guten Tag. Ich würde gern mit Lord Lescovar sprechen.' WHERE entry=2000005648;
-UPDATE dbscript_string SET content_loc3='Geht in Ordnung. Er erwartet sie in der Bibliothek.' WHERE entry=2000005649;
-UPDATE dbscript_string SET content_loc3='Vielen Dank. Das Licht sei mit ihnen beiden.' WHERE entry=2000005650;
-UPDATE dbscript_string SET content_loc3='Milord, ihr Gast ist eingetroffen. Er wartet auf ihre Anwesenheit.' WHERE entry=2000005651;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005646;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005647;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005648;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005649;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005650;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005651;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005652;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005653;
-UPDATE dbscript_string SET content_loc3='Es ist Zeit für meine Meditation, verlasst mich.' WHERE entry=2000005654;
+UPDATE dbscript_string SET content_loc3='Es ist Zeit für meine Meditation, lasst mich allein.' WHERE entry=2000005654;
 UPDATE dbscript_string SET content_loc3='Ja, Sire!' WHERE entry=2000005655;
-UPDATE dbscript_string SET content_loc3='%s wartet bis die Wachen außer Sicht sind.' WHERE entry=2000005656;
+UPDATE dbscript_string SET content_loc3='%s wartet, bis die Wachen außer Sichtweite sind.' WHERE entry=2000005656;
 UPDATE dbscript_string SET content_loc3='Da seid Ihr ja. Was gibt es für Neuigkeiten aus Westfall?' WHERE entry=2000005657;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005658;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005659;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005660;
-UPDATE dbscript_string SET content_loc3='Das ist es! Das ist worauf wir gewartet haben! TÖTET SIE!' WHERE entry=2000005661;
-UPDATE dbscript_string SET content_loc3='Erbärmlicher Sterblicher, Onyxia antwortet niemanden!' WHERE entry=2000005662;
-UPDATE dbscript_string SET content_loc3='Eure ergreifende Herausforderung ist nicht unbeachtet geblieben. Ich sollte mit Euch noch etwas Spaß haben bevor Ihr sterben werdet.' WHERE entry=2000005663;
+UPDATE dbscript_string SET content_loc3='Van Cleef lässt mitteilen, dass die Pläne unterwegs seien. Doch er hat Gerüchte vernommen, dass irgendjemand herumschnüffelt.' WHERE entry=2000005658;
+UPDATE dbscript_string SET content_loc3='Hmm, das könnte dieser Schnüffler Shaw sein. Ich werde sehen, was ich herausfinden kann. Und nun fort mit Euch. Ich werde Euch bald wieder aufsuchen.' WHERE entry=2000005659;
+UPDATE dbscript_string SET content_loc3='Wohlan denn. Dann werde ich zurückkehren.' WHERE entry=2000005660;
+UPDATE dbscript_string SET content_loc3='Das ist es! Darauf habt Ihr gewartet! TÖTET SIE!' WHERE entry=2000005661;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005662; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005663; -- ungenutzt
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005664;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005665;
 UPDATE dbscript_string SET content_loc3='%s kniet sich hin, um die Phiole mit dem Wasser aus dem Mondbrunnen zu füllen.' WHERE entry=2000005666;
@@ -2572,9 +2578,9 @@ UPDATE dbscript_string SET content_loc3='%s kniet sich hin, um die Phiole mit de
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005673;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005674;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005675;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005676;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005677;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005678;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005676; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005677; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005678; -- ungenutzt
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005679;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005680;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005681;
@@ -2794,7 +2800,20 @@ UPDATE dbscript_string SET content_loc3='In Sicherheit … für den Moment. Sein
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005895;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005896;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005897;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005898;
+UPDATE dbscript_string SET content_loc3='Die ganze Macht unserer Drachen wurde entfesselt. Nutzt Ihre Kräfte, um Eregos zu vernichten!' WHERE entry=2000005898;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005899;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005900;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005901;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005902;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005903;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005904;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005905;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005906;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005907;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005908;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005909;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005910;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000005911;
 
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000007708;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000007709;
@@ -2805,4 +2824,147 @@ UPDATE dbscript_string SET content_loc3='In Sicherheit … für den Moment. Sein
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000007714;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000007715;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000007716;
+
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000010060;
+
+UPDATE dbscript_string SET content_loc3='Durch Euren Befehl!' WHERE entry=2000010170;
+UPDATE dbscript_string SET content_loc3='Wartet hier, $N. Der Spionagebot wird Lescovar schnellstens herauslocken. Seid bereit! Greift erst an, wenn Ihr das Gespräch mitgehört habt.' WHERE entry=2000010171;
+UPDATE dbscript_string SET content_loc3='Einen guten Tag Euch beiden. Ich möchte Lord Lescovar sprechen.' WHERE entry=2000010172;
+UPDATE dbscript_string SET content_loc3='Natürlich. Er erwartet Euch in der Bibliothek.' WHERE entry=2000010173;
+UPDATE dbscript_string SET content_loc3='Danke. Das Licht sei mit Euch beiden.' WHERE entry=2000010174;
+UPDATE dbscript_string SET content_loc3='Milord, Euer Gast ist da. Er erwartet Euch.' WHERE entry=2000010175;
+UPDATE dbscript_string SET content_loc3='Ah, vielen Dank. Bleibt hier in der Bibliothek, während ich mich um diese kleine Angelegenheit kümmere.' WHERE entry=2000010176;
+UPDATE dbscript_string SET content_loc3='Ich werde die Zeit zu nutzen wissen, Milord. Danke.' WHERE entry=2000010177;
+
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000011617;
+
+UPDATE dbscript_string SET content_loc3='Erhebe dich, Reiter...' WHERE entry=2000020001;
+UPDATE dbscript_string SET content_loc3='Deine Zeit ist gekommen...' WHERE entry=2000020002;
+UPDATE dbscript_string SET content_loc3='Heut\' Nacht sei dein Leben...' WHERE entry=2000020003;
+UPDATE dbscript_string SET content_loc3='Auf ewig genommen!' WHERE entry=2000020004;
+UPDATE dbscript_string SET content_loc3='Orcs der Horde! Dieses Portal ist ein Tor zu eurer neuen Zukunft. Azeroth liegt vor Euch, bereit, erobert zu werden!' WHERE entry=2000020005;
+UPDATE dbscript_string SET content_loc3='Gul\'dan sagt die Wahrheit! Wir sollten sofort zurückkehren, um unseren Brüdern die Neuigkeiten zu bringen! Zieht Euch durch das Portal zurück!' WHERE entry=2000020006;
+UPDATE dbscript_string SET content_loc3='Unverschämter Narr! Ihr wolltet Zelemars Blut stehlen? Dafür werdet Ihr mit Eurem eigenen bezahlen!' WHERE entry=2000020007;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020008;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020009;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020010;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020011;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020012;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020013;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020014;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020015;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020016;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020017;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020018;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020019;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020020;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020021;
+UPDATE dbscript_string SET content_loc3='Denkt Ihr, die Gerüchte über den ewigen Drachenschwarm sind wahr? Ich habe es gespürt... diese Vertrautheit.' WHERE entry=2000020022;
+UPDATE dbscript_string SET content_loc3='Dies sind gefährliche Gedanken. Sollte etwas nicht stimmen, wäre Soridormi die Erste, die davon wüsste.' WHERE entry=2000020023;
+UPDATE dbscript_string SET content_loc3='%s kanalisiert Magie für einen mächtigen Teleportzauber.' WHERE entry=2000020024;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020025;
+UPDATE dbscript_string SET content_loc3='Formiert Euch und lasst die Eindringlinge bluten!' WHERE entry=2000020026;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020027;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020028;
+UPDATE dbscript_string SET content_loc3='Aufstellung! Zerschmettert diese Narren!' WHERE entry=2000020029;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020030;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020031;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020032;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020033;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020034;
+UPDATE dbscript_string SET content_loc3='Du da! Bleib wachsam! Es könnten Eindringlinge in der Nähe sein.' WHERE entry=2000020035;
+UPDATE dbscript_string SET content_loc3='Ja, Sir. Ich werde den Höllenorcs keine Schande machen!' WHERE entry=2000020036;
+UPDATE dbscript_string SET content_loc3='Ihr hört einen entfernten Widerhall...' WHERE entry=2000020037;
+UPDATE dbscript_string SET content_loc3='Ihr hört deutlich, wie Metall auf Stein trifft...' WHERE entry=2000020038;
+UPDATE dbscript_string SET content_loc3='Uh oh! Scheinbar hat der Lärm, den Ihr veranstaltet habt, für unerwünschte Aufmerksamkeit gesorgt!' WHERE entry=2000020039;
+UPDATE dbscript_string SET content_loc3='Eindringlinge beim Gefangenen! Tötet sssie!' WHERE entry=2000020040;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020041;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020042;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020043;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020044;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020045;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020046;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020047;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020048;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020049;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020050;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020051;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020052;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020053;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020054;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020055;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020056;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020057;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020058;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020059;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020060;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020061;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020062;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020063;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020064;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020065;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020066;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020067;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020068;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020069;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020070;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020071;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020072;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020073;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020074;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020075;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020076;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020077;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020078;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020079;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020080;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020081;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020082;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020083;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020084;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020085;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020086;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020087;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020088;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020089;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020090;
+UPDATE dbscript_string SET content_loc3='Wir dürfen unseren Herrn nicht enttäuschen! Kael\'thas wird uns erlösen!' WHERE entry=2000020091;
+UPDATE dbscript_string SET content_loc3='Hmm... Frost-, Feuer- und Arkanverteidigung reagieren schneller als bei Serie 7, aber die Naturverteidigung bleibt passiv.' WHERE entry=2000020092;
+UPDATE dbscript_string SET content_loc3='Hmm...' WHERE entry=2000020093;
+UPDATE dbscript_string SET content_loc3='Puh, geschafft.' WHERE entry=2000020094;
+UPDATE dbscript_string SET content_loc3='...murmel... feurige Blütenblätter... murmel...' WHERE entry=2000020095;
+UPDATE dbscript_string SET content_loc3='...rhabarber rhabarber...' WHERE entry=2000020096;
+UPDATE dbscript_string SET content_loc3='...mit der richtigen Mischung, vielleicht...' WHERE entry=2000020097;
+UPDATE dbscript_string SET content_loc3='...dornige Ranken... murmel... autsch!' WHERE entry=2000020098;
+UPDATE dbscript_string SET content_loc3='Verschwindet von hier, es sind zu viele! Flieht, solange Ihr noch könnt!' WHERE entry=2000020099;
+UPDATE dbscript_string SET content_loc3='Helft uns! Hilfe!' WHERE entry=2000020100;
+UPDATE dbscript_string SET content_loc3='ICH WERDE ALLES ZERSTÖREN' WHERE entry=2000020101;
+UPDATE dbscript_string SET content_loc3='UNS ALLE, MEHR UND MEHR' WHERE entry=2000020102;
+UPDATE dbscript_string SET content_loc3='BETET, DASS IHR MIR DIENEN DÜRFT' WHERE entry=2000020103;
+UPDATE dbscript_string SET content_loc3='ICH GEMEINER OGER' WHERE entry=2000020104;
+UPDATE dbscript_string SET content_loc3='ICH SPÜRE DEN TOD KOMMEN' WHERE entry=2000020105;
+UPDATE dbscript_string SET content_loc3='KEINER WIRD AN MIR VORBEIKOMMEN' WHERE entry=2000020106;
+UPDATE dbscript_string SET content_loc3='ICH SPÜRE DEN TOD KOMMEN' WHERE entry=2000020107;
+UPDATE dbscript_string SET content_loc3='Vielen Dank, dass Ihr mich befreit habt, $N! Ich werde es alleine nach Shattrath schaffen.' WHERE entry=2000020108;
+UPDATE dbscript_string SET content_loc3='Gut gemacht! Beeilt Euch, lasst sie uns nicht einfangen!' WHERE entry=2000020109;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020110;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020111;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020112;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020113;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020114;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020115;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020116;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020117;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020118;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020119;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020120;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020121;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020122;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020123;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020124; -- ungenutzt
+UPDATE dbscript_string SET content_loc3='Ich werde niemals aufhören. Niemals...' WHERE entry=2000020125;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020126;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020127;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000020128;
+
 SET NAMES 'latin1';
