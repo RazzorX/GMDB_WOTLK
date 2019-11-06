@@ -28,13 +28,13 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt. Ihr seht aus w
 -- Kapitän Grausohn
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=392;
 -- Talin Kühnauge
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=714;
+UPDATE locales_questgiver_greeting SET Text_loc3='Grüße, $C! Herrlicher Tag zum Jagen, meint Ihr nicht auch? Ich selbst hatte bereits ziemliches Glück mit den Ebern. Möchtet Ihr es auch versuchen?' WHERE entry=714;
 -- Kebok
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=737;
 -- Krazek
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=773;
 -- Grelin Weißbart
-UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, Jungchen. Mein Name ist Grelin Weißbart. Ich soll untersuchen, welche Bedrohung von den Trollen im Eisklammtal ausgeht, deren Zahl ständig anwächst. Was ich festgestellt habe? Naja, es ist schon etwas besorgniserregend...' WHERE entry=786;
+UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $GJungchen:Mädel;. Mein Name ist Grelin Weißbart. Ich soll untersuchen, welche Bedrohung von den Trollen im Eisklammtal ausgeht, deren Zahl ständig anwächst. Was ich festgestellt habe? Na ja, es ist schon etwas besorgniserregend...' WHERE entry=786;
 -- Unteroffizier Willem
 UPDATE locales_questgiver_greeting SET Text_loc3='Guten Tag, $C. Normalerweise würde ich jetzt meine Runde machen und die Leute von Sturmwind beschützen, doch viele der Wachen von Sturmwind kämpfen in fremden Landen. Daher mache ich jetzt hier Vertretung und setze Kopfgelder aus, wo ich doch eigendlich lieber auf Patrouille sein würde...' WHERE entry=823;
 -- Büttel Conacher
@@ -56,7 +56,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Die dunkle Fürstin hat die He
 -- Magtoor
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1776;
 -- Apotheker Renferrel
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1937;
+UPDATE locales_questgiver_greeting SET Text_loc3='Die dunkle Fürstin hat die Herausforderung gestellt. Jetzt liegt es an der Königlichen Apothekervereinigung, eine neue Seuche zu entwickeln. Wir werden Arthas und seine jämmerliche Armee in die Knie zwingen.' WHERE entry=1937;
 -- Rane Yorick
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1950;
 -- Blubbernder Kessel
@@ -66,7 +66,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Die dunkle Fürstin hat die He
 -- Schattenpriester Allister
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2121;
 -- Apotheker Lydon
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2216;
+UPDATE locales_questgiver_greeting SET Text_loc3='Wir stehen kurz vor der Entwicklung der neuen Seuche, nach der unsere dunkle Fürstin so dringend verlangt.' WHERE entry=2216;
 -- Graf Remington Kronenbrunn
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2285;
 -- Crank Zischelbub
@@ -82,25 +82,25 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Die dunkle Fürstin hat die He
 -- Schildwache Glynda Nal'Shea
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2930;
 -- Gar'Thok
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3139;
+UPDATE locales_questgiver_greeting SET Text_loc3='Throm-ka, $C. Es gibt wenig Zeit zum Reden und viel zu tun.' WHERE entry=3139;
 -- Meister Gadrin
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3188;
+UPDATE locales_questgiver_greeting SET Text_loc3='Es gibt etwas, das ich mit Euch bereden möchte, $C... Kommt, setzt Euch zu mir.' WHERE entry=3188;
 -- Kargal Schlachtnarbe
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3337;
 -- Sergra Dunkeldorn
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3338;
+UPDATE locales_questgiver_greeting SET Text_loc3='Das Land, das Wasser und der Himmel sind eins. Es sind Eure Augen, die Euch eine solche Trennung vorgaukeln. Die Erdenmutter ist all diese Dinge und noch mehr.' WHERE entry=3338;
 -- Apotheker Helbrim
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3390;
+UPDATE locales_questgiver_greeting SET Text_loc3='Im Brachland sind unzählige Substanzen zu finden, die für uns, die Apotheker von Lordaeron, von Nutzen sind.' WHERE entry=3390;
 -- Gazlowe
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3391;
 -- Apothekerin Zamah
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3419;
+UPDATE locales_questgiver_greeting SET Text_loc3='Damit unser Volk überleben kann, müssen wir die Natur studieren und ihre Geheimnisse ergründen.' WHERE entry=3419;
 -- Melor Steinhuf
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3441;
 -- Mebok Mizzyrix
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3446;
+UPDATE locales_questgiver_greeting SET Text_loc3='Ja, ja, ja! Ah, ein $R! Genau $Gderjenige auf den:diejenige auf die; ich gewartet habe!$B$BNehmt Platz! Wir haben viel zu besprechen!' WHERE entry=3446;
 -- Werftmeister Flunkerblick
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3453;
+UPDATE locales_questgiver_greeting SET Text_loc3='Kann ich Euch helfen, $N? Es wartet eine Lieferung auf mich, um die ich mich kümmern muss.' WHERE entry=3453;
 -- Schildwache Arynia Wolkenbruch
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3519;
 -- Tallonkai Flinkwurzel
@@ -118,13 +118,13 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Die dunkle Fürstin hat die He
 -- Magatha Grimmtotem
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4046;
 -- Seereth Bruchstein
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4049;
+UPDATE locales_questgiver_greeting SET Text_loc3='Der Geist von Steinkralle weint. Er weint von den Gipfeln der Berge bis hinunter zu den Flüssen und den sterbenden Bäumen.' WHERE entry=4049;
 -- Gaxim Rostknirsch
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4077;
 -- Kravel Kohlebart
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4452;
 -- Belgrom Felshammer
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4485;
+UPDATE locales_questgiver_greeting SET Text_loc3='Die Tage werden länger, doch die Konflikte in diesen Ländern nehmen kein Ende. Man muss kein Zauberer sein, um das zu sehen. Greift zur Klinge, solange ihr könnt, $C. Der Krieg kann jederzeit über uns hereinbrechen, und Ihr scheint ihn nicht zu fürchten.' WHERE entry=4485;
 -- Maurin Knochenspalter
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4498;
 -- Oberanführer Mok'Morokk
@@ -166,7 +166,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3=NULL WHERE entry=7825;
 -- Maxwort Funkelglanz
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=9536;
 -- Klippenbehüter Langhorn
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=10537;
+UPDATE locales_questgiver_greeting SET Text_loc3='Wir können mit den vielen Bedrohungen in diesem Gebiet nicht allein fertig werden. Wir könnten eine weitere kämpfende Hand brauchen, $N.' WHERE entry=10537;
 -- Pamela Rotpfad
 UPDATE locales_questgiver_greeting SET Text_loc3='Mir ist irgendwie nie warm...' WHERE entry=10926;
 -- Fürst Nicholas Zverenhoff

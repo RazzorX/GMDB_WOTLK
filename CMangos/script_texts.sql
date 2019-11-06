@@ -735,7 +735,7 @@ UPDATE script_texts SET content_loc3='Gebt sie denen, die dies möglich gemacht 
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1000819;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1000820;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1000821;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1000822;
+UPDATE script_texts SET content_loc3='Man hat Bescheid gegeben. Er sollte in Kürze hier sein.' WHERE entry=-1000822;
 UPDATE script_texts SET content_loc3='Jaaaaa!' WHERE entry=-1000823;
 UPDATE script_texts SET content_loc3='Ich wusste, Ihr würdet kommen, $N. Schön, Euch wiederzusehen.' WHERE entry=-1000824;
 UPDATE script_texts SET content_loc3='Seid vorsichtig. Die Großdrachin wird nicht kampflos aufgeben.' WHERE entry=-1000825;
@@ -1235,9 +1235,9 @@ UPDATE script_texts SET content_loc3='Ihr habt gut gekämpft. Nun geht nach Nord
 
 -- -1 010 000 Classic texts
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1010000;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1010001;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1010002;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1010003;
+UPDATE script_texts SET content_loc3='Vorsicht, $N! Schaut nach Westen!' WHERE entry=-1010001;
+UPDATE script_texts SET content_loc3='Ein Verteidiger ist gefallen!' WHERE entry=-1010002;
+UPDATE script_texts SET content_loc3='Die Eindringlinge der Kolkar ziehen sich zurück!' WHERE entry=-1010003;
 
 -- -1 015 000 TBC texts
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1015001;
@@ -1549,24 +1549,24 @@ UPDATE script_texts SET content_loc3='Auf Nimmerwiedersehen!' WHERE entry=-12300
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1230011;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1230012;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1230013;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1230014;
+UPDATE script_texts SET content_loc3='Dann legen wir mal los. Meine Ausrüstung sollte im Lagerbereich da oben sein...' WHERE entry=-1230014;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1230015;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1230016;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1230017;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1230018;
+UPDATE script_texts SET content_loc3='Ah, da haben wir\'s!' WHERE entry=-1230018;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1230019;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1230020;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1230021;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1230022;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1230023;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1230024;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1230025;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1230026;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1230027;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1230028;
+UPDATE script_texts SET content_loc3='Macht das Ding auf.' WHERE entry=-1230021;
+UPDATE script_texts SET content_loc3='Ich konnte die beiden noch nie leiden. Gehen wir!' WHERE entry=-1230022;
+UPDATE script_texts SET content_loc3='Macht das Ding auf, aber seid diesmal vorsichtig!' WHERE entry=-1230023;
+UPDATE script_texts SET content_loc3='Dieser unerträgliche Schleimbeutel hat endlich bekommen, was er verdiente. Auf Nimmerwiedersehen!' WHERE entry=-1230024;
+UPDATE script_texts SET content_loc3='Also dann mal los.' WHERE entry=-1230025;
+UPDATE script_texts SET content_loc3='Macht das Ding auf. Wir müssen uns beeilen. Ich kann diese Dunkeleisenzwerge auf eine Meile Entfernung riechen und ich sage Euch eines, sie KOMMEN!' WHERE entry=-1230026;
+UPDATE script_texts SET content_loc3='Er muss in der letzten Zelle sein. Falls sie ihn nicht... getötet haben.' WHERE entry=-1230027;
+UPDATE script_texts SET content_loc3='Holt ihn da raus!' WHERE entry=-1230028;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1230029;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1230030;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1230031;
+UPDATE script_texts SET content_loc3='Wir haben es geschafft!' WHERE entry=-1230030;
+UPDATE script_texts SET content_loc3='Wir treffen uns in Maxwells Lager. Dort besprechen wir die nächsten Stufen des Plans und suchen nach einer Möglichkeit, meine Schrifttafeln ohne den Dechiffrier-Ring zu dekodieren.' WHERE entry=-1230031;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1230032;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1230033;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1230034;
@@ -4348,7 +4348,7 @@ UPDATE script_texts SET content_loc3='Schreckliche Nachrichten, Freunde. Modermi
 UPDATE script_texts SET content_loc3='Nein! Ihr tötet Stinki! Ihr jetzt dran!' WHERE entry=-1631081;
 UPDATE script_texts SET content_loc3='Zeit für Spaß?' WHERE entry=-1631082;
 UPDATE script_texts SET content_loc3='Eine ganz normale Gaswolke - aber Vorsicht, das ist keine ganz normale Gaswolke!' WHERE entry=-1631083;
-UPDATE script_texts SET content_loc3='%s lässt die Gassporen frei!' WHERE entry=-1631084;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1631084;
 UPDATE script_texts SET content_loc3='Ich fühl mich nicht gut...' WHERE entry=-1631085;
 UPDATE script_texts SET content_loc3='%s beginnt, Stechende Seuche zu wirken!' WHERE entry=-1631086;
 UPDATE script_texts SET content_loc3='Papi, das war ich!' WHERE entry=-1631087;
@@ -4465,7 +4465,7 @@ UPDATE script_texts SET content_loc3='So eine Schande...' WHERE entry=-1631196;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1631198;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1631199;
 UPDATE script_texts SET content_loc3='Schreckliche Nachrichten, Freunde. Modermiene ist tot, aber großartige Nachricht, Freunde. Er hat mir Schleim hinterlassen, und zwar in Massen. Huch...? Ein Rheim oh wie fein.' WHERE entry=-1631200;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1631201;
+UPDATE script_texts SET content_loc3='%s lässt die Gassporen frei!' WHERE entry=-1631201;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1631202;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1631203;
 -- UPDATE script_texts SET content_loc3='' WHERE entry=-1631204;
