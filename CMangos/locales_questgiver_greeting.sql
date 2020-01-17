@@ -64,7 +64,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Die dunkle Fürstin hat die He
 -- Denalan
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2080;
 -- Schattenpriester Allister
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2121;
+UPDATE locales_questgiver_greeting SET Text_loc3='Informationen... Mit unseren Spähern und Agenten haben wir den Informationsfluss in Lordaeron in der Hand. Bewegungen der Geißel, ihre Stellungen, nichts entgeht unseren wachsamen Augen...' WHERE entry=2121;
 -- Apotheker Lydon
 UPDATE locales_questgiver_greeting SET Text_loc3='Wir stehen kurz vor der Entwicklung der neuen Seuche, nach der unsere dunkle Fürstin so dringend verlangt.' WHERE entry=2216;
 -- Graf Remington Kronenbrunn
