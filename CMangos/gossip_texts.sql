@@ -1,16 +1,17 @@
 #####  gossip_texts  #####
 
-SET NAMES 'utf8';
+ALTER TABLE gossip_texts ORDER BY entry DESC;
 UPDATE gossip_texts SET content_loc3=NULL;
 
+SET NAMES 'utf8';
 UPDATE gossip_texts SET content_loc3='[PH] SD2 unbekannter Text' WHERE entry=-3000000;
 UPDATE gossip_texts SET content_loc3='Taruk hat mich geschickt, um Eure Schulden einzutreiben.' WHERE entry=-3000101;
 UPDATE gossip_texts SET content_loc3='Zahltag, Harry!' WHERE entry=-3000102;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000103;
 UPDATE gossip_texts SET content_loc3='<Puls überprüfen...>' WHERE entry=-3000104;
 UPDATE gossip_texts SET content_loc3='Ezekiel sagte, Ihr hättet da ein bestimmtes Buch...' WHERE entry=-3000105;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000106;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3000107;
+UPDATE gossip_texts SET content_loc3='Lasst Marschall Windsor wissen, dass ich bereit bin.' WHERE entry=-3000106;
+UPDATE gossip_texts SET content_loc3='Ich bin bereit, ebenso wie meine Streitkräfte. Lasst uns diese Maskerade beenden!' WHERE entry=-3000107;
 UPDATE gossip_texts SET content_loc3='Habt Ihr einen Moment Zeit für mich, mein Herr?' WHERE entry=-3000108;
 UPDATE gossip_texts SET content_loc3='Ich bin bereit, Oronok. Lasst uns Cyrukh zerstören und die Elemente befreien!' WHERE entry=-3000109;
 UPDATE gossip_texts SET content_loc3='Warum... ja, natürlich. Ich möchte ihnen gleich hier im Gebäude etwas zeigen, Herr Ambossar.' WHERE entry=-3000110;
@@ -33,7 +34,7 @@ UPDATE gossip_texts SET content_loc3='Ich bin bereit anzufangen.' WHERE entry=-3
 UPDATE gossip_texts SET content_loc3='Ihr seid frei, Dughal! Kommt raus da!' WHERE entry=-3230000;
 UPDATE gossip_texts SET content_loc3='Kommt raus da, Tobias, ihr seid frei!' WHERE entry=-3230001;
 UPDATE gossip_texts SET content_loc3='Eure Knechtschaft hat ein Ende, Un\'rel. Ich fordere Euch heraus!' WHERE entry=-3230002;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3230003;
+UPDATE gossip_texts SET content_loc3='Warum sucht Ihr und Rocknot Euch nicht ein ruhiges Plätzchen...' WHERE entry=-3230003;
 
 -- -3409000 MOLTEN CORE
 UPDATE gossip_texts SET content_loc3='Erzählt mir mehr.' WHERE entry=-3409000;
@@ -53,27 +54,27 @@ UPDATE gossip_texts SET content_loc3='Zeigt mir was ihr dabei habt.' WHERE entry
 
 -- -3532000 KARAZHAN
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532000;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532001;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532002;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532003;
+UPDATE gossip_texts SET content_loc3='Ich bin kein Schauspieler.' WHERE entry=-3532001;
+UPDATE gossip_texts SET content_loc3='Ok, ich werde es versuchen.' WHERE entry=-3532002;
+UPDATE gossip_texts SET content_loc3='Ich war noch nie so bereit, wie jetzt!' WHERE entry=-3532003;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532004;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532005;
+UPDATE gossip_texts SET content_loc3='Großmutter, was hast du für fette Beute?' WHERE entry=-3532005;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532006;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532007;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532008;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532009;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532010;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532011;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532012;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532013;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532014;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532015;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532016;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532017;
+UPDATE gossip_texts SET content_loc3='Menschenfußsoldat kontrollieren' WHERE entry=-3532012;
+UPDATE gossip_texts SET content_loc3='Streitross der Menschen kontrollieren.' WHERE entry=-3532013;
+UPDATE gossip_texts SET content_loc3='Herbeigezauberten Wasserelementar kontrollieren.' WHERE entry=-3532014;
+UPDATE gossip_texts SET content_loc3='Menschenbeschwörer kontrollieren' WHERE entry=-3532015;
+UPDATE gossip_texts SET content_loc3='Menschenkleriker kontrollieren' WHERE entry=-3532016;
+UPDATE gossip_texts SET content_loc3='König Llane kontrollieren' WHERE entry=-3532017;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532018;
 -- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532019;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532020;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3532021;
+UPDATE gossip_texts SET content_loc3='Großmutter, was hast du für große Ohren?' WHERE entry=-3532020;
+UPDATE gossip_texts SET content_loc3='Großmutter, was hast du für große Augen?' WHERE entry=-3532021;
 
 -- -3534000 COT THE BATTLE OF MT. HYJAL
 UPDATE gossip_texts SET content_loc3='Meine Gefährten und ich werden Euch zur Seite stehen, Lady Prachtmeer.' WHERE entry=-3534000;
@@ -96,7 +97,7 @@ UPDATE gossip_texts SET content_loc3='Tarrens Mühle.' WHERE entry=-3560007;
 
 -- -3564000 BLACK TEMPLE
 UPDATE gossip_texts SET content_loc3='Ich bin bei Euch, Akama.' WHERE entry=-3564000;
--- UPDATE gossip_texts SET content_loc3='' WHERE entry=-3564001;
+UPDATE gossip_texts SET content_loc3='Ich bin bereit, Akama.' WHERE entry=-3564001;
 UPDATE gossip_texts SET content_loc3='Wir sind bereit, Illidan zu konfrontieren.' WHERE entry=-3564002;
 
 -- -3568000 ZUL'AMAN

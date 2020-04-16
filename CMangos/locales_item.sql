@@ -1,9 +1,11 @@
 #####  locales_item  #####
 
-SET NAMES 'utf8';
+TRUNCATE TABLE locales_item;
 INSERT IGNORE INTO locales_item (entry) SELECT entry FROM item_template;
 UPDATE locales_item SET name_loc3='', description_loc3=NULL;
+ALTER TABLE locales_item ORDER BY entry ASC;
 
+SET NAMES 'utf8';
 UPDATE locales_item SET name_loc3='Abgenutztes Kurzschwert' WHERE entry=25;
 UPDATE locales_item SET name_loc3='Gebogener Stab' WHERE entry=35;
 UPDATE locales_item SET name_loc3='Abgenutzter Streitkolben' WHERE entry=36;
@@ -20049,6 +20051,7 @@ UPDATE locales_item SET name_loc3='Verteidigerin Vuuleens Klinge', description_l
 UPDATE locales_item SET name_loc3='Verteidigerin Vuuleens Schild', description_loc3='Der Schild weist keinerlei Kratzer auf, als ob seine Oberfläche auf magische Weise erhalten werden würde.' WHERE entry=30415;
 UPDATE locales_item SET name_loc3='Banner der Speerspießer', description_loc3='Auf dem Banner ist ein klauenbewehrter Eber abgebildet.' WHERE entry=30416;
 UPDATE locales_item SET name_loc3='Gurn Grubnoshs Helm', description_loc3='Er ist dreckig, stinkt und viel zu groß für Euch; aber genau danach habt Ihr gesucht.' WHERE entry=30417;
+UPDATE locales_item SET name_loc3='Dunkelspeer (Lila Leuchten)' WHERE entry=30418;
 UPDATE locales_item SET name_loc3='Blitzende Halskette' WHERE entry=30419;
 UPDATE locales_item SET name_loc3='Schwerer Jadering' WHERE entry=30420;
 UPDATE locales_item SET name_loc3='Roter Ring der Zerstörung' WHERE entry=30421;

@@ -1,5 +1,6 @@
 #####  locales_gameobject  #####
 
+TRUNCATE TABLE locales_gameobject;
 INSERT IGNORE INTO locales_gameobject (entry) SELECT entry FROM gameobject_template;
 UPDATE locales_gameobject SET name_loc3='', castbarcaption_loc3='';
 ALTER TABLE locales_gameobject ORDER BY entry ASC;
@@ -4123,6 +4124,7 @@ UPDATE locales_gameobject SET name_loc3='Kleiner Holzsitz' WHERE entry=103012;
 UPDATE locales_gameobject SET name_loc3='Schrein von Gelihast' WHERE entry=103015;
 UPDATE locales_gameobject SET name_loc3='Altar der Tiefen' WHERE entry=103016;
 UPDATE locales_gameobject SET name_loc3='Gefüllte Verwahrungskästen' WHERE entry=103574;
+UPDATE locales_gameobject SET name_loc3='Verwahrungskasten FALLE' WHERE entry=103575;
 UPDATE locales_gameobject SET name_loc3='Androns Bücherregal' WHERE entry=103600;
 UPDATE locales_gameobject SET name_loc3='Urs Abhandlung über Schattenmagie' WHERE entry=103628;
 UPDATE locales_gameobject SET name_loc3='Totembündel der Bleichborken FALLE' WHERE entry=103661;
@@ -11217,6 +11219,7 @@ UPDATE locales_gameobject SET name_loc3='Kessel' WHERE entry=183924;
 UPDATE locales_gameobject SET name_loc3='Kessel' WHERE entry=183925;
 UPDATE locales_gameobject SET name_loc3='Kessel' WHERE entry=183926;
 UPDATE locales_gameobject SET name_loc3='Kessel' WHERE entry=183927;
+-- UPDATE locales_gameobject SET name_loc3='Hellfire Hot Spot Spreader' WHERE entry=183929;
 UPDATE locales_gameobject SET name_loc3='Kessel' WHERE entry=183930;
 UPDATE locales_gameobject SET name_loc3='Kessel' WHERE entry=183931;
 UPDATE locales_gameobject SET name_loc3='Bühnenvorhang' WHERE entry=183932;

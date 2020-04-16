@@ -1,5 +1,6 @@
 #####  locales_points_of_interest  #####
 
+TRUNCATE TABLE locales_points_of_interest;
 INSERT IGNORE INTO locales_points_of_interest (entry) SELECT entry FROM points_of_interest;
 UPDATE locales_points_of_interest SET icon_name_loc3 = NULL;
 ALTER TABLE locales_points_of_interest ORDER BY entry ASC;

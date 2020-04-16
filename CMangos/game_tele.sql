@@ -1427,4 +1427,8 @@ UPDATE game_tele SET name='DasSchattengewölbe' WHERE id=1423;
 UPDATE game_tele SET name='K3' WHERE id=1424;
 UPDATE game_tele SET name='AusmerzenvonStratholme' WHERE id=1425;
 UPDATE game_tele SET name='GefroreneHallen' WHERE id=1426;
+UPDATE game_tele SET name='SmaragdgrünerTraum' WHERE id=1427;
+UPDATE game_tele SET name='SmaragdStatue' WHERE id=1428;
+UPDATE game_tele SET name='DieSaftgrünenFelder' WHERE id=1429;
+UPDATE game_tele SET name='Smaragdwald' WHERE id=1430;
 SET NAMES 'latin1';
