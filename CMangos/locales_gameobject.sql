@@ -7042,6 +7042,7 @@ UPDATE locales_gameobject SET name_loc3='Eisentor' WHERE entry=175618;
 UPDATE locales_gameobject SET name_loc3='Tür' WHERE entry=175619;
 UPDATE locales_gameobject SET name_loc3='Eisentor' WHERE entry=175620;
 UPDATE locales_gameobject SET name_loc3='Uroks Tributhaufen' WHERE entry=175621;
+UPDATE locales_gameobject SET name_loc3='Krähenhorstei Spawner' WHERE entry=175622;
 UPDATE locales_gameobject SET name_loc3='Jarons Ladung' WHERE entry=175628;
 UPDATE locales_gameobject SET name_loc3='Jarons Ladung' WHERE entry=175629;
 UPDATE locales_gameobject SET name_loc3='Lagerfeuer' WHERE entry=175630;
@@ -7305,6 +7306,10 @@ UPDATE locales_gameobject SET name_loc3='Menschliche Überreste', castbarcaption
 UPDATE locales_gameobject SET name_loc3='Kessel der Totenwaldfelle' WHERE entry=176091;
 UPDATE locales_gameobject SET name_loc3='Kasten mit Anzündern' WHERE entry=176092;
 UPDATE locales_gameobject SET name_loc3='Signalfackel' WHERE entry=176093;
+UPDATE locales_gameobject SET name_loc3='Andorhalturm Eins' WHERE entry=176094;
+UPDATE locales_gameobject SET name_loc3='Andorhalturm Zwei' WHERE entry=176095;
+UPDATE locales_gameobject SET name_loc3='Andorhalturm Drei' WHERE entry=176096;
+UPDATE locales_gameobject SET name_loc3='Andorhalturm Vier' WHERE entry=176097;
 UPDATE locales_gameobject SET name_loc3='U-Bahn-Bank' WHERE entry=176098;
 UPDATE locales_gameobject SET name_loc3='U-Bahn-Bank' WHERE entry=176099;
 UPDATE locales_gameobject SET name_loc3='U-Bahn-Bank' WHERE entry=176100;
@@ -8942,7 +8947,8 @@ UPDATE locales_gameobject SET name_loc3='Schwimmende Trümmer' WHERE entry=18065
 UPDATE locales_gameobject SET name_loc3='Kleiner Weisenfischschwarm' WHERE entry=180656;
 UPDATE locales_gameobject SET name_loc3='Spärlicher Feuerflossenschnapperschwarm' WHERE entry=180657;
 UPDATE locales_gameobject SET name_loc3='Deviatfischschwarm' WHERE entry=180658;
-UPDATE locales_gameobject SET name_loc3='Abfall Punkt' WHERE entry=180660;
+UPDATE locales_gameobject SET name_loc3='Übergabepunkt' WHERE entry=180659; -- Name muss noch bestätigt werden!
+UPDATE locales_gameobject SET name_loc3='Tasche voller Gold' WHERE entry=180660; -- Name muss noch bestätigt werden!
 UPDATE locales_gameobject SET name_loc3='Ölfleck' WHERE entry=180661;
 UPDATE locales_gameobject SET name_loc3='Schiffswrackteile' WHERE entry=180662;
 UPDATE locales_gameobject SET name_loc3='Weisenfischschwarm' WHERE entry=180663;
@@ -9225,6 +9231,12 @@ UPDATE locales_gameobject SET name_loc3='Sothos und Jariens Erbstücke' WHERE en
 UPDATE locales_gameobject SET name_loc3='Vorratskiste von Stratholme' WHERE entry=181085;
 UPDATE locales_gameobject SET name_loc3='Valentinsbogen' WHERE entry=181086;
 UPDATE locales_gameobject SET name_loc3='Pflanze' WHERE entry=181087;
+UPDATE locales_gameobject SET name_loc3='Ereignisfalle, Thrall' WHERE entry=181088;
+UPDATE locales_gameobject SET name_loc3='Ereignisfalle, Bolvar' WHERE entry=181089;
+UPDATE locales_gameobject SET name_loc3='Ereignisfalle, Magni' WHERE entry=181090;
+UPDATE locales_gameobject SET name_loc3='Ereignisfalle, Tyrande' WHERE entry=181091;
+UPDATE locales_gameobject SET name_loc3='Ereignisfalle, Cairne' WHERE entry=181092;
+UPDATE locales_gameobject SET name_loc3='Ereignisfalle, Sylvanas' WHERE entry=181093;
 UPDATE locales_gameobject SET name_loc3='Vulkanasche' WHERE entry=181098;
 UPDATE locales_gameobject SET name_loc3='Lagerfeuer' WHERE entry=181099;
 UPDATE locales_gameobject SET name_loc3='Brunnen des Lichts' WHERE entry=181102;
@@ -14753,6 +14765,7 @@ UPDATE locales_gameobject SET name_loc3='Fragment unterweltlicher Macht', castba
 UPDATE locales_gameobject SET name_loc3='Fragment unterweltlicher Macht', castbarcaption_loc3='Einsammeln' WHERE entry=190718;
 UPDATE locales_gameobject SET name_loc3='Fragment unterweltlicher Macht', castbarcaption_loc3='Einsammeln' WHERE entry=190719;
 UPDATE locales_gameobject SET name_loc3='Geernteter Seuchenkristall' WHERE entry=190720;
+UPDATE locales_gameobject SET name_loc3='Geernteter Seuchenkristall Falle' WHERE entry=190721;
 UPDATE locales_gameobject SET name_loc3='Tor des Smaragdhorizonts' WHERE entry=190722;
 UPDATE locales_gameobject SET name_loc3='Tor des Amethyststerns' WHERE entry=190723;
 UPDATE locales_gameobject SET name_loc3='Tor des Saphirhimmels' WHERE entry=190724;
@@ -16563,6 +16576,7 @@ UPDATE locales_gameobject SET name_loc3='Flucht zur Oberfläche' WHERE entry=194
 UPDATE locales_gameobject SET name_loc3='Zugang zum Himmlischen Planetarium' WHERE entry=194628;
 UPDATE locales_gameobject SET name_loc3='Flammenleviathantor' WHERE entry=194630;
 UPDATE locales_gameobject SET name_loc3='XT-002-Tür' WHERE entry=194631;
+UPDATE locales_gameobject SET name_loc3='Steinblock Falle' WHERE entry=194645;
 UPDATE locales_gameobject SET name_loc3='Lagerfeuer' WHERE entry=194658;
 UPDATE locales_gameobject SET name_loc3='Herd' WHERE entry=194659;
 UPDATE locales_gameobject SET name_loc3='Kohlenbecken' WHERE entry=194660;
@@ -16676,6 +16690,7 @@ UPDATE locales_gameobject SET name_loc3='Schüssel mit gemischten Früchten' WHE
 UPDATE locales_gameobject SET name_loc3='Opferschüssel' WHERE entry=195068;
 UPDATE locales_gameobject SET name_loc3='Zuckerschädel' WHERE entry=195069;
 UPDATE locales_gameobject SET name_loc3='Geisterhafte Feuerstelle' WHERE entry=195087;
+UPDATE locales_gameobject SET name_loc3='Seelenkerze Falle' WHERE entry=195089;
 UPDATE locales_gameobject SET name_loc3='Seelenkerze' WHERE entry=195090;
 UPDATE locales_gameobject SET name_loc3='Kristallene Opfergabe' WHERE entry=195116;
 UPDATE locales_gameobject SET name_loc3='Kanonenboot der Allianz' WHERE entry=195121;

@@ -68,6 +68,7 @@ UPDATE game_event SET description='Dunkelmond-Jahrmarkt wird aufgebaut 2 (Mulgor
 UPDATE game_event SET description='Dunkelmond-Jahrmarkt wird aufgebaut 1 (Wald von Elwynn)' WHERE entry=66;
 UPDATE game_event SET description='Schlotternächte - Glut des Weidenmanns' WHERE entry=67;
 UPDATE game_event SET description='Schlotternächte - Bansheekönigin' WHERE entry=68;
+UPDATE game_event SET description='Before the Storm - TBC-Startereignis' WHERE entry=100;
 UPDATE game_event SET description='Invasion der Elementare: Feuer' WHERE entry=200;
 UPDATE game_event SET description='Invasion der Elementare: Luft' WHERE entry=201;
 UPDATE game_event SET description='Invasion der Elementare: Erde' WHERE entry=202;

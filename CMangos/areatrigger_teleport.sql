@@ -44,6 +44,8 @@ UPDATE areatrigger_teleport SET name='Zul\'Farrak (Ausgang)' WHERE id=922;
 UPDATE areatrigger_teleport SET name='Zul\'Farrak (Eingang)' WHERE id=924;
 UPDATE areatrigger_teleport SET name='Sprung des Glaubens - Ende der Steigung' WHERE id=943;
 UPDATE areatrigger_teleport SET name='Onyxias Unterschlupf (Ausgang)' WHERE id=1064;
+UPDATE areatrigger_teleport SET name='Beutebucht nach Gnomeregan' WHERE id=1103;
+UPDATE areatrigger_teleport SET name='Gnomeregan nach Beutebucht' WHERE id=1104;
 UPDATE areatrigger_teleport SET name='Schwarzfelstiefen (Eingang)' WHERE id=1466;
 UPDATE areatrigger_teleport SET name='Schwarzfelsspitze (Eingang)' WHERE id=1468;
 UPDATE areatrigger_teleport SET name='Schwarzfelsspitze (Ausgang)' WHERE id=1470;
@@ -58,7 +60,8 @@ UPDATE areatrigger_teleport SET name='Stratholme Haupteingang 2 (Eingang)' WHERE
 UPDATE areatrigger_teleport SET name='Stratholme Nebenausgang (Ausgang)' WHERE id=2221;
 UPDATE areatrigger_teleport SET name='Der Flammenschlund (Ausgang)' WHERE id=2226;
 UPDATE areatrigger_teleport SET name='Der Flammenschlund (Eingang)' WHERE id=2230;
-UPDATE areatrigger_teleport SET name='Halle der Legenden - Ogrimmar (Ausgang)' WHERE id=2530;
+UPDATE areatrigger_teleport SET name='Burg Schattenfang - Außengebiet (wenn man runterfällt)' WHERE id=2406;
+UPDATE areatrigger_teleport SET name='Halle der Legenden - Orgrimmar (Ausgang)' WHERE id=2530;
 UPDATE areatrigger_teleport SET name='Halle der Champions - Sturmwind (Ausgang)' WHERE id=2534;
 UPDATE areatrigger_teleport SET name='Scholomance (Eingang)' WHERE id=2567;
 UPDATE areatrigger_teleport SET name='Scholomance (Ausgang)' WHERE id=2568;

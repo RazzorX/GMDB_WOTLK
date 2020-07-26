@@ -228,6 +228,8 @@ UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=11864;
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=22292;
 -- Drazzit Tropfhahn
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=23572;
+-- Tua'kea
+UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=26245;
 -- GESUCHT: Kalif Skorpidstich (englischer "Text" nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=142122;
 -- Dokumente des Syndikats
