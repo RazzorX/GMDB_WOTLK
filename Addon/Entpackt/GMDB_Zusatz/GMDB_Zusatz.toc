@@ -1,0 +1,12 @@
+## Interface: 80300
+## Title: |cffffff00GMDB-Zusatz|r
+## Title-deDE: |cffffff00GMDB-Zusatz|r
+## Author: RazzorX
+## Version: 1.3
+## Dependencies: GMDB
+## Notes: GMDB Addon for WoW-Retail
+## Notes-deDE: GMDB-Zusatz Addon für WoW-Retail
+## SavedVariables: GMDB_Collector_Zusatz, GMDB_Main_Zusatz
+## DefaultState: enabled
+
+GMDB_Collector_Zusatz.xml

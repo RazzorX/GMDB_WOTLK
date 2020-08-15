@@ -310,7 +310,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Wenn wir die Natur schützen s
 UPDATE locales_questgiver_greeting SET Text_loc3='Auf einen Paladin des Lichts warten viele Herausforderungen, $N. Ich kann Euch versichern, dass sich unsere Wege in der Zukunft oftmals kreuzen werden, wenn Ihr Euch Euer Mitgefühl bewahrt und die Tugenden ehrt, die wir preisen.' WHERE entry=6179;
 
 -- Jarkal Moosblut (englischer Text nicht in der DB vorhanden)
-UPDATE locales_questgiver_greeting SET Text_loc3='Was braucht Ihr, §C? Ich gehe davon aus, dass Ihr nicht nur auf einen müßigen Plausch in diese Einöde gekommen seid.' WHERE entry=6868;
+UPDATE locales_questgiver_greeting SET Text_loc3='Was braucht Ihr, $C? Ich gehe davon aus, dass Ihr nicht nur auf einen müßigen Plausch in diese Einöde gekommen seid.' WHERE entry=6868;
 
 -- Dran Droffers
 UPDATE locales_questgiver_greeting SET Text_loc3='Mein Name ist Dran Droffers, und da drüben ist mein verblödeter Sohn Malton. Wenn Ihr Plündergut braucht oder Plündergut verkaufen möchtet, dann seid Ihr bei uns genau richtig!' WHERE entry=6986;

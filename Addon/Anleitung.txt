@@ -1,0 +1,12 @@
+Installation:
+
+GMDB_Addon.zip und GMDB_Zusatz.zip nach ..\World of Warcraft\_retail_\Interface\AddOns\.. entpacken.
+
+
+Das Addon kann auch auf dem PTR genutzt werden. Dort funktioniert es momentan seit Patch 9.x
+
+nur sehr fehlerhaft und ist dadurch nur eingeschränkt nutzbar.
+
+Der Pfad für das Addon wäre dann:
+
+..\World of Warcraft Public Test\_ptr_\Interface\AddOns\..

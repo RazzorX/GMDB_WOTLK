@@ -1,0 +1,5 @@
+Installation:
+
+GMDB_CLASSIC.zip und GMDB_CLASSIC_Zusatz.zip nach ..\World of Warcraft\_classic_\Interface\AddOns\.. entpacken.
+
+Das Verzeichnis kann möglicherweise variieren je nachdem wo Classic hininstalliert worden ist.

@@ -1,4 +1,4 @@
-ADDON_VERSION = "v1.3";
+ADDON_VERSION = "v1.3 Classic";
 DEBUG_MODE    = false
 local AlreadyLoad = false
 local self, event = {};
@@ -42,7 +42,6 @@ function self_OnEvent(self, event, ...)
             AlreadyLoad = true
         end
     end
-
     if event == "PLAYER_LEAVING_WORLD" then
         self:UnregisterEvent("CHAT_MSG_MONSTER_WHISPER");
         self:UnregisterEvent("CHAT_MSG_MONSTER_SAY");
@@ -101,8 +100,6 @@ function self_QuestDetail()
     if Quelle == nil then
     Quelle = "<UNBEKANNT>";
     return Quelle; end
-
-    if Quelle == "ITEM_UNBEKANNT" then return; end;
 
     local QuestTitle = self_CleanMe(self_CleanLevel(GetTitleText()));
     local QuestObj   = self_CleanMe(GetObjectiveText());
@@ -302,10 +299,7 @@ function self_GetQuelle()
     elseif kind == "GameObject" and not itemName then
         Quelle = "GOBJECT||"..Ziel.."||"..id;
         self_Debug("self_GetQuelle - Kind gameobject: "..Ziel);
-    elseif kind == "ITEM" and itemId == nil and not (kind == "Creature" or kind == "GameObject") then
-        Quelle = "ITEM_UNBEKANNT";
-        self_Debug("self_GetQuelle - Quelle = Item unbekannt");
-    elseif kind == "ITEM" or (itemId ~= nil or itemName ~= nil) then
+    elseif kind == "ITEM" or itemName ~= nil then
         Quelle = "ITEM||"..ZielX.."||"..iID;
         self_Debug("self_GetQuelle - Item: "..iID.." - "..ZielX);
 --    else

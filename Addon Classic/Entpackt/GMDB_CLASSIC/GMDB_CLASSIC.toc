@@ -1,0 +1,12 @@
+## Interface: 11305
+## Title: |cffffff00GMDB-CLASSIC|r
+## Title-deDE: |cffffff00GMDB-CLASSIC|r
+## Modified by Klark20 | RazzorX
+## Version: 1.3 Classic
+## X-Version: Light
+## Notes: GMDB Addon for WoW-Classic
+## Notes-deDE: GMDB Addon für WoW-Classic
+## SavedVariables: GMDB_Collector, GMDB_Main
+## DefaultState: enabled
+
+GMDB_Collector.xml

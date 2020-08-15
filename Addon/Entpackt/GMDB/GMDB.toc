@@ -1,11 +1,12 @@
-## Interface: 70000
-## Title: GMDB
-## Title-deDE: GMDB
+## Interface: 80300
+## Title: |cffffff00GMDB|r
+## Title-deDE: |cffffff00GMDB|r
 ## Modified by Klark20 | RazzorX
-## Version: 1.2
+## Version: 1.3
 ## X-Version: Light
 ## Notes: GMDB Addon
 ## Notes-deDE: GMDB Addon
 ## SavedVariables: GMDB_Collector, GMDB_Main
-## DefaultState: Enabled
+## DefaultState: enabled
+
 GMDB_Collector.xml

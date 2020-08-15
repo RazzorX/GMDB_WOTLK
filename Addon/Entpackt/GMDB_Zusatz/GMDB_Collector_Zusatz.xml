@@ -1,6 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
-    <Script file="GMDB_Collector.lua"/>
-    <Frame name="GMDBCollectorFrame" toplevel="true" hidden="true" parent="UIParent">
+    <Script file="GMDB_Collector_Zusatz.lua"/>
+    <Frame name="GMDBCollectorZusatzFrame" toplevel="true" hidden="true" parent="UIParent">
         <Scripts>
             <OnLoad>self_OnLoad(self);</OnLoad>
             <OnEvent function="self_OnEvent"/>
