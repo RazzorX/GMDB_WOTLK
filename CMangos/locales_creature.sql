@@ -9095,9 +9095,9 @@ UPDATE locales_creature SET name_loc3='Mathreyn', subname_loc3='Kürschnerlehrer
 UPDATE locales_creature SET name_loc3='Narina', subname_loc3='Bogenmacherin' WHERE entry=16274;
 UPDATE locales_creature SET name_loc3='Noellene', subname_loc3='Paladinlehrerin' WHERE entry=16275;
 UPDATE locales_creature SET name_loc3='Ponaris', subname_loc3='Priesterlehrer' WHERE entry=16276;
-UPDATE locales_creature SET name_loc3='Quarelestra', subname_loc3='Kochkunstlehrer' WHERE entry=16277;
+UPDATE locales_creature SET name_loc3='Quarelestra', subname_loc3='Kochkunstlehrerin' WHERE entry=16277;
 UPDATE locales_creature SET name_loc3='Sathein', subname_loc3='Lederverarbeitungslehrer' WHERE entry=16278;
-UPDATE locales_creature SET name_loc3='Tannaria', subname_loc3='Schurkenlehrer' WHERE entry=16279;
+UPDATE locales_creature SET name_loc3='Tannaria', subname_loc3='Schurkenlehrerin' WHERE entry=16279;
 UPDATE locales_creature SET name_loc3='Perascamin', subname_loc3='Reitlehrer' WHERE entry=16280;
 UPDATE locales_creature SET name_loc3='Bewahrer der Schriften', subname_loc3='Die Argentumdämmerung' WHERE entry=16281;
 UPDATE locales_creature SET name_loc3='Rottenkommandant Steinberster', subname_loc3='Bruderschaft des Lichts' WHERE entry=16283;
