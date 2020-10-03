@@ -1265,6 +1265,7 @@ UPDATE script_texts SET content_loc3='Ihr wagt es, mich zu berühren?!' WHERE en
 UPDATE script_texts SET content_loc3='Wir haben es geschafft! Wir treffen uns bei Jer\'kai über dem Grimmtotemlager.' WHERE entry=-1010026;
 UPDATE script_texts SET content_loc3='%s wird vom verlockenden Duft des geläuterten Essens angezogen.' WHERE entry=-1010027;
 UPDATE script_texts SET content_loc3='%s beginnt gierig, das Essen zu verschlingen.' WHERE entry=-1010028;
+UPDATE script_texts SET content_loc3='Hilfe! Wir werden angegriffen! Dunkeleisenzwerge!' WHERE entry=-1010029;
 
 -- -1 015 000 TBC texts
 UPDATE script_texts SET content_loc3='%s gibt ein tiefes, kehliges Knurren von sich.' WHERE entry=-1015001;

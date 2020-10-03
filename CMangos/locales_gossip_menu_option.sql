@@ -2859,6 +2859,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Entfernt das Auge der Pr
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte dieses Gasthaus zu meinem Heimatort machen.' WHERE menu_id=9427 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in Euren Waren stöbern.' WHERE menu_id=9427 AND id=3;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich werde es Euch zeigen! Gebt mir den Übungsfallschirm!' WHERE menu_id=9429 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Holt mir diesen Frostwyrm auf den Boden und ich mache ihm ein Ende.' WHERE menu_id=9434 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in Euren Waren stöbern.' WHERE menu_id=9453 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bitte erlaubt mir, auf einem der Drachen zu den Gemächern der Königin im obersten Stockwerk des Tempels zu reiten.' WHERE menu_id=9455 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Habt Ihr vielleicht einen Drachen übrig, der mich zu Lord Afrasastrasz in der Mitte des Tempels bringen kann?' WHERE menu_id=9455 AND id=1;
@@ -2915,6 +2916,8 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit nach Dala
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte das Geheimwort eingeben, um mein Wettkämpfersouvenir zu erhalten.' WHERE menu_id=9517 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ja, ich bin bereit, in die Venturebucht zu reisen!' WHERE menu_id=9528 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ja, ich bin bereit, in die Venturebucht zu reisen!' WHERE menu_id=9531 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Eure Eminenz, auf ein Wort unter vier Augen.' WHERE menu_id=9532 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit, Euer Gnaden. <küsst den Ring>' WHERE menu_id=9536 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Es scheint, dass einer der Kultisten in meine Klinge gestolpert und gestorben ist... Könnte ich eine neue Verkleidung haben? Ich verspreche, ich bin diesmal damit vorsichtiger.' WHERE menu_id=9537 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Entschuldigt die Störung, mein Freund. Weitermachen!' WHERE menu_id=9541 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Orik, ich brauche noch ein Düstergraselixier.' WHERE menu_id=9542 AND id=0;
