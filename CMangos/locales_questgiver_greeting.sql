@@ -301,7 +301,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Wesen aus dem Chaos, das jense
 UPDATE locales_questgiver_greeting SET Text_loc3='Wenn wir die Natur schützen sollen, müssen wir ihre Kraft annehmen. Und wir müssen denjenigen diese Kraft zeigen, die dem Land Schaden zufügen wollen.' WHERE entry=5770;
 
 -- Canaga Erdenrufer
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=5887;
+UPDATE locales_questgiver_greeting SET Text_loc3='Ich heiße Euch wieder willkommen, $N.' WHERE entry=5887;
 
 -- Duthorian Rall
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=6171;

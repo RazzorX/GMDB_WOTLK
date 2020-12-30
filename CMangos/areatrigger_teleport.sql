@@ -221,6 +221,7 @@ UPDATE areatrigger_teleport SET name='Violette Festung (Ausgang)' WHERE id=5211;
 UPDATE areatrigger_teleport SET name='Ahn\'kahet (Ausgang)' WHERE id=5213;
 UPDATE areatrigger_teleport SET name='Ahn\'kahet (Eingang)' WHERE id=5215;
 UPDATE areatrigger_teleport SET name='Gundrak - Südausgang (Ausgang)' WHERE id=5231;
+UPDATE areatrigger_teleport SET name='Ahn\'kahet (Ausgang2)' WHERE id=5235;
 UPDATE areatrigger_teleport SET name='Kammer der Aspekte, Obsidian Sanktum (Ausgang)' WHERE id=5241;
 UPDATE areatrigger_teleport SET name='Kammer der Aspekte, Obsidian Sanktum (Eingang)' WHERE id=5243;
 UPDATE areatrigger_teleport SET name='Das Oculus (Eingang)' WHERE id=5246;

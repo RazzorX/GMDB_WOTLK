@@ -3410,6 +3410,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um.' WHERE menu_id=10188 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Lady Prachtmeer, ich bin bereit, nach Orgrimmar zu gehen. Bitte öffnet ein Portal.' WHERE menu_id=10189 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Melde mich zum Dienst, Majestät! Lasst den Angriff beginnen!' WHERE menu_id=10194 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit, Kriegshäuptling.' WHERE menu_id=10195 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte dieses Gasthaus zu meinem Heimatort machen.' WHERE menu_id=10201 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in Euren Waren stöbern.' WHERE menu_id=10201 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte dieses Gasthaus zu meinem Heimatort machen.' WHERE menu_id=10202 AND id=1;

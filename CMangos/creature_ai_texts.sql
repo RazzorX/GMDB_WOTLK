@@ -3449,7 +3449,7 @@ UPDATE creature_ai_texts SET content_loc3='Dreckiger, stinkender Pferdedieb!' WH
 UPDATE creature_ai_texts SET content_loc3='Niemand stiehlt Kitriks Pferde!' WHERE entry=-20629;
 UPDATE creature_ai_texts SET content_loc3='Schon bald baumelt Ihr am Galgen...' WHERE entry=-20630;
 UPDATE creature_ai_texts SET content_loc3='Wie viele von Euch muss ich denn noch in Stückchen zum Lichkönig zurückschicken, bevor er aufgibt?' WHERE entry=-20631;
-UPDATE creature_ai_texts SET content_loc3='Erbärmlich...' WHERE entry=-20632; -- -780
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-20632; -- ungenutzt
 UPDATE creature_ai_texts SET content_loc3='Der Tod ist der einzige Ausweg!' WHERE entry=-20633;
 UPDATE creature_ai_texts SET content_loc3='So hungrig...' WHERE entry=-20634;
 UPDATE creature_ai_texts SET content_loc3='Muss fressen...' WHERE entry=-20635;
@@ -3515,10 +3515,10 @@ UPDATE creature_ai_texts SET content_loc3='Die dunkle Fürstin hat so viele zur�
 UPDATE creature_ai_texts SET content_loc3='Sie haben Hunderte umgebracht! Wir sind nur knapp mit dem Leben davongekommen! Hilfe!' WHERE entry=-20695; -- -1012
 UPDATE creature_ai_texts SET content_loc3='Ihr müsst helfen! Wir sind obdachlos!' WHERE entry=-20696; -- -1013
 UPDATE creature_ai_texts SET content_loc3='Habt Ihr vielleicht ein bisschen Kleingeld?' WHERE entry=-20697; -- -1014
-UPDATE creature_ai_texts SET content_loc3='Das Wolke sehn aus wie da Kriegshäup\'ling.' WHERE entry=-20698; -- -1015
-UPDATE creature_ai_texts SET content_loc3='Da sein Käfer.' WHERE entry=-20699; -- -1016
-UPDATE creature_ai_texts SET content_loc3='Achtung an Deck! Harpyee vora-... wart mal, das sein nur and\'rer Vogel.' WHERE entry=-20700; -- -1017
-UPDATE creature_ai_texts SET content_loc3='Da sein Vogel.' WHERE entry=-20701; -- -1018
+UPDATE creature_ai_texts SET content_loc3='Da sein Käfer.' WHERE entry=-20698;
+UPDATE creature_ai_texts SET content_loc3='Da sein Vogel.' WHERE entry=-20699;
+UPDATE creature_ai_texts SET content_loc3='Das Wolke sehn aus wie da Kriegshäup\'ling.' WHERE entry=-20700;
+UPDATE creature_ai_texts SET content_loc3='Achtung an Deck! Harpyee vora-... wart mal, das sein nur and\'rer Vogel.' WHERE entry=-20701;
 UPDATE creature_ai_texts SET content_loc3='Komm, Geißelbann. Ich werde dem Meister zeigen, wer von uns den Titel Champion wirklich verdient!' WHERE entry=-20702;
 UPDATE creature_ai_texts SET content_loc3='Was für erbärmliche Verbündete, Crok!' WHERE entry=-20703;
 UPDATE creature_ai_texts SET content_loc3='Vielleicht... Hattet Ihr Recht, Crok.' WHERE entry=-20704;
@@ -3741,4 +3741,68 @@ UPDATE creature_ai_texts SET content_loc3='Ihr seid gekommen, um die Macht des A
 UPDATE creature_ai_texts SET content_loc3='Nehmt Euch dieser Störung schnell an. Ich hab\' keine Zeit für so was!' WHERE entry=-20921;
 UPDATE creature_ai_texts SET content_loc3='Ihr solltet Eure Taten lieber nochmal überdenken, Ihr Narr!' WHERE entry=-20922;
 UPDATE creature_ai_texts SET content_loc3='Man hat mich nach Wyrmruh zurückbeordert, Partner. Macht es gut!' WHERE entry=-20923;
+UPDATE creature_ai_texts SET content_loc3='Was ist hier los?' WHERE entry=-20924;
+UPDATE creature_ai_texts SET content_loc3='Was machen all diese Verlassenen hier?' WHERE entry=-20925;
+UPDATE creature_ai_texts SET content_loc3='Warum ist die Stadt abgeriegelt?' WHERE entry=-20926;
+UPDATE creature_ai_texts SET content_loc3='Wir verlangen Antworten!' WHERE entry=-20927;
+UPDATE creature_ai_texts SET content_loc3='Wo ist der Kriegshäuptling?' WHERE entry=-20928;
+UPDATE creature_ai_texts SET content_loc3='Wann können wir unsere Läden wieder aufmachen? Ich verliere hier bares Geld!' WHERE entry=-20929;
+UPDATE creature_ai_texts SET content_loc3='Das ist ein Skandal!' WHERE entry=-20930;
+UPDATE creature_ai_texts SET content_loc3='Warum lässt Thrall zu, dass so etwas mit unserer Stadt geschieht?' WHERE entry=-20931;
+UPDATE creature_ai_texts SET content_loc3='Ihr seid in unserer Heimat nicht willkommen. Geht und sucht Euch ein anderes Land zum Plündern!' WHERE entry=-20932;
+UPDATE creature_ai_texts SET content_loc3='Der bullige Jormungar zögert für einen Moment, während er sein Maul weit aufreißt.' WHERE entry=-20933;
+UPDATE creature_ai_texts SET content_loc3='Xinks Schredder betriebsbereit und verfügbar für die Vernichtung von Waldland.' WHERE entry=-20934;
+UPDATE creature_ai_texts SET content_loc3='Sicherheitsfunktionen von Xinks Schredder aktiviert. Auf dem Rückweg zur Basis.' WHERE entry=-20935;
+UPDATE creature_ai_texts SET content_loc3='GEHIIIIIIIRNE!!!' WHERE entry=-20936;
+UPDATE creature_ai_texts SET content_loc3='ICH HUNGER!' WHERE entry=-20937;
+UPDATE creature_ai_texts SET content_loc3='FÜTTERT MICH! FÜTTERT MICH!!!' WHERE entry=-20938;
+UPDATE creature_ai_texts SET content_loc3='MJAM, MJAM, MJAM!' WHERE entry=-20939;
+UPDATE creature_ai_texts SET content_loc3='NIX RENNEN!!! NIX MEHR RENNEN!!!' WHERE entry=-20940;
+UPDATE creature_ai_texts SET content_loc3='Beeindruckend. Der Herr sagte, dass Ihr und Eure Leute ein Ärgernis sein würdet. Es macht aber keinen Unterschied, Euer Ende ist nah. Schon bald wird die vereinigte Macht von Naxxramas über diesem Ort hereinbrechen und Euch mickrige Wesen vernichten.' WHERE entry=-20941;
+UPDATE creature_ai_texts SET content_loc3='Was glaubt Ihr denn, wo Ihr damit hingeht, $GSterblicher:Sterbliche;? Legt den Folianten hin und ich könnte Euch eine Ewigkeit der Pein ersparen.' WHERE entry=-20942;
+UPDATE creature_ai_texts SET content_loc3='Foliant nicht Euer...' WHERE entry=-20943;
+UPDATE creature_ai_texts SET content_loc3='Gebt... mir... Buch...' WHERE entry=-20944;
+UPDATE creature_ai_texts SET content_loc3='Thel\'zan erwartet Euch...' WHERE entry=-20945;
+UPDATE creature_ai_texts SET content_loc3='Schließt Euch uns an...' WHERE entry=-20946;
+UPDATE creature_ai_texts SET content_loc3='Die Zukunft hält nur Verderben bereit...' WHERE entry=-20947;
+UPDATE creature_ai_texts SET content_loc3='Ich glaube, ich sehe einen ihrer Seuchenwagen!' WHERE entry=-20948;
+UPDATE creature_ai_texts SET content_loc3='Habe ich Euch Soldaten eigentlich schon mal davon erzählt, wie ich den Thandolübergang zerstört habe? Jep, das waren nicht die Dunkeleisenzwerge, die diese Brücke zerstört haben! Das war ich!' WHERE entry=-20949;
+UPDATE creature_ai_texts SET content_loc3='Das ergibt überhaupt keinen Sinn. Wieso fliegen sie nicht einfach mit Naxxramas zur Feste Wintergarde und jagen sie in die Luft? Das würde zumindest ich machen, wenn ich Kel\'Thuzad wär\'.' WHERE entry=-20950;
+UPDATE creature_ai_texts SET content_loc3='Ich frage mich, ob wir jemals das Geheimnis dieses seltsamen Erzes lüften. Das muss doch für irgendwas gut sein!' WHERE entry=-20951;
+UPDATE creature_ai_texts SET content_loc3='Hey, kennt einer von Euch McGoyver drüben in Valgarde? Das ist mein Onkel. Und wisst Ihr, was er für einen Titel trägt? Profi. Ja, einfach nur \"Profi\". Ich will auch ein Profi sein.' WHERE entry=-20952;
+UPDATE creature_ai_texts SET content_loc3='Hört auf zu quasseln, Leute. Wir müssen wachsam bleiben!' WHERE entry=-20953;
+UPDATE creature_ai_texts SET content_loc3='Der Geruch des Todes hängt über jedem Zentimeter dieses Ortes.' WHERE entry=-20954;
+UPDATE creature_ai_texts SET content_loc3='Fahrer, ich höre, Ihr habt im Alleingang eine Luftbrücke organisiert und alle Dorfbewohner aus dieser Hölle rausgeholt. Ist das wahr?' WHERE entry=-20955;
+UPDATE creature_ai_texts SET content_loc3='Also, weiß hier irgendjemand was über Thel\'zan? Wer ist er? Wie ist es ihm gelungen, die Geißelarmeen im Feld anzuführen?' WHERE entry=-20956;
+UPDATE creature_ai_texts SET content_loc3='Schaut Euch dieses Chaos an... Die Geißel wird dafür bezahlen!' WHERE entry=-20957;
+UPDATE creature_ai_texts SET content_loc3='Wo sind die ganzen Leichen hin? Was habt Ihr mit unseren Leuten gemacht?' WHERE entry=-20958;
+UPDATE creature_ai_texts SET content_loc3='Ich hoffe, dass ich es noch miterleben werde, wenn Arthas das bekommt, was er verdient hat.' WHERE entry=-20959;
+UPDATE creature_ai_texts SET content_loc3='Sieg für die Allianz!' WHERE entry=-20960;
+UPDATE creature_ai_texts SET content_loc3='EINDRINGLINGE! TÖTET SIE!' WHERE entry=-20961;
+UPDATE creature_ai_texts SET content_loc3='ALLIANZLERUNRAT! STERBT! STERBT!' WHERE entry=-20962;
+UPDATE creature_ai_texts SET content_loc3='Nehmt Ihre Köpfe! Für die Horde!' WHERE entry=-20963;
+UPDATE creature_ai_texts SET content_loc3='%s sammelt die anderen Kämpfer mit einem Kampfschrei um sich!' WHERE entry=-20964;
+UPDATE creature_ai_texts SET content_loc3='Brutwächter melden sich zurück!' WHERE entry=-20965;
+UPDATE creature_ai_texts SET content_loc3='%s bäumt sich auf und bedeutet Euch, aufzusteigen.' WHERE entry=-20966;
+UPDATE creature_ai_texts SET content_loc3='Nur einer von uns darf diese Welt verlassen!' WHERE entry=-20967;
+UPDATE creature_ai_texts SET content_loc3='Ist das alles? Das ist das Beste, was Salanar gegen mich in die Schlacht schicken konnte?' WHERE entry=-20968;
+UPDATE creature_ai_texts SET content_loc3='Kommt, Schwächling! Tötet mich!' WHERE entry=-20969;
+UPDATE creature_ai_texts SET content_loc3='Ihr werdet niemals in die Welt der Lebenden zurückkehren!' WHERE entry=-20970;
+UPDATE creature_ai_texts SET content_loc3='Ein weiterer erbärmlicher Wicht, der glaubt, den Dunklen Reiter von Acherus besiegen zu können!' WHERE entry=-20971;
+UPDATE creature_ai_texts SET content_loc3='Gebt es auf, Außenseiter!' WHERE entry=-20972;
+UPDATE creature_ai_texts SET content_loc3='Ich kann Eure Angst riechen.' WHERE entry=-20973;
+UPDATE creature_ai_texts SET content_loc3='Erbärmlich...' WHERE entry=-20974;
+UPDATE creature_ai_texts SET content_loc3='Geleidet Euch wohl, Todesritter...' WHERE entry=-20975;
+UPDATE creature_ai_texts SET content_loc3='Für den Lichkönig!' WHERE entry=-20976;
+UPDATE creature_ai_texts SET content_loc3='Schlag sie nieder, im Namen der Geißel!' WHERE entry=-20977;
+UPDATE creature_ai_texts SET content_loc3='Verlängert ihr Leiden noch etwas, Todesritter!' WHERE entry=-20978;
+UPDATE creature_ai_texts SET content_loc3='Lasst nichts übrig, das ihre Kleriker wiederbeleben könnten!' WHERE entry=-20979;
+UPDATE creature_ai_texts SET content_loc3='Bringt mir ihr Fleisch...' WHERE entry=-20980;
+UPDATE creature_ai_texts SET content_loc3='Keine Gnade für die Lebenden!' WHERE entry=-20981;
+UPDATE creature_ai_texts SET content_loc3='Keine Gnade für die Schwachen!' WHERE entry=-20982;
+UPDATE creature_ai_texts SET content_loc3='Yo-ho-ho und \'ne Buddel voll gnomischem Rachenputzer!' WHERE entry=-20983;
+UPDATE creature_ai_texts SET content_loc3='Da bläst er!' WHERE entry=-20984;
+UPDATE creature_ai_texts SET content_loc3='Rum und Weiber für alle!' WHERE entry=-20985;
+UPDATE creature_ai_texts SET content_loc3='Nehmt das! Landratte!' WHERE entry=-20986;
+UPDATE creature_ai_texts SET content_loc3='Unser sei die Beute!' WHERE entry=-20987;
 SET NAMES 'latin1';

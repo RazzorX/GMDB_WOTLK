@@ -1052,4 +1052,5 @@ UPDATE mangos_string SET content_loc3='Der südöstliche Festungsturm wurde zers
 UPDATE mangos_string SET content_loc3='Ihr habt Stufe 1 erreicht: Fähnrich' WHERE entry=1673;
 UPDATE mangos_string SET content_loc3='Ihr habt Stufe 2 erreicht: Oberleutnant' WHERE entry=1674;
 -- UPDATE mangos_string SET content_loc3='' WHERE entry=1702;
+-- UPDATE mangos_string SET content_loc3='' WHERE entry=1703;
 SET NAMES 'latin1';
