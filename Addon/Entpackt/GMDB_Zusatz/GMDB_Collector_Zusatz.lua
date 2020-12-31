@@ -1,4 +1,4 @@
-ADDON_VERSION_Z = "Zusatz v1.3";
+ADDON_VERSION_Z = "Zusatz v1.4";
 DEBUG_MODE_Z    = false
 local AlreadyLoad = false
 local self, event = {};
@@ -47,8 +47,9 @@ function self_OnEvent(self, event, ...)
     end
 
     if event == "GOSSIP_SHOW" then self_NpcTexte(); end
-    if event == "ITEM_TEXT_BEGIN" then self_ItemTextBegin(); end
-    if event == "ITEM_TEXT_READY" then self_ItemTextReady(); end
+--    if event == "ITEM_TEXT_BEGIN" then self_ItemTextBegin(); end
+--    if event == "ITEM_TEXT_READY" then self_ItemTextReady(); end
+    if event == "ITEM_TEXT_READY" then self_ItemText(); end
     if event == "QUEST_GREETING" then self_Greeting(); end
     if event == "TRAINER_SHOW" then self_Trainer_Greeting(); end
 end
@@ -64,7 +65,7 @@ function self_NpcTexte()
     local Quelle = self_GetQuelle();
     if Quelle == nil then return; end;
 
-    local GText = self_CleanMeZ(GetGossipText());
+    local GText = self_CleanMeZ(C_GossipInfo.GetText());
 
     for i = 1, GMDB_Main_Zusatz.totNpcTexte, 1 do
         if GMDB_Collector_Zusatz.NpcText["Text_"..i] then
@@ -143,28 +144,34 @@ https://wow.gamepedia.com/Global_functions
 -- ** FUNCTION ITEM_TEXT *****
 -- ***************************
 
-function self_ItemTextBegin(self)
+function self_ItemTextBegin()
     local Name = ItemTextGetItem();
-    
-    if UnitName("npc") == ItemTextGetItem() then
-    return Name;
+    local iName, iID = self_GetItemInfo();
+    local Ziel = UnitName("npc");
+    local id = self_GetUnitId("npc");
+
+    if Name == iName then
+--    Quelle = "ITEM||"..iName.."||"..iID;
+    Quelle = iName;
+    return Quelle;
+    elseif kind == "GameObject" and Name == Ziel then
+    Quelle = "GOBJECT||"..Ziel.."||"..id;
+    return Quelle;
     end
+--    if UnitName("npc") == ItemTextGetItem() then
+--    return Name;
+--    end
 end
 
-function self_ItemTextReady()
-    local Next = ItemTextHasNextPage();
-    local Quelle = self_ItemTextBegin();
-
-    if Quelle == nil then
-    Quelle = "!!UNBEKANNT!!";
-    return Quelle; end;
-    self_Debug_Z("self_ItemTextReady - Name: " ..Quelle);
+function self_ItemText()
+    local Quelle = self_GetQuelle();
+    if Quelle == nil then return; end;
 
     local pageNum  = ItemTextGetPage();
     local pageBody = ItemTextGetText();
 
     if pageNum ~= 1 then
-    self_ItemText(); end;
+    self_ItemText1(); end;
 
     for i = 1, GMDB_Main_Zusatz.totText, 1 do
         if GMDB_Collector_Zusatz.Texte["Text_"..i] then
@@ -182,19 +189,13 @@ function self_ItemTextReady()
     GMDB_Collector_Zusatz.Texte["Text_"..PosTab]         = {};
     GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Quelle  = Quelle;
     GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_1 = pageBody;
-    self_Debug_Z("self_ItemTextReady - Seite: " ..pageNum);
-    self_Debug_Z("self_ItemTextReady - Quelle: " ..Quelle);
-
---    if pageNum == 1 and Next == nil then
---    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seitenanzahl = pageNum;
---    end
+    self_Debug_Z("self_ItemText - Seite: " ..pageNum);
+    self_Debug_Z("self_ItemText - Quelle: " ..Quelle);
 end
 
 -- ToDo: Funktion vereinfachen!
-function self_ItemText()
-    local Quelle = self_ItemTextBegin();
-    self_Debug_Z("self_ItemText läuft nun");
-    self_Debug_Z("self_ItemText - TEST: "..Quelle);
+function self_ItemText1()
+    self_Debug_Z("self_ItemText1 läuft nun");
 
     local pageNum  = ItemTextGetPage();
     local pageBody = ItemTextGetText();
@@ -204,9 +205,9 @@ function self_ItemText()
     for i = 1, GMDB_Main_Zusatz.totText, 1 do
         if GMDB_Collector_Zusatz.Texte["Text_"..i] then
             if GMDB_Collector_Zusatz.Texte["Text_"..i].Quelle == Quelle then
-            self_Debug_Z("self_ItemText - Quelle: "..Quelle);
+            self_Debug_Z("self_ItemText1 - Quelle: "..Quelle);
                 if GMDB_Collector_Zusatz.Texte["Text_"..i].Seite_1 then
-                self_Debug_Z("self_ItemText - PosTab: "..i);
+                self_Debug_Z("self_ItemText1 - PosTab: "..i);
                     PosTab = i;
                     NbText = NbText + 1;
                 end
@@ -254,10 +255,6 @@ function self_ItemText()
     elseif pageNum == 20 then
     GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_20 = pageBody;
     end
-
---    if Next == nil then
---    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seitenanzahl = pageNum;
---    end
 end
 
 -- ************************
@@ -268,8 +265,8 @@ function self_CleanMeZ(toclean)
     if toclean == nil then return ""; end
     toclean = string.gsub(toclean, "\n", "$B");
 --    toclean = string.gsub(toclean, "\r", "");
-    toclean = string.gsub(toclean, "'", "''");
-    toclean = string.gsub(toclean, "''", "\'");
+    toclean = string.gsub(toclean, "'", "\'");
+--    toclean = string.gsub(toclean, "''", "\'");
 --    toclean = string.gsub(toclean, "dbquote", "\"");
     toclean = string.gsub(toclean, UnitName("player"), "$N");
 --    toclean = string.gsub(toclean, UnitClass("player"), "$C");

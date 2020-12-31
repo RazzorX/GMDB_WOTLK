@@ -1,4 +1,4 @@
-## Interface: 11305
+## Interface: 11306
 ## Title: |cffffff00GMDB-CLASSIC|r
 ## Title-deDE: |cffffff00GMDB-CLASSIC|r
 ## Modified by Klark20 | RazzorX

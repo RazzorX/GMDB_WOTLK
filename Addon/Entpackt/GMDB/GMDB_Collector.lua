@@ -1,4 +1,4 @@
-ADDON_VERSION = "v1.3";
+ADDON_VERSION = "v1.4";
 DEBUG_MODE    = false
 local AlreadyLoad = false
 local self, event = {};
@@ -76,13 +76,13 @@ end
 -- **********************
 
 function self_QuestUpdate()
-    for i = 1, GetNumQuestLogEntries(), 1 do
-        local Title, Level, SuggestedGroup, IsHeader, IsCollapsed, IsComplete, Frequency, QuestID = GetQuestLogTitle(i);
+    for i = 1, C_QuestLog.GetNumQuestLogEntries(), 1 do
+        local Title, Level, SuggestedGroup, IsHeader, IsCollapsed, IsComplete, Frequency, QuestID;-- = GetQuestLogTitle(i);
         if not IsHeader then
-            SelectQuestLogEntry(i);
+--            SelectQuestLogEntry(i);
 
             local QuestEntry = QuestID;
-            local QuestTitle = self_CleanMe(self_CleanLevel(Title));
+            local QuestTitle = self_CleanMe(Title);
             local Desc, Obj  = GetQuestLogQuestText();
             local QuestObj   = self_CleanMe(Obj);
             local QuestDesc  = self_CleanMe(Desc);
@@ -104,7 +104,7 @@ function self_QuestDetail()
 
     if Quelle == "ITEM_UNBEKANNT" then return; end;
 
-    local QuestTitle = self_CleanMe(self_CleanLevel(GetTitleText()));
+    local QuestTitle = self_CleanMe(GetTitleText());
     local QuestObj   = self_CleanMe(GetObjectiveText());
     local QuestDesc  = self_CleanMe(GetQuestText());
 
@@ -131,7 +131,7 @@ function self_QuestProgress()
 
     self_QuestUpdate();
 
-    local QuestTitle    = self_CleanMe(self_CleanLevel(GetTitleText()));
+    local QuestTitle    = self_CleanMe(GetTitleText());
     local QuestProgress = self_CleanMe(GetProgressText());
 
     local Entry = GetQuestID();
@@ -167,7 +167,7 @@ function self_QuestProgress1()
 
     self_QuestUpdate();
 
-    local QuestTitle    = self_CleanMe(self_CleanLevel(GetTitleText()));
+    local QuestTitle    = self_CleanMe(GetTitleText());
     local QuestProgress = self_CleanMe(GetProgressText());
 
     local Entry  = GetQuestID();
@@ -202,7 +202,7 @@ function self_QuestComplete()
 
     self_QuestUpdate();
 
-    local QuestTitle  = self_CleanMe(self_CleanLevel(GetTitleText()));
+    local QuestTitle  = self_CleanMe(GetTitleText());
     local QuestReward = self_CleanMe(GetRewardText());
 
     local Entry = GetQuestID();
@@ -237,7 +237,7 @@ function self_QuestComplete1()
 
     self_QuestUpdate();
 
-    local QuestTitle  = self_CleanMe(self_CleanLevel(GetTitleText()));
+    local QuestTitle  = self_CleanMe(GetTitleText());
     local QuestReward = self_CleanMe(GetRewardText());
 
     local Entry  = GetQuestID();
@@ -350,41 +350,43 @@ end
 -- ************************
 -- ** FONCTION GOSSIP *****
 -- ************************
-
+-- ToDo: Überarbeiten!
 function self_GossipText()
-    Titel = {};
-    typegossip = {};
-    GGesamt = GetNumGossipOptions(); 
-    Titel["1"],typegossip["1"],Titel["2"],typegossip["2"],Titel["3"],typegossip["3"],Titel["4"],typegossip["4"],Titel["5"],typegossip["5"],Titel["6"],typegossip["6"],Titel["7"],typegossip["7"],Titel["8"],typegossip["8"],Titel["9"],typegossip["9"],Titel["10"],typegossip["10"],Titel["11"],typegossip["11"],Titel["12"],typegossip["12"],Titel["13"],typegossip["13"],Titel["14"],typegossip["14"],Titel["15"],typegossip["15"],Titel["16"],typegossip["16"],Titel["17"],typegossip["17"],Titel["18"],typegossip["18"],Titel["19"],typegossip["19"],Titel["20"],typegossip["20"] = GetGossipOptions();
-    if typegossip["1"] == nil then
-        typegossip["1"] = "none"
-    if Titel ~= nil then return nil;
+    local Quelle = self_GetQuelle();
+
+    local name = {};
+    local gtype = {};
+    name["1"],gtype["1"],name["2"],gtype["2"],name["3"],gtype["3"],name["4"],gtype["4"],name["5"],gtype["5"],name["6"],gtype["6"],name["7"],gtype["7"],name["8"],gtype["8"],name["9"],gtype["9"],name["10"],gtype["10"],name["11"],gtype["11"],name["12"],gtype["12"],name["13"],gtype["13"],name["14"],gtype["14"],name["15"],gtype["15"],name["16"],gtype["16"],name["17"],gtype["17"],name["18"],gtype["18"],name["19"],gtype["19"],name["20"],gtype["20"] = C_GossipInfo.GetOptions();
+    if gtype["1"] == nil then
+        gtype["1"] = "none"
+    if gtype == "gossip" then return name; end
+    if name == nil then return; -- TEST
     end
 end
 
---    local Ziel = self_CleanMe(UnitName("npc"));
---    local id = self_GetUnitId("npc");
-    local Quelle = self_GetQuelle();
---    gossipId = "NPC||"..Ziel.."||"..id;
     PosTab = GMDB_Main.totgossip + 1;
-    GGesamt = GetNumGossipOptions();
     erreurTitel = 0 ;
+    GGesamt = C_GossipInfo.GetNumOptions();
+    self_Debug("Gossip-Insgesamt: "..GGesamt); -- NEU
+
+    if GGesamt == 0 or nil then return nil; end
 
     for i = 1, GMDB_Main.totgossip, 1 do
         if GMDB_Collector.Gossip["gossip_"..i] then
 
-        if GMDB_Collector.Gossip["gossip_"..i].Name == Quelle then
-            self_Debug("Gossip-Typ erkannt: "..typegossip["1"]  );
+        if GMDB_Collector.Gossip["gossip_"..i].GName == Quelle then
+--            self_Debug("Gossip-Typ erkannt: "..gtype); -- TEST
 
-            if GMDB_Collector.Gossip["gossip_"..i].Name == Quelle then
+            if GMDB_Collector.Gossip["gossip_"..i].GName == Quelle then
 
                 GGesamt = GMDB_Collector.Gossip["gossip_"..i].GGesamt ;
 
+            self_Debug("Gossip-Gesamt: "..GGesamt); -- NEU
             for k = 1, GGesamt, 1 do
-            if Titel[""..k..""] ~= nil then
+            if name[""..k..""] ~= nil then
                     for l = 1, GGesamt, 1 do
-                        if GMDB_Collector.Gossip["gossip_"..i].Titel["Titel_"..l] == Titel[""..k..""] then
-                        self_Debug("Gossip-Text schon vorhanden: "..Titel[""..k..""] );
+                        if GMDB_Collector.Gossip["gossip_"..i].name["Titel_"..l] == name[""..k..""] then
+                        self_Debug("Gossip-Text schon vorhanden: "..name[""..k..""] );
                         erreurTitel = erreurTitel + 2 ; -- NEU
                         else
                         erreurTitel = erreurTitel + 1 ;
@@ -394,9 +396,9 @@ end
                             GGesamt = GGesamt + 1;
                             self_Debug("Gossip-Anzahl: "..GGesamt); -- NEU
                         erreurTitel = 0 ;
-                        self_Debug("Neuer Titel: "..Titel[""..k..""].." "..GGesamt );
+--                        self_Debug("Neuer Titel: "..name[""..k..""].." "..GGesamt ); -- TEST
                         GMDB_Collector.Gossip["gossip_"..i].GGesamt = GGesamt ;
-                        GMDB_Collector.Gossip["gossip_"..i].Titel["Titel_"..GGesamt] = Titel[""..k..""];
+                        GMDB_Collector.Gossip["gossip_"..i].name["Titel_"..GGesamt] = name[""..k..""];
                         end
                     end
                 end
@@ -408,10 +410,10 @@ end
 
     GMDB_Main.totgossip = GMDB_Main.totgossip + 1;
     GMDB_Collector.Gossip["gossip_"..PosTab] = {};
-    GMDB_Collector.Gossip["gossip_"..PosTab].Name = Quelle;
-    GMDB_Collector.Gossip["gossip_"..PosTab].Titel = {};
+    GMDB_Collector.Gossip["gossip_"..PosTab].GName = Quelle;
+    GMDB_Collector.Gossip["gossip_"..PosTab].name = {};
     for i = 1, GGesamt, 1 do
-    GMDB_Collector.Gossip["gossip_"..PosTab].Titel["Titel_"..i] = Titel[""..i..""] ;
+    GMDB_Collector.Gossip["gossip_"..PosTab].name["Titel_"..i] = name[""..i..""] ;
     GMDB_Collector.Gossip["gossip_"..PosTab].GGesamt = GGesamt; -- NEU
     end
 end
@@ -424,7 +426,8 @@ function self_CleanMe(toclean)
     if toclean == nil then return ""; end
     toclean = string.gsub(toclean, "\n", "$B");
     toclean = string.gsub(toclean, "\r", "");
-    toclean = string.gsub(toclean, "'", "''");
+--    toclean = string.gsub(toclean, "'", "''");
+    toclean = string.gsub(toclean, "'", "\'");
     toclean = string.gsub(toclean, "''", "\'");
     toclean = string.gsub(toclean, "dbquote", "\"");
     toclean = string.gsub(toclean, UnitName("player"), "$N");
@@ -492,6 +495,7 @@ function self_GetUnitKind(unit)
     if guid == nil then
     kind = "ITEM";
     self_Debug("self_GetUnitKind = ITEM");
+    return kind; -- TEST
     else
     kind = guid:match("(%a+)-%d+-%d+-%d+-%d+-%d+-.+")
     self_Debug("self_GetUnitKind = Creature or GO");
@@ -512,8 +516,8 @@ end
 --]]
 
 function self_GetItemInfo()
-    local name, link = GameTooltip:GetItem()
-    if not name or not link then return; end
+    local itemName, link = GameTooltip:GetItem()
+    if not itemName or not link then return; end
 
     local itemName, _, _, _, _, _, _, _, _, _, _, _, _ = GetItemInfo(link)
     local itemId = nil;

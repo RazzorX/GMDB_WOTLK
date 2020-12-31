@@ -1,4 +1,4 @@
-## Interface: 11305
+## Interface: 11306
 ## Title: |cffffff00GMDB-CLASSIC-Zusatz|r
 ## Title-deDE: |cffffff00GMDB-CLASSIC-Zusatz|r
 ## Version: 1.3 Classic

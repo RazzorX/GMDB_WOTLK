@@ -1,8 +1,8 @@
-## Interface: 80300
+## Interface: 90002
 ## Title: |cffffff00GMDB|r
 ## Title-deDE: |cffffff00GMDB|r
 ## Modified by Klark20 | RazzorX
-## Version: 1.3
+## Version: 1.4
 ## X-Version: Light
 ## Notes: GMDB Addon
 ## Notes-deDE: GMDB Addon
