@@ -94,7 +94,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Der Scharlachrote Kreuzzug rü
 UPDATE locales_questgiver_greeting SET Text_loc3='Die dunkle Fürstin hat die Herausforderung gestellt. Es liegt an uns, sie anzunehmen.' WHERE entry=1518;
 
 -- Magtoor
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1776;
+UPDATE locales_questgiver_greeting SET Text_loc3='Wir verbringen so viel Zeit unseres Lebens auf der Flucht, dass die Erinnerungen an Friedenszeiten immer mehr verblassen.' WHERE entry=1776;
 
 -- Apotheker Renferrel
 UPDATE locales_questgiver_greeting SET Text_loc3='Die dunkle Fürstin hat die Herausforderung gestellt. Jetzt liegt es an der Königlichen Apothekervereinigung, eine neue Seuche zu entwickeln. Wir werden Arthas und seine jämmerliche Armee in die Knie zwingen.' WHERE entry=1937;
@@ -253,7 +253,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Der Geist von Steinkralle wein
 UPDATE locales_questgiver_greeting SET Text_loc3='Kommt näher. Wir beide müssen wichtige Dinge besprechen.$B$BUnd einiges davon ist nicht für fremde Ohren bestimmt...' WHERE entry=4452;
 
 -- Wizzel Kupferbolz (englischer Text nicht in der DB vorhanden)
-UPDATE locales_questgiver_greeting SET Text_loc3='Gebt Acht, wo Ihr hintretet, $Gwerter Herr:werte Dame;. Nicht alle unter uns sind mit solcher Größe gesegnet wie ein Tauren.' WHERE entry=4453;
+UPDATE locales_questgiver_greeting SET Text_loc3='Gebt Acht, wo Ihr hintretet, $Gwerter Herr:werte Dame;. Nicht alle unter uns sind mit solcher Größe gesegnet wie ein $R.' WHERE entry=4453;
 
 -- Fizzel Kupferbolz (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Aha! Habt Ihr das gesehen? Dieser neue automatische Schraubenschlüssel ist ideal für meine neue Mehrfach-Zustrom-Konstruktion.' WHERE entry=4454;
@@ -266,6 +266,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $C.' WHERE ent
 
 -- Oberanführer Mok'Morokk
 UPDATE locales_questgiver_greeting SET Text_loc3='Oberanführer Mok\'Morokk, Boss. Ihr tut, was ich sage.' WHERE entry=4500;
+
+-- Pozzik (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Was für ein wunderbarer Tag für ein Rennen! Ach, was sage ich denn da? Jeder Tag ist ein wunderbarer Tag für ein Rennen!' WHERE entry=4630;
 
 -- Nazeer Blutlanze
 UPDATE locales_questgiver_greeting SET Text_loc3='Auch wenn zwischen uns und der Allianz kein offener Krieg herrscht, so wird dennoch zwischen uns Blut vergossen.' WHERE entry=4791;
@@ -309,6 +312,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Ich heiße Euch wieder willkom
 -- Tiza Kriegshammer (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Auf einen Paladin des Lichts warten viele Herausforderungen, $N. Ich kann Euch versichern, dass sich unsere Wege in der Zukunft oftmals kreuzen werden, wenn Ihr Euch Euer Mitgefühl bewahrt und die Tugenden ehrt, die wir preisen.' WHERE entry=6179;
 
+-- Mennet Carkad (englischer "Text" nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=6467;
+
 -- Jarkal Moosblut (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Was braucht Ihr, $C? Ich gehe davon aus, dass Ihr nicht nur auf einen müßigen Plausch in diese Einöde gekommen seid.' WHERE entry=6868;
 
@@ -335,6 +341,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=7884;
 
 -- Angelas Mondhauch
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=7900;
+
+-- Kadrak (englischer "Text" nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=8582;
 
 -- Schattenmagierin Vivian Lagrave
 UPDATE locales_questgiver_greeting SET Text_loc3='$GGuter Junge:Gutes Mädchen;, Ihr kommt gerade rechtzeitig, um dem Expeditionskorps von Kargath zu helfen.' WHERE entry=9078;
@@ -374,6 +383,21 @@ UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=11862;
 
 -- Tammra Windfeld (englischer "Text" nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=11864;
+
+-- Bewahrer der Schriften (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Die Argentumdämmerung wird niemanden zurückweisen, der bereit ist, sein Leben für unsere Sache zu geben.' WHERE entry=16281;
+
+-- Kommandant Thomas Helleran (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Der Lichkönig bringt Krieg aus dem eisigen Norden und nur wir von der Argentumdämmerung stehen ihm dabei im Weg.' WHERE entry=16361;
+
+-- Leutnant Orrin (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Guten Tag, Bürger. Seid Ihr gekommen, um uns im Kampf gegen die Geißel beizustehen?' WHERE entry=16478;
+
+-- Leutnant Rukag (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Guten Tag, Bürger. Seid Ihr gekommen, um uns im Kampf gegen die Geißel beizustehen?' WHERE entry=16494;
+
+-- Argentumausstatter (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $N. Wenn Ihr mir nekrotische Steine von den untoten Invasoren bringt, kann ich Euch Zugang zu den Schatzkammern der Argentumdämmerung gewähren.' WHERE entry=16787;
 
 -- Flammenbewahrer (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $C. Ich bin der Flammenbewahrer. Während des Sonnenwendfests ist es meine Aufgabe, dafür zu sorgen, dass das Feuer neben mir immer mit heller Flamme brennt. Es ist eine Ehre für eine derartige Aufgabe ausgesucht zu werden; ich erfülle diese Pflicht mit Freuden.$B$BWie kann ich Euch weiterhelfen?' WHERE entry=16788;

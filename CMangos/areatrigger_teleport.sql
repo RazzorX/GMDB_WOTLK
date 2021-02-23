@@ -261,6 +261,7 @@ UPDATE areatrigger_teleport SET name='Eiskronenzitadelle (Ausgang)' WHERE id=566
 UPDATE areatrigger_teleport SET name='Eiskronenzitadelle (Eingang)' WHERE id=5670;
 UPDATE areatrigger_teleport SET name='Grube von Saron (Ausgang)' WHERE id=5683;
 UPDATE areatrigger_teleport SET name='Die Seelenschmiede (Ausgang)' WHERE id=5688;
+UPDATE areatrigger_teleport SET name='Spitze der Eiskronenzitadelle (Eingang)' WHERE id=5698;
 UPDATE areatrigger_teleport SET name='Das Rubinsanktum (Eingang)' WHERE id=5869;
 UPDATE areatrigger_teleport SET name='Das Rubinsanktum (Ausgang)' WHERE id=5872;
 SET NAMES 'latin1';

@@ -131,6 +131,8 @@ UPDATE gossip_texts SET content_loc3='Ich bin bereit, den Schreckenslord zu bek�
 -- -3599000 HALLS OF STONE
 UPDATE gossip_texts SET content_loc3='Brann, es wäre uns eine Ehre!' WHERE entry=-3599000;
 UPDATE gossip_texts SET content_loc3='Lasst uns auf aufbrechen, genug Geschichtsunterricht!' WHERE entry=-3599001;
+UPDATE gossip_texts SET content_loc3='Dafür ist später noch jede Menge Zeit, Brann, wir müssen los!' WHERE entry=-3599002;
+UPDATE gossip_texts SET content_loc3='Wir stehen an Eurer Seite, Brann! Öffnet sie!' WHERE entry=-3599003;
 
 -- -3603000 ULDUAR
 UPDATE gossip_texts SET content_loc3='Teleport zum Basislager der Expedition.' WHERE entry=-3603000;
@@ -165,6 +167,8 @@ UPDATE gossip_texts SET content_loc3='Zum Schädelbollwerk teleportieren.' WHERE
 UPDATE gossip_texts SET content_loc3='Zum Dom des Todesbringers teleportieren.' WHERE entry=-3631003;
 UPDATE gossip_texts SET content_loc3='Zur Oberen Spitze teleportieren.' WHERE entry=-3631004;
 UPDATE gossip_texts SET content_loc3='Zu Sindragosas Hort teleportieren.' WHERE entry=-3631005;
+UPDATE gossip_texts SET content_loc3='Meine Gefährten sind bereit, Saurfang. Gehen wir!' WHERE entry=-3631006;
+UPDATE gossip_texts SET content_loc3='Meine Gefährten sind bereit, Muradin. Los geht\'s!' WHERE entry=-3631007;
 
 -- -3649000 TRIAL OF THE CRUSADER
 UPDATE gossip_texts SET content_loc3='Ja. Wir sind bereit für die Prüfungen, die vor uns liegen.' WHERE entry=-3649000;
