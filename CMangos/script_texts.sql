@@ -1266,6 +1266,8 @@ UPDATE script_texts SET content_loc3='Wir haben es geschafft! Wir treffen uns be
 UPDATE script_texts SET content_loc3='%s wird vom verlockenden Duft des geläuterten Essens angezogen.' WHERE entry=-1010027;
 UPDATE script_texts SET content_loc3='%s beginnt gierig, das Essen zu verschlingen.' WHERE entry=-1010028;
 UPDATE script_texts SET content_loc3='Hilfe! Wir werden angegriffen! Dunkeleisenzwerge!' WHERE entry=-1010029;
+UPDATE script_texts SET content_loc3='Macht\'s gut! Und hoffentlich mehr Glück beim nächsten Mal!' WHERE entry=-1010030;
+UPDATE script_texts SET content_loc3='Immer unterwegs, das Mädel.' WHERE entry=-1010031;
 
 -- -1 015 000 TBC texts
 UPDATE script_texts SET content_loc3='%s gibt ein tiefes, kehliges Knurren von sich.' WHERE entry=-1015001;
@@ -1397,6 +1399,7 @@ UPDATE script_texts SET content_loc3='Mein Zeppelin hat angedockt. Obwohl ich ge
 UPDATE script_texts SET content_loc3='Der Zeppelin zum Hafen der Vergeltung ist soeben angekommen! Wer in den Heulenden Fjord will, sollte an Bord gehen!' WHERE entry=-1020006;
 UPDATE script_texts SET content_loc3='Der Zeppelin zur Kriegshymnenfeste ist gerade angekommen! Alle an Bord in Richtung Boreanische Tundra!' WHERE entry=-1020007;
 UPDATE script_texts SET content_loc3='Der Zeppelin nach Donnerfels ist angekommen! Alles an Bord für eine geschmeidige Fahrt über das Brachland!' WHERE entry=-1020008;
+UPDATE script_texts SET content_loc3='Du bist es, Bruder!' WHERE entry=-1020009;
 
 -- -1 033 000 SHADOWFANG KEEP
 UPDATE script_texts SET content_loc3='Folgt mir und ich werde die Tür zum Hof für Euch öffnen.' WHERE entry=-1033000;

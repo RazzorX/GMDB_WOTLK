@@ -690,6 +690,7 @@ UPDATE mangos_string SET content_loc3='Änderung abgeschlossen.' WHERE entry=745
 UPDATE mangos_string SET content_loc3='Abgleichen der Arenapunkte abgeschlossen.' WHERE entry=746;
 UPDATE mangos_string SET content_loc3='Vergabe der Arena Season Belohnungen für Season %u.' WHERE entry=747;
 UPDATE mangos_string SET content_loc3='Arena Season Belohnungen vergeben und alte Statistiken gelöscht.' WHERE entry=748;
+UPDATE mangos_string SET content_loc3='Jemand aus deiner Gruppe befindet sich noch in einer Arena.' WHERE entry=749;
 UPDATE mangos_string SET content_loc3='Nicht genug Spieler. Das Spiel wird in %u Min. beendet.' WHERE entry=750;
 UPDATE mangos_string SET content_loc3='Nicht genug Spieler. Das Spiel wird in %u Sekunden beendet.' WHERE entry=751;
 UPDATE mangos_string SET content_loc3='Nur die Allianz kann dieses Portal benutzen.' WHERE entry=752;

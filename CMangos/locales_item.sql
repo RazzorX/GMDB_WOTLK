@@ -1088,8 +1088,16 @@ UPDATE locales_item SET name_loc3='Königlicher Gurt der Frostmähnen' WHERE ent
 UPDATE locales_item SET name_loc3='Handschuhe des Eberjägers' WHERE entry=2547;
 UPDATE locales_item SET name_loc3='Fass mit Gerstenbräu' WHERE entry=2548;
 UPDATE locales_item SET name_loc3='Stab des Schemen' WHERE entry=2549;
+UPDATE locales_item SET name_loc3='Monster - Bogen, Kurz' WHERE entry=2550;
+UPDATE locales_item SET name_loc3='Monster - Armbrust' WHERE entry=2551;
+UPDATE locales_item SET name_loc3='Monster - Gewehr' WHERE entry=2552;
 UPDATE locales_item SET name_loc3='Rezept: Elixier der schwachen Beweglichkeit', description_loc3='Lehrt Euch die Herstellung eines Elixiers der schwachen Beweglichkeit.' WHERE entry=2553;
+UPDATE locales_item SET name_loc3='Veraltetes Rezept: Elixier der Seelenstärke', description_loc3='Lehrt Euch die Herstellung eines Elixiers der schwachen Seelenstärke.' WHERE entry=2554;
 UPDATE locales_item SET name_loc3='Rezept: Hurtigkeitstrank', description_loc3='Lehrt Euch die Herstellung eines Hurtigkeitstranks.' WHERE entry=2555;
+UPDATE locales_item SET name_loc3='Rezept: Elixier der Sprachen', description_loc3='Lehrt Euch die Herstellung eines Elixiers der Sprachen.' WHERE entry=2556;
+UPDATE locales_item SET name_loc3='Monster - Streitkolben2H, Verzierter Metallhammer' WHERE entry=2557;
+UPDATE locales_item SET name_loc3='Monster - Streitkolben, Guter Holzhammer' WHERE entry=2558;
+UPDATE locales_item SET name_loc3='Monster - Stab, Verzierter Hexenmeisterstab' WHERE entry=2559;
 UPDATE locales_item SET name_loc3='Bibbers\' vollendetes Tagebuch' WHERE entry=2560;
 UPDATE locales_item SET name_loc3='Chok\'suls Kopf' WHERE entry=2561;
 UPDATE locales_item SET name_loc3='Scharlachroter Begonienstrauß' WHERE entry=2562;

@@ -2,7 +2,7 @@
 
 SET NAMES 'utf8';
 UPDATE command SET help='Syntax: .account\r\n\r\nZeigt die Berechtigungsstufe Ihres Accounts an.' WHERE name='account';
-UPDATE command SET help='Syntax: .account characters [#accountId|$accountName]\r\n\r\nzeigt eine Liste aller Charaktere für einen angegebenen Account #accountId oder $accountName, oder für ausgwählten Spieler.' WHERE name='account characters';
+UPDATE command SET help='Syntax: .account characters [#accountId|$accountName]\r\n\r\nZeigt eine Liste aller Charaktere für einen angegebenen Account #accountId oder $accountName, oder für ausgwählten Spieler.' WHERE name='account characters';
 UPDATE command SET help='Syntax: .account create $account $password\r\n\r\nErstellt einen Account mit angegebenem Passwort.' WHERE name='account create';
 UPDATE command SET help='Syntax: .account delete $account\r\n\r\nLöscht den Account mit allen Charakteren.' WHERE name='account delete';
 UPDATE command SET help='Syntax: .account lock [on|off]\r\n\r\nErlaubt den Login für den Account nur mit der derzeitig gebrauchten IP oder widerruft diesen Befehl.' WHERE name='account lock';
@@ -57,7 +57,7 @@ UPDATE command SET help='Syntax: .character level [$playername] [#level]\r\n\r\n
 UPDATE command SET help='Syntax: .character rename [$name]\r\n\r\nMarkiert den angewählten Spieler oder den Spieler mit dem namen $name um diesen beim nächsten Login umzubenennen.' WHERE name='character rename';
 UPDATE command SET help='Syntax: .character reputation [$player_name]\r\n\r\nZeigt die Rufinformation für den angewählten Spieler oder den Spieler, der mit $player_name gefunden wurde, an.' WHERE name='character reputation';
 UPDATE command SET help='Syntax: .character titles [$player_name]\r\n\r\nZeigt die Liste der bekannten Titel für den ausgewählenten Spieler.' WHERE name='character titles';
-UPDATE command SET help='Syntax: .combatstop [$playername]\r\nStoppt den Nahkampf des angewählten Charakters an. Falls kein Spieler angewählt wurde, wird der Befehl auf Euch gewirkt. Falls $playername angegeben wurde, dann wird der Befehl auf den Spieler mit $playername, der online ist, gewirkt.' WHERE name='combatstop';
+UPDATE command SET help='Syntax: .combatstop [$playername]\r\nStoppt den Nahkampf des angewählten Charakters. Falls kein Spieler angewählt wurde, wird der Befehl auf Euch gewirkt. Falls $playername angegeben wurde, dann wird der Befehl auf den Spieler mit $playername, der online ist, gewirkt.' WHERE name='combat stop';
 UPDATE command SET help='Syntax: .commands\r\n\r\nZeigt eine Liste der verfügbaren Befehle für Eure Berechtigungsstufe an.' WHERE name='commands';
 -- UPDATE command SET help='Syntax: .cooldown clear [spell id] Remove cooldown from selected unit.' WHERE name='cooldown clear';
 -- UPDATE command SET help='Syntax: .cooldown clearclientside  Clear all cooldown client side only.' WHERE name='cooldown clearclientside';

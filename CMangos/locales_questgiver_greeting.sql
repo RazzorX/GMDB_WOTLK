@@ -21,7 +21,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Manchmal denke ich, eine groß
 -- Schnapsbart Donnerbräu
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=239;
 
--- Marschall Dughan (englischer Text nicht in der DB vorhanden)
+-- Marschall Dughan
 UPDATE locales_questgiver_greeting SET Text_loc3='Ach je, es ist auch ohne diese neuen Probleme schon schwer genug, hier für Ordnung zu sorgen! Ich hoffe, Ihr bringt gute Neuigkeiten, $N...' WHERE entry=240;
 
 -- Remy Zweifach
@@ -36,11 +36,47 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt. Ihr seht aus w
 -- Kommandantin Althea Schwarzhaupt
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=264;
 
--- Sara Roderwald (englischer Text nicht in der DB vorhanden)
+-- Madame Eva
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=265;
+
+-- Amtmann Daltry
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=267;
+
+-- Küchenchef Grual
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=272;
+
+-- Schankwart Smitts
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=273;
+
+-- Sara Roderwald
 UPDATE locales_questgiver_greeting SET Text_loc3='Hallo, $Gwerter Herr:holde Dame;. Nehmt Platz und esst etwas, wenn Ihr Hunger habt. Und keine Sorge, ich bin zwar mit meiner Handarbeit beschäftigt, aber ich höre Euch gut zu...' WHERE entry=278;
+
+-- Bibbers
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=288;
+
+-- Calvinius
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=289;
+
+-- Marschall Haggard
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=294;
+
+-- Theocritus
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=313;
+
+-- Großknecht Oslow
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=341;
+
+-- Martie Jainrose
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=342;
 
 -- Magistrat Solomon
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=344;
+
+-- Dockmeister Baren
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=381;
+
+-- Marschall Marris
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=382;
 
 -- Kapitän Grausohn
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=392;
@@ -48,14 +84,29 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Hallo, $Gwerter Herr:holde Dam
 -- Verner Gutmark (englischer Text nicht in der DB vorhanden) -- die männliche Bezeichnung ist noch unbekannt!
 UPDATE locales_questgiver_greeting SET Text_loc3='He, Maidlein, könntet Ihr mir wohl bei einer Sache unter die Arme greifen? Ich stecke wirklich in der Klemme...' WHERE entry=415;
 
--- Wilder Distelklette (englischer Text nicht in der DB vorhanden)
+-- Wache Parker
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=464;
+
+-- Leutnant Doren
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=469;
+
+-- Elaine Treuwein
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=633;
+
+-- Wilder Distelklette
 UPDATE locales_questgiver_greeting SET Text_loc3='Überall waren Diebe! $B$BEs war schrecklich. Die Höhle stürzte über uns ein. Ich glaube, die Bergarbeiter sind alle tot, darunter auch mein Bruder, der Großknecht.' WHERE entry=656;
+
+-- Calor
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=663;
 
 -- Talin Kühnauge
 UPDATE locales_questgiver_greeting SET Text_loc3='Grüße, $C! Herrlicher Tag zum Jagen, meint Ihr nicht auch? Ich selbst hatte bereits ziemliches Glück mit den Ebern. Möchtet Ihr es auch versuchen?' WHERE entry=714;
 
--- Hemet Nesingwary Jr. (englischer Text nicht in der DB vorhanden)
+-- Hemet Nesingwary Jr.
 UPDATE locales_questgiver_greeting SET Text_loc3='Und wieder ein wunderbarer Tag im Dschungel! Eine spannende Jagd erwartet uns, das kann ich spüren. Sobald Barnil die Waffen gereinigt hat, werde ich die Jagdgruppe tief in das verwundene Gerank hineinführen. Gar keine schlechte Art für einen alten Kriegsveteranen, seinen Ruhestand zu gestalten, was?' WHERE entry=715;
+
+-- Unteroffizier Yohwa
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=733;
 
 -- Kebok
 UPDATE locales_questgiver_greeting SET Text_loc3='Ah, guten Tag. Mir scheint, Ihr seid einem kleinen Zusatzverdienst nicht abgeneigt, hmmm? Ich kann es an Euren Augen erkennen. Mein Name ist Mogul Kebok, Vorarbeiter der Unternehmungen in Azeroth, und wenn Ihr auf Reichtum aus seid, dann kann ich da vielleicht etwas arrangieren.' WHERE entry=737;
@@ -72,11 +123,41 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Guten Tag, $C. Normalerweise w
 -- Büttel Conacher
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=900;
 
+-- Langzopf der Grimmige
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1071;
+
+-- Jern Hornhelm
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1105;
+
+-- Magistrat Stumpfnase
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1139;
+
+-- Angus Stern
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1141;
+
+-- Erster Maat Fitzsimmons
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1239;
+
+-- Großknecht Steinbraue
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1254;
+
+-- Ragnar Donnerbräu
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1267;
+
 -- Gebirgsjäger Sturmlanze
 UPDATE locales_questgiver_greeting SET Text_loc3='Na, wenn das nicht $Gein junger, wilder:eine junge, wilde; $C ist, $Gden:der; zweifellos Erzählungen über meine Taten auf dem Schlachtfeld hierher geführt haben!$B$BLeider ist jetzt keine Zeit für große Geschichten, denn es gilt bedeutende Taten zu vollbringen! Wenn Ihr also auf Ruhm aus seid, dann ist Euch das Glück heute hold...' WHERE entry=1343;
 
+-- Ausgrabungsleiter Eisenband
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1344;
+
+-- Ausgrabungsleiter Sturmlanze
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1356;
+
 -- Rejold Gerstenbräu
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1374;
+
+-- Milton Garbenbund
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1440;
 
 -- Todeswache Linnea
 UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $C. Seid wachsam, wenn Ihr nach Osten zum Bollwerk reist. Aktuellen Spähermeldungen zufolge ist in dem Bereich eine erhöhte Aktivität der Geißel zu verzeichnen. Hier ist also Vorsicht geboten.' WHERE entry=1495;
@@ -93,6 +174,15 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Der Scharlachrote Kreuzzug rü
 -- Apotheker Johaan
 UPDATE locales_questgiver_greeting SET Text_loc3='Die dunkle Fürstin hat die Herausforderung gestellt. Es liegt an uns, sie anzunehmen.' WHERE entry=1518;
 
+-- Baros Alexston
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1646;
+
+-- Aufseher Thelwasser
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1719;
+
+-- Hochlord Bolvar Fordragon
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1748;
+
 -- Magtoor
 UPDATE locales_questgiver_greeting SET Text_loc3='Wir verbringen so viel Zeit unseres Lebens auf der Flucht, dass die Erinnerungen an Friedenszeiten immer mehr verblassen.' WHERE entry=1776;
 
@@ -108,6 +198,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Mein Bruder und ich sind in wi
 -- Hochexekutor Hadrec (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Hallo, $C. Da Ihr hier seid, wisst Ihr ja wohl, dass Silberwald voll von unseren Feinden ist. Um zu überleben, müssen die Verlassenen sie zurücktreiben!' WHERE entry=1952;
 
+-- Senator Mehr Steingunst
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1977;
+
 -- Apothekermeister Faranell (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Die Königliche Apothekervereinigung wird dem Aufruf der dunklen Fürstin Folge leisten und die neue Seuche offenbaren, um Arthas und seine heidnische Armee der Geißel ein für alle Male aus der Welt schaffen.' WHERE entry=2055;
 
@@ -119,6 +212,12 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Die Entstehung von Teldrassil 
 
 -- Syral Messerblatt (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Wie Teldrassil ist auch Dolanaar jenen freundlich gesonnen, die dem Land freundlich gesonnen sind.' WHERE entry=2083;
+
+-- Pilot Langbart
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2092;
+
+-- James Halloran
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2094;
 
 -- Schattenpriester Allister
 UPDATE locales_questgiver_greeting SET Text_loc3='Informationen... Mit unseren Spähern und Agenten haben wir den Informationsfluss in Lordaeron in der Hand. Bewegungen der Geißel, ihre Stellungen, nichts entgeht unseren wachsamen Augen...' WHERE entry=2121;
@@ -132,19 +231,22 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Wir stehen kurz vor der Entwic
 -- Krusk (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Man stelle sich vor, der Ort, an dem der Kriegshäuptling geboren wurde und aufgewachsen ist, liegt ganz in der Nähe.' WHERE entry=2229;
 
+-- Marschall Rotpfad
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2263;
+
 -- Magistrat Henry Maleb
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2276;
 
 -- Graf Remington Kronenbrunn
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2285;
 
--- Nimboya (englischer Text nicht in der DB vorhanden)
+-- Nimboya
 UPDATE locales_questgiver_greeting SET Text_loc3='Was? Ihr habt mit Nimboya zu tun?' WHERE entry=2497;
 
 -- Crank Zischelbub
 UPDATE locales_questgiver_greeting SET Text_loc3='Was, was?!? Wir müssen alle einen Profit machen... und das geht nicht, wenn wir nur dumm herumstehen.' WHERE entry=2498;
 
--- Seewolf MacKinley (englischer Text nicht in der DB vorhanden)
+-- Seewolf MacKinley
 UPDATE locales_questgiver_greeting SET Text_loc3='Eh! Lust auf eine Runde Fingerhakeln?' WHERE entry=2501;
 
 -- Kin'weelay
@@ -153,19 +255,31 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Hallo! Die Geister sagen, Ihr 
 -- Flottenmeister Firallon
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2546;
 
+-- Hauptmann Nials
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2700;
+
 -- Tor'gan
 UPDATE locales_questgiver_greeting SET Text_loc3='Dank des Kriegshäuptlings verbleibt selbst in den Ruinen unseres alten Gefängnisses noch Hoffnung, und die Horde erhebt sich erneut.' WHERE entry=2706;
 
 -- Steckbriefbrett
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2713;
 
--- Theldurin der Verirrte (englischer Text nicht in der DB vorhanden)
+-- Theldurin der Verirrte
 UPDATE locales_questgiver_greeting SET Text_loc3='Weg da! Bleibt zurück! Ich habe ein Paket Sprengpulver und zögere nicht, es zu benutzen! Ich sprenge uns alle in die Luft!$B$BOh, Verzeihung. Ich dachte, Ihr wäret jemand anderes...' WHERE entry=2785;
+
+-- Gerrig Knochengriff
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2786;
 
 -- Riggelfuzz
 UPDATE locales_questgiver_greeting SET Text_loc3='Ihr müsst in Schwierigkeiten sein, wenn Ihr dieses Ödland durchstreift, $C. In Schwierigkeiten wie ich.$B$BOder vielleicht seid Ihr auch nur verrückt. Verrückt wie ich.' WHERE entry=2817;
 
--- Lucien Knobelzang (englischer Text nicht in der DB vorhanden)
+-- Sigrun Eisenhieb
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2860;
+
+-- Ausgrabungsleiter Roggendol
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2910;
+
+-- Lucien Knobelzang
 UPDATE locales_questgiver_greeting SET Text_loc3='He, hallo, $N.$B$BLotwil ist nicht gerade der aufmerksamste Boss, den ich je hatte. Manchmal ist er ziemlich in seine Arbeit vertieft. Dann kriegen seine Untergebenen nichts zu essen oder werden nicht bezahlt.$B$B<Lucien sieht Lotwil missbilligend an.>$B$BAber deshalb solltet Ihr nicht leiden müssen.' WHERE entry=2920;
 
 -- Lotwil Veriatus
@@ -174,13 +288,13 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Wie gut, dass Ihr vorbeikommt,
 -- Schildwache Glynda Nal'Shea
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2930;
 
--- Häuptling Falkenwind (englischer Text nicht in der DB vorhanden)
+-- Häuptling Falkenwind
 UPDATE locales_questgiver_greeting SET Text_loc3='Grüße, $C. Ich habe in meinem Leben viele eifrige Tauren gesehen, die dem Stamm ihren Wert beweisen wollten. Man sollte jedoch nicht vergessen, dass Eifer Weisheit und Erfahrung nicht ersetzen kann.' WHERE entry=2981;
 
 -- Morin Wolkenpirscher
 UPDATE locales_questgiver_greeting SET Text_loc3='Die Pflicht der Kundschafter besteht darin, die Sicherheit derer zu gewährleisten, die über das Flachland von Mulgore ziehen. Wer die Sicherheit der Heimat der Tauren gefährdet, riskiert, von uns bestraft zu werden.' WHERE entry=2988;
 
--- Baine Bluthuf (englischer Text nicht in der DB vorhanden)
+-- Baine Bluthuf
 UPDATE locales_questgiver_greeting SET Text_loc3='Das Land war gut zu unserem Volk, $C. Wir müssen für unser Glück dankbar sein.' WHERE entry=2993;
 
 -- Veren Weitschreiter (englischer Text nicht in der DB vorhanden)
@@ -231,11 +345,20 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Grüße, $N. Es freut mich zu 
 -- Thundris Windwirker
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3649;
 
+-- Delgren der Läuterer
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3663;
+
+-- Hexknall Kurbeldreh
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3666;
+
 -- Shindrell Feuerflink
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3845;
 
 -- Orendil Rundblatt
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3847;
+
+-- Kayneth Stillwind
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=3848;
 
 -- Hexendoktor Jin'Zil
 UPDATE locales_questgiver_greeting SET Text_loc3='Die Geister sind ruhelos!' WHERE entry=3995;
@@ -249,14 +372,20 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Der Geist von Steinkralle wein
 -- Gaxim Rostknirsch
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4077;
 
+-- Collin Mauren
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4078;
+
 -- Kravel Kohlebart
 UPDATE locales_questgiver_greeting SET Text_loc3='Kommt näher. Wir beide müssen wichtige Dinge besprechen.$B$BUnd einiges davon ist nicht für fremde Ohren bestimmt...' WHERE entry=4452;
 
--- Wizzel Kupferbolz (englischer Text nicht in der DB vorhanden)
+-- Wizzel Kupferbolz
 UPDATE locales_questgiver_greeting SET Text_loc3='Gebt Acht, wo Ihr hintretet, $Gwerter Herr:werte Dame;. Nicht alle unter uns sind mit solcher Größe gesegnet wie ein $R.' WHERE entry=4453;
 
 -- Fizzel Kupferbolz (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Aha! Habt Ihr das gesehen? Dieser neue automatische Schraubenschlüssel ist ideal für meine neue Mehrfach-Zustrom-Konstruktion.' WHERE entry=4454;
+
+-- Fiora Langohr
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4456;
 
 -- Belgrom Felshammer
 UPDATE locales_questgiver_greeting SET Text_loc3='Die Tage werden länger, doch die Konflikte in diesen Ländern nehmen kein Ende. Man muss kein Zauberer sein, um das zu sehen. Greift zur Klinge, solange ihr könnt, $C. Der Krieg kann jederzeit über uns hereinbrechen, und Ihr scheint ihn nicht zu fürchten.' WHERE entry=4485;
@@ -273,6 +402,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Was für ein wunderbarer Tag f
 -- Nazeer Blutlanze
 UPDATE locales_questgiver_greeting SET Text_loc3='Auch wenn zwischen uns und der Allianz kein offener Krieg herrscht, so wird dennoch zwischen uns Blut vergossen.' WHERE entry=4791;
 
+-- "Sumpfauge" Jarl
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4792;
+
 -- Morgan Stern
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4794;
 
@@ -282,6 +414,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Wenn wir in dieser Welt unsere
 -- Neeka Blutnarbe
 UPDATE locales_questgiver_greeting SET Text_loc3='Lasst Euch nicht von der Hitze unterkriegen. Im Ödland ist die Hitze die geringste Eurer Sorgen.' WHERE entry=5394;
 
+-- Hauptmann Pentigast
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=5396;
+
 -- Gurda Wildmähne
 UPDATE locales_questgiver_greeting SET Text_loc3='Die Klans der Zentauren beherrschen die Einöde von Desolace. Vereint wären sie eine schreckliche Macht. Daher ist es gut, dass die Klans der Zentauren nicht vereint, sondern untereinander zerstritten sind und gegeneinander Krieg führen.' WHERE entry=5412;
 
@@ -290,6 +425,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Dieser Schweinestall ist nicht
 
 -- Verbannter der Atal'ai (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Was verlangt Ihr von mir?' WHERE entry=5598;
+
+-- Kreldig Ungor
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=5638;
 
 -- Takata Stahlklinge
 UPDATE locales_questgiver_greeting SET Text_loc3='Die größte Bedrohung, die nach dem Willen Thralls vorrangig bekämpft werden muss, sind die Brennenden Klingen. Das sind Mitglieder der Horde, die den Dämonen Treue geschworen haben. Sie wollen ihre dunkle Magie ausüben und scheren sich wenig um Thralls Vision der Zukunft der Horde hier in Kalimdor.' WHERE entry=5641;
@@ -306,14 +444,23 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Wenn wir die Natur schützen s
 -- Canaga Erdenrufer
 UPDATE locales_questgiver_greeting SET Text_loc3='Ich heiße Euch wieder willkommen, $N.' WHERE entry=5887;
 
+-- Tormus Tiefenschmied
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=6031;
+
 -- Duthorian Rall
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=6171;
 
--- Tiza Kriegshammer (englischer Text nicht in der DB vorhanden)
+-- Tiza Kriegshammer
 UPDATE locales_questgiver_greeting SET Text_loc3='Auf einen Paladin des Lichts warten viele Herausforderungen, $N. Ich kann Euch versichern, dass sich unsere Wege in der Zukunft oftmals kreuzen werden, wenn Ihr Euch Euer Mitgefühl bewahrt und die Tugenden ehrt, die wir preisen.' WHERE entry=6179;
 
 -- Mennet Carkad (englischer "Text" nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=6467;
+
+-- Gnoarn
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=6569;
+
+-- Shoni die Schtille
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=6579;
 
 -- Jarkal Moosblut (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Was braucht Ihr, $C? Ich gehe davon aus, dass Ihr nicht nur auf einen müßigen Plausch in diese Einöde gekommen seid.' WHERE entry=6868;
@@ -348,13 +495,19 @@ UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=8582;
 -- Schattenmagierin Vivian Lagrave
 UPDATE locales_questgiver_greeting SET Text_loc3='$GGuter Junge:Gutes Mädchen;, Ihr kommt gerade rechtzeitig, um dem Expeditionskorps von Kargath zu helfen.' WHERE entry=9078;
 
--- Galamav der Schütze (englischer Text nicht in der DB vorhanden)
+-- Galamav der Schütze
 UPDATE locales_questgiver_greeting SET Text_loc3='Ich treffe immer...' WHERE entry=9081;
+
+-- Oralius
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=9177;
 
 -- Maxwort Funkelglanz
 UPDATE locales_questgiver_greeting SET Text_loc3='Die Suche nach Reichtum ist das einzige Ziel für einen respektablen Goblin.$B$BNa ja, vielleicht Reichtum... und ein auffälliger, lauter Tod!' WHERE entry=9536;
 
--- Kibler (englischer Text nicht in der DB vorhanden)
+-- Helendis Flusshorn
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=9562;
+
+-- Kibler
 UPDATE locales_questgiver_greeting SET Text_loc3='Willkommen bei \'Kiblers Exotische Tiere\'! Wie könnt Ihr mir heute helfen?' WHERE entry=10260;
 
 -- Trull Scheiterbann
@@ -387,19 +540,22 @@ UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=11864;
 -- Bewahrer der Schriften (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Die Argentumdämmerung wird niemanden zurückweisen, der bereit ist, sein Leben für unsere Sache zu geben.' WHERE entry=16281;
 
--- Kommandant Thomas Helleran (englischer Text nicht in der DB vorhanden)
+-- Kommandant Thomas Helleran
 UPDATE locales_questgiver_greeting SET Text_loc3='Der Lichkönig bringt Krieg aus dem eisigen Norden und nur wir von der Argentumdämmerung stehen ihm dabei im Weg.' WHERE entry=16361;
 
--- Leutnant Orrin (englischer Text nicht in der DB vorhanden)
+-- Leutnant Orrin
 UPDATE locales_questgiver_greeting SET Text_loc3='Guten Tag, Bürger. Seid Ihr gekommen, um uns im Kampf gegen die Geißel beizustehen?' WHERE entry=16478;
 
 -- Leutnant Rukag (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Guten Tag, Bürger. Seid Ihr gekommen, um uns im Kampf gegen die Geißel beizustehen?' WHERE entry=16494;
 
+-- Argentumrüstmeister
+-- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=16786;
+
 -- Argentumausstatter (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $N. Wenn Ihr mir nekrotische Steine von den untoten Invasoren bringt, kann ich Euch Zugang zu den Schatzkammern der Argentumdämmerung gewähren.' WHERE entry=16787;
 
--- Flammenbewahrer (englischer Text nicht in der DB vorhanden)
+-- Flammenbewahrer
 UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $C. Ich bin der Flammenbewahrer. Während des Sonnenwendfests ist es meine Aufgabe, dafür zu sorgen, dass das Feuer neben mir immer mit heller Flamme brennt. Es ist eine Ehre für eine derartige Aufgabe ausgesucht zu werden; ich erfülle diese Pflicht mit Freuden.$B$BWie kann ich Euch weiterhelfen?' WHERE entry=16788;
 
 -- Rilak der Erlöste

@@ -121,6 +121,8 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich benötige eine Kriegerausbildung.' WHERE menu_id=523 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=523 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen Talentspezialisierung.' WHERE menu_id=523 AND id=2;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Drückt den gelben Knopf mit der Aufschrift \'Diebeswerkzeug\'.' WHERE menu_id=524 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Drückt den roten Knopf mit der Aufschrift \'R.C.V.K.\'.' WHERE menu_id=524 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was ist eine \"Matrix für unterirdische Lebewesen\"?' WHERE menu_id=561 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wer sind die Irdenen?' WHERE menu_id=562 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Von welchen Anomalien sprecht Ihr?' WHERE menu_id=563 AND id=0;
@@ -1723,6 +1725,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich habe meinen Ring der
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich habe mein Siegel des unsichtbaren Pfads verloren. Könnt Ihr mir mit einem Ersatz aushelfen?' WHERE menu_id=6928 AND id=7;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich habe mein Siegel der unnachgiebigen Stärke verloren. Könnt Ihr mir mit einem Ersatz aushelfen?' WHERE menu_id=6928 AND id=8;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wohin kann ich fliegen?' WHERE menu_id=6944 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Man hat mir gesagt, dass Ihr mich zur Lichtbresche bringen könntet...' WHERE menu_id=6944 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig Eure Ware betrachten.' WHERE menu_id=6954 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Hier, ich würde Euch gerne dieses Zeichen meiner Liebe überreichen.' WHERE menu_id=6954 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte eine Waffenausbildung.' WHERE menu_id=6955 AND id=0;
@@ -1883,6 +1886,22 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte weiter in den Wegen des Lichts unterwiesen werden.' WHERE menu_id=7265 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=7265 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen Talentspezialisierung.' WHERE menu_id=7265 AND id=2;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Fluch? Was geschieht hier, Schönufer?' WHERE menu_id=7268 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Mograine?' WHERE menu_id=7269 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Was meint Ihr?' WHERE menu_id=7270 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich verstehe immer noch nicht ganz.' WHERE menu_id=7271 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Eine interessante Geschichte. Und, wie ist er gestorben?' WHERE menu_id=7272 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr meint...' WHERE menu_id=7273 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Wie könnt Ihr all das wissen?' WHERE menu_id=7274 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Tausende? Das alles für einen Mann?' WHERE menu_id=7275 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Doch? Doch was??' WHERE menu_id=7276 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Und, hat er es getan?' WHERE menu_id=7277 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Fahrt bitte fort, Schönufer.' WHERE menu_id=7278 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr meint...' WHERE menu_id=7279 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr hattet Recht, Schönufer. Es ist in der Tat tragisch.' WHERE menu_id=7280 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Das tatet Ihr dann auch...' WHERE menu_id=7281 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Eure Geschichte ist wahrlich interessant, Schönufer. Was geschah mit der Klinge? Kann sie vom Bösen gereinigt werden?' WHERE menu_id=7282 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Aber sein Sohn ist tot.' WHERE menu_id=7283 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte dieses Gasthaus zu meinem Heimatort machen.' WHERE menu_id=7288 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in Euren Waren stöbern.' WHERE menu_id=7288 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Danke für das Angebot, Floyd. Ich möchte die Höllenfeuerhalbinsel zu meinem Zuhause machen.' WHERE menu_id=7290 AND id=0;
@@ -3590,6 +3609,23 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Betretet die Flugmaschin
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bringt mich zu Mekkadrill!' WHERE menu_id=11211 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Beleidigt Coren Düsterbräus Gebräu.' WHERE menu_id=11387 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Seht den Untergang des Lichkönigs.' WHERE menu_id=11431 AND id=0;
+
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin ein Schatzsucher und auf der Suche nach mächtigen Artefakten. Gebt sie mir und Euch wird nichts geschehen.' WHERE menu_id=15000 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Woher wusstet Ihr das? Ich meine, ja... ja, ich bin auf der Suche nach dem Splitter. Habt Ihr ihn?' WHERE menu_id=15000 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Aha. Wo?' WHERE menu_id=15001 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Bei Bronzebarts... hm, Bart! Was erzählt Ihr da?' WHERE menu_id=15002 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ein Fisch? Zur Hölle, Ihr habt den Schlüssel zur Errettung allen Lebens in Kalimdor einem Fisch überlassen?' WHERE menu_id=15003 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Eine Sardine? Das Meer ist voll von Sardinen. Da draußen gibt es bestimmt etliche Millionen von diesen Viechern!' WHERE menu_id=15004 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='...' WHERE menu_id=15005 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr habt den Splitter einer Sardine überlassen und diese im Meer zwischen hier und den Östlichen Königreichen ausgesetzt? Und die Sardine verfügt über besondere Kräfte?' WHERE menu_id=15006 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr seid wahnsinnig!' WHERE menu_id=15007 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin ganz Ohr.' WHERE menu_id=15008 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Wie bitte?' WHERE menu_id=15009 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ok, machen wir\'s kurz. Ihr habt tatsächlich den Szeptersplitter, welcher Euch von Anachronos persönlich anvertraut wurde, an eine Sardine verfüttert, und nun erwartet Ihr allen Ernstes von mir, dass ich eine Arkanitboje oder so konstruiere, um Eure kleine Sardine aus ihrem Versteck zu locken? UND mit etwas Glück ziehe ich dabei noch den Zorn eines Elementarlords auf mich? Hab\' ich irgendetwas verpasst? Ich meine, vielleicht muss ich diese ganze Sache ja nackt durchziehen, während einer Sonnenfinsternis, natürlich nur in einem Schaltjahr?' WHERE menu_id=15010 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='VON MIR AUS! Und wo, wenn ich fragen darf, soll ich eine Arkanitboje auftreiben?' WHERE menu_id=15011 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Aber...' WHERE menu_id=15012 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Woher wusstet Ihr das? Ich meine, ja... ja, ich bin auf der Suche nach dem Splitter. Habt Ihr ihn?' WHERE menu_id=15013 AND id=1;
+
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte einen Blick in mein Schließfach werfen.' WHERE menu_id=20000 AND id=0; /* Should be verified */
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig Eure Waren betrachten.' WHERE menu_id=20000 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich glaube an Euch.' WHERE menu_id=20001 AND id=0;
@@ -3598,8 +3634,6 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Diese dimensionale Implo
 UPDATE locales_gossip_menu_option SET option_text_loc3='Es tut gut zu sehen, wie die Brennende Klinge dort das Szepter übernimmt, wo der Schattenrat einst versagt hat.' WHERE menu_id=20005 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Die Sengende Klinge ist also entbehrlich?' WHERE menu_id=20006 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wenn es irgendetwas gibt, das ich für Euch tun kann...' WHERE menu_id=20007 AND id=1;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Drückt den roten Knopf mit der Aufschrift \'R.C.V.K.\'.' WHERE menu_id=20011 AND id=0; -- korrekt ?
-UPDATE locales_gossip_menu_option SET option_text_loc3='Drückt den gelben Knopf mit der Aufschrift \'Diebeswerkzeug\'.' WHERE menu_id=20011 AND id=1; -- korrekt ?
 UPDATE locales_gossip_menu_option SET option_text_loc3='Vergebt mir - ich wusste nicht, dass Ihr versteht, was ich sage. Was genau macht Ihr hier draußen?' WHERE menu_id=20015 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ach ja? Vielleicht solltet Ihr mir sagen, was Euch bedrückt.' WHERE menu_id=20016 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was für eine Vereinbarung?' WHERE menu_id=20017 AND id=0;
@@ -3609,22 +3643,10 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche ein cenarisc
 UPDATE locales_gossip_menu_option SET option_text_loc3='Könnt Ihr mir beibringen, wie man die Schurkenfertigkeiten anwendet?' WHERE menu_id=21221 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=21221 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen Talentspezialisierung.' WHERE menu_id=21221 AND id=2;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Fluch? Was geschieht hier, Schönufer?' WHERE menu_id=30101 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Mograine?' WHERE menu_id=30102 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Was meint Ihr?' WHERE menu_id=30103 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Ich verstehe immer noch nicht ganz.' WHERE menu_id=30104 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Eine interessante Geschichte. Und, wie ist er gestorben?' WHERE menu_id=30105 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr meint...' WHERE menu_id=30106 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Wie könnt Ihr all das wissen?' WHERE menu_id=30107 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Tausende? Das alles für einen Mann?' WHERE menu_id=30108 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Doch? Doch was??' WHERE menu_id=30109 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Und, hat er es getan?' WHERE menu_id=30110 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Fahrt bitte fort, Schönufer.' WHERE menu_id=30111 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr meint...' WHERE menu_id=30112 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr hattet Recht, Schönufer. Es ist in der Tat tragisch.' WHERE menu_id=30113 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Das tatet Ihr dann auch...' WHERE menu_id=30114 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Eure Geschichte ist wahrlich interessant, Schönufer. Was geschah mit der Klinge? Kann sie vom Bösen gereinigt werden?' WHERE menu_id=30115 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Aber sein Sohn ist tot.' WHERE menu_id=30116 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich muss Euch noch etwas anderes fragen.' WHERE menu_id=51000 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich muss Euch noch etwas anderes fragen.' WHERE menu_id=51001 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich muss Euch noch etwas anderes fragen.' WHERE menu_id=51002 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich muss Euch noch etwas anderes fragen.' WHERE menu_id=51003 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Schreckenslord? Vielleicht meint Ihr Lord Schattenfluch. Er lässt grüßen und ausrichten, dass er eine Nachricht für Euch hat...' WHERE menu_id=56000 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Nein, Ulathek. Er kennt Euer Geheimnis. Er weiß, Ihr verschwört Euch mit Lord Hel\'nurath von Xoroth.' WHERE menu_id=56001 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Dies ist keine Lüge, Verräter. Schattenfluch will Euer Herz und ich werde es ihm besorgen.' WHERE menu_id=56002 AND id=0;
