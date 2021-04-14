@@ -3,9 +3,9 @@ DEBUG_MODE_Z    = false
 local AlreadyLoad = false
 local self, event = {};
 
--- ***********
--- ** EVENT **
--- ***********
+-- ************
+-- ** EVENTS **
+-- ************
 
 function self_OnLoad(self)
     if GetLocale() ~= "deDE" then return; end
@@ -48,9 +48,9 @@ function self_OnEvent(self, event, ...)
     if event == "TRAINER_SHOW" then self_Trainer_Greeting(); end
 end
 
--- *************************
--- ** FUNCTIONS TEXTES IA **
--- *************************
+-- ***************
+-- ** NSC TEXTE **
+-- ***************
 
 -- diese Funktion liest und schreibt jeden NPC-Text
 -- GText = Gossip-Text
@@ -134,9 +134,9 @@ https://wow.gamepedia.com/Category:World_of_Warcraft_API
 https://wow.gamepedia.com/Global_functions
 --]]
 
--- ************************
--- ** FUNCTION GOSSIP *****
--- ************************
+-- *******************************
+-- ** GEGENSTANDS / OBJEKTTEXTE **
+-- *******************************
 
 function self_ItemText()
     local Quelle = self_GetQuelle();
@@ -229,19 +229,29 @@ function self_ItemText1()
     GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_19 = pageBody;
     elseif pageNum == 20 then
     GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_20 = pageBody;
+    elseif pageNum == 21 then
+    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_21 = pageBody;
+    elseif pageNum == 22 then
+    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_22 = pageBody;
+    elseif pageNum == 23 then
+    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_23 = pageBody;
+    elseif pageNum == 24 then
+    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_24 = pageBody;
+    elseif pageNum == 25 then
+    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_25 = pageBody;
     end
 end
 
--- ************************
--- ** FUNCTIONS DIVERSES **
--- ************************
+-- *******************
+-- ** VERSCHIEDENES **
+-- *******************
 
 function self_CleanMeZ(toclean)
     if toclean == nil then return ""; end
     toclean = string.gsub(toclean, "\n", "$B");
 --    toclean = string.gsub(toclean, "\r", "");
-    toclean = string.gsub(toclean, "'", "''");
-    toclean = string.gsub(toclean, "''", "\'");
+    toclean = string.gsub(toclean, "'", "\'");
+--    toclean = string.gsub(toclean, "''", "\'");
 --    toclean = string.gsub(toclean, "dbquote", "\"");
     toclean = string.gsub(toclean, UnitName("player"), "$N");
 --    toclean = string.gsub(toclean, UnitClass("player"), "$C");

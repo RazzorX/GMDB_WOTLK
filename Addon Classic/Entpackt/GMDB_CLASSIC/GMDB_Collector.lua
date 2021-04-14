@@ -4,9 +4,9 @@ local AlreadyLoad = false
 local self, event = {};
 local arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,arg12,arg13,arg14,arg15,arg16,arg17,arg18,arg19 = ...;
 
--- ***********
--- ** EVENT **
--- ***********
+-- ************
+-- ** EVENTS **
+-- ************
 
 function self_OnLoad(self)
     if GetLocale() ~= "deDE" then return; end
@@ -42,6 +42,7 @@ function self_OnEvent(self, event, ...)
             AlreadyLoad = true
         end
     end
+
     if event == "PLAYER_LEAVING_WORLD" then
         self:UnregisterEvent("CHAT_MSG_MONSTER_WHISPER");
         self:UnregisterEvent("CHAT_MSG_MONSTER_SAY");
@@ -61,7 +62,7 @@ function self_OnEvent(self, event, ...)
     if event == "CHAT_MSG_MONSTER_YELL" then self_MonsterSprache("YELL", ...); end
     if event == "CHAT_MSG_MONSTER_EMOTE" then self_MonsterSprache("EMOTE", ...); end
     if event == "CHAT_MSG_RAID_BOSS_EMOTE" then self_MonsterSprache("BOSS", ...); end
-    if event == "QUEST_LOG_UPDATE" then self_QuestUpdate(); end
+--    if event == "QUEST_LOG_UPDATE" then self_QuestUpdate(); end
     if event == "QUEST_DETAIL" then self_QuestDetail(); end
     if event == "QUEST_PROGRESS" then self_QuestProgress(); end
     if event == "QUEST_PROGRESS" then self_QuestProgress1(); end
@@ -70,42 +71,24 @@ function self_OnEvent(self, event, ...)
     if event == "GOSSIP_SHOW" then self_GossipText(); end
 end
 
--- **********************
--- ** FONCTIONS Quests **
--- **********************
-
-function self_QuestUpdate()
-    for i = 1, GetNumQuestLogEntries(), 1 do
-        local Title, Level, SuggestedGroup, IsHeader, IsCollapsed, IsComplete, Frequency, QuestID = GetQuestLogTitle(i);
-        if not IsHeader then
-            SelectQuestLogEntry(i);
-
-            local QuestEntry = QuestID;
-            local QuestTitle = self_CleanMe(self_CleanLevel(Title));
-            local Desc, Obj  = GetQuestLogQuestText();
-            local QuestObj   = self_CleanMe(Obj);
-            local QuestDesc  = self_CleanMe(Desc);
-
-            local PosTab = self_GetQuestID(QuestEntry, QuestTitle, QuestObj, QuestDesc);
-            if PosTab ~= nil then
-                GMDB_Collector.Quests["Quest_"..PosTab].Entry = QuestEntry;
-            end
-        end
-    end
-end
+-- ************
+-- ** QUESTS **
+-- ************
 
 function self_QuestDetail()
     local Quelle = self_GetQuelle();
---    if Quelle == nil then return; end;
+    local Entry  = GetQuestID();
+
     if Quelle == nil then
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    local QuestTitle = self_CleanMe(self_CleanLevel(GetTitleText()));
+    if Quelle == "ITEM_UNBEKANNT" then return; end;
+
+    local QuestTitle = self_CleanMe(GetTitleText());
     local QuestObj   = self_CleanMe(GetObjectiveText());
     local QuestDesc  = self_CleanMe(GetQuestText());
 
-    local Entry  = GetQuestID();
     local PosTab = self_GetQuestID(0, QuestTitle, QuestObj, QuestDesc);
     if PosTab ~= nil then return; end
 
@@ -121,17 +104,15 @@ end
 
 function self_QuestProgress()
     local Quelle = self_GetQuelle();
---    if Quelle == nil then return; end;
+    local Entry  = GetQuestID();
+
     if Quelle == nil then
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    self_QuestUpdate();
-
-    local QuestTitle    = self_CleanMe(self_CleanLevel(GetTitleText()));
+    local QuestTitle    = self_CleanMe(GetTitleText());
     local QuestProgress = self_CleanMe(GetProgressText());
 
-    local Entry = GetQuestID();
     local PosTab = nil;
     local NbQuest = 0;
     for i = 1, GMDB_Main.totquest, 1 do
@@ -141,6 +122,7 @@ function self_QuestProgress()
                     if GMDB_Collector.Quests["Quest_"..i].Entry then
                         PosTab = i;
                         NbQuest = NbQuest + 1;
+                        self_Debug("self_QuestProgress - PosTab: "..i);
                     end
                 end
             end
@@ -157,17 +139,15 @@ end
 -- TODO: diese Funktion in self_QuestProgress einbauen
 function self_QuestProgress1()
     local Quelle = self_GetQuelle();
---    if Quelle == nil then return; end;
+    local Entry  = GetQuestID();
+
     if Quelle == nil then
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    self_QuestUpdate();
-
-    local QuestTitle    = self_CleanMe(self_CleanLevel(GetTitleText()));
+    local QuestTitle    = self_CleanMe(GetTitleText());
     local QuestProgress = self_CleanMe(GetProgressText());
 
-    local Entry  = GetQuestID();
     local PosTab = self_GetQuestID(0, QuestTitle, QuestObj, QuestDesc);
 
     for i = 1, GMDB_Main.totquest, 1 do
@@ -192,17 +172,15 @@ end
 
 function self_QuestComplete()
     local Quelle = self_GetQuelle();
---    if Quelle == nil then return; end;
+    local Entry  = GetQuestID();
+
     if Quelle == nil then
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    self_QuestUpdate();
-
-    local QuestTitle  = self_CleanMe(self_CleanLevel(GetTitleText()));
+    local QuestTitle  = self_CleanMe(GetTitleText());
     local QuestReward = self_CleanMe(GetRewardText());
 
-    local Entry = GetQuestID();
     local PosTab = nil;
     local NbQuest = 0;
     for i = 1, GMDB_Main.totquest, 1 do
@@ -212,6 +190,7 @@ function self_QuestComplete()
                     if GMDB_Collector.Quests["Quest_"..i].Entry then
                         PosTab = i;
                         NbQuest = NbQuest + 1;
+                        self_Debug("self_QuestComplete - PosTab: "..i);
                     end
                 end
             end
@@ -227,17 +206,15 @@ end
 -- TODO: diese Funktion in self_QuestComplete einbauen
 function self_QuestComplete1()
     local Quelle = self_GetQuelle();
---    if Quelle == nil then return; end;
+    local Entry  = GetQuestID();
+
     if Quelle == nil then
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    self_QuestUpdate();
-
-    local QuestTitle  = self_CleanMe(self_CleanLevel(GetTitleText()));
+    local QuestTitle  = self_CleanMe(GetTitleText());
     local QuestReward = self_CleanMe(GetRewardText());
 
-    local Entry  = GetQuestID();
     local PosTab = self_GetQuestID(0, QuestTitle, QuestObj, QuestDesc);
 
     for i = 1, GMDB_Main.totquest, 1 do
@@ -264,14 +241,17 @@ function self_GetQuestID(Entry, QuestTitle, QuestObj, QuestDesc)
     for i = 1, GMDB_Main.totquest, 1 do
         if GMDB_Collector.Quests["Quest_"..i] then
             if GMDB_Collector.Quests["Quest_"..i].Entry then
-                if GMDB_Collector.Quests["Quest_"..i].Entry == Entry then return i; end
+                if GMDB_Collector.Quests["Quest_"..i].Entry == Entry then
+                self_Debug("self_GetQuestID1 - PosTab: "..i);
+                return i;
+                end
             end
 
             if GMDB_Collector.Quests["Quest_"..i].Title == QuestTitle then
                 if GMDB_Collector.Quests["Quest_"..i].Objectives == QuestObj then
                     if GMDB_Collector.Quests["Quest_"..i].Details == QuestDesc then
                         if GMDB_Collector.Quests["Quest_"..i].Questgeber == Quelle then
-                        self_Debug("self_GetQuestID - PosTab: "..i);
+                        self_Debug("self_GetQuestID2 - PosTab: "..i);
                         return i;
                         end
                     end
@@ -299,7 +279,10 @@ function self_GetQuelle()
     elseif kind == "GameObject" and not itemName then
         Quelle = "GOBJECT||"..Ziel.."||"..id;
         self_Debug("self_GetQuelle - Kind gameobject: "..Ziel);
-    elseif kind == "ITEM" or itemName ~= nil then
+    elseif kind == "Item" and itemId == nil and not (kind == "Creature" or kind == "GameObject") then
+        Quelle = "ITEM_UNBEKANNT";
+        self_Debug("self_GetQuelle - Quelle = Item unbekannt");
+    elseif kind == "Item" or (itemId ~= nil or itemName ~= nil) then
         Quelle = "ITEM||"..ZielX.."||"..iID;
         self_Debug("self_GetQuelle - Item: "..iID.." - "..ZielX);
 --    else
@@ -309,9 +292,9 @@ function self_GetQuelle()
     return Quelle;
 end
 
--- *************************
--- ** FONCTIONS TEXTES IA **
--- *************************
+-- **********************
+-- ** TEXTE und EMOTES **
+-- **********************
 
 function self_MonsterSprache(ART, arg1, arg2, arg3)
     local WAS = self_CleanMe(arg1);
@@ -341,9 +324,9 @@ function self_MonsterSprache(ART, arg1, arg2, arg3)
     GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].SPRACHE = SPRACHE;
 end
 
--- ************************
--- ** FONCTION GOSSIP *****
--- ************************
+-- ************
+-- ** GOSSIP **
+-- ************
 
 function self_GossipText()
     Titel = {};
@@ -356,10 +339,8 @@ function self_GossipText()
     end
 end
 
---    local Ziel = self_CleanMe(UnitName("npc"));
---    local id = self_GetUnitId("npc");
     local Quelle = self_GetQuelle();
---    gossipId = "NPC||"..Ziel.."||"..id;
+
     PosTab = GMDB_Main.totgossip + 1;
     GGesamt = GetNumGossipOptions();
     erreurTitel = 0 ;
@@ -410,15 +391,15 @@ end
     end
 end
 
--- ************************
--- ** FONCTIONS DIVERSES **
--- ************************
+-- *******************
+-- ** VERSCHIEDENES **
+-- *******************
 
 function self_CleanMe(toclean)
     if toclean == nil then return ""; end
     toclean = string.gsub(toclean, "\n", "$B");
     toclean = string.gsub(toclean, "\r", "");
-    toclean = string.gsub(toclean, "'", "''");
+    toclean = string.gsub(toclean, "'", "\'");
     toclean = string.gsub(toclean, "''", "\'");
     toclean = string.gsub(toclean, "dbquote", "\"");
     toclean = string.gsub(toclean, UnitName("player"), "$N");
@@ -427,15 +408,40 @@ function self_CleanMe(toclean)
     return toclean;
 end
 
-function self_CleanLevel(toclean)
-    local NewTitle;
-    local _, _, Level, Title = string.find(toclean, "%[(.*)%] (.*)");
-    if (Title) then
-        NewTitle = Title;
-    else
-        NewTitle = toclean;
+function self_GetUnitId(unit)
+    local kind = self_GetUnitKind();
+
+    if kind == "Item" then return nil; end
+    if kind == "Creature" or "GameObject" then
+    id = guid:match("%a+-%d+-%d+-%d+-%d+-(%d+)-.+")
+    self_Debug("self_GetUnitId - Kind creature or gameobject");
     end
-    return NewTitle;
+    return tonumber(id);
+end
+
+function self_GetUnitKind(unit)
+    guid = UnitGUID("npc");
+
+    if guid ~= nil then
+    kind = guid:match("(%a+)-.+")
+    self_Debug("self_GetUnitKind - kind: "..kind);
+    end
+    return kind;
+end
+
+function self_GetItemInfo()
+    local itemName, link = GameTooltip:GetItem()
+    if not itemName or not link then return; end
+
+    local itemName, _, _, _, _, _, _, _, _, _, _, _, _ = GetItemInfo(link)
+    local itemId = nil;
+    if(link) then
+        local _, _, _, _, Id, _, _, _, _, _, _, _, _, itemName = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*):?(%d*):?(%-?%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
+        itemId = Id;
+        itemName = itemName;
+    end
+    self_Debug("self_GetItemInfo - Item: "..itemName.." - "..itemId);
+    return itemName, tonumber(itemId);
 end
 
 function self_PurgeCollector()
@@ -448,76 +454,6 @@ function self_PurgeCollector()
     GMDB_Main.totquest = 0;
     GMDB_Main.totgossip = 0;
     GMDB_Main.Realm = GetRealmName();
-end
-
-function self_GetQuestId(quest)
-    if quest == nil then return nil; end
-    local returnlvl,returnid;
-    for _, id, lvl, _ in string.gmatch(quest, "|c(%x+)|Hquest:(%d+):(%-?%d+)|h%[(.+)%]|h|r") do
-        returnlvl= lvl;
-        returnid = id;
-    end
-    self_Debug("self_GetQuestId - Check");
-    return tonumber(returnid), tonumber(returnlvl);
-end
-
---[[
-function self_GetUnitId(unit)
-    guid = UnitGUID(unit);
-    id = guid:match("%a+-%d+-%d+-%d+-%d+-(%d+)-.+")
-    return tonumber(id);
-end
---]]
-
-function self_GetUnitId(unit)
-    local kind = self_GetUnitKind();
-
-    if kind == "ITEM" then return nil; end
-    if kind == "Creature" or "GameObject" then
-    id = guid:match("%a+-%d+-%d+-%d+-%d+-(%d+)-.+")
-    self_Debug("self_GetUnitId - Kind creature or gameobject");
-    end
-    return tonumber(id);
-end
-
-function self_GetUnitKind(unit)
-    guid = UnitGUID("npc");
-
-    if guid == nil then
-    kind = "ITEM";
-    self_Debug("self_GetUnitKind = ITEM");
-    else
-    kind = guid:match("(%a+)-%d+-%d+-%d+-%d+-%d+-.+")
-    self_Debug("self_GetUnitKind = Creature or GO");
-    end
-    return kind;
-end
-
---[[
-function self_GetItemInfo()
-    local name, link = GameTooltip:GetItem()
-    if not name or not link then return; end
-
-    local itemName, _, _, _, _, _, _, _, _, _, _, _, _ = GetItemInfo(link)
-
-    local _, itemId, _  = strsplit(":", link)
-    return itemName, tonumber(itemId);
-end
---]]
-
-function self_GetItemInfo()
-    local name, link = GameTooltip:GetItem()
-    if not name or not link then return; end
-
-    local itemName, _, _, _, _, _, _, _, _, _, _, _, _ = GetItemInfo(link)
-    local itemId = nil;
-    if(link) then
-        local _, _, _, _, Id, _, _, _, _, _, _, _, _, itemName = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*):?(%d*):?(%-?%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
-        itemId = Id;
-        itemName = itemName;
-    end
-    self_Debug("self_GetItemInfo - Item: "..itemName.." - "..itemId);
-    return itemName, tonumber(itemId);
 end
 
 function self_Debug(phrase)
