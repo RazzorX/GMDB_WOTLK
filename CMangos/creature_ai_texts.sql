@@ -22,9 +22,9 @@ UPDATE creature_ai_texts SET content_loc3='Ein Haufen Rohlinge und Diebe werden 
 UPDATE creature_ai_texts SET content_loc3='Sie mögen ja alle anderen Bauern vertrieben haben, doch die Saldeans werden Westfall niemals verlassen.' WHERE entry=-16;
 UPDATE creature_ai_texts SET content_loc3='%s erkennt Eure Anwesenheit und öffnet ein Unterweltportal!' WHERE entry=-17;
 UPDATE creature_ai_texts SET content_loc3='Sieg! Für Agammagan!' WHERE entry=-18;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-19; -- ungenutzt
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-20; -- ungenutzt
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-21; -- ungenutzt
+UPDATE creature_ai_texts SET content_loc3='%s beginnt zu wachsen!' WHERE entry=-19;
+UPDATE creature_ai_texts SET content_loc3='%s wächst weiter!' WHERE entry=-20;
+UPDATE creature_ai_texts SET content_loc3='%s ist vollständig ausgewachsen!' WHERE entry=-21;
 UPDATE creature_ai_texts SET content_loc3='Van Cleef gut zahlen für Euer Kopfens!' WHERE entry=-22;
 UPDATE creature_ai_texts SET content_loc3='Da draußen tobt das Meer. Die Meeresgeister sind wohl unruhig... hicks!' WHERE entry=-23;
 UPDATE creature_ai_texts SET content_loc3='Ich habe einmal einen Meeresriesen gesehen. Ich kann darauf verzichten, noch mal einem zu begegnen. Rülps!' WHERE entry=-24;
@@ -3916,4 +3916,28 @@ UPDATE creature_ai_texts SET content_loc3='Immer her mit solchen Exemplaren!' WH
 UPDATE creature_ai_texts SET content_loc3='Den werde ich selbst trainieren.' WHERE entry=-21088;
 UPDATE creature_ai_texts SET content_loc3='Ich kenne genau den richtigen Soldaten für dieses Pferd!' WHERE entry=-21089;
 UPDATE creature_ai_texts SET content_loc3='Ich glaube, er mag Graumähne.' WHERE entry=-21090;
+UPDATE creature_ai_texts SET content_loc3='Ich danke Euch allen. Die Druiden früherer Tage besaßen die Weisheit, Vordrassil zu vernichten, da seine Wurzeln tief in die Heimstatt eines uralten Übels reichten.' WHERE entry=-21091;
+UPDATE creature_ai_texts SET content_loc3='Die Eisentyrannei findet ein Ende!' WHERE entry=-21092;
+UPDATE creature_ai_texts SET content_loc3='Euer Meister wird den Stein niemals bezwingen!' WHERE entry=-21093;
+UPDATE creature_ai_texts SET content_loc3='Loken wird niemals triumphieren!' WHERE entry=-21094;
+UPDATE creature_ai_texts SET content_loc3='Wir fürchten dich nicht, Eisenkind!' WHERE entry=-21095;
+UPDATE creature_ai_texts SET content_loc3='Niemand wird uns davon abhalten, unser Schicksal zu erfüllen!' WHERE entry=-21096;
+UPDATE creature_ai_texts SET content_loc3='Zum Ruhme Lokens!' WHERE entry=-21097;
+UPDATE creature_ai_texts SET content_loc3='Für Eure Einmischung werdet Ihr zahlen!' WHERE entry=-21098;
+UPDATE creature_ai_texts SET content_loc3='Ihr seid ein Dummkopf, Kuruns hoffnungslosen Kampf zu kämpfen!' WHERE entry=-21099;
+UPDATE creature_ai_texts SET content_loc3='Euer Leben ist verwirkt, Verbündeter des Steins!' WHERE entry=-21100;
+UPDATE creature_ai_texts SET content_loc3='Was glaubt Ihr, was Ihr da macht?' WHERE entry=-21101;
+UPDATE creature_ai_texts SET content_loc3='Dafür werdet Ihr bezahlen!' WHERE entry=-21102;
+UPDATE creature_ai_texts SET content_loc3='Narr! Damit werdet Ihr niemals durchkommen!' WHERE entry=-21103;
+UPDATE creature_ai_texts SET content_loc3='Ihr wagt es, Euch den Söhnen des Eisens zu widersetzen?' WHERE entry=-21104;
+UPDATE creature_ai_texts SET content_loc3='Fasst sie!' WHERE entry=-21105;
+UPDATE creature_ai_texts SET content_loc3='Tod den Frostpfoten!' WHERE entry=-21106;
+UPDATE creature_ai_texts SET content_loc3='Alle, die Frostpfoten erschlagen, sind unsere Freunde!' WHERE entry=-21107;
+UPDATE creature_ai_texts SET content_loc3='Grauschlund gehört den Rotfängen!' WHERE entry=-21108;
+UPDATE creature_ai_texts SET content_loc3='Tötet alle Rotfänge!' WHERE entry=-21109;
+UPDATE creature_ai_texts SET content_loc3='Sieg den Frostpfoten!' WHERE entry=-21110;
+UPDATE creature_ai_texts SET content_loc3='Alle Feinde der Rotfänge sind in unserem Lager willkommen!' WHERE entry=-21111;
+UPDATE creature_ai_texts SET content_loc3='Nix kann Euch retten, Biesterchen! Das is\' Geißelland jetze!' WHERE entry=-21112;
+UPDATE creature_ai_texts SET content_loc3='Und niemand kann nix dagegen nich\' machen!' WHERE entry=-21113;
+UPDATE creature_ai_texts SET content_loc3='Niemand kann uns nich\' aufhalten!' WHERE entry=-21114;
 SET NAMES 'latin1';

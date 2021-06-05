@@ -43,7 +43,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ausgebildet 
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=141 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen Talentspezialisierung.' WHERE menu_id=141 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='<Nehmt den Brief>' WHERE menu_id=141 AND id=4;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=161 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Mennet sagte, ich solle Euch nach einem Set Diebeswerkzeug fragen.' WHERE menu_id=161 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wo befindet sich der Schlüssel für dieses Schloss?' WHERE menu_id=262 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wo befindet sich der Schlüssel für dieses Schloss?' WHERE menu_id=264 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Teleportiert mich bitte nach Darnassus.' WHERE menu_id=321 AND id=0;
@@ -293,6 +293,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Könnt Ihr mich nach unt
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr könnt kochen? Ich auch! Könnt Ihr mir vielleicht ein besonderes Rezept verraten?' WHERE menu_id=1443 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr seid Alchemist? Ich auch. Vielleicht könnt Ihr mich lehren, was Ihr wisst...' WHERE menu_id=1443 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=1465 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ja. Gebt mir den Zauber zur Beschwörung des Avatars.' WHERE menu_id=1470 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Erzählt mir mehr über die Hippogryphe.' WHERE menu_id=1482 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin an einer Hexenmeisterausbildung interessiert.' WHERE menu_id=1503 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=1503 AND id=1;
@@ -436,6 +437,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Erzählt mir mehr über 
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich habe mein Handbuch für Kristallpylonen verloren und brauche ein neues.' WHERE menu_id=2184 AND id=3;
 -- UPDATE locales_gossip_menu_option SET option_text_loc3='' WHERE menu_id=2187 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wer ist dieser Lar\'korwi, den Ihr erwähnt habt?' WHERE menu_id=2188 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche ein cenarisches Leuchtfeuer.' WHERE menu_id=2007 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche ein cenarisches Leuchtfeuer.' WHERE menu_id=2208 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Welche Pflanzen im Teufelswald sind sehr verderbt?' WHERE menu_id=2208 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte etwas von Euch kaufen.' WHERE menu_id=2242 AND id=0;
@@ -3091,7 +3093,10 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte durch den Ha
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bitte unterrichtet mich.' WHERE menu_id=9777 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit, nach Dalaran teleportiert zu werden.' WHERE menu_id=9780 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wohin kann ich fliegen?' WHERE menu_id=9783 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte zur Lichtbresche.' WHERE menu_id=9783 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wohin kann ich fliegen?' WHERE menu_id=9784 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Wohin kann ich fliegen?' WHERE menu_id=9785 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte zur Lichtbresche.' WHERE menu_id=9785 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin mir sicher. Bitte fahrt fort.' WHERE menu_id=9791 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin auf der Suche nach Ausbildung, Amal\'thazad' WHERE menu_id=9792 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=9792 AND id=1;
@@ -3531,6 +3536,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Heulender Fjord' WHERE m
 UPDATE locales_gossip_menu_option SET option_text_loc3='Sholazarbecken' WHERE menu_id=10668 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Eiskrone' WHERE menu_id=10668 AND id=3;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Sturmgipfel' WHERE menu_id=10668 AND id=4;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Unterirdisch...' WHERE menu_id=10668 AND id=5;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte im Reiten ausgebildet werden.' WHERE menu_id=10723 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig Eure Ware betrachten.' WHERE menu_id=10723 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wie fliegt Ihr in diesen kalten Gefilden?' WHERE menu_id=10724 AND id=0;
@@ -3639,7 +3645,6 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ach ja? Vielleicht sollt
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was für eine Vereinbarung?' WHERE menu_id=20017 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wie hat er denn die Vereinbarung gebrochen?' WHERE menu_id=20018 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Vielleicht kann ich Euch ja behilflich sein. Ich schlage Euch einen Handel vor, Satyr: Ich beschaffe Euch diese ungeschmiedete Brustplatte und töte die Bestie, Goraluk Hammerbruch. Und im Gegenzug lehrt Ihr mich wie man die Brustplatte herstellt.' WHERE menu_id=20019 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche ein cenarisches Leuchtfeuer.' WHERE menu_id=20022 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Könnt Ihr mir beibringen, wie man die Schurkenfertigkeiten anwendet?' WHERE menu_id=21221 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=21221 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen Talentspezialisierung.' WHERE menu_id=21221 AND id=2;

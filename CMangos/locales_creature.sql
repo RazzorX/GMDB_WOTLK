@@ -14293,7 +14293,7 @@ UPDATE locales_creature SET name_loc3='Archon der Illidari' WHERE entry=23400;
 UPDATE locales_creature SET name_loc3='Zehrendes Seelenfragment' WHERE entry=23401;
 UPDATE locales_creature SET name_loc3='Kampfmagier der Illidari' WHERE entry=23402;
 UPDATE locales_creature SET name_loc3='Auftragsmörder der Illidari' WHERE entry=23403;
-UPDATE locales_creature SET name_loc3='Flaskataur' WHERE entry=23405;
+UPDATE locales_creature SET name_loc3='Flaschatauren' WHERE entry=23405;
 UPDATE locales_creature SET name_loc3='Heinz Aschebäscha', subname_loc3='Die Gebrüder Aschebäscha' WHERE entry=23406;
 UPDATE locales_creature SET name_loc3='Rabenfürst' WHERE entry=23408;
 UPDATE locales_creature SET name_loc3='Invisible Stalker - Large AOI (Scale x3)' WHERE entry=23409;
@@ -15447,6 +15447,7 @@ UPDATE locales_creature SET name_loc3='Beschwörer der Dämmerklingen' WHERE ent
 UPDATE locales_creature SET name_loc3='Schütze der Dämmerklingen' WHERE entry=24979;
 UPDATE locales_creature SET name_loc3='Kristallbarriere' WHERE entry=24980;
 UPDATE locales_creature SET name_loc3='Konvertierter Wachposten' WHERE entry=24981;
+UPDATE locales_creature SET name_loc3='Madame Flaschatauren', subname_loc3='Gefährtin des Flaschatauren' WHERE entry=24982;
 UPDATE locales_creature SET name_loc3='Konvertierter Wachposten' WHERE entry=24991;
 UPDATE locales_creature SET name_loc3='Die Dicke Berta' WHERE entry=24992;
 UPDATE locales_creature SET name_loc3='Smutje Mariss', subname_loc3='Die Mondgischt' WHERE entry=24993;

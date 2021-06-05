@@ -1243,7 +1243,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Hier, lasst mich Euch zeigen, wie
 -- Jack Trapper <Koch>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von Wildtieren in ein Festmahl zu verwandeln!' WHERE entry=19185;
 -- Kylene <Bardame>
-UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von Wildtieren in ein Festmahl zu verwandeln!' WHERE entry=19186;
+UPDATE locales_trainer_greeting SET Text_loc3='Überlasst mich meiner kulinarischen Arbeit.' WHERE entry=19186;
 -- Darmari <Lederverarbeitungsmeisterlehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=19187;
 -- Verzauberin Volali <Verzauberkunstlehrerin>

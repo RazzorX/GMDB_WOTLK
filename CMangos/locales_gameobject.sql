@@ -14250,6 +14250,7 @@ UPDATE locales_gameobject SET name_loc3='Teleporter für Fallschirmjäger von Ku
 UPDATE locales_gameobject SET name_loc3='Freudenfeuer' WHERE entry=188455;
 UPDATE locales_gameobject SET name_loc3='Nexusdrachenei' WHERE entry=188457;
 UPDATE locales_gameobject SET name_loc3='Seher von Zeb\'Halak' WHERE entry=188458;
+UPDATE locales_gameobject SET name_loc3='Maulwurfmaschine von Thor Modan Falle' WHERE entry=188459;
 UPDATE locales_gameobject SET name_loc3='Maulwurfmaschine von Thor Modan' WHERE entry=188460;
 UPDATE locales_gameobject SET name_loc3='Tafeln der Drakkari', castbarcaption_loc3='Einsammeln' WHERE entry=188461;
 UPDATE locales_gameobject SET name_loc3='Anub\'et\'kans Knochenpanzer' WHERE entry=188462;

@@ -327,9 +327,9 @@ UPDATE script_texts SET content_loc3='Rin\'ji wird Euch Geheimnis sagen... $N so
 UPDATE script_texts SET content_loc3='Ihr finden, Ihr behalten. Niemandem erzählen, dass Rin\'ji mit Euch geredet!' WHERE entry=-1000409;
 UPDATE script_texts SET content_loc3='Hier kommen sie! Verteidigt euch!' WHERE entry=-1000410;
 UPDATE script_texts SET content_loc3='Kommt $N. Seht die Macht des Alptraums...' WHERE entry=-1000411;
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1000412; -- ungenutzt
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1000413; -- ungenutzt
--- UPDATE script_texts SET content_loc3='' WHERE entry=-1000414; -- ungenutzt
+UPDATE script_texts SET content_loc3='Tötet sie! Übernehmt den Hof!' WHERE entry=-1000412;
+UPDATE script_texts SET content_loc3='Abschaum wie Ihr wird meine Ländereien nicht ruinieren!' WHERE entry=-1000413;
+UPDATE script_texts SET content_loc3='Das Licht ist heute mit uns!' WHERE entry=-1000414;
 UPDATE script_texts SET content_loc3='%s ist zu schwer verletzt und gibt die Jagd auf.' WHERE entry=-1000415;
 UPDATE script_texts SET content_loc3='Ich weiß nicht, wie weit ich in dem Zustand komme... Ich fühle mich einer Ohnmacht nahe...' WHERE entry=-1000416;
 UPDATE script_texts SET content_loc3='Vergesst nicht, wenn ich wieder ohnmächtig werde, kann mich das Wasser wiederbeleben, das Spraggel Euch gab.' WHERE entry=-1000417;
