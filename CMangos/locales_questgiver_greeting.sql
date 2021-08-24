@@ -187,7 +187,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Die dunkle Fürstin hat die He
 UPDATE locales_questgiver_greeting SET Text_loc3='Diese Schriftrollensammlung enthält verschiedene logistische und strategische Informationen sowie kodierte Nachrichten.' WHERE entry=1740;
 
 -- Hochlord Bolvar Fordragon
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=1748;
+UPDATE locales_questgiver_greeting SET Text_loc3='Ich bin Bolvar Fordragon, Hochlord von Sturmwind.' WHERE entry=1748;
 
 -- Magtoor
 UPDATE locales_questgiver_greeting SET Text_loc3='Wir verbringen so viel Zeit unseres Lebens auf der Flucht, dass die Erinnerungen an Friedenszeiten immer mehr verblassen.' WHERE entry=1776;
@@ -220,7 +220,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Die Entstehung von Teldrassil 
 UPDATE locales_questgiver_greeting SET Text_loc3='Wie Teldrassil ist auch Dolanaar jenen freundlich gesonnen, die dem Land freundlich gesonnen sind.' WHERE entry=2083;
 
 -- Pilot Langbart
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2092;
+UPDATE locales_questgiver_greeting SET Text_loc3='Belagerungsmaschinen sind der Stolz jedes Piloten!' WHERE entry=2092;
 
 -- James Halloran
 UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $C. Ich befinde mich gerade in einer etwas misslichen Lage, ich habe fast keine Bälge mehr.' WHERE entry=2094;
@@ -343,7 +343,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Der Staub des Brachlandes troc
 UPDATE locales_questgiver_greeting SET Text_loc3='Um ein Wildtier zu jagen, muss man es kennen. Man muss seine Eigenarten kennen und respektieren.$B$BAlles andere ist nicht würdig, Jagd genannt zu werden. Alles andere ist reines Töten.' WHERE entry=3441;
 
 -- Mebok Mizzyrix
-UPDATE locales_questgiver_greeting SET Text_loc3='Ja, ja, ja! Ah, ein $R! Genau $Gderjenige auf den:diejenige auf die; ich gewartet habe!$B$BNehmt Platz! Wir haben viel zu besprechen!' WHERE entry=3446;
+UPDATE locales_questgiver_greeting SET Text_loc3='Ja, ja, ja! Ah, $Gein:eine; $R! Genau $Gderjenige auf den:diejenige auf die; ich gewartet habe!$B$BNehmt Platz! Wir haben viel zu besprechen!' WHERE entry=3446;
 
 -- Werftmeister Flunkerblick
 UPDATE locales_questgiver_greeting SET Text_loc3='Kann ich Euch helfen, $N? Es wartet eine Lieferung auf mich, um die ich mich kümmern muss.' WHERE entry=3453;
@@ -463,7 +463,10 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Wenn wir die Natur schützen s
 UPDATE locales_questgiver_greeting SET Text_loc3='Ich heiße Euch wieder willkommen, $N.' WHERE entry=5887;
 
 -- Tormus Tiefenschmied
--- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=6031;
+UPDATE locales_questgiver_greeting SET Text_loc3='Einige können die Hitze der großen Schmiede nicht ertragen, aber ich bin der Meinung, die Hitze ist genau richtig. Und wenn man sich ernsthaft mit der Schmiedearbeit befassen will, ist das der perfekte Ort!' WHERE entry=6031;
+
+-- Harry Burlwacht (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Man braucht schon mehr als einen starken Arm und ein gemeines Aussehen, um ein richtiger Krieger zu sein. Man braucht auch einen klaren Kopf und ein scharfes Auge, wenn man überleben will.$B$BUnd schlechter Atem schadet auch nicht!' WHERE entry=6089;
 
 -- Klockmort Spannersplint (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Ich bin auf einer Mission. Einer Mission! Der Suche nach neuen Legierungen und härteren Materialien für die größte Erfindung aller Zeiten!' WHERE entry=6169;
@@ -564,6 +567,12 @@ UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=11862;
 -- Tammra Windfeld (englischer "Text" nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=11864;
 
+-- Derotain Matschnipper (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Diese Typen vom Mithrilorden sind Weichlinge.' WHERE entry=14567;
+
+-- Todespirscher Rathiel (englischer "Text" nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=16200;
+
 -- Bewahrer der Schriften (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Die Argentumdämmerung wird niemanden zurückweisen, der bereit ist, sein Leben für unsere Sache zu geben.' WHERE entry=16281;
 
@@ -595,10 +604,10 @@ UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=23572;
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=26245;
 
 -- Steckbrief (englischer "Text" nicht in der DB vorhanden)
-UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=150075;
+UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=142122;
 
 -- Steckbrief (englischer "Text" nicht in der DB vorhanden)
-UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=142122;
+UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=150075;
 
 -- Gesucht/Vermisst/Verloren & Gefunden (englischer "Text" nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=179827;

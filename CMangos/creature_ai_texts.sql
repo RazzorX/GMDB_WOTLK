@@ -1306,8 +1306,8 @@ UPDATE creature_ai_texts SET content_loc3='$GFremder:Fremde;, findet den gefalle
 UPDATE creature_ai_texts SET content_loc3='Sollte ich dies hier überleben, dann möge die Zerstörung Arthas mein einziges Bestreben sein...' WHERE entry=-1300;
 UPDATE creature_ai_texts SET content_loc3='Ich werde es nicht schaffen... geht... geht ohne mich weiter...' WHERE entry=-1301;
 UPDATE creature_ai_texts SET content_loc3='Der Tod überkommt mich! Ich kann nicht mehr weitermachen! Mir bleibt nichts mehr...' WHERE entry=-1302;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1303; -- ungenutzt
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-1304; -- ungenutzt
+UPDATE creature_ai_texts SET content_loc3='Werde durch die Klinge geläutert, Abschaum!' WHERE entry=-1303;
+UPDATE creature_ai_texts SET content_loc3='Ihr wagt es, diesen heiligen Boden zu entweihen?' WHERE entry=-1304;
 UPDATE creature_ai_texts SET content_loc3='Das Licht verdammt jeden, der Böses im Schilde führt. Ihr werdet jetzt sterben!' WHERE entry=-1305;
 UPDATE creature_ai_texts SET content_loc3='Ihr tragt die Besudelung der Geißel. Macht Euch bereit, den Sog des Nethers zu betreten.' WHERE entry=-1306;
 UPDATE creature_ai_texts SET content_loc3='Für Euch gibt es keine Fluchtmöglichkeit. Der Kreuzzug wird alle vernichten, die die Besudelung der Geißel tragen.' WHERE entry=-1307;
@@ -2285,9 +2285,9 @@ UPDATE creature_ai_texts SET content_loc3='Ist es wirklich... vorbei?' WHERE ent
 UPDATE creature_ai_texts SET content_loc3='Ihr werdet keine Vergeltung finden, $N!' WHERE entry=-10701;
 UPDATE creature_ai_texts SET content_loc3='%s lacht wahnsinnig, während er die zwei Mixturen, die er in seinen Händen hält, miteinander vermischt.' WHERE entry=-10702;
 UPDATE creature_ai_texts SET content_loc3='Verdammt! Das Blutdistelextrakt vermischt sich nicht vollständig mit meinem Gift. Doch so leicht lasse ich mich nicht aufhalten - diese Trolle werden schon sehen, dass mit mir nicht zu spaßen ist! Vielleicht eine andere Mixtur?' WHERE entry=-10703;
-UPDATE creature_ai_texts SET content_loc3='Was für eine Schande, dass Ihr den Absturz nur überlebt habt, um hier den Tod zu finden!' WHERE entry=-10704; -- -902
-UPDATE creature_ai_texts SET content_loc3='Wir werden es nicht zulassen, dass Ihr diesen Ort lebend verlasst!' WHERE entry=-10705; -- -903
-UPDATE creature_ai_texts SET content_loc3='Ich hoffe, Ihr habt Euren Frieden gemacht.' WHERE entry=-10706; -- -904
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10704; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10705; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10706; -- ungenutzt
 UPDATE creature_ai_texts SET content_loc3='Mich bekommt Ihr nicht lebendig, Abschaum!' WHERE entry=-10707; -- -905
 UPDATE creature_ai_texts SET content_loc3='%s scheint von Eurem Tun nicht begeistert zu sein.' WHERE entry=-10708; -- -906
 UPDATE creature_ai_texts SET content_loc3='%s wundert sich.' WHERE entry=-10709; -- -907
@@ -2363,8 +2363,8 @@ UPDATE creature_ai_texts SET content_loc3='Alle Eindringlinge müssen vernichtet
 UPDATE creature_ai_texts SET content_loc3='Schützt die Botanika, koste es was es wolle!' WHERE entry=-10779; -- -144
 UPDATE creature_ai_texts SET content_loc3='Schützt die Mechanar, koste es was es wolle!' WHERE entry=-10780; -- -145
 UPDATE creature_ai_texts SET content_loc3='Wer stört meinen Schlaf? Dieser Speer... ich habe immer noch eine Narbe!' WHERE entry=-10781;
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10782; -- ungenutzt
--- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10783; -- ungenutzt
+UPDATE creature_ai_texts SET content_loc3='Ich habe gehört, Grubenlords entstünden aus Maden, Brutallus!' WHERE entry=-10782;
+UPDATE creature_ai_texts SET content_loc3='Große Töne für ein blaues Vögelchen! Wie wäre es, wenn du herunterkommst und versuchst, diese Made hier aus dem Staub zu picken!' WHERE entry=-10783;
 UPDATE creature_ai_texts SET content_loc3='Wenn ich Euch die Gliedmaßen abgehackt habe, hänge ich vielleicht Euren Körper an eine Zinne unserer Festungsmauer.' WHERE entry=-10784;
 UPDATE creature_ai_texts SET content_loc3='Ich liebe es, im Blut meiner Feinde zu baden!' WHERE entry=-10785;
 UPDATE creature_ai_texts SET content_loc3='Ich erflehe Euren Tod!' WHERE entry=-10786;
@@ -2818,6 +2818,10 @@ UPDATE creature_ai_texts SET content_loc3='Wollt Ihr ewig leben?' WHERE entry=-1
 UPDATE creature_ai_texts SET content_loc3='Es ist MEIN!' WHERE entry=-11234;
 UPDATE creature_ai_texts SET content_loc3='Ihr wollt die Kraft stehlen? Sterbt!' WHERE entry=-11235;
 UPDATE creature_ai_texts SET content_loc3='Verschwindet von meinen Kristallen!' WHERE entry=-11236;
+UPDATE creature_ai_texts SET content_loc3='Wir werden es nicht zulassen, dass Ihr diesen Ort lebend verlasst!' WHERE entry=-11237;
+UPDATE creature_ai_texts SET content_loc3='Was für eine Schande, dass Ihr den Absturz nur überlebt habt, um hier den Tod zu finden!' WHERE entry=-11238;
+UPDATE creature_ai_texts SET content_loc3='Ich hoffe, Ihr habt Euren Frieden gemacht.' WHERE entry=-11239;
+UPDATE creature_ai_texts SET content_loc3='Niemand von euch wird dieses Tal lebend verlassen!' WHERE entry=-11240;
 
 UPDATE creature_ai_texts SET content_loc3='Möge das Licht Euch segnen.' WHERE entry=-19997; -- -707
 UPDATE creature_ai_texts SET content_loc3='Eure Verletzungen sind ernst, doch Ihr werdet leben.' WHERE entry=-19998; -- -708
@@ -3940,4 +3944,21 @@ UPDATE creature_ai_texts SET content_loc3='Alle Feinde der Rotfänge sind in uns
 UPDATE creature_ai_texts SET content_loc3='Nix kann Euch retten, Biesterchen! Das is\' Geißelland jetze!' WHERE entry=-21112;
 UPDATE creature_ai_texts SET content_loc3='Und niemand kann nix dagegen nich\' machen!' WHERE entry=-21113;
 UPDATE creature_ai_texts SET content_loc3='Niemand kann uns nich\' aufhalten!' WHERE entry=-21114;
+UPDATE creature_ai_texts SET content_loc3='Ich werde Euch mit Freuden ausweiden.' WHERE entry=-21115;
+UPDATE creature_ai_texts SET content_loc3='Ich verfütter\' Euch an die Hunde!' WHERE entry=-21116;
+UPDATE creature_ai_texts SET content_loc3='Eure Gedärme werden ein schickes Halsband abgeben!' WHERE entry=-21117;
+UPDATE creature_ai_texts SET content_loc3='Stirb, Made!' WHERE entry=-21118;
+UPDATE creature_ai_texts SET content_loc3='Ihr sucht wohl den Tod!' WHERE entry=-21119;
+UPDATE creature_ai_texts SET content_loc3='Ich spucke auf Euch!' WHERE entry=-21120;
+UPDATE creature_ai_texts SET content_loc3='Elendes Schwein!' WHERE entry=-21121;
+UPDATE creature_ai_texts SET content_loc3='Ugglin oo bjorr!' WHERE entry=-21122;
+UPDATE creature_ai_texts SET content_loc3='Haraak foln!' WHERE entry=-21123;
+UPDATE creature_ai_texts SET content_loc3='Ich esse Euer Herz!' WHERE entry=-21124;
+UPDATE creature_ai_texts SET content_loc3='Hässliche, kleine Monster! Betet, dass ich nicht rauskomme!' WHERE entry=-21125;
+UPDATE creature_ai_texts SET content_loc3='Ich werde Euch alle zermalmen!' WHERE entry=-21126;
+UPDATE creature_ai_texts SET content_loc3='Verdammte Bestien!' WHERE entry=-21127;
+UPDATE creature_ai_texts SET content_loc3='Meine Brüder werden kommen, um mich zu holen, und dann werdet Ihr sehen, was echte Macht ist!' WHERE entry=-21128;
+UPDATE creature_ai_texts SET content_loc3='Eure Folter verstärkt nur meinen Zorn!' WHERE entry=-21129;
+UPDATE creature_ai_texts SET content_loc3='Ich werde Euch im Ganzen verschlingen!' WHERE entry=-21130;
+UPDATE creature_ai_texts SET content_loc3='Wie lange, glaubt Ihr, kann dieser Käfig mich zurückhalten, Ihr Ungeheuer?' WHERE entry=-21131;
 SET NAMES 'latin1';

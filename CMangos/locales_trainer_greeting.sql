@@ -621,7 +621,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von W
 -- Grimnur Steinmal <Angellehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich kann Euch lehren, wie Ihr eine Angelrute halten müsst, um Fische zu fangen.' WHERE entry=5161;
 -- Grumnus Scharfstahl <Rüstungsschmiedelehrer>
-UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=5164;
+UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=5164;
 -- Hulfdan Schwarzbart <Schurkenlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=5165;
 -- Ormyr Kieselauge <Schurkenlehrer>
@@ -771,7 +771,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Wa
 -- Kelgruk Blutaxt <Waffenschmiedelehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=7231;
 -- Borgus Stahlhand <Waffenschmiedelehrer>
-UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=7232;
+UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=7232;
 -- Uthel'nay <Magierlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=7311;
 -- Dink <Magierlehrer>
@@ -871,7 +871,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch leh
 -- Hahrana Eisenhaut <Lederverarbeitungslehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=11098;
 -- Ironus Froststahl <Waffenschmiedelehrer>
-UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=11146;
+UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=11146;
 -- Okothos Eisenwüter <Rüstungsschmied>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=11177;
 -- Borgosh Glutformer <Waffenschmied>

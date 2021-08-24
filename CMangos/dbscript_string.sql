@@ -2115,6 +2115,11 @@ UPDATE dbscript_string SET content_loc3='Euer Schicksal ist besiegelt, Mokvar! I
 UPDATE dbscript_string SET content_loc3='Hinfort mit euch, widerliche Kreaturen! Kehrt zurück in das Nichts, aus dem euer Meister euch erschuf!' WHERE entry=2000003327;
 UPDATE dbscript_string SET content_loc3='%s breitet das Gedankenauge und die singenden Kristalle vor sich aus...' WHERE entry=2000003328;
 UPDATE dbscript_string SET content_loc3='Ich habe Yennikus Seelenstein hergestellt, $N...' WHERE entry=2000003329;
+UPDATE dbscript_string SET content_loc3='%s untersucht das Senghalsband...' WHERE entry=2000003330;
+UPDATE dbscript_string SET content_loc3='Interessant, sehr interessant. Habt Ihr das in Durotar gefunden, $N?' WHERE entry=2000003331;
+UPDATE dbscript_string SET content_loc3='Das Halsband ist tatsächlich mit dämonischer Stärke erfüllt, $N. Das ist ein schlechtes Zeichen für unser Volk.' WHERE entry=2000003332;
+UPDATE dbscript_string SET content_loc3='Hm... Ihr habt gut daran getan, das zu mir zu bringen, $N.' WHERE entry=2000003333;
+UPDATE dbscript_string SET content_loc3='Dies ist ein gefährliches Ding, $N. Ich bin froh, dass Ihr mich darauf aufmerksam gemacht habt.' WHERE entry=2000003334;
 
 UPDATE dbscript_string SET content_loc3='Opus möchte etwas von Cuergos Gold... mit Wurm.' WHERE entry=2000005001;
 UPDATE dbscript_string SET content_loc3='Bijou verlaufen! KRÄCHZ! *hust*' WHERE entry=2000005002;
@@ -4157,6 +4162,12 @@ UPDATE dbscript_string SET content_loc3='Ich pfeif\' auf Euch, Trollse!' WHERE e
 UPDATE dbscript_string SET content_loc3='Rache für Zornklaue!' WHERE entry=2000020940;
 UPDATE dbscript_string SET content_loc3='ARRRROOOOOGGGGAAAA!!!' WHERE entry=2000020941;
 UPDATE dbscript_string SET content_loc3='Das bedeuten Krieg!' WHERE entry=2000020942;
+UPDATE dbscript_string SET content_loc3='In der Tat. Seht Euch das an, $R.' WHERE entry=2000020943;
+UPDATE dbscript_string SET content_loc3='Hier, Troll... ein Geschenk!' WHERE entry=2000020944;
+UPDATE dbscript_string SET content_loc3='Für mich? Echt, Mann?' WHERE entry=2000020945;
+UPDATE dbscript_string SET content_loc3='Es... es ist krass hübsch!' WHERE entry=2000020946;
+UPDATE dbscript_string SET content_loc3='Bwäh... Eklig!' WHERE entry=2000020947;
+UPDATE dbscript_string SET content_loc3='FREI!!! Bald schon werdet Ihr den Zorn des Sturmkönigs zu spüren bekommen!' WHERE entry=2000020948;
 
 -- Utgarde Keep (2000025000)
 
@@ -4258,6 +4269,34 @@ UPDATE dbscript_string SET content_loc3='Ich werde die Schmiede benutzen, um \'n
 UPDATE dbscript_string SET content_loc3='Nehmt Euch einen Moment und genießt das mit mir. Bald... wird alles offenbart. Alles klar, dann mal los!' WHERE entry=2000026003;
 
 -- Drak'Tharon Keep (2000026200)
+UPDATE dbscript_string SET content_loc3='Na na, wer wird sich denn so schnell davonmachen wollen? Ich habe doch noch ein Abschiedsgeschenk...' WHERE entry=2000026200;
+UPDATE dbscript_string SET content_loc3='Erhebt euch, meine Krieger, und kämpft für euren neuen Lehnsherrn!' WHERE entry=2000026201;
+UPDATE dbscript_string SET content_loc3='Bitte genießt ihre Gesellschaft, mit den besten Grüßen vom Lichkönig!' WHERE entry=2000026202;
+UPDATE dbscript_string SET content_loc3='Hilfe, Mann! Da sin\' einfach zu viel von ihnen!' WHERE entry=2000026203;
+UPDATE dbscript_string SET content_loc3='Verstärkung! Wir brauchen Verstärkung!' WHERE entry=2000026204;
+UPDATE dbscript_string SET content_loc3='%s flieht zurück zum Bau...' WHERE entry=2000026205;
+UPDATE dbscript_string SET content_loc3='Ahh, endlich wieder in Drak\'Tharon!' WHERE entry=2000026206;
+UPDATE dbscript_string SET content_loc3='Drakuru richtet seinen Blick auf die Feste Drak\'Tharon.' WHERE entry=2000026207;
+UPDATE dbscript_string SET content_loc3='Gut gemacht, Mann...' WHERE entry=2000026208;
+UPDATE dbscript_string SET content_loc3='Du hast meine Erwartungen übertroffen.' WHERE entry=2000026209;
+UPDATE dbscript_string SET content_loc3='Für deine Arbeit gibt\'s die größte aller Belohnungen...' WHERE entry=2000026210;
+UPDATE dbscript_string SET content_loc3='Offenbarung!' WHERE entry=2000026211;
+UPDATE dbscript_string SET content_loc3='Sei still, Freund, und erblick die Wahrheit!' WHERE entry=2000026212;
+UPDATE dbscript_string SET content_loc3='Meister, meine Mission is\' beendet.' WHERE entry=2000026213;
+UPDATE dbscript_string SET content_loc3='Mit der Hilfe von diesen Sterblichen wurde diese Region von all jenen gesäubert, die sich uns in den Weg stell\'n.' WHERE entry=2000026214;
+UPDATE dbscript_string SET content_loc3='Gut gemacht, Drakuru.' WHERE entry=2000026215;
+UPDATE dbscript_string SET content_loc3='Euer Verrat am Reich der Drakkari war die Geburtsstunde meiner neuen Armee.' WHERE entry=2000026216;
+UPDATE dbscript_string SET content_loc3='Eure Armee...' WHERE entry=2000026217;
+UPDATE dbscript_string SET content_loc3='Erhebt Euch und empfangt mein Geschenk.' WHERE entry=2000026218;
+UPDATE dbscript_string SET content_loc3='Nun beauftrage ich Euch mit der Säuberung von Zul\'Drak, Drakuru.' WHERE entry=2000026219;
+UPDATE dbscript_string SET content_loc3='Wie Ihr wünscht, Meister.' WHERE entry=2000026220;
+UPDATE dbscript_string SET content_loc3='Versagt und es wird Euer Ende sein.' WHERE entry=2000026221;
+UPDATE dbscript_string SET content_loc3='Erfolg, allerdings, wird Euch noch mehr Macht einbringen.' WHERE entry=2000026222;
+UPDATE dbscript_string SET content_loc3='Verzeih die Schwindelei, Mann. Es is\' alles zu deinem Besten gewes\'n.' WHERE entry=2000026223;
+UPDATE dbscript_string SET content_loc3='Du musstest erst beweis\'n, dass du würdig bist...' WHERE entry=2000026224;
+UPDATE dbscript_string SET content_loc3='Ich brauch da würdige Leute in Zul\'Drak, Mann. Die mit Macht umgehen können.' WHERE entry=2000026225;
+UPDATE dbscript_string SET content_loc3='Sieh selbst. Der Lichkönich zeigt sich denen gegenüber großzügich, die ihm gehorchen.' WHERE entry=2000026226;
+UPDATE dbscript_string SET content_loc3='Folg\' diesem Weg, Mann, un\' schon bald kostest du die Unsterblichkeit!' WHERE entry=2000026227;
 
 -- Azjol-Nerub (2000026400)
 
