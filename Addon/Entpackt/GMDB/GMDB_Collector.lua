@@ -85,7 +85,7 @@ function self_QuestDetail()
 
     if Quelle == "ITEM_UNBEKANNT" then return; end;
 
-    local QuestTitle = self_CleanMe(GetTitleText());
+    local QuestTitle = GetTitleText();
     local QuestObj   = self_CleanMe(GetObjectiveText());
     local QuestDesc  = self_CleanMe(GetQuestText());
     
@@ -110,7 +110,7 @@ function self_QuestProgress()
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    local QuestTitle    = self_CleanMe(GetTitleText());
+    local QuestTitle    = GetTitleText();
     local QuestProgress = self_CleanMe(GetProgressText());
 
     local PosTab = nil;
@@ -145,7 +145,7 @@ function self_QuestProgress1()
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    local QuestTitle    = self_CleanMe(GetTitleText());
+    local QuestTitle    = GetTitleText();
     local QuestProgress = self_CleanMe(GetProgressText());
 
     local PosTab = self_GetQuestID(0, QuestTitle, QuestObj, QuestDesc);
@@ -178,7 +178,7 @@ function self_QuestComplete()
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    local QuestTitle  = self_CleanMe(GetTitleText());
+    local QuestTitle  = GetTitleText();
     local QuestReward = self_CleanMe(GetRewardText());
 
     local PosTab = nil;
@@ -212,7 +212,7 @@ function self_QuestComplete1()
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    local QuestTitle  = self_CleanMe(GetTitleText());
+    local QuestTitle  = GetTitleText();
     local QuestReward = self_CleanMe(GetRewardText());
 
     local PosTab = self_GetQuestID(0, QuestTitle, QuestObj, QuestDesc);

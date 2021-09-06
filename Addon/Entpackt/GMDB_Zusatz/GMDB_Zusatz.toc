@@ -1,4 +1,4 @@
-## Interface: 90005
+## Interface: 90100
 ## Title: |cffffff00GMDB-Zusatz|r
 ## Title-deDE: |cffffff00GMDB-Zusatz|r
 ## Author: RazzorX

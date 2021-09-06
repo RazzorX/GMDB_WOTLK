@@ -16,9 +16,6 @@ function self_OnLoad(self)
     if GMDB_Collector == nil or GMDB_Main == nil then
         self_PurgeCollector();
     end
---    if GMDB_Main.Realm ~= GetRealmName() then
---        self_PurgeCollector();
---    end
 end
 
 function self_OnEvent(self, event, ...)
@@ -30,7 +27,7 @@ function self_OnEvent(self, event, ...)
         self:RegisterEvent("CHAT_MSG_MONSTER_YELL");
         self:RegisterEvent("CHAT_MSG_MONSTER_EMOTE");
         self:RegisterEvent("CHAT_MSG_RAID_BOSS_EMOTE");
-        self:RegisterEvent("QUEST_LOG_UPDATE");
+--        self:RegisterEvent("QUEST_LOG_UPDATE");
         self:RegisterEvent("QUEST_DETAIL");
         self:RegisterEvent("QUEST_PROGRESS");
         self:RegisterEvent("QUEST_COMPLETE");
@@ -42,14 +39,13 @@ function self_OnEvent(self, event, ...)
             AlreadyLoad = true
         end
     end
-
     if event == "PLAYER_LEAVING_WORLD" then
         self:UnregisterEvent("CHAT_MSG_MONSTER_WHISPER");
         self:UnregisterEvent("CHAT_MSG_MONSTER_SAY");
         self:UnregisterEvent("CHAT_MSG_MONSTER_YELL");
         self:UnregisterEvent("CHAT_MSG_MONSTER_EMOTE");
         self:UnregisterEvent("CHAT_MSG_RAID_BOSS_EMOTE");
-        self:UnregisterEvent("QUEST_LOG_UPDATE");
+--        self:UnregisterEvent("QUEST_LOG_UPDATE");
         self:UnregisterEvent("QUEST_DETAIL");
         self:UnregisterEvent("QUEST_PROGRESS");
         self:UnregisterEvent("QUEST_COMPLETE");
@@ -74,21 +70,18 @@ end
 -- ************
 -- ** QUESTS **
 -- ************
-
 function self_QuestDetail()
     local Quelle = self_GetQuelle();
-    local Entry  = GetQuestID();
-
     if Quelle == nil then
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    if Quelle == "ITEM_UNBEKANNT" then return; end;
-
-    local QuestTitle = self_CleanMe(GetTitleText());
+--    if Quelle == "ITEM_UNBEKANNT" then return; end;
+    local QuestTitle = GetTitleText();
     local QuestObj   = self_CleanMe(GetObjectiveText());
     local QuestDesc  = self_CleanMe(GetQuestText());
 
+    local Entry  = GetQuestID();
     local PosTab = self_GetQuestID(0, QuestTitle, QuestObj, QuestDesc);
     if PosTab ~= nil then return; end
 
@@ -104,15 +97,14 @@ end
 
 function self_QuestProgress()
     local Quelle = self_GetQuelle();
-    local Entry  = GetQuestID();
-
     if Quelle == nil then
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    local QuestTitle    = self_CleanMe(GetTitleText());
+    local QuestTitle    = GetTitleText();
     local QuestProgress = self_CleanMe(GetProgressText());
 
+    local Entry = GetQuestID();
     local PosTab = nil;
     local NbQuest = 0;
     for i = 1, GMDB_Main.totquest, 1 do
@@ -139,15 +131,14 @@ end
 -- TODO: diese Funktion in self_QuestProgress einbauen
 function self_QuestProgress1()
     local Quelle = self_GetQuelle();
-    local Entry  = GetQuestID();
-
     if Quelle == nil then
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    local QuestTitle    = self_CleanMe(GetTitleText());
+    local QuestTitle    = GetTitleText();
     local QuestProgress = self_CleanMe(GetProgressText());
 
+    local Entry  = GetQuestID();
     local PosTab = self_GetQuestID(0, QuestTitle, QuestObj, QuestDesc);
 
     for i = 1, GMDB_Main.totquest, 1 do
@@ -172,15 +163,14 @@ end
 
 function self_QuestComplete()
     local Quelle = self_GetQuelle();
-    local Entry  = GetQuestID();
-
     if Quelle == nil then
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    local QuestTitle  = self_CleanMe(GetTitleText());
+    local QuestTitle  = GetTitleText();
     local QuestReward = self_CleanMe(GetRewardText());
 
+    local Entry = GetQuestID();
     local PosTab = nil;
     local NbQuest = 0;
     for i = 1, GMDB_Main.totquest, 1 do
@@ -206,15 +196,14 @@ end
 -- TODO: diese Funktion in self_QuestComplete einbauen
 function self_QuestComplete1()
     local Quelle = self_GetQuelle();
-    local Entry  = GetQuestID();
-
     if Quelle == nil then
     Quelle = "<UNBEKANNT>";
     return Quelle; end
 
-    local QuestTitle  = self_CleanMe(GetTitleText());
+    local QuestTitle  = GetTitleText();
     local QuestReward = self_CleanMe(GetRewardText());
 
+    local Entry  = GetQuestID();
     local PosTab = self_GetQuestID(0, QuestTitle, QuestObj, QuestDesc);
 
     for i = 1, GMDB_Main.totquest, 1 do
@@ -279,10 +268,11 @@ function self_GetQuelle()
     elseif kind == "GameObject" and not itemName then
         Quelle = "GOBJECT||"..Ziel.."||"..id;
         self_Debug("self_GetQuelle - Kind gameobject: "..Ziel);
-    elseif kind == "Item" and itemId == nil and not (kind == "Creature" or kind == "GameObject") then
-        Quelle = "ITEM_UNBEKANNT";
-        self_Debug("self_GetQuelle - Quelle = Item unbekannt");
-    elseif kind == "Item" or (itemId ~= nil or itemName ~= nil) then
+--    elseif kind == "Item" and itemId == nil and not (kind == "Creature" or kind == "GameObject") then
+--        Quelle = "ITEM_UNBEKANNT";
+--        self_Debug("self_GetQuelle - Quelle = Item unbekannt");
+--    elseif kind == "Item" or (itemId ~= nil or itemName ~= nil) then
+    elseif kind == "ITEM" or itemName ~= nil then
         Quelle = "ITEM||"..ZielX.."||"..iID;
         self_Debug("self_GetQuelle - Item: "..iID.." - "..ZielX);
 --    else
@@ -322,6 +312,7 @@ function self_MonsterSprache(ART, arg1, arg2, arg3)
     GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WER = WER;
     GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WAS = WAS;
     GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].SPRACHE = SPRACHE;
+    self_Debug("self_MonsterSprache: "..WER.." , "..SPRACHE);
 end
 
 -- ************
@@ -340,7 +331,6 @@ function self_GossipText()
 end
 
     local Quelle = self_GetQuelle();
-
     PosTab = GMDB_Main.totgossip + 1;
     GGesamt = GetNumGossipOptions();
     erreurTitel = 0 ;
@@ -411,7 +401,7 @@ end
 function self_GetUnitId(unit)
     local kind = self_GetUnitKind();
 
-    if kind == "Item" then return nil; end
+    if kind == "ITEM" then return nil; end
     if kind == "Creature" or "GameObject" then
     id = guid:match("%a+-%d+-%d+-%d+-%d+-(%d+)-.+")
     self_Debug("self_GetUnitId - Kind creature or gameobject");
@@ -422,7 +412,10 @@ end
 function self_GetUnitKind(unit)
     guid = UnitGUID("npc");
 
-    if guid ~= nil then
+    if guid == nil then
+    kind = "ITEM";
+    self_Debug("self_GetUnitKind = ITEM");
+    else
     kind = guid:match("(%a+)-.+")
     self_Debug("self_GetUnitKind - kind: "..kind);
     end
