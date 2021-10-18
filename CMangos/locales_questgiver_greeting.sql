@@ -390,6 +390,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Der Geist von Steinkralle wein
 -- Collin Mauren
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4078;
 
+-- Ziz Fizziks (englischer "Text" nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=4201;
+
 -- Kravel Kohlebart
 UPDATE locales_questgiver_greeting SET Text_loc3='Kommt näher. Wir beide müssen wichtige Dinge besprechen.$B$BUnd einiges davon ist nicht für fremde Ohren bestimmt...' WHERE entry=4452;
 
@@ -459,6 +462,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Wesen aus dem Chaos, das jense
 -- Nara Wildmähne
 UPDATE locales_questgiver_greeting SET Text_loc3='Wenn wir die Natur schützen sollen, müssen wir ihre Kraft annehmen. Und wir müssen denjenigen diese Kraft zeigen, die dem Land Schaden zufügen wollen.' WHERE entry=5770;
 
+-- Thun'grim Brandblick (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Mein Augenlicht hat nachgelassen, aber es gibt nicht nur eine Art des Sehens...' WHERE entry=5878;
+
 -- Canaga Erdenrufer
 UPDATE locales_questgiver_greeting SET Text_loc3='Ich heiße Euch wieder willkommen, $N.' WHERE entry=5887;
 
@@ -497,6 +503,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Mein Name ist Bilgenritzel und
 
 -- Rok Orhan
 UPDATE locales_questgiver_greeting SET Text_loc3='Die Oger der Gordunni dringen in unser Land ein. Wir schicken jeden Willigen aus, der sich ihnen bei den entweihten Ruinen von Feralas stellen möchte.' WHERE entry=7777;
+
+-- Galvan der Alte (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='So wenige schaffen es bis hierher, noch weniger weiter. Werdet nicht zu einer Zahl unter vielen, $N.' WHERE entry=7802;
 
 -- Oran Schlangenfuß
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=7825;
@@ -557,6 +566,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $N. Ich bin F�
 
 -- Nataka Langhorn (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Desolace ist kein so schlechter Ort, wenn man sich nicht an den ständigen Belästigungen durch die Zentauren stört.' WHERE entry=11259;
+
+-- Smeed Schraubenbuddel (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Mein Geschäftsplan sah niemals vor, riesige Kodos unterzubringen... vielleicht hätte ich mich lieber auf Unterwasserkorbflechten verlegen sollen.' WHERE entry=11596;
 
 -- Makaba Flachhuf (englischer "Text" nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=11857;

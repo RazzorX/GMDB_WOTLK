@@ -195,7 +195,7 @@ UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=2704;
 -- Pand Steinbinder <Lehrer für Erste Hilfe>
 UPDATE locales_trainer_greeting SET Text_loc3='Hier, lasst mich Euch zeigen, wie man solche Wunden verbindet...' WHERE entry=2798;
 -- Brenn <Überragender Metzger>
-UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von Wildtieren in ein Festmahl zu verwandeln!' WHERE entry=2818;
+UPDATE locales_trainer_greeting SET Text_loc3='Es gibt nichts köstlicheres als gegrillten Bussardflügel.' WHERE entry=2818;
 -- Myizz Glücksfang <Angellehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich kann Euch lehren, wie Ihr eine Angelrute halten müsst, um Fische zu fangen.' WHERE entry=2834;
 -- Brikk Kühnwerk <Schmiedekunstlehrer>
@@ -767,7 +767,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Man braucht eine ruhige Hand, um 
 -- Mooranta <Kürschnerlehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Man braucht eine ruhige Hand, um ein getötetes Wildtier zu häuten.' WHERE entry=7089;
 -- Shayis Stahlzorn <Rüstungsschmiedelehrerin>
-UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=7230;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7230;
 -- Kelgruk Blutaxt <Waffenschmiedelehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=7231;
 -- Borgus Stahlhand <Waffenschmiedelehrer>
@@ -783,15 +783,15 @@ UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einf
 -- Peter Galen <Drachenlederverarbeitungslehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=7866;
 -- Thorkaf Drachenaug <Drachenlederverarbeitungslehrer>
-UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=7867;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7867;
 -- Sarah Gerber <Elementarlederverarbeitungslehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=7868;
 -- Brumn Winterhuf <Elementarlederverarbeitungslehrer>
-UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=7869;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7869;
 -- Caryssia Jägermond <Stammeslederverarbeitungslehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=7870;
 -- Se'Jib <Stammeslederverarbeitungslehrer>
-UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=7871;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7871;
 -- Tüftlermeister Oberfunks <Lehrer für gnomische Ingenieurskunst>
 UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einfach, wenn man die Grundlagen versteht.' WHERE entry=7944;
 -- Brannock <Angellehrer>
@@ -873,9 +873,9 @@ UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch leh
 -- Ironus Froststahl <Waffenschmiedelehrer>
 UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=11146;
 -- Okothos Eisenwüter <Rüstungsschmied>
-UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=11177;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=11177;
 -- Borgosh Glutformer <Waffenschmied>
-UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=11178;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=11178;
 -- Nara Meideros <Priesterlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=11397;
 -- Priesterin Alathea <Priesterlehrerin>

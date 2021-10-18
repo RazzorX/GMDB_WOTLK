@@ -8570,7 +8570,7 @@ UPDATE locales_gameobject SET name_loc3='Ein verstaubter Foliant' WHERE entry=17
 UPDATE locales_gameobject SET name_loc3='Ein verstaubter Foliant' WHERE entry=179548;
 UPDATE locales_gameobject SET name_loc3='Tür' WHERE entry=179549;
 UPDATE locales_gameobject SET name_loc3='Tür' WHERE entry=179550;
-UPDATE locales_gameobject SET name_loc3='Hydraxis\' Kiste' WHERE entry=179551;
+UPDATE locales_gameobject SET name_loc3='Hydraxis\' Truhe' WHERE entry=179551;
 UPDATE locales_gameobject SET name_loc3='Bauplan: Feldreparaturbot 74A' WHERE entry=179552;
 UPDATE locales_gameobject SET name_loc3='Kernfragment' WHERE entry=179553;
 UPDATE locales_gameobject SET name_loc3='Versammlungsstein' WHERE entry=179554;
@@ -9153,6 +9153,7 @@ UPDATE locales_gameobject SET name_loc3='AQWar - Ressourcen, Barren, Allianz, Ti
 UPDATE locales_gameobject SET name_loc3='AQWar - Ressourcen, Barren, Allianz, Tier 3' WHERE entry=180782;
 UPDATE locales_gameobject SET name_loc3='AQWar - Ressourcen, Barren, Allianz, Tier 4' WHERE entry=180783;
 UPDATE locales_gameobject SET name_loc3='AQWar - Ressourcen, Barren, Allianz, Tier 5' WHERE entry=180784;
+UPDATE locales_gameobject SET name_loc3='AQDOORSOUND' WHERE entry=180788;
 UPDATE locales_gameobject SET name_loc3='Festtagsgeschenk', castbarcaption_loc3='Öffnen' WHERE entry=180793;
 UPDATE locales_gameobject SET name_loc3='Tagebuch von Jandice Barov' WHERE entry=180794;
 UPDATE locales_gameobject SET name_loc3='Sandwurmbasis' WHERE entry=180795;

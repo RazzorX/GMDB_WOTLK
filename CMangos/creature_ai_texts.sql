@@ -379,8 +379,8 @@ UPDATE creature_ai_texts SET content_loc3='Der Loch gehört nun dem Splitterstei
 UPDATE creature_ai_texts SET content_loc3='Sterbt im Namen von Ragnaros!' WHERE entry=-373;
 UPDATE creature_ai_texts SET content_loc3='Zeit zu sterben, $C.' WHERE entry=-374;
 UPDATE creature_ai_texts SET content_loc3='Die Augen von %s glühen rot, als er das Dynamit entzündet und wie wahnsinnig gackert!' WHERE entry=-375;
-UPDATE creature_ai_texts SET content_loc3='Ihr seid kein Gegner für die Schwarzfelsorcs!' WHERE entry=-376;
-UPDATE creature_ai_texts SET content_loc3='Spürt die Macht der Schwarzfelsorcs!' WHERE entry=-377;
+UPDATE creature_ai_texts SET content_loc3='Spürt die Macht der Schwarzfelsorcs!' WHERE entry=-376;
+UPDATE creature_ai_texts SET content_loc3='Ihr seid kein Gegner für die Schwarzfelsorcs!' WHERE entry=-377;
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-378; -- ungenutzt
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-379; -- ungenutzt
 -- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-380; -- ungenutzt
@@ -2179,9 +2179,9 @@ UPDATE creature_ai_texts SET content_loc3='Letzten Endes werdet Ihr versagen.' W
 UPDATE creature_ai_texts SET content_loc3='Mein Leben... für den Meister.' WHERE entry=-10595; -- -1682
 UPDATE creature_ai_texts SET content_loc3='GREIFT MIT DER GANZEN MACHT DER NETHERSCHWINGEN AN, MEINE KINDER! GREIFT AN!' WHERE entry=-10596;
 UPDATE creature_ai_texts SET content_loc3='Fürst Illidan, segnet mich mit der Kraft des Fluges!' WHERE entry=-10597;
-UPDATE creature_ai_texts SET content_loc3='IHR HATTET BESTE, JETZT TRINKEN RESTE! OGERBRÄU!' WHERE entry=-10598; -- -717
-UPDATE creature_ai_texts SET content_loc3='HEY, IHR DA! IHR TRINKEN OGERBRÄU! MACHEN EUCH GROSS UND STARK!!!' WHERE entry=-10599; -- -718
-UPDATE creature_ai_texts SET content_loc3='IHR WOLLE TRINKEN?! WIR HABE TRINKEN!' WHERE entry=-10600; -- -719
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10598; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10599; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10600; -- ungenutzt
 UPDATE creature_ai_texts SET content_loc3='Sie hätten auf mich hören sollen. Dann würde ich all das Lob ernten, das mir gebührt!' WHERE entry=-10601;
 UPDATE creature_ai_texts SET content_loc3='Ich sage es Euch, wenn wir wieder bei der Enklave der Weltenwanderer sind, werdet Ihr Euch für Eure Handlungen rechtfertigen müssen, Waldläuferin Valanna! Ihr allein seid für unsere Verluste verantwortlich und ich bin sicher, dass der Hauptmann es genauso sehen wird.' WHERE entry=-10602;
 UPDATE creature_ai_texts SET content_loc3='Hab ich vergessen, sie anzuschreien? Rückzug! Deckungsfeuer und zurückziehen, anschließend neu gruppieren!' WHERE entry=-10603;
@@ -2341,20 +2341,20 @@ UPDATE creature_ai_texts SET content_loc3='Hahaha! Dieser Narr wird nie herausfi
 UPDATE creature_ai_texts SET content_loc3='Avuun wagt es, sich mir entgegenzustellen?! Ich werde ihn zerquetschen! Wenn ich mit den Draenei fertig bin, werden sie wünschen, sie seien Verirrte!' WHERE entry=-10757; -- -979
 UPDATE creature_ai_texts SET content_loc3='Ich kann es kaum erwarten, die neuesten Ergebnisse zu sehen!' WHERE entry=-10758; -- -980
 UPDATE creature_ai_texts SET content_loc3='Ihr solltet besser etwas Abstand halten. Das Ausnehmen von Fischen ist eine unschöne Angelegenheit.' WHERE entry=-10759; -- -991
-UPDATE creature_ai_texts SET content_loc3='Drohns Gebräu ist das Zeug, aus dem Legenden gemacht sind! Kommt, probiert die Legende!' WHERE entry=-10760; -- -997
-UPDATE creature_ai_texts SET content_loc3='Wir trinken auf die Horde! Trinkt Ihr auf die Horde? Zeigt es uns bei der Brauerei Drohn!' WHERE entry=-10761; -- -998
-UPDATE creature_ai_texts SET content_loc3='Hey Ihr da... wollt Ihr \'n paar Haare auf der Brust? Die Brauerei Drohn weiß Rat!' WHERE entry=-10762; -- -999
-UPDATE creature_ai_texts SET content_loc3='Die Brauerei Drohn hat das beste Gebräu, das man weit und breit für Geld kaufen kann! In der Monatsausgabe der \'Goblinbräu\' wurde sie mit \"Hervorragendes Bier\" bewertet!' WHERE entry=-10763; -- -1000
-UPDATE creature_ai_texts SET content_loc3='Wenn Ihr das Leben gerne in vollen Zügen genießt, dann müsst Ihr T\'chalis Voodoobräu kosten!' WHERE entry=-10764; -- -1001
-UPDATE creature_ai_texts SET content_loc3='T\'chalis Voodoobräu und die Feier geht weiter! Erlebt das Braufest in vollen Zügen!' WHERE entry=-10765;
-UPDATE creature_ai_texts SET content_loc3='Hey Ihr! Die Jungs von T\'chalis Voodoobrauerei haben ein Mordsgebräu! Im wahrsten Sinne des Wortes...' WHERE entry=-10766; -- -1003
-UPDATE creature_ai_texts SET content_loc3='Bei T\'chalis Voodoobrauerei gibt\'s das beste Gebräu! In der Wochenausgabe der \'Goblinbräu\' wurde die Brauerei mit \"Bestes Bier\" bewertet!' WHERE entry=-10767; -- -1004
-UPDATE creature_ai_texts SET content_loc3='Boah! Lauf nochmal an mir vorbei, Mädel!' WHERE entry=-10768; -- -1005
-UPDATE creature_ai_texts SET content_loc3='Hey! Zuckerschnäuzchen, hierher!' WHERE entry=-10769; -- -1006
-UPDATE creature_ai_texts SET content_loc3='Hey, hey, süßes Ding! Ihr seht verdammt gut aus!' WHERE entry=-10770; -- -1007
-UPDATE creature_ai_texts SET content_loc3='Hey, hey! Heiße Kurven habt Ihr da, Schätzchen!' WHERE entry=-10771; -- -1008
-UPDATE creature_ai_texts SET content_loc3='Yo! Große Dame! Ob Ihr wohl groß genug seid, um mich bändigen zu können?' WHERE entry=-10772; -- -1009
-UPDATE creature_ai_texts SET content_loc3='Hey, Wildfang! Hey, $C! Mögt Ihr Gold? Meine Taschen sind voll davon! Warum kommt Ihr nicht rüber und seht Euch meine Münzen mal an?' WHERE entry=-10773; -- -1010
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10760; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10761; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10762; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10763; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10764; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10765; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10766; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10767; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10768; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10769; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10770; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10771; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10772; -- ungenutzt
+-- UPDATE creature_ai_texts SET content_loc3='' WHERE entry=-10773; -- ungenutzt
 UPDATE creature_ai_texts SET content_loc3='Sehr schön! Frische Ersatzteile!' WHERE entry=-10774; -- -1904
 UPDATE creature_ai_texts SET content_loc3='Es ist sehr nett von Euch, dass Ihr Organe spenden wollt.' WHERE entry=-10775;
 UPDATE creature_ai_texts SET content_loc3='Ihr könnt stolz sein: Eurer Hirn wird in einer meiner Monstrositäten eine sinnvolle Verwendung finden.' WHERE entry=-10776;

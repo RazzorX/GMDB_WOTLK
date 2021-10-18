@@ -321,12 +321,12 @@ UPDATE dbscript_string SET content_loc3='Ihr könnt uns nicht davon abhalten, di
 UPDATE dbscript_string SET content_loc3='Wenn Ihr glaubt, uns aufhalten zu können, dann irrt Ihr Euch, Freundchen.' WHERE entry=2000000315;
 UPDATE dbscript_string SET content_loc3='Die Leute werden Admiral Prachtmeer als den Helden kennen, der er wirklich war!' WHERE entry=2000000316;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000317; -- ungenutzt
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000318;
+UPDATE dbscript_string SET content_loc3='Hier ist ein Leuchtfeuer für Euch, $N. Ihr müsst es in Eurem Besitz behalten, wenn Ihr die verderbten Gegenstände finden wollt, die wir brauchen.' WHERE entry=2000000318;
 UPDATE dbscript_string SET content_loc3='Warum macht Ihr das? Habe ich Euch zu Lebzeiten etwas böses angetan?' WHERE entry=2000000319;
 UPDATE dbscript_string SET content_loc3='Ah, ich sehe es jetzt in Eurem Geiste. Es ist die Arbeit eines meiner früheren Schüler... Mehlar Dämmerklinge. Es ist traurig zu sehen das sein Herz so düster geworden ist.' WHERE entry=2000000320;
 UPDATE dbscript_string SET content_loc3='Kehrt zu ihm zurück. Kehrt zurück zu Mehlar und sagt ihm, das ich ihm vergebe und das ich verstehe warum er glaubt das tun zu müssen.' WHERE entry=2000000321;
 UPDATE dbscript_string SET content_loc3='Ich kann nur hoffen das er das Licht sehen wird und statt dessen seine Energie dafür einsetzen das einst wunderschöne Quel\'Thalas wiederherzustellen.' WHERE entry=2000000322;
--- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000323; -- ungenutzt
+UPDATE dbscript_string SET content_loc3='Hier ist ein Leuchtfeuer für Euch, $N. Ihr müsst es in Eurem Besitz behalten, wenn Ihr die verderbten Gegenstände finden wollt, die wir brauchen.' WHERE entry=2000000323;
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000324; -- ungenutzt
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000325; -- ungenutzt
 -- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000000326; -- ungenutzt
@@ -2021,8 +2021,8 @@ UPDATE dbscript_string SET content_loc3='%s bereitet einen Trank für $N zu.' WH
 UPDATE dbscript_string SET content_loc3='%s wird von freigesetzter Magie verbrannt!' WHERE entry=2000003233;
 UPDATE dbscript_string SET content_loc3='Argh!' WHERE entry=2000003234;
 UPDATE dbscript_string SET content_loc3='$N, die Geheimnisse dieser Halsbänder zu entschlüsseln, übersteigt meine Fertigkeiten...' WHERE entry=2000003235;
-UPDATE dbscript_string SET content_loc3='%s untersucht das Senghalsband...' WHERE entry=2000003236;
-UPDATE dbscript_string SET content_loc3='Das Halsband ist tatsächlich mit dämonischer Stärke erfüllt, $N. Das ist ein schlechtes Zeichen für unser Volk.' WHERE entry=2000003237;
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000003236; -- ungenutzt
+-- UPDATE dbscript_string SET content_loc3='' WHERE entry=2000003237; -- ungenutzt
 UPDATE dbscript_string SET content_loc3='Ich werde nun mit der Robe anfangen...' WHERE entry=2000003238;
 UPDATE dbscript_string SET content_loc3='Eure Robe ist fertig, $N.' WHERE entry=2000003239;
 UPDATE dbscript_string SET content_loc3='%s wirft die Tierteile in den blubbernden Kessel.' WHERE entry=2000003240;

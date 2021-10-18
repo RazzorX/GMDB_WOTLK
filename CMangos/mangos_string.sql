@@ -859,23 +859,23 @@ UPDATE mangos_string SET content_loc3='          Allianz/Horde/Neutral/Gesamt' W
 UPDATE mangos_string SET content_loc3='| %-10s | %8u | %8u | %8u | %8u |' WHERE entry=1177;
 UPDATE mangos_string SET content_loc3='%-10s = %6u / %6u / %6u / %6u' WHERE entry=1178;
 UPDATE mangos_string SET content_loc3='Anzahl' WHERE entry=1179;
--- UPDATE mangos_string SET content_loc3='' WHERE entry=1180; -- ungenutzt
--- UPDATE mangos_string SET content_loc3='' WHERE entry=1181; -- ungenutzt
--- UPDATE mangos_string SET content_loc3='' WHERE entry=1182; -- ungenutzt
--- UPDATE mangos_string SET content_loc3='' WHERE entry=1183; -- ungenutzt
--- UPDATE mangos_string SET content_loc3='' WHERE entry=1184; -- ungenutzt
--- UPDATE mangos_string SET content_loc3='' WHERE entry=1185; -- ungenutzt
--- UPDATE mangos_string SET content_loc3='' WHERE entry=1186; -- ungenutzt
--- UPDATE mangos_string SET content_loc3='' WHERE entry=1187; -- ungenutzt
--- UPDATE mangos_string SET content_loc3='' WHERE entry=1188; -- ungenutzt
--- UPDATE mangos_string SET content_loc3='' WHERE entry=1189; -- ungenutzt
--- UPDATE mangos_string SET content_loc3='' WHERE entry=1190; -- ungenutzt
+UPDATE mangos_string SET content_loc3='Gegenstandsverhältnis' WHERE entry=1180;
+UPDATE mangos_string SET content_loc3='|            | Allianz  |   Horde  | Neutral  |  Menge   |' WHERE entry=1181;
+UPDATE mangos_string SET content_loc3='          Allianz/Horde/Neutral/Menge' WHERE entry=1182;
+UPDATE mangos_string SET content_loc3='Grau' WHERE entry=1183;
+UPDATE mangos_string SET content_loc3='Weiß' WHERE entry=1184;
+UPDATE mangos_string SET content_loc3='Grün' WHERE entry=1185;
+UPDATE mangos_string SET content_loc3='Blau' WHERE entry=1186;
+UPDATE mangos_string SET content_loc3='Lila' WHERE entry=1187;
+UPDATE mangos_string SET content_loc3='Orange' WHERE entry=1188;
+UPDATE mangos_string SET content_loc3='Gelb' WHERE entry=1189;
+UPDATE mangos_string SET content_loc3='Die Menge von %s-Gegenständen wurde auf %u gesetzt.' WHERE entry=1190;
 UPDATE mangos_string SET content_loc3='Gegenstandsverhältnis für %s wurde auf %u gesetzt.' WHERE entry=1191;
 UPDATE mangos_string SET content_loc3='Wirkungsbewegung' WHERE entry=1192;
 UPDATE mangos_string SET content_loc3='Ausrüstungswertung von Spieler %s ist %u.' WHERE entry=1193;
 -- UPDATE mangos_string SET content_loc3='' WHERE entry=1194;
 -- UPDATE mangos_string SET content_loc3='' WHERE entry=1195;
--- UPDATE mangos_string SET content_loc3='' WHERE entry=1196;
+UPDATE mangos_string SET content_loc3='Debug-Ausgabe für Flugrouten ist jetzt %s.' WHERE entry=1196;
 -- UPDATE mangos_string SET content_loc3='' WHERE entry=1197;
 -- UPDATE mangos_string SET content_loc3='' WHERE entry=1198;
 -- UPDATE mangos_string SET content_loc3='' WHERE entry=1199;
