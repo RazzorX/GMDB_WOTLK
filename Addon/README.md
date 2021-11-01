@@ -1,33 +1,33 @@
-GMDB_Addon für WoW Retail
+## GMDB_Addon für WoW Retail
 ===============================================
 
 Hinweis:
 
-- Die Addons mögen in ihrer Schreibweise (LUA) nicht perfekt sein, aber dafür
+- Die Addons mögen in ihrer Schreibweise (LUA) nicht perfekt sein, aber dafür\
   funktionieren diese trotzdem ziemlich gut. 
 
 ------------------------------------------------------------
-Eine kleine Übersicht was das Addon alles kann. Natürlich wird vorrausgesetzt das man
-den zu schreibenden Text auch sieht bzw das der Text auch gesendet wurde.
+Eine kleine Übersicht was das Addon alles kann. Natürlich wird vorrausgesetzt das man\
+den zu schreibenden Text auch sieht bzw das der Text auch gesendet wurde.\
 Texte (Daten) die das Addon nicht hat können folglich auch nicht geschrieben werden.
 
 ------------------------------------------------------------
 Funktionen:
 
 - sämtliche Sprachtexte und Emotes von NSC schreiben
-- sämtliche Gossip-Texte von NSC (zB: von Stadtwachen) schreiben
+- sämtliche Gossip-Texte von NSC (zB: von Stadtwachen) schreiben (Funktion auf Retail momentan defekt)
 - alle relevanten Texte zu Quests von NSC, Objekten und Gegenständen schreiben
 
 Weitere Funktionen vom Zusatz-Addon (optional):
 
-- alle sogenannten NPC-Texte, Greeting- und Trainer-Greeting-Texte von NSC und Objekten schreiben
+- alle sogenannten NPC-Texte, Quest-Greeting- und Trainer-Greeting-Texte von NSC und Objekten schreiben
 - alle Texte von lesbaren Objekten wie Zettel, Bücher oder auch Schilder etc. schreiben
+- nur wenn im Addon aktiviert, wird sämtliche Post beim öffnen des Briefkastens ausgelesen (ohne Platzhalter)
 
 ------------------------------------------------------------
 
-Hier ein paar Beispiele wie das Addon die gefundenen Daten schreibt:
+## Hier ein paar Beispiele wie das Addon die gefundenen Daten schreibt:
 
-------------------------------------------------------------
 Texte und Emotes
 ----------------
 ------------------------------------------------------------
@@ -213,14 +213,37 @@ Lesbare Dinge
     ["Seite_1"] = "Erzbischof Alonsus Faol\r\n\r\nGütiger Schutzherr der Kirche des Lichts.\r\n\r\nObwohl Erzbischof Faol mit seinem guten Werk in Stratholme, Lordaeron begann, so war er doch den Leuten von Sturmwind ein guter Freund. In den dunklen Tagen nach dem Zweiten Krieg trug er dazu bei, die Bruderschaft von Nordhain zu reformieren und sammelte Gelder, um die Stadt Sturmwind wieder aufzubauen.\r\n\r\nDiese Kathedrale steht jetzt nicht nur hier als Bastion des Heiligen Lichts, sondern als das dauerhafte Testament an den edlen Geist und die Großzügigkeit eines ganz besonderen Mannes.",
     ["Quelle"] = "GOBJECT||Erzbischof Alonsus Faol||177199",
 },
+["Text_3"] = {
+    ["Seite_1"] = "Herr Zischelbub,\r\n\r\nder Überbringer dieses Briefes und ich planen ein Unternehmen, in das einzusteigen wir Euch gern einladen würden. \r\n\r\nWie Ihr wisst, habe ich viel Zeit in der schimmernden Ebene verbracht, und das erwähnte Unternehmen befasst sich mit den Völkern auf dieser Ebene.\r\n\r\nFalls Ihr Euch für Rennen und mehr noch für Rennwetten interessiert, solltet Ihr weiterlesen, denn ich denke, Euer Wissen über das Schlingendorntal könnte sich in unserem Plan als nützlich erweisen.",
+    ["Seite_2"] = "Die über die Ebenen rasenden Raketenwagen benötigen aufgrund ihrer hochsensiblen Technik ständige Wartung. So ist es kein Wunder, dass die Mechaniker ständig vor Ort sind. \r\n\r\nSie testen die Wagen permanent und nehmen nötigenfalls Veränderungen und Reparaturen daran vor. Anders lassen sich die Wagen nicht im Bestzustand halten.\r\n\r\nWir brauchen daher ein Mittel, um eine der Boxencrews zu Fehlern zu zwingen. Dann wird ihr Wagen das Rennen nicht durchstehen.",
+    ["Seite_3"] = "Wenn wir bestimmen können, welcher Wagen gut fährt und welcher nicht, dann... Ich muss Euch wohl nicht erst erklären, welche Vorteile das für uns bei den Wetten hätte.\r\n\r\nVon Euch, guter Zischelbub, brauchen wir daher ein Mittel, um die Mechaniker zu Fehlern zu zwingen.\r\n\r\nGibt es im Schlingendorntal Pflanzen, Kräuter oder Getränke, mit denen sich die Gnome und Goblins benebeln ließen?\r\n\r\n- K. Kohlebart",
+    ["Quelle"] = "ITEM||Kravels Plan||5826",
+},
 ```
 
 ------------------------------------------------------------
+Brieftexte
+------------
+------------------------------------------------------------
+```
+["Text_1"] = {
+    ["Betreff"] = "Higher Learning",
+    ["Von"] = "Rhonin",
+    ["Inhalt"] = "Congratulations on completing your studies on The Schools of Arcane Magic. In recognition of your dedication, I'm enclosing this special volume completing the series.\r\n\r\nI believe you'll find this tome particularly entertaining. But I'll leave that for your discovery.\r\n\r\nSincerely,\r\n\r\nRhonin",
+},
+["Text_2"] = {
+    ["Betreff"] = "Ein festlicher Herbst",
+    ["Von"] = "Bier des Monats e.V.",
+    ["Inhalt"] = "Hallo $N,\n\n   unser heutiges Bier des Monats ist eine Ode an den Herbst. Wir meinen, dass dieses Bier genau das Richtige für diese Jahreszeit ist. Doch Ihr müsst uns nicht unbedingt beim Wort nehmen - probiert es doch einfach.\n\n   Falls Euch diese Kostprobe gemundet haben sollte und ihr noch mehr wollt, dann sucht doch einfach einen unserer Händler auf.\n\nProst!\n\n- Bier des Monats e.V.",
+},
+```
+------------------------------------------------------------
 
-< Die vom Addon angelegten Dateien können unter ..\\World of Warcraft\\_retail_\\WTF\Account\\deine_ID\\SavedVariables\\.. gefunden werden:
+\> Die vom Addon angelegten Dateien können unter\
+. . .\\World of Warcraft\\\_retail\_\\WTF\Account\\deine_ID\\SavedVariables\\. . . gefunden werden:
  - GMDB.lua , GMDB_Zusatz.lua
 
-< Alle hier gemachten Angaben sind auch für das GMDB_Classic Addon representativ.
+\> Alle hier gemachten Angaben sind auch für das [GMDB_Classic Addon](https://github.com/RazzorX/GMDB_NEU/tree/master/Addon%20Classic/Entpackt) representativ.
 
-  Der Pfad dahin lautet ..\\World of Warcraft\\_classic_\\WTF\\Account\\deine_ID\\SavedVariables\\..
+  Der Pfad dahin lautet . . .\\World of Warcraft\\\_classic\_\\WTF\\Account\\deine_ID\\SavedVariables\\. . .
  - GMDB_CLASSIC.lua , GMDB_CLASSIC_Zusatz.lua
