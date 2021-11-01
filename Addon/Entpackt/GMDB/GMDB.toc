@@ -4,8 +4,8 @@
 ## Modified by Klark20 | RazzorX
 ## Version: 1.4
 ## X-Version: Light
-## Notes: GMDB Addon
-## Notes-deDE: GMDB Addon
+## Notes: GMDB Addon for WoW-Retail
+## Notes-deDE: GMDB Addon für WoW-Retail
 ## SavedVariables: GMDB_Collector, GMDB_Main
 ## DefaultState: enabled
 

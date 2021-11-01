@@ -1,5 +1,11 @@
 ADDON_VERSION_Z = "Zusatz v1.3 Classic";
-DEBUG_MODE_Z    = false
+-- komplette Debug-Text-Ausgabe
+DEBUG_MODE_Z = false
+-- nur Events werden angezeigt
+DEBUG_MODE_Z_EVENTS = false
+-- nur für WotLK Classic wichtig, standardmäßig deaktiviert
+BRIEFE_AUSLESEN = false
+
 local AlreadyLoad = false
 local self, event = {};
 
@@ -15,22 +21,22 @@ function self_OnLoad(self)
     if GMDB_Collector_Zusatz == nil or GMDB_Main_Zusatz == nil then
         self_PurgeCollectorZ();
     end
---    if GMDB_Main_Zusatz.Realm ~= GetRealmName() then
---        self_PurgeCollectorZ();
---    end
 end
 
 function self_OnEvent(self, event, ...)
     self_Debug_Z("|cff00ffffEvent: "..event);
+    self_Debug_Z_Events("|cff00ffffEvent: "..event);
 
     if event == "PLAYER_ENTERING_WORLD" then
         self:RegisterEvent("GOSSIP_SHOW");
         self:RegisterEvent("ITEM_TEXT_READY");
         self:RegisterEvent("QUEST_GREETING");
         self:RegisterEvent("TRAINER_SHOW");
+        self:RegisterEvent("MAIL_SHOW");
+        self:RegisterEvent("MAIL_INBOX_UPDATE");
 
         if not AlreadyLoad then
-            DEFAULT_CHAT_FRAME:AddMessage("|cffffff00<GMDB>|r "..ADDON_VERSION_Z.." geladen.");
+            DEFAULT_CHAT_FRAME:AddMessage("|cffffff00<GMDB_Z>|r "..ADDON_VERSION_Z.." geladen.");
             AlreadyLoad = true
         end
     end
@@ -40,12 +46,16 @@ function self_OnEvent(self, event, ...)
         self:UnregisterEvent("ITEM_TEXT_READY");
         self:UnregisterEvent("QUEST_GREETING");
         self:UnregisterEvent("TRAINER_SHOW");
+        self:UnregisterEvent("MAIL_SHOW");
+        self:UnregisterEvent("MAIL_INBOX_UPDATE");
     end
 
     if event == "GOSSIP_SHOW" then self_NpcTexte(); end
     if event == "ITEM_TEXT_READY" then self_ItemText(); end
     if event == "QUEST_GREETING" then self_Greeting(); end
     if event == "TRAINER_SHOW" then self_Trainer_Greeting(); end
+    if event == "MAIL_SHOW" then self_MailShow(); end
+    if event == "MAIL_INBOX_UPDATE" and BRIEFE_AUSLESEN == true then self_BriefTexte(); end
 end
 
 -- ***************
@@ -145,7 +155,7 @@ function self_ItemText()
     local pageNum  = ItemTextGetPage();
     local pageBody = ItemTextGetText();
 
-    if pageNum ~= 1 then
+    if pageNum >= 2 then
     self_ItemText1(); end;
 
     for i = 1, GMDB_Main_Zusatz.totText, 1 do
@@ -242,6 +252,54 @@ function self_ItemText1()
     end
 end
 
+function self_MailShow()
+    CheckInbox();
+end
+
+-- Briefe auslesen
+-- für WotLK Classic um die Tabelle locales_achievement_reward zu vervollständigen
+function self_BriefTexte()
+--    CheckInbox();
+
+    numItems, totalItems = GetInboxNumItems();
+    self_Debug_Z("numItems: "..numItems);
+    self_Debug_Z("totalItems: "..totalItems);
+
+	if numItems == 0 then return; end
+
+    for m = 1, numItems, 1 do
+    _, _, sender, subject, _, _, _, _, _, _, _, _, _ = GetInboxHeaderInfo(m);
+    bodyText, _, _, _, _ = GetInboxText(m);
+    self_Debug_Z("Nachricht: "..m);
+
+    if sender == nil then return; end
+
+    for i = 1, GMDB_Main_Zusatz.totBriefTexte, 1 do
+        if GMDB_Collector_Zusatz.BriefTexte["Text_"..i] then
+            if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Von then
+                if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Von == sender then
+                    if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Betreff == subject then
+                        if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Inhalt == bodyText then return i; end
+                    end
+                end
+            end
+        end
+    end
+
+    local PosTab = i;
+    if PosTab ~= nil then return; end
+
+    GMDB_Main_Zusatz.totBriefTexte = GMDB_Main_Zusatz.totBriefTexte + 1;
+    PosTab = GMDB_Main_Zusatz.totBriefTexte;
+    GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab]         = {};
+    GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Von     = sender;
+    GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Betreff = subject;
+    GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Inhalt  = bodyText;
+    self_Debug_Z("self_BriefTexte - Von: " ..sender);
+    self_Debug_Z("self_BriefTexte - Betreff: " ..subject);
+    end
+end
+
 -- *******************
 -- ** VERSCHIEDENES **
 -- *******************
@@ -263,13 +321,20 @@ function self_PurgeCollectorZ()
     GMDB_Collector_Zusatz = {};
     GMDB_Collector_Zusatz.NpcText = {};
     GMDB_Collector_Zusatz.Texte = {};
+    GMDB_Collector_Zusatz.BriefTexte = {};
     GMDB_Main_Zusatz = {};
     GMDB_Main_Zusatz.totNpcTexte = 0;
     GMDB_Main_Zusatz.totText = 0;
+    GMDB_Main_Zusatz.totBriefTexte = 0;
     GMDB_Main_Zusatz.Realm = GetRealmName();
 end
 
 function self_Debug_Z(phrase)
     if not DEBUG_MODE_Z then return; end
-    DEFAULT_CHAT_FRAME:AddMessage("|cffffff00<GMDB>|r "..phrase);
+    DEFAULT_CHAT_FRAME:AddMessage("|cffffff00<GMDB_Z>|r "..phrase);
+end
+
+function self_Debug_Z_Events(phrase)
+    if not DEBUG_MODE_Z_EVENTS then return; end
+    DEFAULT_CHAT_FRAME:AddMessage("|cffffff00<GMDB_Z>|r "..phrase);
 end

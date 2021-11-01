@@ -1,5 +1,9 @@
 ADDON_VERSION = "v1.4";
-DEBUG_MODE    = false
+-- komplette Debug-Text-Ausgabe
+DEBUG_MODE = false
+-- nur Events werden angezeigt
+DEBUG_MODE_EVENTS = false
+
 local AlreadyLoad = false
 local self, event = {};
 local arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,arg12,arg13,arg14,arg15,arg16,arg17,arg18,arg19 = ...;
@@ -23,6 +27,7 @@ end
 
 function self_OnEvent(self, event, ...)
     self_Debug("|cff00ffffEvent: "..event);
+    self_Debug_Events("|cff00ffffEvent: "..event);
 
     if event == "PLAYER_ENTERING_WORLD" then
         self:RegisterEvent("CHAT_MSG_MONSTER_WHISPER");
@@ -462,5 +467,10 @@ end
 
 function self_Debug(phrase)
     if not DEBUG_MODE then return; end
+    DEFAULT_CHAT_FRAME:AddMessage("|cffffff00<GMDB>|r "..phrase);
+end
+
+function self_Debug_Events(phrase)
+    if not DEBUG_MODE_EVENTS then return; end
     DEFAULT_CHAT_FRAME:AddMessage("|cffffff00<GMDB>|r "..phrase);
 end
