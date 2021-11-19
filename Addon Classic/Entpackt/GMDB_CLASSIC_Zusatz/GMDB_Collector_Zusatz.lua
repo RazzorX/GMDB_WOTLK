@@ -137,13 +137,6 @@ function self_Trainer_Greeting()
     GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].TGreeting = TGreeting;
 end
 
---[[    -- für später vielleicht
-https://wow.gamepedia.com/API_ItemTextGetPage
-https://wow.gamepedia.com/API_ItemTextGetText
-https://wow.gamepedia.com/Category:World_of_Warcraft_API
-https://wow.gamepedia.com/Global_functions
---]]
-
 -- *******************************
 -- ** GEGENSTANDS / OBJEKTTEXTE **
 -- *******************************
@@ -155,101 +148,46 @@ function self_ItemText()
     local pageNum  = ItemTextGetPage();
     local pageBody = ItemTextGetText();
 
+    t = nil;
     if pageNum >= 2 then
-    self_ItemText1(); end;
+        for t = 1, GMDB_Main_Zusatz.totText, 1 do
+            if GMDB_Collector_Zusatz.Texte["Text_"..t] then
+                if GMDB_Collector_Zusatz.Texte["Text_"..t].Quelle == Quelle then
+                self_Debug_Z("self_ItemText - Quelle: "..Quelle);
+                    if GMDB_Collector_Zusatz.Texte["Text_"..t].Seiten.Seite_1 then
+                    self_Debug_Z("self_ItemText - |c00FFFF33PosTab: "..t.."|r");
 
-    for i = 1, GMDB_Main_Zusatz.totText, 1 do
-        if GMDB_Collector_Zusatz.Texte["Text_"..i] then
-            if GMDB_Collector_Zusatz.Texte["Text_"..i].Quelle then
-                if GMDB_Collector_Zusatz.Texte["Text_"..i].Quelle == Quelle then return i; end
+                    GMDB_Collector_Zusatz.Texte["Text_"..t].Seiten["Seite_"..pageNum] = pageBody;
+                    self_Debug_Z("self_ItemText - Seite: " ..pageNum);
+                    end
+                end
             end
         end
     end
 
-    local PosTab = i;
+    PosTab = nil;
+    for i = 1, GMDB_Main_Zusatz.totText, 1 do
+        if GMDB_Collector_Zusatz.Texte["Text_"..i] then
+            if GMDB_Collector_Zusatz.Texte["Text_"..i].Quelle then
+                if GMDB_Collector_Zusatz.Texte["Text_"..i].Quelle == Quelle then
+                    PosTab = i;
+                    self_Debug_Z("self_ItemText - |c00FF0000PosTab: "..PosTab.."|r");
+                end
+            end
+        end
+    end
+
     if PosTab ~= nil then return; end
 
     GMDB_Main_Zusatz.totText = GMDB_Main_Zusatz.totText + 1;
     PosTab = GMDB_Main_Zusatz.totText;
     GMDB_Collector_Zusatz.Texte["Text_"..PosTab]         = {};
     GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Quelle  = Quelle;
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_1 = pageBody;
-    self_Debug_Z("self_ItemText - Seite: " ..pageNum);
+    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seiten  = {};
+    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seiten["Seite_"..pageNum] = pageBody;
+    self_Debug_Z("self_ItemText - |c0000FF00PosTab: "..PosTab.."|r");
     self_Debug_Z("self_ItemText - Quelle: " ..Quelle);
-end
-
--- ToDo: Funktion vereinfachen!
-function self_ItemText1()
-    self_Debug_Z("self_ItemText1 läuft nun");
-
-    local pageNum  = ItemTextGetPage();
-    local pageBody = ItemTextGetText();
-
-    local PosTab = nil;
-    local NbText = 0;
-    for i = 1, GMDB_Main_Zusatz.totText, 1 do
-        if GMDB_Collector_Zusatz.Texte["Text_"..i] then
-            if GMDB_Collector_Zusatz.Texte["Text_"..i].Quelle == Quelle then
-            self_Debug_Z("self_ItemText1 - Quelle: "..Quelle);
-                if GMDB_Collector_Zusatz.Texte["Text_"..i].Seite_1 then
-                self_Debug_Z("self_ItemText1 - PosTab: "..i);
-                    PosTab = i;
-                    NbText = NbText + 1;
-                end
-            end
-        end
-    end
-    if NbText ~= 1 then return; end
-
-    if pageNum == 2 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_2 = pageBody;
-    elseif pageNum == 3 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_3 = pageBody;
-    elseif pageNum == 4 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_4 = pageBody;
-    elseif pageNum == 5 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_5 = pageBody;
-    elseif pageNum == 6 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_6 = pageBody;
-    elseif pageNum == 7 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_7 = pageBody;
-    elseif pageNum == 8 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_8 = pageBody;
-    elseif pageNum == 9 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_9 = pageBody;
-    elseif pageNum == 10 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_10 = pageBody;
-    elseif pageNum == 11 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_11 = pageBody;
-    elseif pageNum == 12 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_12 = pageBody;
-    elseif pageNum == 13 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_13 = pageBody;
-    elseif pageNum == 14 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_14 = pageBody;
-    elseif pageNum == 15 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_15 = pageBody;
-    elseif pageNum == 16 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_16 = pageBody;
-    elseif pageNum == 17 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_17 = pageBody;
-    elseif pageNum == 18 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_18 = pageBody;
-    elseif pageNum == 19 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_19 = pageBody;
-    elseif pageNum == 20 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_20 = pageBody;
-    elseif pageNum == 21 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_21 = pageBody;
-    elseif pageNum == 22 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_22 = pageBody;
-    elseif pageNum == 23 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_23 = pageBody;
-    elseif pageNum == 24 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_24 = pageBody;
-    elseif pageNum == 25 then
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seite_25 = pageBody;
-    end
+    self_Debug_Z("self_ItemText - Seite: " ..pageNum);
 end
 
 function self_MailShow()
@@ -265,7 +203,7 @@ function self_BriefTexte()
     self_Debug_Z("numItems: "..numItems);
     self_Debug_Z("totalItems: "..totalItems);
 
-	if numItems == 0 then return; end
+    if numItems == 0 then return; end
 
     for m = 1, numItems, 1 do
     _, _, sender, subject, _, _, _, _, _, _, _, _, _ = GetInboxHeaderInfo(m);
@@ -274,29 +212,33 @@ function self_BriefTexte()
 
     if sender == nil then return; end
 
+    PosTab = nil;
     for i = 1, GMDB_Main_Zusatz.totBriefTexte, 1 do
         if GMDB_Collector_Zusatz.BriefTexte["Text_"..i] then
-            if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Von then
-                if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Von == sender then
-                    if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Betreff == subject then
-                        if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Inhalt == bodyText then return i; end
+            if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Von == sender then
+                if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Betreff == subject then
+                    if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Inhalt == bodyText then
+                        PosTab = i;
+                        self_Debug_Z("self_BriefTexte - |c00FF0000PosTab: "..PosTab.."|r");
                     end
                 end
             end
         end
     end
 
-    local PosTab = i;
-    if PosTab ~= nil then return; end
+--    if PosTab ~= nil then return; end
 
-    GMDB_Main_Zusatz.totBriefTexte = GMDB_Main_Zusatz.totBriefTexte + 1;
-    PosTab = GMDB_Main_Zusatz.totBriefTexte;
-    GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab]         = {};
-    GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Von     = sender;
-    GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Betreff = subject;
-    GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Inhalt  = bodyText;
-    self_Debug_Z("self_BriefTexte - Von: " ..sender);
-    self_Debug_Z("self_BriefTexte - Betreff: " ..subject);
+    if PosTab == nil then
+
+        GMDB_Main_Zusatz.totBriefTexte = GMDB_Main_Zusatz.totBriefTexte + 1;
+        PosTab = GMDB_Main_Zusatz.totBriefTexte;
+        GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab]         = {};
+        GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Von     = sender;
+        GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Betreff = subject;
+        GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Inhalt  = bodyText;
+        self_Debug_Z("self_BriefTexte - Von: " ..sender);
+        self_Debug_Z("self_BriefTexte - Betreff: " ..subject);
+        end
     end
 end
 

@@ -1,4 +1,4 @@
-## Interface: 90100
+## Interface: 90105
 ## Title: |cffffff00GMDB|r
 ## Title-deDE: |cffffff00GMDB|r
 ## Modified by Klark20 | RazzorX
