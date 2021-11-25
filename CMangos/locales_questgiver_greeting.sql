@@ -300,6 +300,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Wie gut, dass Ihr vorbeikommt,
 -- Schildwache Glynda Nal'Shea
 UPDATE locales_questgiver_greeting SET Text_loc3='Verderbnis hält schleichend Einzug in den Hain der Natur. Der Wald muss unter allen Umständen beschützt werden.' WHERE entry=2930;
 
+-- Bewahrer Bel'dugur (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Wissen ist sowohl Werkzeug als auch Waffe für diejenigen, die es zu nutzen gewillt sind.' WHERE entry=2934;
+
 -- Häuptling Falkenwind
 UPDATE locales_questgiver_greeting SET Text_loc3='Grüße, $C. Ich habe in meinem Leben viele eifrige Tauren gesehen, die dem Stamm ihren Wert beweisen wollten. Man sollte jedoch nicht vergessen, dass Eifer Weisheit und Erfahrung nicht ersetzen kann.' WHERE entry=2981;
 
