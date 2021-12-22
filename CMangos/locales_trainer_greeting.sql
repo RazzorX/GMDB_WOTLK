@@ -1332,7 +1332,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Willkommen!' WHERE entry=27705;
 SET NAMES 'latin1';
 
 -- IDs für WotLK-Lehrer
--- 28471 28472 28474 28693 28694 28696-28706 28742 28746 29194 29195 29196 29233 29505-29509 29513 29514 29631 29924
+-- 28471 28472 28474 28693 28694 28696-28706 28742 28746 29194 29195 29196 29233 29505-29509 29513 29514
 -- 31084 31238 31247 32474 33580 33581 33583 33586-33591
 -- 33630 33631 33633-33641 33674-33684 33996 35093 35100 35133 35135 40405
 
@@ -1341,20 +1341,84 @@ SET NAMES 'latin1';
 -- UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=20406;
 -- Meister Pyreanor <Paladinlehrer>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=23128;
+-- Anachoretin Yazmina <Großmeisterin der Ersten Hilfe>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Hier, lasst mich Euch zeigen, wie man solche Wunden verbindet...' WHERE entry=23734;
 -- Chefingenieur Leveny <Großmeister der Ingenieurskunst>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einfach, wenn man die Grundlagen versteht.' WHERE entry=25277;
 -- Borus Eisenbieger <Großmeister der Schmiedekunst>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=26564;
+-- Rosina Kerbstift <Großmeisterin der Schmiedekunst>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=26904;
+-- Tisha Langbrück <Großmeisterin der Ingenieurskunst>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einfach, wenn man die Grundlagen versteht.' WHERE entry=26907;
+-- Byron Welwick <Großmeister des Angelns>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Ich kann Euch lehren, wie Ihr eine Angelrute halten müsst, um Fische zu fangen.' WHERE entry=26909;
+-- Fayin Wisperblatt <Großmeister der Kräuterkunde>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Das Pflücken von Kräutern erfordert sowohl Wissen als auch Instinkt.' WHERE entry=26910;
+-- Bernadette Dexter <Großmeisterin der Lederverarbeitung>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=26911;
+-- Grumbol Stämmaxt <Großmeister des Bergbaus>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Habt Ihr noch nicht tief in die Erde gegraben, habt Ihr nicht gelebt.' WHERE entry=26912;
+-- Frederic Burrhus <Großmeister der Kürschnerei>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Man braucht eine ruhige Hand, um ein getötetes Wildtier zu häuten.' WHERE entry=26913;
+-- Ounhulo <Großmeister des Juwelenschleifens>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie man Edelsteine schleift und Schmuck herstellt?' WHERE entry=26915;
 -- Mindri Dinkels <Großmeisterin der Inschriftenkunde>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Würdet Ihr gern die hohe Kunst der Inschriftenkunde erlernen?' WHERE entry=26916;
+-- Kristen Schmydt <Großmeisterin der Schmiedekunst>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=26952;
+-- Thomas Kolichio <Großmeister der Kochkunst>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von Wildtieren in ein Festmahl zu verwandeln!' WHERE entry=26953;
+-- Jamesina Watterly <Großmeisterin der Ingenieurskunst>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einfach, wenn man die Grundlagen versteht.' WHERE entry=26955;
+-- Angelina Soren <Großmeisterin des Angelns>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Ich kann Euch lehren, wie Ihr eine Angelrute halten müsst, um Fische zu fangen.' WHERE entry=26957;
 -- Buchmacher Kells <Großmeister der Inschriftenkunde>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Würdet Ihr gern die hohe Kunst der Inschriftenkunde erlernen?' WHERE entry=26959;
+-- Carter Tiffens <Großmeister des Juwelenschleifens>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie man Edelsteine schleift und Schmuck herstellt?' WHERE entry=26960;
+-- Jonathan Lewis <Großmeister des Bergbaus>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Habt Ihr noch nicht tief in die Erde gegraben, habt Ihr nicht gelebt.' WHERE entry=26962;
+-- Orn Zarthuf <Großmeister der Kochkunst>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von Wildtieren in ein Festmahl zu verwandeln!' WHERE entry=26972;
 -- Adelene Sonnenlanze <Großmeisterin der Inschriftenkunde>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Würdet Ihr gern die hohe Kunst der Inschriftenkunde erlernen?' WHERE entry=26977;
+-- Tiponi Sturmgeflüster <Kürschnermeisterlehrerin>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Man braucht eine ruhige Hand, um ein getötetes Wildtier zu häuten.' WHERE entry=26986;
+-- Falorn Nachtflüstern <Großmeister der Alchemie>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Die Pflanzen dieser Region können zu starken Tränken verarbeitet werden.' WHERE entry=26987;
+-- Argo Starkbier <Großmeister der Schmiedekunst>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=26988;
+-- Rollick MacKreel <Großmeister der Kochkunst>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von Wildtieren in ein Festmahl zu verwandeln!' WHERE entry=26989;
+-- Alexis Marlow <Großmeisterin der Verzauberkunst>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Verzauberkunst ist die Kunst, vorhandene Gegenstände mit Magie zu verbessern.' WHERE entry=26990;
+-- Buchs Hellblitz <Großmeister der Ingenieurskunst>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einfach, wenn man die Grundlagen versteht.' WHERE entry=26991;
+-- Brynna Wilson <Großmeisterin für Erste Hilfe>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Hier, lasst mich Euch zeigen, wie man solche Wunden verbindet...' WHERE entry=26992;
+-- Der alte Robert <Großmeister des Angelns>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Ich kann Euch lehren, wie Ihr eine Angelrute halten müsst, um Fische zu fangen.' WHERE entry=26993;
+-- Kirea Mondtänzer <Großmeisterin der Kräuterkunde>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Das Pflücken von Kräutern erfordert sowohl Wissen als auch Instinkt.' WHERE entry=26994;
 -- Klimper Hellblitz <Großmeisterin der Inschriftenkunde>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Würdet Ihr gern die hohe Kunst der Inschriftenkunde erlernen?' WHERE entry=26995;
+-- Awan Eiskind <Großmeister der Lederverarbeitung>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=26996;
+-- Alestos <Großmeister des Juwelenschleifens>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie man Edelsteine schleift und Schmuck herstellt?' WHERE entry=26997;
+-- Rosemarie Bovard <Großmeisterin der Lederverarbeitung>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=26998;
+-- Trapper Jack <Großmeister der Kürschnerei>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Man braucht eine ruhige Hand, um ein getötetes Wildtier zu häuten.' WHERE entry=27000;
+-- Darin Gutnaht <Großmeister der Schneiderei>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie Ihr Stoff in eine Stoffrüstung verwandelt?' WHERE entry=27001;
 -- Apothekerin Bressa <Alchemiemeisterlehrerin>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Die Pflanzen dieser Region können zu starken Tränken verarbeitet werden.' WHERE entry=27023;
+-- Apotheker Wurmdocht <Alchemiemeisterlehrer>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Die Pflanzen dieser Region können zu starken Tränken verarbeitet werden.' WHERE entry=27029;
+-- Josric Ruhm <Großmeister der Schmiedekunst>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=27034;
 -- Verzauberer Nalthanis <Großmeister der Verzauberkunst>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Verzauberkunst ist die Kunst, vorhandene Gegenstände mit Magie zu verbessern.' WHERE entry=28693;
 -- Alard Schmied <Großmeister der Schmiedekunst>
@@ -1383,6 +1447,14 @@ SET NAMES 'latin1';
 -- UPDATE locales_trainer_greeting SET Text_loc3='Hier, lasst mich Euch zeigen, wie man solche Wunden verbindet...' WHERE entry=28706;
 -- Marcia Balzer <Großmeisterin des Angelns & Angelbedarf>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Ich kann Euch lehren, wie Ihr eine Angelrute halten müsst, um Fische zu fangen.' WHERE entry=28742;
+-- Pilot Vic <Lehrer für Kaltwetterflug>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Möchtet Ihr das Fliegen erlernen?' WHERE entry=28746;
+-- Kriegszauberer Fanoraithe <Magierlehrer>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=28956;
+-- Jessa Wirker <Magierlehrerin>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=28958;
+-- Erzmagierin Celindra <Portallehrerin>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Willkommen!' WHERE entry=29156;
 -- Imindril Speerlied <Waffenschmiedekunstlehrerin>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=29505;
 -- Orland Schäfer <Rüstungsschmiedekunstlehrer>
@@ -1399,6 +1471,8 @@ SET NAMES 'latin1';
 -- UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einfach, wenn man die Grundlagen versteht.' WHERE entry=29514;
 -- Awilo Lon'gomba <Großmeister der Kochkunst>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von Wildtieren in ein Festmahl zu verwandeln!' WHERE entry=29631;
+-- Brandig <Großmeister der Schmiedekunst>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=29924;
 -- Jo'mah <Inschriftenkundelehrer>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Würdet Ihr gern die hohe Kunst der Inschriftenkunde erlernen?' WHERE entry=30706;
 -- Poshken Rückenbinder <Inschriftenkundelehrer>
@@ -1458,11 +1532,7 @@ SET NAMES 'latin1';
 -- UPDATE locales_trainer_greeting SET Text_loc3='Würdet Ihr gern die hohe Kunst der Inschriftenkunde erlernen?' WHERE entry=33638;
 -- Registrator Lidio <Inschriftenkundemeisterlehrer>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Würdet Ihr gern die hohe Kunst der Inschriftenkunde erlernen?' WHERE entry=33679;
--- Kriegszauberer Fanoraithe <Magierlehrer>
--- UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=28956;
--- Jessa Wirker <Magierlehrerin>
--- UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=28958;
--- Erzmagierin Celindra <Portallehrerin>
--- UPDATE locales_trainer_greeting SET Text_loc3='Willkommen!' WHERE entry=29156;
+-- Maigra Scharffeder <Reitlehrerin>
+-- UPDATE locales_trainer_greeting SET Text_loc3='Möchtet Ihr das Fliegen erlernen?' WHERE entry=35133;
 -- Rukua <Paladinlehrerin>
 -- UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=35281;

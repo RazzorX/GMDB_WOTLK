@@ -615,6 +615,18 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $C. Ich bin de
 -- Drazzit Tropfhahn
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=23572;
 
+-- Gil Grisert (englischer "Text" nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=24139;
+
+-- Luma Himmelsmutter (englischer "Text" nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=25697;
+
+-- Numa Wolkenschwester (englischer "Text" nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=25710;
+
+-- Fezzix Drehgang (englischer "Text" nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=25849;
+
 -- Tua'kea
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=26245;
 
