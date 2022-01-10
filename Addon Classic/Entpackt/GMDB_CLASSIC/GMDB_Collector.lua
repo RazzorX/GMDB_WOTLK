@@ -238,8 +238,8 @@ end
 -- **********************
 
 function self_MonsterSprache(ART, arg1, arg2, arg3)
-    local WAS = self_CleanMe(arg1);
-    local WER = arg2;
+    local WAS     = self_CleanMe(arg1);
+    local WER     = arg2;
     local SPRACHE = arg3;
     if WER == UnitName("player") then WER = "SPIELER"; end
     if SPRACHE == "" then SPRACHE = "NULL"; end
@@ -259,10 +259,10 @@ function self_MonsterSprache(ART, arg1, arg2, arg3)
     end
 
     GMDB_Main.totSprache = GMDB_Main.totSprache + 1;
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache] = {};
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].ART = ART;
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WER = WER;
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WAS = WAS;
+    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache]         = {};
+    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].ART     = ART;
+    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WER     = WER;
+    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WAS     = WAS;
     GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].SPRACHE = SPRACHE;
     self_Debug("self_MonsterSprache: "..WER.." , "..SPRACHE);
 end
@@ -274,7 +274,6 @@ end
 function self_GossipText()
     Titel = {};
     typegossip = {};
-    GGesamt = GetNumGossipOptions(); 
     Titel["1"],typegossip["1"],Titel["2"],typegossip["2"],Titel["3"],typegossip["3"],Titel["4"],typegossip["4"],Titel["5"],typegossip["5"],Titel["6"],typegossip["6"],Titel["7"],typegossip["7"],Titel["8"],typegossip["8"],Titel["9"],typegossip["9"],Titel["10"],typegossip["10"],Titel["11"],typegossip["11"],Titel["12"],typegossip["12"],Titel["13"],typegossip["13"],Titel["14"],typegossip["14"],Titel["15"],typegossip["15"],Titel["16"],typegossip["16"],Titel["17"],typegossip["17"],Titel["18"],typegossip["18"],Titel["19"],typegossip["19"],Titel["20"],typegossip["20"] = GetGossipOptions();
     if typegossip["1"] == nil then
         typegossip["1"] = "none"
@@ -283,39 +282,39 @@ function self_GossipText()
 end
 
     GGesamt = GetNumGossipOptions();
-    if GGesamt == 0 or nil then return; end
-    self_Debug("Gossip-Insgesamt: "..GGesamt); -- NEU
+    if GGesamt == 0 or GGesamt == nil then return; end
+    self_Debug("Gossip-Insgesamt: "..GGesamt);
 
     Quelle = self_GetQuelle();
-    PosTab = GMDB_Main.totgossip + 1;
-    erreurTitel = 0 ;
+    erreurTitel = 0;
+    PosTab = nil;
 
     for i = 1, GMDB_Main.totgossip, 1 do
         if GMDB_Collector.Gossip["gossip_"..i] then
 
         if GMDB_Collector.Gossip["gossip_"..i].Name == Quelle then
-            self_Debug("Gossip-Typ erkannt: "..typegossip["1"]  );
+            self_Debug("Gossip-Typ erkannt: "..typegossip["1"]);
 
             if GMDB_Collector.Gossip["gossip_"..i].GGesamt then
 
-                GGesamt = GMDB_Collector.Gossip["gossip_"..i].GGesamt ;
+                GGesamt = GMDB_Collector.Gossip["gossip_"..i].GGesamt;
 
             for k = 1, GGesamt, 1 do
             if Titel[""..k..""] ~= nil then
                     for l = 1, GGesamt, 1 do
                         if GMDB_Collector.Gossip["gossip_"..i].Titel["Titel_"..l] == Titel[""..k..""] then
-                        self_Debug("Gossip-Text schon vorhanden: "..Titel[""..k..""] );
-                        erreurTitel = erreurTitel + 2 ; -- NEU
+                        self_Debug("Gossip-Text schon vorhanden: "..Titel[""..k..""]);
+                        erreurTitel = erreurTitel + 2;
                         else
-                        erreurTitel = erreurTitel + 1 ;
+                        erreurTitel = erreurTitel + 1;
                         end
                     end
                     if erreurTitel == GGesamt then
                             GGesamt = GGesamt + 1;
-                            self_Debug("Gossip-Anzahl: "..GGesamt); -- NEU
-                        erreurTitel = 0 ;
-                        self_Debug("Neuer Titel: "..Titel[""..k..""].." "..GGesamt );
-                        GMDB_Collector.Gossip["gossip_"..i].GGesamt = GGesamt ;
+                            self_Debug("Gossip-Anzahl: "..GGesamt);
+                        erreurTitel = 0;
+                        self_Debug("Neuer Titel: "..Titel[""..k..""].." "..GGesamt);
+                        GMDB_Collector.Gossip["gossip_"..i].GGesamt = GGesamt;
                         GMDB_Collector.Gossip["gossip_"..i].Titel["Titel_"..GGesamt] = Titel[""..k..""];
                         end
                     end
@@ -326,13 +325,14 @@ end
     end
 end
 
+    PosTab = GMDB_Main.totgossip + 1;
     GMDB_Main.totgossip = GMDB_Main.totgossip + 1;
-    GMDB_Collector.Gossip["gossip_"..PosTab] = {};
-    GMDB_Collector.Gossip["gossip_"..PosTab].Name = Quelle;
-    GMDB_Collector.Gossip["gossip_"..PosTab].Titel = {};
+    GMDB_Collector.Gossip["gossip_"..PosTab]         = {};
+    GMDB_Collector.Gossip["gossip_"..PosTab].Name    = Quelle;
+    GMDB_Collector.Gossip["gossip_"..PosTab].Titel   = {};
     for i = 1, GGesamt, 1 do
-    GMDB_Collector.Gossip["gossip_"..PosTab].Titel["Titel_"..i] = Titel[""..i..""] ;
-    GMDB_Collector.Gossip["gossip_"..PosTab].GGesamt = GGesamt; -- NEU
+    GMDB_Collector.Gossip["gossip_"..PosTab].Titel["Titel_"..i] = Titel[""..i..""];
+    GMDB_Collector.Gossip["gossip_"..PosTab].GGesamt = GGesamt;
     end
 end
 

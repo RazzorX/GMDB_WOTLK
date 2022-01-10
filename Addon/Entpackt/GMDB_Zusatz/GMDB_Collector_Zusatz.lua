@@ -70,10 +70,9 @@ end
 -- GText = Gossip-Text
 -- ToDo: eine neue und angepasste self_CleanMeZ Funktion erstellen
 function self_NpcTexte()
-    local Quelle = self_GetQuelle();
-    if Quelle == nil then return; end;
+    Quelle = self_GetQuelle();
 
-    local GText = self_CleanMeZ(C_GossipInfo.GetText());
+    GText = self_CleanMeZ(C_GossipInfo.GetText());
 
     for i = 1, GMDB_Main_Zusatz.totNpcTexte, 1 do
         if GMDB_Collector_Zusatz.NpcText["Text_"..i] then
@@ -95,15 +94,14 @@ end
 -- Greeting = Quest-Greeting-Text
 -- ToDo: eine neue und angepasste self_CleanMeZ Funktion erstellen
 function self_Greeting()
-    local Quelle = self_GetQuelle();
-    if Quelle == nil then return; end;
+    Quelle = self_GetQuelle();
 
-    local Greeting = self_CleanMeZ(GetGreetingText());
+    Greeting = self_CleanMeZ(GetGreetingText());
 
     for i = 1, GMDB_Main_Zusatz.totNpcTexte, 1 do
         if GMDB_Collector_Zusatz.NpcText["Text_"..i] then
             if GMDB_Collector_Zusatz.NpcText["Text_"..i].Quelle == Quelle then
-                if GMDB_Collector_Zusatz.NpcText["Text_"..i].Greeting == Greeting then
+                if GMDB_Collector_Zusatz.NpcText["Text_"..i].QGreeting == Greeting then
                     return;
                 end
             end
@@ -111,19 +109,18 @@ function self_Greeting()
     end
 
     GMDB_Main_Zusatz.totNpcTexte = GMDB_Main_Zusatz.totNpcTexte + 1;
-    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte]          = {};
-    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].Quelle   = Quelle;
-    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].Greeting = Greeting;
+    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte]           = {};
+    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].Quelle    = Quelle;
+    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].QGreeting = Greeting;
 end
 
 -- diese Funktion liest und schreibt jeden Trainer-Greeting-Text
 -- TGreeting = Trainer-Greeting-Text
 -- ToDo: eine neue und angepasste self_CleanMeZ Funktion erstellen
 function self_Trainer_Greeting()
-    local Quelle = self_GetQuelle();
-    if Quelle == nil then return; end;
+    Quelle = self_GetQuelle();
 
-    local TGreeting = self_CleanMeZ(GetTrainerGreetingText());
+    TGreeting = self_CleanMeZ(GetTrainerGreetingText());
 
     for i = 1, GMDB_Main_Zusatz.totNpcTexte, 1 do
         if GMDB_Collector_Zusatz.NpcText["Text_"..i] then
@@ -146,13 +143,11 @@ end
 -- *******************************
 
 function self_ItemText()
-    local Quelle = self_GetQuelle();
-    if Quelle == nil then return; end;
+    Quelle = self_GetQuelle();
 
-    local pageNum  = ItemTextGetPage();
-    local pageBody = ItemTextGetText();
+    pageNum  = ItemTextGetPage();
+    pageBody = ItemTextGetText();
 
-    t = nil;
     if pageNum >= 2 then
         for t = 1, GMDB_Main_Zusatz.totText, 1 do
             if GMDB_Collector_Zusatz.Texte["Text_"..t] then
@@ -163,6 +158,7 @@ function self_ItemText()
 
                     GMDB_Collector_Zusatz.Texte["Text_"..t].Seiten["Seite_"..pageNum] = pageBody;
                     self_Debug_Z("self_ItemText - Seite: " ..pageNum);
+                    return;
                     end
                 end
             end
@@ -229,19 +225,16 @@ function self_BriefTexte()
         end
     end
 
---    if PosTab ~= nil then return; end
+    if PosTab ~= nil then return; end
 
-    if PosTab == nil then
-
-        GMDB_Main_Zusatz.totBriefTexte = GMDB_Main_Zusatz.totBriefTexte + 1;
-        PosTab = GMDB_Main_Zusatz.totBriefTexte;
-        GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab]         = {};
-        GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Von     = sender;
-        GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Betreff = subject;
-        GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Inhalt  = bodyText;
-        self_Debug_Z("self_BriefTexte - Von: " ..sender);
-        self_Debug_Z("self_BriefTexte - Betreff: " ..subject);
-        end
+    GMDB_Main_Zusatz.totBriefTexte = GMDB_Main_Zusatz.totBriefTexte + 1;
+    PosTab = GMDB_Main_Zusatz.totBriefTexte;
+    GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab]         = {};
+    GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Von     = sender;
+    GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Betreff = subject;
+    GMDB_Collector_Zusatz.BriefTexte["Text_"..PosTab].Inhalt  = bodyText;
+    self_Debug_Z("self_BriefTexte - Von: " ..sender);
+    self_Debug_Z("self_BriefTexte - Betreff: " ..subject);
     end
 end
 
@@ -252,7 +245,7 @@ end
 function self_CleanMeZ(toclean)
     if toclean == nil then return ""; end
     toclean = string.gsub(toclean, "\n", "$B");
---    toclean = string.gsub(toclean, "\r", "");
+    toclean = string.gsub(toclean, "\r", "");
     toclean = string.gsub(toclean, "'", "\'");
 --    toclean = string.gsub(toclean, "''", "\'");
 --    toclean = string.gsub(toclean, "dbquote", "\"");

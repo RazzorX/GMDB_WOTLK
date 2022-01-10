@@ -238,9 +238,9 @@ end
 -- **********************
 
 function self_MonsterSprache(ART, arg1, arg2, arg3)
-    local WAS = self_CleanMe(arg1);
-    local WER = arg2;
-    local SPRACHE = arg3;
+    WAS     = self_CleanMe(arg1);
+    WER     = arg2;
+    SPRACHE = arg3;
     if WER == UnitName("player") then WER = "SPIELER"; end
     if SPRACHE == "" then SPRACHE = "NULL"; end
 
@@ -259,10 +259,10 @@ function self_MonsterSprache(ART, arg1, arg2, arg3)
     end
 
     GMDB_Main.totSprache = GMDB_Main.totSprache + 1;
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache] = {};
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].ART = ART;
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WER = WER;
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WAS = WAS;
+    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache]         = {};
+    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].ART     = ART;
+    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WER     = WER;
+    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WAS     = WAS;
     GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].SPRACHE = SPRACHE;
     self_Debug("self_MonsterSprache: "..WER.." , "..SPRACHE);
 end
@@ -270,54 +270,54 @@ end
 -- ************
 -- ** GOSSIP **
 -- ************
--- ToDo: Überarbeiten!
-function self_GossipText()
-    local name = {};
-    local gtype = {};
-    name["1"],gtype["1"],name["2"],gtype["2"],name["3"],gtype["3"],name["4"],gtype["4"],name["5"],gtype["5"],name["6"],gtype["6"],name["7"],gtype["7"],name["8"],gtype["8"],name["9"],gtype["9"],name["10"],gtype["10"],name["11"],gtype["11"],name["12"],gtype["12"],name["13"],gtype["13"],name["14"],gtype["14"],name["15"],gtype["15"],name["16"],gtype["16"],name["17"],gtype["17"],name["18"],gtype["18"],name["19"],gtype["19"],name["20"],gtype["20"] = C_GossipInfo.GetOptions();
-    if gtype["1"] == nil then
-        gtype["1"] = "none"
-    if gtype == "gossip" then return name; end
-    if name == nil then return; -- TEST
-    end
-end
 
-    GGesamt = C_GossipInfo.GetNumOptions();
-    if GGesamt == 0 or nil then return; end
-    self_Debug("Gossip-Insgesamt: "..GGesamt); -- NEU
+function self_GossipText()
+
+    G_Gesamt = C_GossipInfo.GetNumOptions();
+    if G_Gesamt == 0 or G_Gesamt == nil then return; end
+    self_Debug("Gossip-Insgesamt: "..G_Gesamt);
+
+    gossips = C_GossipInfo.GetOptions();
+
+--    for i = 1, G_Gesamt, 1 do
+--    self_Debug("Gossip-Name: "..gossips[i].name);
+--    end
+
+    if gossips[1].type == nil then
+        gossips[1].type = "none"; end
 
     Quelle = self_GetQuelle();
-    PosTab = GMDB_Main.totgossip + 1;
-    erreurTitel = 0 ;
+    erreurTitel = 0;
+    PosTab = nil;
 
     for i = 1, GMDB_Main.totgossip, 1 do
         if GMDB_Collector.Gossip["gossip_"..i] then
 
         if GMDB_Collector.Gossip["gossip_"..i].GName == Quelle then
---            self_Debug("Gossip-Typ erkannt: "..gtype); -- TEST
 
             if GMDB_Collector.Gossip["gossip_"..i].GGesamt then
 
-                GGesamt = GMDB_Collector.Gossip["gossip_"..i].GGesamt ;
+                GGesamt = GMDB_Collector.Gossip["gossip_"..i].GGesamt;
 
-            self_Debug("Gossip-Gesamt: "..GGesamt); -- NEU
-            for k = 1, GGesamt, 1 do
-            if name[""..k..""] ~= nil then
+            for k = 1, G_Gesamt, 1 do
+            self_Debug("Gossip: "..k);
+            if gossips[k].name ~= nil then
+            self_Debug("Gossip-Name: "..gossips[k].name);
                     for l = 1, GGesamt, 1 do
-                        if GMDB_Collector.Gossip["gossip_"..i].name["Titel_"..l] == name[""..k..""] then
-                        self_Debug("Gossip-Text schon vorhanden: "..name[""..k..""] );
-                        erreurTitel = erreurTitel + 2 ; -- NEU
+                        if GMDB_Collector.Gossip["gossip_"..i].Titel["Titel_"..l] == gossips[k].name then
+                        self_Debug("Gossip-Text schon vorhanden: "..gossips[k].name);
+                        erreurTitel = erreurTitel + 2;
                         else
-                        erreurTitel = erreurTitel + 1 ;
+                        erreurTitel = erreurTitel + 1;
                         end
                     end
                     if erreurTitel == GGesamt then
                             GGesamt = GGesamt + 1;
-                            self_Debug("Gossip-Anzahl: "..GGesamt); -- NEU
-                        erreurTitel = 0 ;
---                        self_Debug("Neuer Titel: "..name[""..k..""].." "..GGesamt ); -- TEST
-                        GMDB_Collector.Gossip["gossip_"..i].GGesamt = GGesamt ;
-                        GMDB_Collector.Gossip["gossip_"..i].name["Titel_"..GGesamt] = name[""..k..""];
+                            self_Debug("Gossip-Anzahl: "..GGesamt);
+                        erreurTitel = 0;
+--                        self_Debug("Neuer Titel: "..gossips[k].name.." "..GGesamt); -- TEST
+                        GMDB_Collector.Gossip["gossip_"..i].GGesamt = GGesamt;
+                        GMDB_Collector.Gossip["gossip_"..i].Titel["Titel_"..GGesamt] = gossips[k].name;
                         end
                     end
                 end
@@ -327,13 +327,15 @@ end
     end
 end
 
+    PosTab = GMDB_Main.totgossip + 1;
     GMDB_Main.totgossip = GMDB_Main.totgossip + 1;
-    GMDB_Collector.Gossip["gossip_"..PosTab] = {};
-    GMDB_Collector.Gossip["gossip_"..PosTab].GGesamt = GGesamt; -- NEU
-    GMDB_Collector.Gossip["gossip_"..PosTab].GName = Quelle;
-    GMDB_Collector.Gossip["gossip_"..PosTab].name = {};
-    for i = 1, GGesamt, 1 do
-    GMDB_Collector.Gossip["gossip_"..PosTab].name["Titel_"..i] = name[""..i..""] ;
+    self_Debug("Gossip schreiben - PosTab: " ..PosTab);
+    GMDB_Collector.Gossip["gossip_"..PosTab]         = {};
+    GMDB_Collector.Gossip["gossip_"..PosTab].GGesamt = G_Gesamt;
+    GMDB_Collector.Gossip["gossip_"..PosTab].GName   = Quelle;
+    GMDB_Collector.Gossip["gossip_"..PosTab].Titel   = {};
+    for i = 1, G_Gesamt, 1 do
+    GMDB_Collector.Gossip["gossip_"..PosTab].Titel["Titel_"..i] = gossips[i].name;
     end
 end
 
@@ -358,10 +360,9 @@ function self_GetUnitId(unit)
     local kind = self_GetUnitKind();
 
     if kind == "ITEM" then return nil; end
-    if kind == "Creature" or "Vehicle" or "GameObject" then
+    if kind == "Creature" or kind == "Vehicle" or kind == "GameObject" then
     id = guid:match("%a+-%d+-%d+-%d+-%d+-(%d+)-.+")
-    self_Debug("self_GetUnitId - Kind creature, vehicle or gameobject");
---    self_Debug("self_GetUnitId - ID: "..id); -- verursacht Fehler wenn lesbare Gegenstände angesehen werden
+    self_Debug("self_GetUnitId - Kind creature, vehicle oder gameobject");
     end
     return tonumber(id);
 end
