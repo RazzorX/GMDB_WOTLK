@@ -15,7 +15,7 @@ Texte (Daten) die das Addon nicht hat können folglich auch nicht geschrieben we
 Funktionen:
 
 - sämtliche Sprachtexte und Emotes von NSC schreiben
-- sämtliche Gossip-Texte von NSC (zB: von Stadtwachen) schreiben (Funktion auf Retail momentan defekt)
+- sämtliche Gossip-Texte von NSC (zB: von Stadtwachen) schreiben
 - alle relevanten Texte zu Quests von NSC, Objekten und Gegenständen schreiben
 
 Weitere Funktionen vom Zusatz-Addon (optional):
@@ -158,7 +158,7 @@ Questtexte
     ["Title"] = "Das beschmutzte Element",
     ["RequestItemsText"] = "Ja, was wollt Ihr?",
 },
-    ["Quest_4"] = {
+["Quest_4"] = {
     ["Questnehmer"] = "NPC||Ralston Farnsley||14729",
     ["Title"] = "Spendet Seide",
     ["Questgeber"] = "NPC||Ralston Farnsley||14729",
@@ -190,7 +190,7 @@ NPC-Texte etc
     ["GText"] = "Ein Stapel Papiere und Baupläne liegen hier verstreut.",
 },
 ["Text_3"] = {
-    ["Greeting"] = "Ach je, es ist auch ohne diese neuen Probleme schon schwer genug, hier für Ordnung zu sorgen! Ich hoffe, Ihr bringt gute Neuigkeiten, $N...",
+    ["QGreeting"] = "Ach je, es ist auch ohne diese neuen Probleme schon schwer genug, hier für Ordnung zu sorgen! Ich hoffe, Ihr bringt gute Neuigkeiten, $N...",
     ["Quelle"] = "NPC||Marshal Dughan||240",
 },
 ["Text_4"] = {
@@ -243,7 +243,7 @@ Brieftexte
 . . .\\World of Warcraft\\\_retail\_\\WTF\Account\\deine_ID\\SavedVariables\\. . . gefunden werden:
  - GMDB.lua , GMDB_Zusatz.lua
 
-\> Alle hier gemachten Angaben sind auch für das [GMDB_Classic Addon](https://github.com/RazzorX/GMDB_NEU/tree/master/Addon%20Classic/Entpackt) representativ.
+\> Alle hier gemachten Angaben sind auch für das [GMDB_Classic Addon](https://github.com/RazzorX/GMDB_NEU/tree/master/Addon_Classic) representativ.
 
   Der Pfad dahin lautet . . .\\World of Warcraft\\\_classic\_\\WTF\\Account\\deine_ID\\SavedVariables\\. . .
  - GMDB_CLASSIC.lua , GMDB_CLASSIC_Zusatz.lua
