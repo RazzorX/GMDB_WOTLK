@@ -9317,7 +9317,7 @@ UPDATE locales_gameobject SET name_loc3='Großer Obsidianbrocken' WHERE entry=18
 UPDATE locales_gameobject SET name_loc3='Ysidas Käfig' WHERE entry=181071;
 UPDATE locales_gameobject SET name_loc3='Ysidas Käfigboden' WHERE entry=181072;
 UPDATE locales_gameobject SET name_loc3='Duftender Kessel' WHERE entry=181073;
-UPDATE locales_gameobject SET name_loc3='Arena Beute' WHERE entry=181074;
+UPDATE locales_gameobject SET name_loc3='Arenabeute' WHERE entry=181074;
 UPDATE locales_gameobject SET name_loc3='Tisch' WHERE entry=181075;
 UPDATE locales_gameobject SET name_loc3='Inigos Stuhl' WHERE entry=181076;
 UPDATE locales_gameobject SET name_loc3='Teppich' WHERE entry=181077;

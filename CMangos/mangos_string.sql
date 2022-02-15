@@ -658,6 +658,7 @@ UPDATE mangos_string SET content_loc3='Warteschlange für %s (Stufe: %u bis %u)\
 UPDATE mangos_string SET content_loc3='|cffff0000[Schlachtfeldwarteschlange]:|r %s -- [%u-%u] A: %u/%u, H: %u/%u|r' WHERE entry=712;
 UPDATE mangos_string SET content_loc3='Ihr müsst Stufe %u sein, um einem Arenateam beitreten zu können!' WHERE entry=713;
 UPDATE mangos_string SET content_loc3='Ihr erfüllt die Vorraussetzungen für das Schlachtfeld nicht' WHERE entry=715;
+UPDATE mangos_string SET content_loc3='|cffff0000[Arenawarteschlange]:|r %s -- [%uv%u] hat begonnen!|r' WHERE entry=716;
 UPDATE mangos_string SET content_loc3='|cffff0000[Schlachtfeldwarteschlange]:|r %s -- [%u-%u] hat begonnen!|r' WHERE entry=717;
 UPDATE mangos_string SET content_loc3='|cffff0000[Arenawarteschlange]:|r Alle Arenen -- Beigetreten : %ux%u : %u|r' WHERE entry=718;
 UPDATE mangos_string SET content_loc3='|cffff0000[Arenawarteschlange]:|r Alle Arenen -- Verlassen : %ux%u : %u|r' WHERE entry=719;

@@ -1803,7 +1803,7 @@ UPDATE script_texts SET content_loc3='Hakkar kontrolliert mich nicht länger! En
 UPDATE script_texts SET content_loc3='Bethekk, eure Priesterin erfleht eure Macht!' WHERE entry=-1309011;
 UPDATE script_texts SET content_loc3='Labt euch an $N, meine Süßen!' WHERE entry=-1309012;
 UPDATE script_texts SET content_loc3='Die Macht des Seelenschinders fällt von mir!' WHERE entry=-1309013;
-UPDATE script_texts SET content_loc3='Willkommen zu Eurem Begräbnis! Tretet vor und sterbt!' WHERE entry=-1309014;
+-- UPDATE script_texts SET content_loc3='' WHERE entry=-1309014; -- ungenutzt
 UPDATE script_texts SET content_loc3='Ich werde Hakkar eure Seelen zum Fraß vorwerfen!' WHERE entry=-1309015;
 UPDATE script_texts SET content_loc3='DING!' WHERE entry=-1309016;
 UPDATE script_texts SET content_loc3='GRATULATION!' WHERE entry=-1309017;
