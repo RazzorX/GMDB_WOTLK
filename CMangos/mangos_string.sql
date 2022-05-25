@@ -151,6 +151,9 @@ UPDATE mangos_string SET content_loc3='(Statisch)' WHERE entry=179;
 UPDATE mangos_string SET content_loc3='(Passwort)' WHERE entry=180;
 UPDATE mangos_string SET content_loc3='Im Moment gibt es keine passenden benutzerdefinierten Kanäle.' WHERE entry=181;
 UPDATE mangos_string SET content_loc3='Auflistung von %u benutzerdefinierten Kanälen die den Kriterien entsprechen:' WHERE entry=182;
+UPDATE mangos_string SET content_loc3='Areatrigger-DEBUG aktiviert.' WHERE entry=183;
+UPDATE mangos_string SET content_loc3='Areatrigger-DEBUG deaktiviert.' WHERE entry=184;
+UPDATE mangos_string SET content_loc3='Du hast Areatrigger %u erreicht.' WHERE entry=185;
 UPDATE mangos_string SET content_loc3='Nichts ausgewählt.' WHERE entry=200;
 UPDATE mangos_string SET content_loc3='Objekt GUID ist: %s' WHERE entry=201;
 UPDATE mangos_string SET content_loc3='Der Name war um %i Buchstaben zu lang.' WHERE entry=202;
@@ -490,7 +493,7 @@ UPDATE mangos_string SET content_loc3='   Unbekannter Bewegungsgenerator (%u)' W
 UPDATE mangos_string SET content_loc3='Spieler hat angewählt: %s.\nFaction: %u.\nnpcFlags: %u.\nEntry: %u.\nDisplayID: %u (Native: %u).' WHERE entry=539;
 UPDATE mangos_string SET content_loc3='Stufe: %u.' WHERE entry=540;
 UPDATE mangos_string SET content_loc3='Leben (Basis): %u. (Max): %u. (derzeit): %u.' WHERE entry=541;
-UPDATE mangos_string SET content_loc3='Unit Flags: %u.\nDynamic Flags: %u.\nFaction Template: %u.' WHERE entry=542;
+UPDATE mangos_string SET content_loc3='UnitFlags: %u | DynamicFlags: %u | ExtraFlags: %u' WHERE entry=542;
 UPDATE mangos_string SET content_loc3='Beute: %u Taschendiebstahl: %u Kürschnern: %u' WHERE entry=543;
 UPDATE mangos_string SET content_loc3='Position: %f %f %f.' WHERE entry=544;
 UPDATE mangos_string SET content_loc3='*** Ist ein Verkäufer!' WHERE entry=545;
@@ -518,6 +521,7 @@ UPDATE mangos_string SET content_loc3='Zeige %s uint32 Wert:[FIELD]:%u [VALUE]:%
 UPDATE mangos_string SET content_loc3='%s hat den uint32 Wert:[FIELD]:%u [VALUE]:%u' WHERE entry=570;
 UPDATE mangos_string SET content_loc3='Zeige %s float Wert:[FIELD]:%u [VALUE]:%f' WHERE entry=571;
 UPDATE mangos_string SET content_loc3='%s hat den float Wert:[FIELD]:%u [VALUE]:%f' WHERE entry=572;
+UPDATE mangos_string SET content_loc3='Anzeige aller Areatrigger in %s %s:' WHERE entry=573;
 UPDATE mangos_string SET content_loc3='Ändere %s uint32 Feld:%u nach sum mit:%i = %u (%i)' WHERE entry=575;
 UPDATE mangos_string SET content_loc3='Ihr ändert für %s uint32 Feld:%u nach sum mit:%i = %u (%i)' WHERE entry=576;
 UPDATE mangos_string SET content_loc3='Ihr seid jetzt unsichtbar.' WHERE entry=577;

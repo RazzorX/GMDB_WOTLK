@@ -621,7 +621,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von W
 -- Grimnur Steinmal <Angellehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich kann Euch lehren, wie Ihr eine Angelrute halten müsst, um Fische zu fangen.' WHERE entry=5161;
 -- Grumnus Scharfstahl <Rüstungsschmiedelehrer>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=5164;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=5164;
 -- Hulfdan Schwarzbart <Schurkenlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=5165;
 -- Ormyr Kieselauge <Schurkenlehrer>
@@ -779,21 +779,21 @@ UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen
 -- Darnath Klingenlied <Kriegerlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=7315;
 -- Glotz Widrikus <Lehrer für gnomische Ingenieurskunst>
-UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einfach, wenn man die Grundlagen versteht.' WHERE entry=7406;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7406;
 -- Peter Galen <Drachenlederverarbeitungslehrer>
-UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=7866;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7866;
 -- Thorkaf Drachenaug <Drachenlederverarbeitungslehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7867;
 -- Sarah Gerber <Elementarlederverarbeitungslehrerin>
-UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=7868;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7868;
 -- Brumn Winterhuf <Elementarlederverarbeitungslehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7869;
 -- Caryssia Jägermond <Stammeslederverarbeitungslehrerin>
-UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=7870;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7870;
 -- Se'Jib <Stammeslederverarbeitungslehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7871;
 -- Tüftlermeister Oberfunks <Lehrer für gnomische Ingenieurskunst>
-UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einfach, wenn man die Grundlagen versteht.' WHERE entry=7944;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7944;
 -- Brannock <Angellehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich kann Euch lehren, wie Ihr eine Angelrute halten müsst, um Fische zu fangen.' WHERE entry=7946;
 -- Kylanna Windraunen <Alchemielehrerin>
@@ -805,7 +805,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Hallo! Darf ich Euch etwas lehren
 -- Binjy Federpfiff <Roboschreiterpilot>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo! Darf ich Euch etwas lehren?' WHERE entry=7954;
 -- Nixx Sprossfeder <Lehrer für goblinsche Ingenieurskunst>
-UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einfach, wenn man die Grundlagen versteht.' WHERE entry=8126;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=8126;
 -- Pikkle <Bergbaulehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Habt Ihr noch nicht tief in die Erde gegraben, habt Ihr nicht gelebt.' WHERE entry=8128;
 -- Bruder Karman <Paladinlehrer>
@@ -871,7 +871,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch leh
 -- Hahrana Eisenhaut <Lederverarbeitungslehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=11098;
 -- Ironus Froststahl <Waffenschmiedelehrer>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=11146;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=11146;
 -- Okothos Eisenwüter <Rüstungsschmied>
 UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=11177;
 -- Borgosh Glutformer <Waffenschmied>
@@ -1273,9 +1273,9 @@ UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie man Ede
 -- Farii <Juwelenschleiferlehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie man Edelsteine schleift und Schmuck herstellt?' WHERE entry=19778;
 -- Kradu Grimmklinge <Waffenschmiedelehrer>
-UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=20124;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=20124;
 -- Zula Schmelzzorn <Rüstungsschmiedelehrerin>
-UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=20125;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=20125;
 -- Champion Cyssa Dämmerrose <Paladinlehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=20406;
 -- Weissagerin Umbrua <Schamanenlehrerin>
@@ -1301,9 +1301,9 @@ UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen
 -- Babagaya Schattenkluft <Hexenmeisterlehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=23534;
 -- Niobe Funkenritzel <Meisteringenieurslehrerin>
-UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einfach, wenn man die Grundlagen versteht.' WHERE entry=24868;
+UPDATE locales_trainer_greeting SET Text_loc3='Die Flugmaschine ist eine fantastische Erfindung!' WHERE entry=24868;
 -- Jonathan Garrett <Meisteringenieurslehrer>
-UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einfach, wenn man die Grundlagen versteht.' WHERE entry=25099;
+UPDATE locales_trainer_greeting SET Text_loc3='Die Flugmaschine ist eine fantastische Erfindung!' WHERE entry=25099;
 -- Druidenlehrer
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=26324;
 -- Jägerlehrer

@@ -216,7 +216,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='In diesem großen Kessel walle
 -- Denalan
 UPDATE locales_questgiver_greeting SET Text_loc3='Die Entstehung von Teldrassil war ein großer Erfolg, doch jetzt muss sich die Welt neu orientieren, um wieder ins Gleichgewicht zu finden.' WHERE entry=2080;
 
--- Syral Messerblatt (englischer Text nicht in der DB vorhanden)
+-- Syral Messerblatt
 UPDATE locales_questgiver_greeting SET Text_loc3='Wie Teldrassil ist auch Dolanaar jenen freundlich gesonnen, die dem Land freundlich gesonnen sind.' WHERE entry=2083;
 
 -- Pilot Langbart
@@ -477,7 +477,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Einige können die Hitze der g
 -- Harry Burlwacht (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Man braucht schon mehr als einen starken Arm und ein gemeines Aussehen, um ein richtiger Krieger zu sein. Man braucht auch einen klaren Kopf und ein scharfes Auge, wenn man überleben will.$B$BUnd schlechter Atem schadet auch nicht!' WHERE entry=6089;
 
--- Klockmort Spannersplint (englischer Text nicht in der DB vorhanden)
+-- Klockmort Spannersplint
 UPDATE locales_questgiver_greeting SET Text_loc3='Ich bin auf einer Mission. Einer Mission! Der Suche nach neuen Legierungen und härteren Materialien für die größte Erfindung aller Zeiten!' WHERE entry=6169;
 
 -- Duthorian Rall

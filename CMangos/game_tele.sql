@@ -1431,6 +1431,8 @@ UPDATE game_tele SET name='SmaragdgrünerTraum' WHERE id=1427;
 UPDATE game_tele SET name='SmaragdStatue' WHERE id=1428;
 UPDATE game_tele SET name='DieSaftgrünenFelder' WHERE id=1429;
 UPDATE game_tele SET name='Smaragdwald' WHERE id=1430;
+-- UPDATE game_tele SET name='' WHERE id=1431;
+-- UPDATE game_tele SET name='' WHERE id=1432;
 
 -- UPDATE game_tele SET name='' WHERE id=1500;
 -- UPDATE game_tele SET name='' WHERE id=1501;
@@ -1465,4 +1467,5 @@ UPDATE game_tele SET name='Smaragdwald' WHERE id=1430;
 -- UPDATE game_tele SET name='' WHERE id=1530;
 -- UPDATE game_tele SET name='' WHERE id=1531;
 -- UPDATE game_tele SET name='' WHERE id=1532;
+-- UPDATE game_tele SET name='' WHERE id=1533;
 SET NAMES 'latin1';
