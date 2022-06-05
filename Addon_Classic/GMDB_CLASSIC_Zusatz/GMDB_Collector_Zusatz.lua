@@ -55,7 +55,7 @@ function self_OnEvent(self, event, ...)
     if event == "QUEST_GREETING" then self_Greeting(); end
     if event == "TRAINER_SHOW" then self_Trainer_Greeting(); end
     if event == "MAIL_SHOW" then self_MailShow(); end
-    if event == "MAIL_INBOX_UPDATE" and BRIEFE_AUSLESEN == true then self_BriefTexte(); end
+    if event == "MAIL_INBOX_UPDATE" and BRIEFE_AUSLESEN then self_BriefTexte(); end
 end
 
 -- ***************

@@ -55,11 +55,12 @@ function self_OnEvent(self, event, ...)
     end
 
     if event == "GOSSIP_SHOW" then self_NpcTexte(); end
+    if event == "GOSSIP_CONFIRM" then self_ConfirmText(...); end
     if event == "ITEM_TEXT_READY" then self_ItemText(); end
     if event == "QUEST_GREETING" then self_Greeting(); end
     if event == "TRAINER_SHOW" then self_Trainer_Greeting(); end
     if event == "MAIL_SHOW" then self_MailShow(); end
-    if event == "MAIL_INBOX_UPDATE" and BRIEFE_AUSLESEN == true then self_BriefTexte(); end
+    if event == "MAIL_INBOX_UPDATE" and BRIEFE_AUSLESEN then self_BriefTexte(); end
 end
 
 -- ***************
@@ -236,6 +237,31 @@ function self_BriefTexte()
     self_Debug_Z("self_BriefTexte - Von: " ..sender);
     self_Debug_Z("self_BriefTexte - Betreff: " ..subject);
     end
+end
+
+-- Box-Bestätigungstext auslesen
+-- wird noch nicht geschrieben !
+function self_ConfirmText(arg1, arg2)
+    Quelle = self_GetQuelle();
+    Text = arg2;
+    self_Debug_Z("self_ConfirmText - Quelle: " ..Quelle);
+    self_Debug_Z("self_ConfirmText - Text: " ..Text);
+--[[
+    for i = 1, GMDB_Main_Zusatz.totNpcTexte, 1 do
+        if GMDB_Collector_Zusatz.NpcText["Text_"..i] then
+            if GMDB_Collector_Zusatz.NpcText["Text_"..i].Quelle == Quelle then
+                if GMDB_Collector_Zusatz.NpcText["Text_"..i].BoxText == Text then
+                    return;
+                end
+            end
+        end
+    end
+
+    GMDB_Main_Zusatz.totNpcTexte = GMDB_Main_Zusatz.totNpcTexte + 1;
+    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte]         = {};
+    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].Quelle  = Quelle;
+    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].BoxText = Text;
+--]]
 end
 
 -- *******************

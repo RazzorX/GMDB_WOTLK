@@ -1,4 +1,4 @@
-## Interface: 20502
+## Interface: 20504
 ## Title: |cffffff00GMDB-CLASSIC|r
 ## Title-deDE: |cffffff00GMDB-CLASSIC|r
 ## Modified by Klark20 | RazzorX
