@@ -69,6 +69,8 @@ UPDATE game_event SET description='Dunkelmond-Jahrmarkt wird aufgebaut 1 (Wald v
 UPDATE game_event SET description='Schlotternächte - Glut des Weidenmanns' WHERE entry=67;
 UPDATE game_event SET description='Schlotternächte - Bansheekönigin' WHERE entry=68;
 UPDATE game_event SET description='Kampfgeist' WHERE entry=85;
+UPDATE game_event SET description='Braufest: Angriff der Dunkeleisenzwerge' WHERE entry=86;
+UPDATE game_event SET description='Braufest: Fassanstich' WHERE entry=87;
 UPDATE game_event SET description='Invasion der Geißel - Boss in Instanz - Aktivierung' WHERE entry=89;
 UPDATE game_event SET description='Invasion der Geißel - Angriff auf Winterquell' WHERE entry=90;
 UPDATE game_event SET description='Invasion der Geißel - Angriff auf Tanaris' WHERE entry=91;

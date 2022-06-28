@@ -81,7 +81,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Ich habe keine Zeit zum Schwat
 -- Kapitän Grausohn
 UPDATE locales_questgiver_greeting SET Text_loc3='Erschreckt nicht, $R. Ich bin seit langem schon aus diesem Land geschieden, aber ich habe nicht vor, Euresgleichen Schaden zuzufügen. Ich habe in meinem Leben zu viel Tod gesehen. Mein einziger Wunsch ist der nach Frieden. Vielleicht könnt Ihr mir dabei helfen.' WHERE entry=392;
 
--- Verner Gutmark (englischer Text nicht in der DB vorhanden)
+-- Verner Gutmark
 UPDATE locales_questgiver_greeting SET Text_loc3='He, $GKumpel:Maidlein;, könntet Ihr mir wohl bei einer Sache unter die Arme greifen? Ich stecke wirklich in der Klemme...' WHERE entry=415;
 
 -- Wache Parker
@@ -228,7 +228,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $C. Ich befind
 -- Schattenpriester Allister
 UPDATE locales_questgiver_greeting SET Text_loc3='Informationen... Mit unseren Spähern und Agenten haben wir den Informationsfluss in Lordaeron in der Hand. Bewegungen der Geißel, ihre Stellungen, nichts entgeht unseren wachsamen Augen...' WHERE entry=2121;
 
--- Hochexekutorin Darthalia (englischer Text nicht in der DB vorhanden)
+-- Hochexekutorin Darthalia
 UPDATE locales_questgiver_greeting SET Text_loc3='Um der dunklen Fürstin und Varimathras zu dienen, müssen wir gegen die menschliche Plage vorgehen.' WHERE entry=2215;
 
 -- Apotheker Lydon
@@ -240,11 +240,11 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Man stelle sich vor, der Ort, 
 -- Marschall Rotpfad
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=2263;
 
--- Meister der Lehren Dibbs (englischer Text nicht in der DB vorhanden)
-UPDATE locales_questgiver_greeting SET Text_loc3='Ich habe viel zu tun. Seid Ihr hier, um mir bei meinen Forschungen zu helfen?' WHERE entry=2277;
-
 -- Magistrat Henry Maleb
 UPDATE locales_questgiver_greeting SET Text_loc3='Als mir das Amt des Magistrats von Süderstade angetragen wurde, war ich erfreut darüber, so schnell so weit gekommen zu sein.$B$BDoch seit ich hier bin, frage ich mich, ob es nicht klüger gewesen wäre, in Sturmwind eine ruhige Kugel zu schieben.' WHERE entry=2276;
+
+-- Meister der Lehren Dibbs (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Ich habe viel zu tun. Seid Ihr hier, um mir bei meinen Forschungen zu helfen?' WHERE entry=2277;
 
 -- Graf Remington Kronenbrunn
 UPDATE locales_questgiver_greeting SET Text_loc3='Meine Familie besitzt die großartigste Sammlung an Schmuck und Kunst aller Edelleute in Sturmwind!$B$BUnd wir sind stets bestrebt, unsere Sammlung noch zu erweitern...' WHERE entry=2285;
@@ -327,7 +327,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Es gibt etwas, das ich mit Euc
 -- Sergra Dunkeldorn
 UPDATE locales_questgiver_greeting SET Text_loc3='Das Land, das Wasser und der Himmel sind eins. Es sind Eure Augen, die Euch eine solche Trennung vorgaukeln. Die Erdenmutter ist all diese Dinge und noch mehr.' WHERE entry=3338;
 
--- Kapitän Thalo'thas Blendsonn (englischer Text nicht in der DB vorhanden)
+-- Kapitän Thalo'thas Blendsonn
 UPDATE locales_questgiver_greeting SET Text_loc3='Hoffentlich taugt das was...' WHERE entry=3339;
 
 -- Apotheker Helbrim
@@ -393,7 +393,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Der Geist von Steinkralle wein
 -- Collin Mauren
 -- UPDATE locales_questgiver_greeting SET Text_loc3='' WHERE entry=4078;
 
--- Ziz Fizziks (englischer "Text" nicht in der DB vorhanden)
+-- Ziz Fizziks
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=4201;
 
 -- Kravel Kohlebart
@@ -486,7 +486,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Die Dunkelheit, die unser Land
 -- Tiza Kriegshammer
 UPDATE locales_questgiver_greeting SET Text_loc3='Auf einen Paladin des Lichts warten viele Herausforderungen, $N. Ich kann Euch versichern, dass sich unsere Wege in der Zukunft oftmals kreuzen werden, wenn Ihr Euch Euer Mitgefühl bewahrt und die Tugenden ehrt, die wir preisen.' WHERE entry=6179;
 
--- Mennet Carkad (englischer "Text" nicht in der DB vorhanden)
+-- Mennet Carkad
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=6467;
 
 -- Gnoarn
@@ -525,7 +525,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=7884;
 -- Angelas Mondhauch
 UPDATE locales_questgiver_greeting SET Text_loc3='Hallo, $N. Vielleicht habt Ihr etwas Zeit zu plaudern?' WHERE entry=7900;
 
--- Kadrak (englischer "Text" nicht in der DB vorhanden)
+-- Kadrak
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=8582;
 
 -- Schattenmagierin Vivian Lagrave
@@ -573,19 +573,19 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Desolace ist kein so schlechte
 -- Smeed Schraubenbuddel (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Mein Geschäftsplan sah niemals vor, riesige Kodos unterzubringen... vielleicht hätte ich mich lieber auf Unterwasserkorbflechten verlegen sollen.' WHERE entry=11596;
 
--- Makaba Flachhuf (englischer "Text" nicht in der DB vorhanden)
+-- Makaba Flachhuf
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=11857;
 
 -- Tsunaman
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=11862;
 
--- Tammra Windfeld (englischer "Text" nicht in der DB vorhanden)
+-- Tammra Windfeld
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=11864;
 
 -- Derotain Matschnipper (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Diese Typen vom Mithrilorden sind Weichlinge.' WHERE entry=14567;
 
--- Todespirscher Rathiel (englischer "Text" nicht in der DB vorhanden)
+-- Todespirscher Rathiel
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=16200;
 
 -- Bewahrer der Schriften (englischer Text nicht in der DB vorhanden)
@@ -615,28 +615,28 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $C. Ich bin de
 -- Drazzit Tropfhahn
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=23572;
 
--- Gil Grisert (englischer "Text" nicht in der DB vorhanden)
+-- Gil Grisert
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=24139;
 
--- Luma Himmelsmutter (englischer "Text" nicht in der DB vorhanden)
+-- Luma Himmelsmutter
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=25697;
 
--- Numa Wolkenschwester (englischer "Text" nicht in der DB vorhanden)
-UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=25710;
+-- Numa Wolkenschwester -- nicht mehr relevant in WotLK 3.3.5a
+-- UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=25710;
 
--- Fezzix Drehgang (englischer "Text" nicht in der DB vorhanden)
+-- Fezzix Drehgang
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=25849;
 
 -- Tua'kea
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=26245;
 
--- Steckbrief (englischer "Text" nicht in der DB vorhanden)
+-- Steckbrief
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=142122;
 
--- Steckbrief (englischer "Text" nicht in der DB vorhanden)
+-- Steckbrief
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=150075;
 
--- Gesucht/Vermisst/Verloren & Gefunden (englischer "Text" nicht in der DB vorhanden)
+-- Gesucht/Vermisst/Verloren & Gefunden
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=179827;
 
 -- Dokumente des Syndikats (Text solle bestätigt werden! In Classic und BCC gibt es noch 3 weitere dieser Objekte: 1738, 1739, 1740 Nur GO 1740 wurde gefunden.

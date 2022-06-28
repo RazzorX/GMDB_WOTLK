@@ -64,7 +64,7 @@ UPDATE areatrigger_tavern SET name='Zangarmarschen - Gasthaus der Zuflucht des C
 UPDATE areatrigger_tavern SET name='Zangarmarschen - Gasthaus der Oreborzuflucht' WHERE id=4383;
 UPDATE areatrigger_tavern SET name='Immersangwald - Gasthaus des Falkenplatzes' WHERE id=4486;
 UPDATE areatrigger_tavern SET name='Schergrat - Gasthaus der Donnerfeste' WHERE id=4494;
-UPDATE areatrigger_tavern SET name='Höhlen der Zeit - Vorgebirges des alten Hügellands - Gasthaus von Süderstade' WHERE id=4498;
+UPDATE areatrigger_tavern SET name='Höhlen der Zeit - Vorgebirge des alten Hügellands - Gasthaus von Süderstade' WHERE id=4498;
 UPDATE areatrigger_tavern SET name='Schergrat - Gasthaus von Sylvanaar' WHERE id=4499;
 UPDATE areatrigger_tavern SET name='Nethersturm - Gasthaus der Area 52' WHERE id=4521;
 UPDATE areatrigger_tavern SET name='Schattenmondtal - Gasthaus von Schattenmond' WHERE id=4526;
