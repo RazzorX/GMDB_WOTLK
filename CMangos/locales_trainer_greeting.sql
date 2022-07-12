@@ -27,7 +27,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen
 -- Schmied Argus <Schmiedekunstlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=514;
 -- Nalesette Wildbringer <Tierausbilderin>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=543;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=543;
 -- Alma Jainrose <Kräuterkundelehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Das Pflücken von Kräutern erfordert sowohl Wissen als auch Instinkt.' WHERE entry=812;
 -- Branstock Khalder <Priesterlehrer>
@@ -191,7 +191,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Willkommen!' WHERE entry=2492;
 -- Grarnik Gutstich <Schneiderlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie Ihr Stoff in eine Stoffrüstung verwandelt?' WHERE entry=2627;
 -- Hanashi <Waffenmeister>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=2704;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=2704;
 -- Pand Steinbinder <Lehrer für Erste Hilfe>
 UPDATE locales_trainer_greeting SET Text_loc3='Hier, lasst mich Euch zeigen, wie man solche Wunden verbindet...' WHERE entry=2798;
 -- Brenn <Überragender Metzger>
@@ -207,9 +207,9 @@ UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie Ihr Sto
 -- Angrun <Kräuterkundelehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Das Pflücken von Kräutern erfordert sowohl Wissen als auch Instinkt.' WHERE entry=2856;
 -- Peria Lamenur <Tierausbilderin>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=2878;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=2878;
 -- Karrina Mekenda <Tierausbilderin>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=2879;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=2879;
 -- Karn Steinhuf <Schmiedekunstlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=2998;
 -- Brek Steinhuf <Bergbaulehrer>
@@ -325,7 +325,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Das Pflücken von Kräutern erfor
 -- Deek Zischelblitz <Ingenieurslehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einfach, wenn man die Grundlagen versteht.' WHERE entry=3290;
 -- Keldas <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=3306;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=3306;
 -- Grol'dar <Hexenmeisterlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=3324;
 -- Mirkat <Hexenmeisterlehrerin>
@@ -383,7 +383,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Die Ingenieurskunst ist sehr einf
 -- Bowen Brisboise <Schneiderlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie Ihr Stoff in eine Stoffrüstung verwandelt?' WHERE entry=3523;
 -- Claude Erksine <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=3545;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=3545;
 -- Shelene Rhobart <Lederverarbeitungslehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=3549;
 -- Johan Focht <Bergbaulehrer>
@@ -421,17 +421,17 @@ UPDATE locales_trainer_greeting SET Text_loc3='Verzauberkunst ist die Kunst, vor
 -- Androl Eichenhand <Angellehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich kann Euch lehren, wie Ihr eine Angelrute halten müsst, um Fische zu fangen.' WHERE entry=3607;
 -- Harruk <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=3620;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=3620;
 -- Grokor <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=3622;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=3622;
 -- Zudd <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=3624;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=3624;
 -- Reban Freiläufer <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=3688;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=3688;
 -- Kar Sturmsang <Reitlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo! Darf ich Euch etwas lehren?' WHERE entry=3690;
 -- Bolyun <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=3698;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=3698;
 -- Krulmoo Vollmond <Lederverarbeitungslehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=3703;
 -- Mahani <Schneiderlehrerin>
@@ -501,7 +501,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Habt Ihr noch nicht tief in die E
 -- Bengus Tiefenschmied <Schmiedekunstlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=4258;
 -- Caelyb <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=4320;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=4320;
 -- Eunice Burch <Kochkunstlehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von Wildtieren in ein Festmahl zu verwandeln!' WHERE entry=4552;
 -- Kaal Seelentod <Hexenmeisterlehrer>
@@ -771,7 +771,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7230;
 -- Kelgruk Blutaxt <Waffenschmiedelehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=7231;
 -- Borgus Stahlhand <Waffenschmiedelehrer>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=7232;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=7232;
 -- Uthel'nay <Magierlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=7311;
 -- Dink <Magierlehrer>
@@ -833,13 +833,13 @@ UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen
 -- Jalane Ayrole <Schattengewebeschneidermeisterin>
 UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie Ihr Stoff in eine Stoffrüstung verwandelt?' WHERE entry=9584;
 -- Hesuwa Donnerhorn <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=10086;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=10086;
 -- Xao'tsu <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=10088;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=10088;
 -- Silvaria <Tierausbilderin>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=10089;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=10089;
 -- Belia Donnerstein <Tierausbilderin>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=10090;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=10090;
 -- Dargh Blattschuss <Jägerlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=10930;
 -- Twizwick Schraubenschleif <Ingenieurslehrer>
@@ -885,17 +885,17 @@ UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen
 -- Meilosh
 UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie Ihr Stoff in eine Stoffrüstung verwandelt?' WHERE entry=11557;
 -- Buliwyf Steinhand <Waffenmeister>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=11865;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=11865;
 -- Ilyenia Mondfeuer <Waffenmeisterin>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=11866;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=11866;
 -- Woo Ping <Waffenmeister>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=11867;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=11867;
 -- Sayoc <Waffenmeister>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=11868;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=11868;
 -- Ansekhwa <Waffenmeister>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=11869;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=11869;
 -- Archibald <Waffenmeister>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=11870;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=11870;
 -- Malvor <Kräuterkundelehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Das Pflücken von Kräutern erfordert sowohl Wissen als auch Instinkt.' WHERE entry=12025;
 -- Malux <Kürschnerlehrer>
@@ -907,7 +907,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen
 -- Kil'Hiwana <Angellehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich kann Euch lehren, wie Ihr eine Angelrute halten müsst, um Fische zu fangen.' WHERE entry=12961;
 -- Bixi Wobbelbonk <Waffenmeister>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=13084;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=13084;
 -- Lord Tony Romano <Schurkenlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=13283;
 -- Sagorne Gratläufer <Schamanenlehrer>
@@ -949,7 +949,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen
 -- Hannovia <Jägerlehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=16270;
 -- Telenus <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=16271;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=16271;
 -- Kanaria <Lehrerin für Erste Hilfe>
 UPDATE locales_trainer_greeting SET Text_loc3='Hier, lasst mich Euch zeigen, wie man solche Wunden verbindet...' WHERE entry=16272;
 -- Mathreyn <Kürschnerlehrer>
@@ -985,7 +985,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Wa
 -- Apotheker Antonivich <Alchemiemeisterlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Durch Alchemie verwandelt Ihr Kräuter in Tränke.' WHERE entry=16588;
 -- Ileda <Waffenmeisterin>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=16621;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=16621;
 -- Sedana <Verzauberkunstlehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Verzauberkunst ist die Kunst, vorhandene Gegenstände mit Magie zu verbessern.' WHERE entry=16633;
 -- Galana <Schneiderlehrling>
@@ -1033,7 +1033,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen
 -- Zandine <Jägerlehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=16674;
 -- Halthenis <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=16675;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=16675;
 -- Sylann <Köchin>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von Wildtieren in ein Festmahl zu verwandeln!' WHERE entry=16676;
 -- Osselan <Paladinlehrer>
@@ -1055,7 +1055,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Man braucht eine ruhige Hand, um 
 -- Telia <Juwelierskunstlehrling>
 UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie man Edelsteine schleift und Schmuck herstellt?' WHERE entry=16702;
 -- Ganaar <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=16712;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=16712;
 -- Mumman <Köchin>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von Wildtieren in ein Festmahl zu verwandeln!' WHERE entry=16719;
 -- Shalannius <Druidenlehrer>
@@ -1099,7 +1099,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Man braucht eine ruhige Hand, um 
 -- Ahonan <Kriegerlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=16771;
 -- Handiir <Waffenmeister>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=16773;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=16773;
 -- Erett <Angellehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich kann Euch lehren, wie Ihr eine Angelrute halten müsst, um Fische zu fangen.' WHERE entry=16774;
 -- Drathen <Angellehrer>
@@ -1107,7 +1107,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Ich kann Euch lehren, wie Ihr ein
 -- Humphry <Schmiedekunstmeisterlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, wie man Erz in Waffen und Metallrüstungen verwandelt!' WHERE entry=16823;
 -- Duellant Larenis <Waffenmeister>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=17005;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=17005;
 -- Firmanvaar <Schamanenlehrer>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=17089;
 -- Diktynna <Angellehrerin & Angelbedarf>
@@ -1153,7 +1153,7 @@ UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen
 -- Tullas <Paladinlehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Hallo, $C! Wollt Ihr ein bisschen üben?' WHERE entry=17483;
 -- Buruk <Tierausbilder>
-UPDATE locales_trainer_greeting SET Text_loc3=NULL WHERE entry=17484;
+UPDATE locales_trainer_greeting SET Text_loc3='' WHERE entry=17484;
 -- Erin Kelly <Schneiderlehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Darf ich Euch lehren, wie Ihr Stoff in eine Stoffrüstung verwandelt?' WHERE entry=17487;
 -- Dulvi <Bergbaulehrerin>
@@ -1243,7 +1243,8 @@ UPDATE locales_trainer_greeting SET Text_loc3='Hier, lasst mich Euch zeigen, wie
 -- Jack Trapper <Koch>
 UPDATE locales_trainer_greeting SET Text_loc3='Ich lehre Euch, das Fleisch von Wildtieren in ein Festmahl zu verwandeln!' WHERE entry=19185;
 -- Kylene <Bardame>
-UPDATE locales_trainer_greeting SET Text_loc3='Überlasst mich meiner kulinarischen Arbeit.' WHERE entry=19186;
+-- UPDATE locales_trainer_greeting SET Text_loc3='Überlasst mich meiner kulinarischen Arbeit.' WHERE entry=19186;
+UPDATE locales_trainer_greeting SET Text_loc3='Es gibt mehr als einen Weg, um einen Fisch zuzubereiten.' WHERE entry=19186;
 -- Darmari <Lederverarbeitungsmeisterlehrerin>
 UPDATE locales_trainer_greeting SET Text_loc3='Seid gegrüßt! Darf ich Euch lehren, wie man Tierbälge in Rüstung verwandelt?' WHERE entry=19187;
 -- Verzauberin Volali <Verzauberkunstlehrerin>

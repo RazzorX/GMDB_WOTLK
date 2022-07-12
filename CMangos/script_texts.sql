@@ -23,9 +23,9 @@ UPDATE script_texts SET content_loc3='$N kommt schnell! Bereitet Euch darauf vor
 UPDATE script_texts SET content_loc3='Hilfe!' WHERE entry=-1000105;
 UPDATE script_texts SET content_loc3='Alle bereit?' WHERE entry=-1000106;
 UPDATE script_texts SET content_loc3='Ok, lasst uns losgehen!' WHERE entry=-1000107;
-UPDATE script_texts SET content_loc3='Bereitet euch vor. Silberschwinge ist gleich um die Ecke.' WHERE entry=-1000108;
-UPDATE script_texts SET content_loc3='Silberschwinge ist besiegt!' WHERE entry=-1000109;
-UPDATE script_texts SET content_loc3='Geht. Meldet, dass der Außenposten eingenommen wurde. Wir werden hier bleiben.' WHERE entry=-1000110;
+UPDATE script_texts SET content_loc3='Macht Euch bereit. Der Außenposten liegt gleich hinter dieser Kehre.' WHERE entry=-1000108;
+UPDATE script_texts SET content_loc3='Der Außenposten gehört uns!' WHERE entry=-1000109;
+UPDATE script_texts SET content_loc3='Geht und meldet, dass der Außenposten eingenommen wurde. Wir werden hierbleiben.' WHERE entry=-1000110;
 UPDATE script_texts SET content_loc3='Zu unserem Haus geht es da lang, durch das Dickicht.' WHERE entry=-1000111;
 UPDATE script_texts SET content_loc3='Helft mir!' WHERE entry=-1000112;
 UPDATE script_texts SET content_loc3='Meine arme Familie. Alles wurde zerstört.' WHERE entry=-1000113;

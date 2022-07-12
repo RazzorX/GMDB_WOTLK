@@ -550,7 +550,7 @@ UPDATE locales_creature SET name_loc3='Rebellenwachmann' WHERE entry=754;
 UPDATE locales_creature SET name_loc3='Matschlauerer der Verirrten' WHERE entry=755;
 UPDATE locales_creature SET name_loc3='Panther der Schädelspalter' WHERE entry=756;
 UPDATE locales_creature SET name_loc3='Angler der Verirrten' WHERE entry=757;
-UPDATE locales_creature SET name_loc3='Ein schlafender Hund' WHERE entry=758;
+UPDATE locales_creature SET name_loc3='Tiger der Schädelspalter' WHERE entry=758;
 UPDATE locales_creature SET name_loc3='Jäger der Verirrten' WHERE entry=759;
 UPDATE locales_creature SET name_loc3='Matschkrabbler der Verirrten' WHERE entry=760;
 UPDATE locales_creature SET name_loc3='Seher der Verirrten' WHERE entry=761;
@@ -8166,6 +8166,8 @@ UPDATE locales_creature SET name_loc3='Schlachtstandarte der Frostwölfe' WHERE 
 UPDATE locales_creature SET name_loc3='Schlachtstandarte der Sturmlanzen' WHERE entry=14752;
 UPDATE locales_creature SET name_loc3='Illiyana Mondflamm', subname_loc3='Versorgungsoffizier der Silberschwingen' WHERE entry=14753;
 UPDATE locales_creature SET name_loc3='Kelm Hargunth', subname_loc3='Versorgungsoffizier des Kriegshymnenklans' WHERE entry=14754;
+UPDATE locales_creature SET name_loc3='Winziger grüner Drache' WHERE entry=14755;
+UPDATE locales_creature SET name_loc3='Winziger roter Drache' WHERE entry=14756;
 UPDATE locales_creature SET name_loc3='Ältester Stumpfhauer' WHERE entry=14757;
 UPDATE locales_creature SET name_loc3='Auslöser von Zul\'Gurub' WHERE entry=14758;
 UPDATE locales_creature SET name_loc3='Schleichende Verdammnis' WHERE entry=14761;
