@@ -1,0 +1,12 @@
+## Interface: 30400
+## Title: |cffffff00GMDB-CLASSIC-Zusatz|r
+## Title-deDE: |cffffff00GMDB-CLASSIC-Zusatz|r
+## Version: 1.3 Classic
+## Dependencies: GMDB_CLASSIC
+## X-Version: Light
+## Notes: GMDB Addon for WoW-WRATH
+## Notes-deDE: GMDB-Zusatz Addon für WoW-WRATH
+## SavedVariables: GMDB_Collector_Zusatz, GMDB_Main_Zusatz
+## DefaultState: enabled
+
+GMDB_Collector_Zusatz.xml
