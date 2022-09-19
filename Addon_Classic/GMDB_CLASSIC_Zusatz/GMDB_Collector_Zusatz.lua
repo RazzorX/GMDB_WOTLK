@@ -14,10 +14,9 @@ local self, event = {};
 -- ************
 
 function self_OnLoad(self)
-    if GetLocale() ~= "deDE" then return; end
-
     self:RegisterEvent("PLAYER_ENTERING_WORLD");
     self:RegisterEvent("PLAYER_LEAVING_WORLD");
+
     if GMDB_Collector_Zusatz == nil or GMDB_Main_Zusatz == nil then
         self_PurgeCollectorZ();
     end

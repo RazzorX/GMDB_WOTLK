@@ -4,8 +4,8 @@
 ## Version: 1.3 Classic
 ## Dependencies: GMDB_CLASSIC
 ## X-Version: Light
-## Notes: GMDB Addon for WoW-Classic Era
-## Notes-deDE: GMDB-Zusatz Addon für WoW-Classic Ära
+## Notes: GMDB Addon for WoW-Classic Era and SoM
+## Notes-deDE: GMDB-Zusatz Addon für WoW-Classic Ära und SdM
 ## SavedVariables: GMDB_Collector_Zusatz, GMDB_Main_Zusatz
 ## DefaultState: enabled
 

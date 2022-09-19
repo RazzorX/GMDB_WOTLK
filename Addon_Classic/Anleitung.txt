@@ -2,11 +2,11 @@ Installation:
 
 Die ZIP-Version der Addons kann unter https://github.com/RazzorX/GMDB_NEU/releases heruntergeladen werden.
 
-Die Classic-Addons funktionieren auf Classic und BCC.
+Die Classic-Addons funktionieren auf Classic (Ära und SdM) und WotLK.
 
 Für Classic: GMDB_CLASSIC.zip und GMDB_CLASSIC_Zusatz.zip nach ..\World of Warcraft\_classic_era_\Interface\AddOns\.. entpacken.
 
-Für BCC: GMDB_CLASSIC.zip und GMDB_CLASSIC_Zusatz.zip nach ..\World of Warcraft\_classic_\Interface\AddOns\.. entpacken.
+Für WotLK: GMDB_CLASSIC.zip und GMDB_CLASSIC_Zusatz.zip nach ..\World of Warcraft\_classic_\Interface\AddOns\.. entpacken.
 
 
 Das Addon kann auch auf dem PTR (Public Test Realm) genutzt werden.
@@ -15,4 +15,4 @@ Der Pfad für das Addon wäre dann:
 
 Für Classic-PTR: ..\World of Warcraft\_classic_era_ptr_\Interface\AddOns\..
 
-Für BCC-PTR: ..\World of Warcraft\_classic_ptr_\Interface\AddOns\..
+Für WotLK-PTR: ..\World of Warcraft\_classic_ptr_\Interface\AddOns\..

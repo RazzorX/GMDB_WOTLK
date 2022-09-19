@@ -4,6 +4,7 @@ DEBUG_MODE = false
 -- nur Events werden angezeigt
 DEBUG_MODE_EVENTS = false
 
+local Language = GetLocale();
 local AlreadyLoad = false
 local self, event = {};
 local arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,arg12,arg13,arg14,arg15,arg16,arg17,arg18,arg19 = ...;
@@ -13,10 +14,9 @@ local arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,arg12,arg13,arg14
 -- ************
 
 function self_OnLoad(self)
-    if GetLocale() ~= "deDE" then return; end
-
     self:RegisterEvent("PLAYER_ENTERING_WORLD");
     self:RegisterEvent("PLAYER_LEAVING_WORLD");
+
     if GMDB_Collector == nil or GMDB_Main == nil then
         self_PurgeCollector();
     end
@@ -87,9 +87,11 @@ function self_QuestDetail()
 
     for i = 1, GMDB_Main.totquest, 1 do
         if GMDB_Collector.Quests["Quest_"..i] then
-            if GMDB_Collector.Quests["Quest_"..i].Entry == QuestID then
-                PosTab = i;
-                self_Debug("self_QuestDetail - |c00FF0000PosTab: "..PosTab.."|r | QuestID: "..QuestID);
+            if GMDB_Collector.Quests["Quest_"..i].Sprache == Language then
+                if GMDB_Collector.Quests["Quest_"..i].Entry == QuestID then
+                    PosTab = i;
+                    self_Debug("self_QuestDetail - |c00FF0000PosTab: "..PosTab.."|r | QuestID: "..QuestID);
+                end
             end
         end
     end
@@ -103,6 +105,7 @@ function self_QuestDetail()
     GMDB_Collector.Quests["Quest_"..PosTab].Objectives = QuestObj;
     GMDB_Collector.Quests["Quest_"..PosTab].Details    = QuestDesc;
     GMDB_Collector.Quests["Quest_"..PosTab].Questgeber = Quelle;
+    GMDB_Collector.Quests["Quest_"..PosTab].Sprache    = Language;
     end
 
     -- neuer Questeintrag wird hinzugefügt
@@ -118,6 +121,7 @@ function self_QuestDetail()
     GMDB_Collector.Quests["Quest_"..PosTab].Objectives = QuestObj;
     GMDB_Collector.Quests["Quest_"..PosTab].Details    = QuestDesc;
     GMDB_Collector.Quests["Quest_"..PosTab].Questgeber = Quelle;
+    GMDB_Collector.Quests["Quest_"..PosTab].Sprache    = Language;
     end
 end
 
@@ -132,9 +136,11 @@ function self_QuestProgress()
 
     for i = 1, GMDB_Main.totquest, 1 do
         if GMDB_Collector.Quests["Quest_"..i] then
-            if GMDB_Collector.Quests["Quest_"..i].Entry == QuestID then
-                PosTab = i;
-                self_Debug("self_QuestProgress0 - |c00FFFF33PosTab: "..PosTab.."|r | QuestID: "..QuestID);
+            if GMDB_Collector.Quests["Quest_"..i].Sprache == Language then
+                if GMDB_Collector.Quests["Quest_"..i].Entry == QuestID then
+                    PosTab = i;
+                    self_Debug("self_QuestProgress0 - |c00FFFF33PosTab: "..PosTab.."|r | QuestID: "..QuestID);
+                end
             end
         end
     end
@@ -159,6 +165,7 @@ function self_QuestProgress()
     GMDB_Collector.Quests["Quest_"..PosTab].RequestItemsText = QuestProgress;
     GMDB_Collector.Quests["Quest_"..PosTab].Questgeber       = Quelle;
     GMDB_Collector.Quests["Quest_"..PosTab].Questnehmer      = Quelle;
+    GMDB_Collector.Quests["Quest_"..PosTab].Sprache          = Language;
     end
 end
 
@@ -173,9 +180,11 @@ function self_QuestComplete()
 
     for i = 1, GMDB_Main.totquest, 1 do
         if GMDB_Collector.Quests["Quest_"..i] then
-            if GMDB_Collector.Quests["Quest_"..i].Entry == QuestID then
-                PosTab = i;
-                self_Debug("self_QuestComplete0 - |c00FFFF33PosTab: "..PosTab.."|r | QuestID: "..QuestID);
+            if GMDB_Collector.Quests["Quest_"..i].Sprache == Language then
+                if GMDB_Collector.Quests["Quest_"..i].Entry == QuestID then
+                    PosTab = i;
+                    self_Debug("self_QuestComplete0 - |c00FFFF33PosTab: "..PosTab.."|r | QuestID: "..QuestID);
+                end
             end
         end
     end
@@ -200,6 +209,7 @@ function self_QuestComplete()
     GMDB_Collector.Quests["Quest_"..PosTab].OfferRewardText = QuestReward;
     GMDB_Collector.Quests["Quest_"..PosTab].Questgeber      = Quelle;
     GMDB_Collector.Quests["Quest_"..PosTab].Questnehmer     = Quelle;
+    GMDB_Collector.Quests["Quest_"..PosTab].Sprache         = Language;
     end
 end
 
