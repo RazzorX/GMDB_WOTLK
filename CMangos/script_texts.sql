@@ -55,13 +55,13 @@ UPDATE script_texts SET content_loc3='Ja, mein Herr!' WHERE entry=-1000136;
 UPDATE script_texts SET content_loc3='Kümmert Euch darum, Ardonis!' WHERE entry=-1000137;
 UPDATE script_texts SET content_loc3='Macht Euch auf Euren Untergang gefasst, Eindringlinge. Ihr habt einen Gott entfesselt!' WHERE entry=-1000138;
 UPDATE script_texts SET content_loc3='Avruus Magie ist gebrochen! Ich bin wieder frei!' WHERE entry=-1000139;
-UPDATE script_texts SET content_loc3='Auf geht\'s!' WHERE entry=-1000140;
-UPDATE script_texts SET content_loc3='$N, lasst uns den Vorraum zu unserer Rechten nehmen.' WHERE entry=-1000141;
-UPDATE script_texts SET content_loc3='Ich sehe schon das Licht am Ende des Tunnels!' WHERE entry=-1000142;
-UPDATE script_texts SET content_loc3='$C, dort drüben ist schon die Enklave der Weltenwanderer. Es ist nicht mehr weit... passt auf! Trollhinterhalt!!' WHERE entry=-1000143;
-UPDATE script_texts SET content_loc3='Danke, dass ihr mir das Leben gerettet und mich in Sicherheit gebracht habt, $N!' WHERE entry=-1000144;
-UPDATE script_texts SET content_loc3='Hauptmann Helios, man hat mich aus den Amanikatakomben gerettet. Melde mich zum Dienst, Sir!' WHERE entry=-1000145;
-UPDATE script_texts SET content_loc3='Lilatha, jemand soll sich diese Verletzungen ansehen. Ich danke Euch, dass Ihr sie sicher zurückgebracht habt.' WHERE entry=-1000146;
+-- UPDATE script_texts SET content_loc3='Auf geht\'s!' WHERE entry=-1000140; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='$N, lasst uns den Vorraum zu unserer Rechten nehmen.' WHERE entry=-1000141; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Ich sehe schon das Licht am Ende des Tunnels!' WHERE entry=-1000142; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='$C, dort drüben ist schon die Enklave der Weltenwanderer. Es ist nicht mehr weit... passt auf! Trollhinterhalt!!' WHERE entry=-1000143; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Danke, dass ihr mir das Leben gerettet und mich in Sicherheit gebracht habt, $N!' WHERE entry=-1000144; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Hauptmann Helios, man hat mich aus den Amanikatakomben gerettet. Melde mich zum Dienst, Sir!' WHERE entry=-1000145; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Lilatha, jemand soll sich diese Verletzungen ansehen. Ich danke Euch, dass Ihr sie sicher zurückgebracht habt.' WHERE entry=-1000146; -- ungenutzt
 UPDATE script_texts SET content_loc3='Der Stachel der Niederlage am Ende des dritten Krieges sitzt noch immer tief. Ich habe viel zu lange auf meine Rache gewartet. Nun fällt der Schatten der Legion auf diese Welt. Es ist nur eine Frage der Zeit bis Eure gesamte Schöpfung... ungeschehen gemacht wird.' WHERE entry=-1000147;
 UPDATE script_texts SET content_loc3='Die Legion wird alles erobern!' WHERE entry=-1000148;
 UPDATE script_texts SET content_loc3='Alle Sterblichen werden zu Grunde gehen!' WHERE entry=-1000149;
@@ -1490,26 +1490,26 @@ UPDATE script_texts SET content_loc3='Ihr Landratten seid zäher als ich dachte!
 UPDATE script_texts SET content_loc3='D\'ah! Jetzt macht Ihr mich wütend!' WHERE entry=-1036003;
 
 -- -1 043 000 WAILING CAVERNS
-UPDATE script_texts SET content_loc3='Endlich! Naralex kann erweckt werden! Kommt und helft mir, ihr tapferen Abenteurer!' WHERE entry=-1043000;
-UPDATE script_texts SET content_loc3='Ich muss die notwendigen Vorbereitungen treffen, bevor das Erweckungsritual beginnen kann. Ihr müsst mich beschützen!' WHERE entry=-1043001;
-UPDATE script_texts SET content_loc3='Diese Höhlen waren einst ein Tempel, der eine Wiederbegrünung des Ödlands versprach. Jetzt sind sie ein einziger Alptraum.' WHERE entry=-1043002;
-UPDATE script_texts SET content_loc3='Kommt. Wir müssen weitermachen. Es muss noch viel getan werden, bevor wir Naralex aus seinem Alptraum erwecken können.' WHERE entry=-1043003;
-UPDATE script_texts SET content_loc3='Innerhalb dieses Feuerkreises muss ich den Zauber wirken, der die Geister der getöteten Giftzahnlords verbannt.' WHERE entry=-1043004;
-UPDATE script_texts SET content_loc3='Die Höhlen wurden geläutert. Auf zu Naralex\' Kammer!' WHERE entry=-1043005;
-UPDATE script_texts SET content_loc3='Am Ende dieses Ganges liegt Naralex in unruhigem Schlaf. Wir sollten ihn wecken, bevor es zu spät ist.' WHERE entry=-1043006;
-UPDATE script_texts SET content_loc3='Beschützt mich, tapfere Seelen, während ich in den Smaragdgrünen Traum eintauche, um Naralex zu retten und dieser Verderbnis ein Ende zu setzen!' WHERE entry=-1043007;
-UPDATE script_texts SET content_loc3='%s beginnt, das Erweckungsritual an Naralex auszuführen.' WHERE entry=-1043008;
-UPDATE script_texts SET content_loc3='%s wirft sich in unruhigem Schlaf hin und her.' WHERE entry=-1043009;
-UPDATE script_texts SET content_loc3='%s windet sich vor Schmerzen. Der Jünger scheint sich einen Weg zu bahnen.' WHERE entry=-1043010;
-UPDATE script_texts SET content_loc3='%s hat eine entsetzliche Vision. Irgendetwas bewegt sich in dem trüben Wasser.' WHERE entry=-1043011;
-UPDATE script_texts SET content_loc3='$N ist zweifellos ein Diener aus Naralex\' Alptraum!' WHERE entry=-1043012;
-UPDATE script_texts SET content_loc3='Endlich bin ich wach!' WHERE entry=-1043013;
-UPDATE script_texts SET content_loc3='Endlich! Naralex erwacht aus dem Alptraum.' WHERE entry=-1043014;
-UPDATE script_texts SET content_loc3='Ah, wie gut, aus dem schrecklichen Alptraum erwacht zu sein! Ich danke Euch, mein treuer Jünger, und Euren tapferen Gefährten ebenso.' WHERE entry=-1043015;
-UPDATE script_texts SET content_loc3='Wir müssen uns mit den anderen Jüngern sammeln. Es gibt viel zu tun, bevor ich einen erneuten Versuch unternehmen kann, das Brachland wiederherzustellen. Gehabt Euch wohl, tapfere Seelen!' WHERE entry=-1043016;
-UPDATE script_texts SET content_loc3='$N greift mich an! Helft mir, es loszuwerden!' WHERE entry=-1043017;
-UPDATE script_texts SET content_loc3='Hilfe!' WHERE entry=-1043018;
-UPDATE script_texts SET content_loc3='Kümmert Euch darum, $N! Ich muss mich darauf vorbereiten, Naralex zu erwecken!' WHERE entry=-1043019;
+-- UPDATE script_texts SET content_loc3='Endlich! Naralex kann erweckt werden! Kommt und helft mir, ihr tapferen Abenteurer!' WHERE entry=-1043000; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Ich muss die notwendigen Vorbereitungen treffen, bevor das Erweckungsritual beginnen kann. Ihr müsst mich beschützen!' WHERE entry=-1043001; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Diese Höhlen waren einst ein Tempel, der eine Wiederbegrünung des Ödlands versprach. Jetzt sind sie ein einziger Alptraum.' WHERE entry=-1043002; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Kommt. Wir müssen weitermachen. Es muss noch viel getan werden, bevor wir Naralex aus seinem Alptraum erwecken können.' WHERE entry=-1043003; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Innerhalb dieses Feuerkreises muss ich den Zauber wirken, der die Geister der getöteten Giftzahnlords verbannt.' WHERE entry=-1043004; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Die Höhlen wurden geläutert. Auf zu Naralex\' Kammer!' WHERE entry=-1043005; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Am Ende dieses Ganges liegt Naralex in unruhigem Schlaf. Wir sollten ihn wecken, bevor es zu spät ist.' WHERE entry=-1043006; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Beschützt mich, tapfere Seelen, während ich in den Smaragdgrünen Traum eintauche, um Naralex zu retten und dieser Verderbnis ein Ende zu setzen!' WHERE entry=-1043007; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='%s beginnt, das Erweckungsritual an Naralex auszuführen.' WHERE entry=-1043008; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='%s wirft sich in unruhigem Schlaf hin und her.' WHERE entry=-1043009; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='%s windet sich vor Schmerzen. Der Jünger scheint sich einen Weg zu bahnen.' WHERE entry=-1043010; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='%s hat eine entsetzliche Vision. Irgendetwas bewegt sich in dem trüben Wasser.' WHERE entry=-1043011; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='$N ist zweifellos ein Diener aus Naralex\' Alptraum!' WHERE entry=-1043012; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Endlich bin ich wach!' WHERE entry=-1043013; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Endlich! Naralex erwacht aus dem Alptraum.' WHERE entry=-1043014; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Ah, wie gut, aus dem schrecklichen Alptraum erwacht zu sein! Ich danke Euch, mein treuer Jünger, und Euren tapferen Gefährten ebenso.' WHERE entry=-1043015; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Wir müssen uns mit den anderen Jüngern sammeln. Es gibt viel zu tun, bevor ich einen erneuten Versuch unternehmen kann, das Brachland wiederherzustellen. Gehabt Euch wohl, tapfere Seelen!' WHERE entry=-1043016; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='$N greift mich an! Helft mir, es loszuwerden!' WHERE entry=-1043017; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Hilfe!' WHERE entry=-1043018; -- ungenutzt
+-- UPDATE script_texts SET content_loc3='Kümmert Euch darum, $N! Ich muss mich darauf vorbereiten, Naralex zu erwecken!' WHERE entry=-1043019; -- ungenutzt
 
 -- -1 047 000 RAZORFEN KRAUL
 UPDATE script_texts SET content_loc3='Juhu! Endlich hier raus. Es wird aber nicht einfach werden. Haltet Eure Augen nach Ärger offen.' WHERE entry=-1047000;

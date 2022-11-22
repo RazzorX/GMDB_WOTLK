@@ -195,8 +195,6 @@ UPDATE areatrigger_teleport SET name='Feste Drak\'Tharon (Ausgang)' WHERE id=500
 UPDATE areatrigger_teleport SET name='Das Oculus (Ausgang)' WHERE id=5001;
 UPDATE areatrigger_teleport SET name='Ulduar, Hallen des Steins (Eingang)' WHERE id=5010;
 UPDATE areatrigger_teleport SET name='Ulduar, Hallen des Steins (Ausgang)' WHERE id=5012;
-UPDATE areatrigger_teleport SET name='Zul\'drak - Voltarus, Nach Oben' WHERE id=5051;
-UPDATE areatrigger_teleport SET name='Zul\'drak - Voltarus, Nach Unten' WHERE id=5079;
 UPDATE areatrigger_teleport SET name='Ulduar, Hallen der Blitze (Ausgang)' WHERE id=5091;
 UPDATE areatrigger_teleport SET name='Ulduar, Hallen der Blitze (Eingang)' WHERE id=5093;
 UPDATE areatrigger_teleport SET name='Azjol-Nerub Nebenausgang (Ausgang)' WHERE id=5113;

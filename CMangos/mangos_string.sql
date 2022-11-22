@@ -468,7 +468,7 @@ UPDATE mangos_string SET content_loc3='%d - |cffffffff|Hquest:%d:%d|h[%s]|h|r %s
 UPDATE mangos_string SET content_loc3='%d - |cffffffff|Hcreature_entry:%d|h[%s]|h|r ' WHERE entry=514;
 UPDATE mangos_string SET content_loc3='%d%s - |cffffffff|Hcreature:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r ' WHERE entry=515;
 UPDATE mangos_string SET content_loc3='%d - |cffffffff|Hgameobject_entry:%d|h[%s]|h|r ' WHERE entry=516;
-UPDATE mangos_string SET content_loc3='%d%s, Entry %d - |cffffffff|Hgameobject:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r ' WHERE entry=517;
+UPDATE mangos_string SET content_loc3='%d%s, Entry %d - |cffffffff|Hgameobject:%d|h[%s X:%f Y:%f Z:%f MapId:%d]SpawnGroup:%u|h|r' WHERE entry=517;
 UPDATE mangos_string SET content_loc3='%d - |cffffffff|Hitemset:%d|h[%s %s]|h|r ' WHERE entry=518;
 UPDATE mangos_string SET content_loc3='|cffffffff|Htele:%s|h[%s]|h|r ' WHERE entry=519;
 UPDATE mangos_string SET content_loc3='%d - |cffffffff|Hspell:%d|h[%s]|h|r ' WHERE entry=520;

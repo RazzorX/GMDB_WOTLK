@@ -146,7 +146,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE 
 UPDATE locales_gossip_menu_option SET option_text_loc3='Erzählt mir mehr über das Schmieden von Rüstungen.' WHERE menu_id=593 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Erzählt mir mehr über das Schmieden von Waffen.' WHERE menu_id=593 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=597 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte die Rüstungsschmiedekunst verlernen!' WHERE menu_id=597 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte die Rüstungsschmiedekunst verlernen!', box_text_loc3='Eure Ausbildung als Rüstungsschmied zu verlernen ist keine Entscheidung, die man leichtfertig treffen sollte. Wenn Ihr Euch entschließt, sie aufzugeben, werdet Ihr alle Rezepte, die die Rüstungsschmiedekunst benötigen, verlieren!' WHERE menu_id=597 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=643 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=645 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=646 AND id=0;
@@ -592,7 +592,14 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Wie läuft die Schlacht 
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wie läuft die Schlacht um die Kessel?' WHERE menu_id=3184 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte etwas von Euch kaufen.' WHERE menu_id=3185 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte etwas von Euch kaufen.' WHERE menu_id=3186 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Ich benötige Ausbildung.' WHERE menu_id=3201 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte Rüstungsschmied werden.' WHERE menu_id=3187 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte Waffenschmied werden.' WHERE menu_id=3187 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=3201 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte die Waffenschmiedekunst verlernen!', box_text_loc3='Eure Ausbildung als Waffenschmied zu verlernen ist keine Entscheidung, die man leichtfertig treffen sollte. Wenn Ihr Euch entschließt, sie aufzugeben, werdet Ihr alle Rezepte, die die Waffenschmiedekunst benötigen, verlieren!' WHERE menu_id=3201 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=3202 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte die Waffenschmiedekunst verlernen!', box_text_loc3='Eure Ausbildung als Waffenschmied zu verlernen ist keine Entscheidung, die man leichtfertig treffen sollte. Wenn Ihr Euch entschließt, sie aufzugeben, werdet Ihr alle Rezepte, die die Waffenschmiedekunst benötigen, verlieren!' WHERE menu_id=3202 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=3203 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte die Rüstungsschmiedekunst verlernen!', box_text_loc3='Eure Ausbildung als Rüstungsschmied zu verlernen ist keine Entscheidung, die man leichtfertig treffen sollte. Wenn Ihr Euch entschließt, sie aufzugeben, werdet Ihr alle Rezepte, die die Rüstungsschmiedekunst benötigen, verlieren!' WHERE menu_id=3203 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche einen glasartigen Fokussierer.' WHERE menu_id=3223 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte etwas Arkanbeschleuniger von Euch kaufen.' WHERE menu_id=3223 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was wird für den Kessel des Teufelssteinfelds benötigt?' WHERE menu_id=3223 AND id=2;
@@ -1502,6 +1509,12 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='<Lege meine Hände auf d
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche einen Flug.' WHERE menu_id=6023 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte etwas von Euch kaufen.' WHERE menu_id=6086 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte mein Tier unterbringen.' WHERE menu_id=6088 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Bitte lehrt mich, wie ich ein Axtschmied werde, Kilram.' WHERE menu_id=6089 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte die Axtschmiedekunst verlernen!', box_text_loc3='Eure Ausbildung als Axtschmied zu verlernen ist keine Entscheidung, die man leichtfertig treffen sollte. Wenn Ihr Euch entschließt, sie aufzugeben, werdet Ihr alle Rezepte, die die Axtschmiedekunst benötigen, verlieren!' WHERE menu_id=6089 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Bitte lehrt mich, wie ich ein Hammerschmied werde, Lilith.' WHERE menu_id=6090 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte die Hammerschmiedekunst verlernen!', box_text_loc3='Eure Ausbildung als Hammerschmied zu verlernen ist keine Entscheidung, die man leichtfertig treffen sollte. Wenn Ihr Euch entschließt, sie aufzugeben, werdet Ihr alle Rezepte, die die Hammerschmiedekunst benötigen, verlieren!' WHERE menu_id=6090 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Bitte zeigt mir, wie ich ein Schwertschmied werden kann, Seril.' WHERE menu_id=6091 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte die Schwertschmiedekunst verlernen!', box_text_loc3='Eure Ausbildung als Schwertschmied zu verlernen ist keine Entscheidung, die man leichtfertig treffen sollte. Wenn Ihr Euch entschließt, sie aufzugeben, werdet Ihr alle Rezepte, die die Schwertschmiedekunst benötigen, verlieren!' WHERE menu_id=6091 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Diese Dimensionale Implosionsmatrix klingt gefährlich! Wie kann ich eine herstellen?' WHERE menu_id=6092 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Jetzt muss ich nur noch einen Signalgeber für diese unglaubliche Maschine konstruieren!' WHERE menu_id=6094 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich brauche einen Flug.' WHERE menu_id=6162 AND id=0;
@@ -3106,6 +3119,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Auf die Schreckenskapit�
 UPDATE locales_gossip_menu_option SET option_text_loc3='Darf ich Euch beim probieren helfen?' WHERE menu_id=9648 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Lasst uns noch mehr probieren!' WHERE menu_id=9648 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Mehr zu Trinken!' WHERE menu_id=9648 AND id=2;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Raus mit Euch und verpasst der Geißel eine Abreibung, auf dass sie sich wünschen werden, niemals wiedergeboren zu sein!' WHERE menu_id=9650 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Prost!' WHERE menu_id=9652 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit, anzufangen. Was ist die erste Zutat, die Ihr benötigt?' WHERE menu_id=9668 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Brann, es wäre uns eine Ehre!' WHERE menu_id=9669 AND id=0;
@@ -3146,6 +3160,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit, den Schr
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit, mit der Destillation zu beginnen, uh, Schluckspecht.' WHERE menu_id=9713 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Stefan hat mir erzählt, Ihr würdet den Zweck dieses Gegenstands erklären.' WHERE menu_id=9714 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Stefan hat mir erzählt, Ihr würdet den Zweck dieses Gegenstands erklären.' WHERE menu_id=9714 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Rhunok, ich muss wieder mit Eurem Mojo erfüllt werden.' WHERE menu_id=9715 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was verbergt Ihr unter diesem Fleisch?' WHERE menu_id=9717 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich will genauso wie Ihr die Geißel aufhalten. Wie kann ich helfen?' WHERE menu_id=9720 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ihr könnt mir vertrauen. Ich bin kein Freund des Lichkönigs.' WHERE menu_id=9721 AND id=0;
@@ -3531,6 +3546,8 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um
 UPDATE locales_gossip_menu_option SET option_text_loc3='Lady Prachtmeer, ich bin bereit, nach Orgrimmar zu gehen. Bitte öffnet ein Portal.' WHERE menu_id=10189 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Melde mich zum Dienst, Majestät! Lasst den Angriff beginnen!' WHERE menu_id=10194 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit, Kriegshäuptling.' WHERE menu_id=10195 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Was wisst Ihr über Schwerter aus der Vorzeit?' WHERE menu_id=10199 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Was wisst Ihr über Schwerter aus der Vorzeit?' WHERE menu_id=10199 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte dieses Gasthaus zu meinem Heimatort machen.' WHERE menu_id=10201 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig in Euren Waren stöbern.' WHERE menu_id=10201 AND id=2;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte dieses Gasthaus zu meinem Heimatort machen.' WHERE menu_id=10202 AND id=1;
@@ -3693,6 +3710,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ormus, was ist mit Euren
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich würde mir Eure Waren gerne ansehen.' WHERE menu_id=10996 AND id=1; -- Todesritter
 UPDATE locales_gossip_menu_option SET option_text_loc3='Könnt Ihr das Schwert entfernen?' WHERE menu_id=11031 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Herrin, ich glaube, ich höre Arthas kommen. Was auch immer Ihr vorhabt, tut es schnell.' WHERE menu_id=11031 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin so weit.' WHERE menu_id=11091 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich würde mir Eure Waren gerne ansehen.' WHERE menu_id=11095 AND id=0; -- Druide
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich würde mir Eure Waren gerne ansehen.' WHERE menu_id=11097 AND id=0; -- Schamane
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich würde mir Eure Waren gerne ansehen.' WHERE menu_id=11098 AND id=0; -- Schurke

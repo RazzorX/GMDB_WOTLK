@@ -2034,6 +2034,7 @@ UPDATE locales_item SET name_loc3='Hammelkoteletts' WHERE entry=3770;
 UPDATE locales_item SET name_loc3='Wildschweinschenkel' WHERE entry=3771;
 UPDATE locales_item SET name_loc3='Herbeigezaubertes Quellwasser' WHERE entry=3772;
 UPDATE locales_item SET name_loc3='Verkrüppelndes Gift' WHERE entry=3775;
+UPDATE locales_item SET name_loc3='Verkrüppelndes Gift II' WHERE entry=3776;
 UPDATE locales_item SET name_loc3='Lethargiewurzel', description_loc3='Wird von Schurken beim Brauen von Gift verwendet.' WHERE entry=3777;
 UPDATE locales_item SET name_loc3='Gespannter Kompositbogen' WHERE entry=3778;
 UPDATE locales_item SET name_loc3='Kräftige Kriegsaxt' WHERE entry=3779;
