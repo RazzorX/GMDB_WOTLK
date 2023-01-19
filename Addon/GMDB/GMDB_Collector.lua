@@ -87,8 +87,8 @@ function self_QuestDetail()
 
     for i = 1, GMDB_Main.totquest, 1 do
         if GMDB_Collector.Quests["Quest_"..i] then
-            if GMDB_Collector.Quests["Quest_"..i].Sprache == Language then
-                if GMDB_Collector.Quests["Quest_"..i].Entry == QuestID then
+            if GMDB_Collector.Quests["Quest_"..i].Entry == QuestID then
+                if GMDB_Collector.Quests["Quest_"..i].Sprache == Language then
                     PosTab = i;
                     self_Debug("self_QuestDetail - |c00FF0000PosTab: "..PosTab.."|r | QuestID: "..QuestID);
                 end
@@ -105,7 +105,6 @@ function self_QuestDetail()
     GMDB_Collector.Quests["Quest_"..PosTab].Objectives = QuestObj;
     GMDB_Collector.Quests["Quest_"..PosTab].Details    = QuestDesc;
     GMDB_Collector.Quests["Quest_"..PosTab].Questgeber = Quelle;
-    GMDB_Collector.Quests["Quest_"..PosTab].Sprache    = Language;
     end
 
     -- neuer Questeintrag wird hinzugefügt
@@ -136,8 +135,8 @@ function self_QuestProgress()
 
     for i = 1, GMDB_Main.totquest, 1 do
         if GMDB_Collector.Quests["Quest_"..i] then
-            if GMDB_Collector.Quests["Quest_"..i].Sprache == Language then
-                if GMDB_Collector.Quests["Quest_"..i].Entry == QuestID then
+            if GMDB_Collector.Quests["Quest_"..i].Entry == QuestID then
+                if GMDB_Collector.Quests["Quest_"..i].Sprache == Language then
                     PosTab = i;
                     self_Debug("self_QuestProgress0 - |c00FFFF33PosTab: "..PosTab.."|r | QuestID: "..QuestID);
                 end
@@ -180,8 +179,8 @@ function self_QuestComplete()
 
     for i = 1, GMDB_Main.totquest, 1 do
         if GMDB_Collector.Quests["Quest_"..i] then
-            if GMDB_Collector.Quests["Quest_"..i].Sprache == Language then
-                if GMDB_Collector.Quests["Quest_"..i].Entry == QuestID then
+            if GMDB_Collector.Quests["Quest_"..i].Entry == QuestID then
+                if GMDB_Collector.Quests["Quest_"..i].Sprache == Language then
                     PosTab = i;
                     self_Debug("self_QuestComplete0 - |c00FFFF33PosTab: "..PosTab.."|r | QuestID: "..QuestID);
                 end
@@ -230,12 +229,7 @@ function self_GetQuelle()
     elseif kind == "GameObject" and not itemName then
         Quelle = "GOBJECT||"..Ziel.."||"..id;
         self_Debug("self_GetQuelle - Kind Gameobject: "..Ziel);
---    elseif kind == "Item" and itemId == nil and not (kind == "Creature" or kind == "GameObject") then
---        Quelle = "ITEM_UNBEKANNT";
---        self_Debug("self_GetQuelle - Quelle = Item unbekannt");
---    elseif kind == "Item" or (itemId ~= nil or itemName ~= nil) then
-    elseif kind == "ITEM" or itemName ~= nil then
---        if iID == nil then iID = 0; end
+    elseif itemName ~= nil then
         Quelle = "ITEM||"..ZielX.."||"..iID;
         self_Debug("self_GetQuelle - Item: "..iID.." - "..ZielX);
     end
@@ -260,6 +254,7 @@ function self_MonsterSprache(ART, arg1, arg2, arg3)
                 if GMDB_Collector.Sprache["Text_"..i].ART == ART then
                     if GMDB_Collector.Sprache["Text_"..i].WAS == WAS then
                         if GMDB_Collector.Sprache["Text_"..i].SPRACHE == SPRACHE then
+                            self_Debug("self_MonsterSprache: "..WER.." , "..SPRACHE);
                             return;
                         end
                     end
@@ -269,12 +264,14 @@ function self_MonsterSprache(ART, arg1, arg2, arg3)
     end
 
     GMDB_Main.totSprache = GMDB_Main.totSprache + 1;
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache]         = {};
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].ART     = ART;
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WER     = WER;
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].WAS     = WAS;
-    GMDB_Collector.Sprache["Text_"..GMDB_Main.totSprache].SPRACHE = SPRACHE;
+    PosTab = GMDB_Main.totSprache;
     self_Debug("self_MonsterSprache: "..WER.." , "..SPRACHE);
+
+    GMDB_Collector.Sprache["Text_"..PosTab]         = {};
+    GMDB_Collector.Sprache["Text_"..PosTab].ART     = ART;
+    GMDB_Collector.Sprache["Text_"..PosTab].WER     = WER;
+    GMDB_Collector.Sprache["Text_"..PosTab].WAS     = WAS;
+    GMDB_Collector.Sprache["Text_"..PosTab].SPRACHE = SPRACHE;
 end
 
 -- ************
@@ -282,8 +279,7 @@ end
 -- ************
 
 function self_GossipText()
-
-    G_Gesamt = C_GossipInfo.GetNumOptions();
+    G_Gesamt = #C_GossipInfo.GetOptions();
     if G_Gesamt == 0 or G_Gesamt == nil then return; end
     self_Debug("Gossip-Insgesamt: "..G_Gesamt);
 
@@ -292,9 +288,6 @@ function self_GossipText()
 --    for i = 1, G_Gesamt, 1 do
 --    self_Debug("Gossip-Name: "..gossips[i].name);
 --    end
-
-    if gossips[1].type == nil then
-        gossips[1].type = "none"; end
 
     Quelle = self_GetQuelle();
     erreurTitel = 0;
@@ -369,10 +362,10 @@ end
 function self_GetUnitId(unit)
     local kind = self_GetUnitKind();
 
-    if kind == "ITEM" then return nil; end
-    if kind == "Creature" or kind == "Vehicle" or kind == "GameObject" then
+    if kind == "Item" then return;
+    elseif kind == "Creature" or kind == "Vehicle" or kind == "GameObject" then
     id = guid:match("%a+-%d+-%d+-%d+-%d+-(%d+)-.+")
-    self_Debug("self_GetUnitId - Kind creature, vehicle oder gameobject");
+    self_Debug("self_GetUnitId - id = "..id);
     end
     return tonumber(id);
 end
@@ -380,13 +373,12 @@ end
 function self_GetUnitKind(unit)
     guid = UnitGUID("npc");
 
-    if guid == nil then
-    kind = "ITEM";
-    self_Debug("self_GetUnitKind = ITEM");
-    else
---    kind = guid:match("(%a+)-%d+-%d+-%d+-%d+-%d+-.+")
+    if guid ~= nil then
     kind = guid:match("(%a+)-.+")
     self_Debug("self_GetUnitKind - kind: "..kind);
+    elseif guid == nil then
+    kind = "Item";
+    self_Debug("self_GetUnitKind = Item");
     end
     return kind;
 end

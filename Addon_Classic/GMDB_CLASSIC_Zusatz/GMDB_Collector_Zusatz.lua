@@ -28,6 +28,7 @@ function self_OnEvent(self, event, ...)
 
     if event == "PLAYER_ENTERING_WORLD" then
         self:RegisterEvent("GOSSIP_SHOW");
+        self:RegisterEvent("GOSSIP_CONFIRM"); -- TEST
         self:RegisterEvent("ITEM_TEXT_READY");
         self:RegisterEvent("QUEST_GREETING");
         self:RegisterEvent("TRAINER_SHOW");
@@ -42,6 +43,7 @@ function self_OnEvent(self, event, ...)
 
     if event == "PLAYER_LEAVING_WORLD" then
         self:UnregisterEvent("GOSSIP_SHOW");
+        self:UnregisterEvent("GOSSIP_CONFIRM"); -- TEST
         self:UnregisterEvent("ITEM_TEXT_READY");
         self:UnregisterEvent("QUEST_GREETING");
         self:UnregisterEvent("TRAINER_SHOW");
@@ -50,6 +52,7 @@ function self_OnEvent(self, event, ...)
     end
 
     if event == "GOSSIP_SHOW" then self_NpcTexte(); end
+    if event == "GOSSIP_CONFIRM" then self_ConfirmText(...); end
     if event == "ITEM_TEXT_READY" then self_ItemText(); end
     if event == "QUEST_GREETING" then self_Greeting(); end
     if event == "TRAINER_SHOW" then self_Trainer_Greeting(); end
@@ -68,7 +71,7 @@ function self_NpcTexte()
     local Quelle = self_GetQuelle();
     if Quelle == nil then return; end;
 
-    local GText = self_CleanMeZ(GetGossipText());
+    local GText = self_CleanMeZ(C_GossipInfo.GetText());
 
     for i = 1, GMDB_Main_Zusatz.totNpcTexte, 1 do
         if GMDB_Collector_Zusatz.NpcText["Text_"..i] then
@@ -81,9 +84,10 @@ function self_NpcTexte()
     end
 
     GMDB_Main_Zusatz.totNpcTexte = GMDB_Main_Zusatz.totNpcTexte + 1;
-    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte]        = {};
-    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].Quelle = Quelle;
-    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].GText  = GText;
+    PosTab = GMDB_Main_Zusatz.totNpcTexte;
+    GMDB_Collector_Zusatz.NpcText["Text_"..PosTab]        = {};
+    GMDB_Collector_Zusatz.NpcText["Text_"..PosTab].Quelle = Quelle;
+    GMDB_Collector_Zusatz.NpcText["Text_"..PosTab].GText  = GText;
 end
 
 -- diese Funktion liest und schreibt jeden NPC-Greeting-Text
@@ -106,9 +110,10 @@ function self_Greeting()
     end
 
     GMDB_Main_Zusatz.totNpcTexte = GMDB_Main_Zusatz.totNpcTexte + 1;
-    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte]           = {};
-    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].Quelle    = Quelle;
-    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].QGreeting = Greeting;
+    PosTab = GMDB_Main_Zusatz.totNpcTexte;
+    GMDB_Collector_Zusatz.NpcText["Text_"..PosTab]           = {};
+    GMDB_Collector_Zusatz.NpcText["Text_"..PosTab].Quelle    = Quelle;
+    GMDB_Collector_Zusatz.NpcText["Text_"..PosTab].QGreeting = Greeting;
 end
 
 -- diese Funktion liest und schreibt jeden Trainer-Greeting-Text
@@ -131,9 +136,10 @@ function self_Trainer_Greeting()
     end
 
     GMDB_Main_Zusatz.totNpcTexte = GMDB_Main_Zusatz.totNpcTexte + 1;
-    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte]           = {};
-    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].Quelle    = Quelle;
-    GMDB_Collector_Zusatz.NpcText["Text_"..GMDB_Main_Zusatz.totNpcTexte].TGreeting = TGreeting;
+    PosTab = GMDB_Main_Zusatz.totNpcTexte;
+    GMDB_Collector_Zusatz.NpcText["Text_"..PosTab]           = {};
+    GMDB_Collector_Zusatz.NpcText["Text_"..PosTab].Quelle    = Quelle;
+    GMDB_Collector_Zusatz.NpcText["Text_"..PosTab].TGreeting = TGreeting;
 end
 
 -- *******************************
@@ -146,17 +152,23 @@ function self_ItemText()
 
     local pageNum  = ItemTextGetPage();
     local pageBody = ItemTextGetText();
+    local Next     = ItemTextHasNextPage();
 
     if pageNum >= 2 then
         for t = 1, GMDB_Main_Zusatz.totText, 1 do
             if GMDB_Collector_Zusatz.Texte["Text_"..t] then
                 if GMDB_Collector_Zusatz.Texte["Text_"..t].Quelle == Quelle then
-                self_Debug_Z("self_ItemText - Quelle: "..Quelle);
+                    self_Debug_Z("self_ItemText - Quelle: "..Quelle);
                     if GMDB_Collector_Zusatz.Texte["Text_"..t].Seiten.Seite_1 then
-                    self_Debug_Z("self_ItemText - |c00FFFF33PosTab: "..t.."|r");
+                        self_Debug_Z("self_ItemText - |c00FFFF33PosTab: "..t.."|r");
 
-                    GMDB_Collector_Zusatz.Texte["Text_"..t].Seiten["Seite_"..pageNum] = pageBody;
-                    self_Debug_Z("self_ItemText - Seite: " ..pageNum);
+                        GMDB_Collector_Zusatz.Texte["Text_"..t].Seiten["Seite_"..pageNum] = pageBody;
+                        self_Debug_Z("self_ItemText - Seite: " ..pageNum);
+                        if Next == false then
+                        GMDB_Collector_Zusatz.Texte["Text_"..t].Seitenanzahl = pageNum;
+                        self_Debug_Z("self_ItemText - Seitenanzahl: " ..pageNum);
+                        return;
+                        end
                     return;
                     end
                 end
@@ -164,29 +176,31 @@ function self_ItemText()
         end
     end
 
-    PosTab = nil;
     for i = 1, GMDB_Main_Zusatz.totText, 1 do
         if GMDB_Collector_Zusatz.Texte["Text_"..i] then
             if GMDB_Collector_Zusatz.Texte["Text_"..i].Quelle then
                 if GMDB_Collector_Zusatz.Texte["Text_"..i].Quelle == Quelle then
-                    PosTab = i;
-                    self_Debug_Z("self_ItemText - |c00FF0000PosTab: "..PosTab.."|r");
+                    self_Debug_Z("self_ItemText - |c00FF0000PosTab: "..i.."|r");
+                    return;
                 end
             end
         end
     end
 
-    if PosTab ~= nil then return; end
-
     GMDB_Main_Zusatz.totText = GMDB_Main_Zusatz.totText + 1;
     PosTab = GMDB_Main_Zusatz.totText;
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab]         = {};
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Quelle  = Quelle;
-    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seiten  = {};
+    GMDB_Collector_Zusatz.Texte["Text_"..PosTab]        = {};
+    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Quelle = Quelle;
+    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seiten = {};
     GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seiten["Seite_"..pageNum] = pageBody;
     self_Debug_Z("self_ItemText - |c0000FF00PosTab: "..PosTab.."|r");
     self_Debug_Z("self_ItemText - Quelle: " ..Quelle);
     self_Debug_Z("self_ItemText - Seite: " ..pageNum);
+
+    if Next == false then
+    GMDB_Collector_Zusatz.Texte["Text_"..PosTab].Seitenanzahl = pageNum;
+    self_Debug_Z("self_ItemText - Seitenanzahl: " ..pageNum);
+    end
 end
 
 function self_MailShow()
@@ -211,21 +225,18 @@ function self_BriefTexte()
 
     if sender == nil then return; end
 
-    PosTab = nil;
     for i = 1, GMDB_Main_Zusatz.totBriefTexte, 1 do
         if GMDB_Collector_Zusatz.BriefTexte["Text_"..i] then
             if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Von == sender then
                 if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Betreff == subject then
                     if GMDB_Collector_Zusatz.BriefTexte["Text_"..i].Inhalt == bodyText then
-                        PosTab = i;
-                        self_Debug_Z("self_BriefTexte - |c00FF0000PosTab: "..PosTab.."|r");
+                        self_Debug_Z("self_BriefTexte - |c00FF0000PosTab: "..i.."|r");
+                        return;
                     end
                 end
             end
         end
     end
-
-    if PosTab ~= nil then return; end
 
     GMDB_Main_Zusatz.totBriefTexte = GMDB_Main_Zusatz.totBriefTexte + 1;
     PosTab = GMDB_Main_Zusatz.totBriefTexte;
@@ -236,6 +247,32 @@ function self_BriefTexte()
     self_Debug_Z("self_BriefTexte - Von: " ..sender);
     self_Debug_Z("self_BriefTexte - Betreff: " ..subject);
     end
+end
+
+-- Box-Bestätigungstext auslesen
+-- wird noch nicht geschrieben !
+function self_ConfirmText(arg1, arg2)
+    local Quelle = self_GetQuelle();
+    Text = arg2;
+    self_Debug_Z("self_ConfirmText - Quelle: " ..Quelle);
+    self_Debug_Z("self_ConfirmText - Text: " ..Text);
+--[[
+    for i = 1, GMDB_Main_Zusatz.totNpcTexte, 1 do
+        if GMDB_Collector_Zusatz.NpcText["Text_"..i] then
+            if GMDB_Collector_Zusatz.NpcText["Text_"..i].Quelle == Quelle then
+                if GMDB_Collector_Zusatz.NpcText["Text_"..i].BoxText == Text then
+                    return;
+                end
+            end
+        end
+    end
+
+    GMDB_Main_Zusatz.totNpcTexte = GMDB_Main_Zusatz.totNpcTexte + 1;
+    PosTab = GMDB_Main_Zusatz.totNpcTexte;
+    GMDB_Collector_Zusatz.NpcText["Text_"..PosTab]         = {};
+    GMDB_Collector_Zusatz.NpcText["Text_"..PosTab].Quelle  = Quelle;
+    GMDB_Collector_Zusatz.NpcText["Text_"..PosTab].BoxText = Text;
+--]]
 end
 
 -- *******************
