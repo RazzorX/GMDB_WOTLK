@@ -22602,6 +22602,7 @@ UPDATE locales_item SET name_loc3='Zweizehensandalen', description_loc3='Für Ni
 UPDATE locales_item SET name_loc3='Gorths Fackel' WHERE entry=33472;
 UPDATE locales_item SET name_loc3='Kriegsfürstenbrustschutz' WHERE entry=33473;
 UPDATE locales_item SET name_loc3='Uralter Langbogen der Amani' WHERE entry=33474;
+UPDATE locales_item SET name_loc3='Frostgram', description_loc3='Dem König zum Gruße, Baby!' WHERE entry=33475;
 UPDATE locales_item SET name_loc3='Spaltbeil des Unbarmherzigen' WHERE entry=33476;
 UPDATE locales_item SET name_loc3='Riesenyetimahlzeit', description_loc3='Eine für einen riesigen Yeti geeignete Mahlzeit.' WHERE entry=33477;
 UPDATE locales_item SET name_loc3='Jin\'rohk, die große Apokalypse' WHERE entry=33478;
@@ -25473,6 +25474,7 @@ UPDATE locales_item SET name_loc3='Großfelsbrustplatte' WHERE entry=36938;
 UPDATE locales_item SET name_loc3='Nymphenstrümpfe' WHERE entry=36939;
 UPDATE locales_item SET name_loc3='Mikhails Tagebuch' WHERE entry=36940;
 UPDATE locales_item SET name_loc3='Wappenrock der Wettkämpfer' WHERE entry=36941;
+UPDATE locales_item SET name_loc3='Frostgram' WHERE entry=36942;
 UPDATE locales_item SET name_loc3='Eternos\' zeitlose Perlen' WHERE entry=36943;
 UPDATE locales_item SET name_loc3='Belgaristrasz\' Lebensklinge' WHERE entry=36944;
 UPDATE locales_item SET name_loc3='Verdisas Manschetten des Traumes' WHERE entry=36945;
@@ -35097,6 +35099,7 @@ UPDATE locales_item SET name_loc3='Uralte drachengeschmiedete Klingen' WHERE ent
 UPDATE locales_item SET name_loc3='Belobigungsabzeichen der Söhne von Hodir' WHERE entry=49702;
 UPDATE locales_item SET name_loc3='Unerschöpfliches lila Feuerwerk' WHERE entry=49703;
 UPDATE locales_item SET name_loc3='Geschnitzter Ogergötze' WHERE entry=49704;
+UPDATE locales_item SET name_loc3='Monster - Frostmourne (Arthas Only Special)' WHERE entry=49706;
 UPDATE locales_item SET name_loc3='Ewig wunderschöne Rose' WHERE entry=49715;
 UPDATE locales_item SET name_loc3='Energieerfüllter Saronitbarren' WHERE entry=49718;
 UPDATE locales_item SET name_loc3='Hammer des Schmiedemeisters' WHERE entry=49723;

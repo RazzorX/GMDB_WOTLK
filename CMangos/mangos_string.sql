@@ -70,7 +70,7 @@ UPDATE mangos_string SET content_loc3='Verbietet Geflüster' WHERE entry=64;
 UPDATE mangos_string SET content_loc3='Benutze Script Bibliothek: <Unbekannte Script Bibliothek>' WHERE entry=65;
 UPDATE mangos_string SET content_loc3='Benutze Script Bibliothek: <Keine Script Bibliothek geladen>' WHERE entry=66;
 UPDATE mangos_string SET content_loc3='Allgemeine Ankündigung: ' WHERE entry=100;
-UPDATE mangos_string SET content_loc3='Karte: %u (%s) Zone: %u (%s) Gebiet: %u (%s) Phase: %u\nX: %f Y: %f Z: %f Orientierung: %f\ngrid[%u,%u]Zelle[%u,%u] InstanceID: %u\n ZoneX: %f ZoneY: %f\nGroundZ: %f FloorZ: %f hat Höhendaten (Map: %u VMap: %u)' WHERE entry=101;
+UPDATE mangos_string SET content_loc3='Karte: %u (%s) Zone: %u (%s) Gebiet: %u (%s) %s Phase: %u\nX: %f Y: %f Z: %f Orientierung: %f\ngrid[%u,%u]Zelle[%u,%u] InstanceID: %u\n ZoneX: %f ZoneY: %f\nGroundZ: %f FloorZ: %f hat Höhendaten (Map: %u VMap: %u)' WHERE entry=101;
 UPDATE mangos_string SET content_loc3='%s wird bereits teleportiert.' WHERE entry=102;
 UPDATE mangos_string SET content_loc3='Ihr könnt einen Spieler nur dann zu Eurer Instanz herbeirufen, wenn er in Eurer Gruppe ist und Ihr der Gruppenleiter seid.' WHERE entry=103;
 UPDATE mangos_string SET content_loc3='Ihr könnt nicht zur Instanz des Spielers gehen, weil Ihr jetzt in einer Gruppe seid.' WHERE entry=104;

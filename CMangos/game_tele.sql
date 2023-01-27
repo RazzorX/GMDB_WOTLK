@@ -1468,4 +1468,5 @@ UPDATE game_tele SET name='Smaragdwald' WHERE id=1430;
 -- UPDATE game_tele SET name='' WHERE id=1531;
 -- UPDATE game_tele SET name='' WHERE id=1532;
 -- UPDATE game_tele SET name='' WHERE id=1533;
+-- UPDATE game_tele SET name='' WHERE id=1534;
 SET NAMES 'latin1';
