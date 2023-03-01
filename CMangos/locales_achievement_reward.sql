@@ -97,6 +97,16 @@ text_loc3='Werter Meister der Geduld, wir möchten Eure Beharrlichkeit belohnen,
 WHERE entry=4478 AND gender=2;
 
 UPDATE locales_achievement_reward SET
+subject_loc3='Die Emblemhändler in der Silbernen Enklave in Dalaran',
+text_loc3='Eure Leistungen in Nordend sind nicht unbemerkt geblieben, Freund.$B$BMit den Emblemen, die Ihr verdient habt, könnt Ihr Ausrüstungsgegenstände von den diversen Emblemhändlern in Dalaran kaufen.$B$BIhr findet uns dort in der Silbernen Enklave, wo es für jede Art von Emblem einen Rüstmeister gibt.$B$BWir freuen uns auf Eure Ankunft!'
+WHERE entry=4784;
+
+UPDATE locales_achievement_reward SET
+subject_loc3='Die Emblemhändler in der Zuflucht der Sonnenhäscher in Dalaran',
+text_loc3='Eure Leistungen in Nordend sind nicht unbemerkt geblieben, Freund.$B$BMit den Emblemen, die Ihr verdient habt, könnt Ihr Ausrüstungsgegenstände von den diversen Emblemhändlern in Dalaran kaufen.$B$BIhr findet uns dort in der Zuflucht der Sonnenhäscher, wo es für jede Art von Emblem einen Rüstmeister gibt.$B$BWir freuen uns auf Eure Ankunft!'
+WHERE entry=4785;
+
+UPDATE locales_achievement_reward SET
 subject_loc3='Ich werde wahnsinnig!',
 text_loc3='Hallo mal wieder!$B$BDieser kleine Schelm treibt alle im Tierladen in den Wahnsinn!$B$BIch dachte mir, dass Ihr ihn vielleicht auf einige Eurer Abenteuer mitnehmen könntet... Vielleicht wird er etwas ruhiger, wenn er ein wenig was von der Welt gesehen hat.$B$BIhr TRAGT doch einen Helm, nicht wahr...?$B$B-Breanni'
 WHERE entry=5876; /* not used in UDB 402 */

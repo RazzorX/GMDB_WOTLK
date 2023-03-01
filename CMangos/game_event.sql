@@ -119,6 +119,7 @@ UPDATE game_event SET description='Der Sonnenbrunnen - Alle Tore geschlossen' WH
 UPDATE game_event SET description='Der Sonnenbrunnen - Erstes Tor geöffnet' WHERE entry=317;
 UPDATE game_event SET description='Der Sonnenbrunnen - Zweites Tor geöffnet' WHERE entry=318;
 UPDATE game_event SET description='Der Sonnenbrunnen - Alle Tore geöffnet' WHERE entry=319;
+UPDATE game_event SET description='Tageszeit 7 Uhr - 20 Uhr' WHERE entry=400;
 UPDATE game_event SET description='Shattrath - Tägliche Dungeonquest - Gesucht: Schildwachen der Arkatraz' WHERE entry=1000;
 UPDATE game_event SET description='Shattrath - Tägliche Dungeonquest - Gesucht: Myrmidonen des Echsenkessels' WHERE entry=1001;
 UPDATE game_event SET description='Shattrath - Tägliche Dungeonquest - Gesucht: Bösartige Ausbilderinnen' WHERE entry=1002;

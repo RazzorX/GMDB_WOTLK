@@ -327,7 +327,9 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Faszinierend. Bitte, erz
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte mehr Tharlendrissamenkörner erwerben.' WHERE menu_id=1701 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich sehe mich nur mal um.' WHERE menu_id=1721 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich würde gern sehen, was Ihr zu verkaufen habt.' WHERE menu_id=1781 AND id=0;
-UPDATE locales_gossip_menu_option SET option_text_loc3='Wollt Ihr etwas kaufen, ja?' WHERE menu_id=1802 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Wie kann ich Evowurzel bekommen?' WHERE menu_id=1801 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Könnt Ihr mir erzählen, wie ich ein Videre-Elixier bekommen kann?' WHERE menu_id=1802 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Wollt Ihr was kaufen, ja?' WHERE menu_id=1802 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich muss wissen wo die Prinzessin ist, Kharan!' WHERE menu_id=1822 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Es ist nicht alles verloren, Kharan!' WHERE menu_id=1822 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Die Tür ist offen, Kharan. Ihr seid ein freier Mann.' WHERE menu_id=1823 AND id=0;
@@ -922,6 +924,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE 
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=4164 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=4169 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=4171 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=4172 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=4174 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich benötige eine Ausbildung.' WHERE menu_id=4185 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Bildet mich aus.' WHERE menu_id=4201 AND id=0;
@@ -1682,7 +1685,9 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte Euch noch et
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte Euch noch etwas anderes fragen.' WHERE menu_id=6681 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte Euch noch etwas anderes fragen.' WHERE menu_id=6682 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte Euch noch etwas anderes fragen.' WHERE menu_id=6683 AND id=0;
--- UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin hier, um Euren Bericht zu empfangen.' WHERE menu_id=6691 AND id=0; -- korrekt ?
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin hier, um Euren Bericht zu empfangen.' WHERE menu_id=6690 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin hier, um Euren Bericht zu empfangen.' WHERE menu_id=6691 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin hier, um Euren Bericht zu empfangen.' WHERE menu_id=6692 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte noch etwas wissen.' WHERE menu_id=6696 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte noch etwas wissen.' WHERE menu_id=6700 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte noch etwas wissen.' WHERE menu_id=6702 AND id=0;

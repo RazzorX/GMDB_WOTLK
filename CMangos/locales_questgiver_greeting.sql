@@ -561,6 +561,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=7884;
 -- Angelas Mondhauch
 UPDATE locales_questgiver_greeting SET Text_loc3='Hallo, $N. Vielleicht habt Ihr etwas Zeit zu plaudern?' WHERE entry=7900;
 
+-- Daryn Leuchtwind (englischer "Text" nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=7907;
+
 -- Kadrak
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=8582;
 
