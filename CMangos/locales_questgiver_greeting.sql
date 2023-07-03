@@ -234,6 +234,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Seid gegrüßt, $C. Ich befind
 -- Schattenpriester Allister
 UPDATE locales_questgiver_greeting SET Text_loc3='Informationen... Mit unseren Spähern und Agenten haben wir den Informationsfluss in Lordaeron in der Hand. Bewegungen der Geißel, ihre Stellungen, nichts entgeht unseren wachsamen Augen...' WHERE entry=2121;
 
+-- Mondpriesterin Amara (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Ich grüße Euch, $C. Die Wege in unserem schönen Wald sind nicht ohne Gefahr. Passt auf, wo Ihr hintretet.' WHERE entry=2151;
+
 -- Hochexekutorin Darthalia
 UPDATE locales_questgiver_greeting SET Text_loc3='Um der dunklen Fürstin und Varimathras zu dienen, müssen wir gegen die menschliche Plage vorgehen.' WHERE entry=2215;
 
@@ -369,6 +372,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Der Wind flüstert jenen zu, d
 -- Thundris Windwirker
 UPDATE locales_questgiver_greeting SET Text_loc3='Dunkle Mächte dringen bis an unsere Grenzen, alte Besudelungen kommen wieder zum Vorschein und neue Übel brechen sich Bahn, um das Land aus seinem empfindlichen Gleichgewicht zu bringen. In solch dunklen Zeiten müssen wir alle wachsam sein.' WHERE entry=3649;
 
+-- Schildwache Elissa Sternenhauch (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Ich muss wachsam sein, $N. Auberdine ist von Feinden umzingelt, von alten wie von neuen. Seid achtsam, wenn Ihr diese Stadt verlasst, denn da draußen kann ich Euch nicht beschützen. Daher brauche ich Hilfe bei den Aufgaben, die mich nach draußen bringen würden.' WHERE entry=3657;
+
 -- Delgren der Läuterer
 UPDATE locales_questgiver_greeting SET Text_loc3='Guten Tag, $GJungchen:Mädel;! Vielleicht könnt Ihr mir bei ein paar Dingen helfen, die ich zu erledigen habe?' WHERE entry=3663;
 
@@ -407,6 +413,9 @@ UPDATE locales_questgiver_greeting SET Text_loc3='Hallo. Was kann ich für Euch 
 
 -- Kaela Schattenspeer (englischer Text nicht in der DB vorhanden)
 UPDATE locales_questgiver_greeting SET Text_loc3='Gaxim war so sehr darauf versessen, die Nachtelfen davon zu überzeugen, dass seine Methoden die besseren seien, dass mir nichts anderes übrig blieb, als seine Energie auf etwas anderes zu lenken. Darum habe ich ihn auf die Venture Co. losgelassen.$B$BIch konzentriere mich weiterhin darauf, dem verbrannten Tal im Nordwesten Hilfestellung zu leisten.' WHERE entry=4080;
+
+-- Elanaria (englischer Text nicht in der DB vorhanden)
+UPDATE locales_questgiver_greeting SET Text_loc3='Der Pfad eines Kriegers ist durch Entschlossenheit geprägt, $GBruder:Schwester;. Den Anfang mag die Kraft der Waffen machen, aber die Macht des Willens treibt ihn weiter an.' WHERE entry=4088;
 
 -- Ziz Fizziks
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=4201;
@@ -687,7 +696,7 @@ UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=150075 AND type
 -- Gesucht/Vermisst/Verloren & Gefunden
 UPDATE locales_questgiver_greeting SET Text_loc3=' ' WHERE entry=179827 AND type=1;
 
--- Dokumente des Syndikats (Text solle bestätigt werden! In Classic und BCC gibt es noch 3 weitere dieser Objekte: 1738, 1739, 1740 Nur GO 1740 wurde gefunden.
+-- Dokumente des Syndikats
 UPDATE locales_questgiver_greeting SET Text_loc3='Diese Schriftrollensammlung enthält verschiedene logistische und strategische Informationen sowie kodierte Nachrichten.' WHERE entry=186420 AND type=1;
 
 SET NAMES 'latin1';

@@ -1637,6 +1637,8 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Was ist ein Belobigungsa
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was ist ein Belobigungsabzeichen der Allianz?' WHERE menu_id=6614 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was ist ein Belobigungsabzeichen der Allianz?' WHERE menu_id=6615 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Was ist ein Belobigungsabzeichen der Allianz?' WHERE menu_id=6616 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich werde warten.' WHERE menu_id=6622 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin hier, um den Hauptmann zu unterstützen.' WHERE menu_id=6623 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin an einer Hexenmeisterausbildung interessiert.' WHERE menu_id=6628 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte meine Talente verlernen.' WHERE menu_id=6628 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Informationen zur dualen Talentspezialisierung.' WHERE menu_id=6628 AND id=2;
@@ -1685,6 +1687,8 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte Euch noch et
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte Euch noch etwas anderes fragen.' WHERE menu_id=6681 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte Euch noch etwas anderes fragen.' WHERE menu_id=6682 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte Euch noch etwas anderes fragen.' WHERE menu_id=6683 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin bereit!' WHERE menu_id=6686 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Melden uns zum Dienst, Sir.' WHERE menu_id=6687 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin hier, um Euren Bericht zu empfangen.' WHERE menu_id=6690 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin hier, um Euren Bericht zu empfangen.' WHERE menu_id=6691 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich bin hier, um Euren Bericht zu empfangen.' WHERE menu_id=6692 AND id=0;

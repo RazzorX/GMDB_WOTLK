@@ -4667,7 +4667,7 @@ Text_loc3='<Ihr fühlt einen stechenden Schmerz wenn Ihr auf diese Seiten blickt
 WHERE entry=2636;
 
 UPDATE locales_page_text SET
-Text_loc3='...versteckt Euch unter einem Felsvorsprung oder einer Brücke, wenn in Reichweite. Eine gute, starke Mauer ist auch eine sichere Sache.$B$B$B<mehr verblasster Text.>\n$BBenutzt v lst nd g Heilung, zwischen fünf und fünfzehn Kl r r.$B$B$B<mehr verblasster Text.>\n$BAm Ende eines erfolgreichen Schlachtzugs, lehnt Euch zurück und genießt den Sieg. Nach ganzen zehn bis fünfzehn Sekunden, begebt Euch in die Stadt und zeigt Eure f t e B te, damit\'s alle sehen und Euch verehren können.$B$B$B<Ein kurzer Blick auf den Rest des Kompendiums lässt Euch mit Kopfschmerzen zurück.>'
+Text_loc3='...versteckt Euch unter einem Felsvorsprung oder einer Brücke, wenn in Reichweite. Eine gute, starke Mauer ist auch eine sichere Sache.$B$B$B<mehr verblasster Text.>$B$BBenutzt v lst nd g Heilung, zwischen fünf und fünfzehn Kl r r.$B$B$B<mehr verblasster Text.>$B$BAm Ende eines erfolgreichen Schlachtzugs, lehnt Euch zurück und genießt den Sieg. Nach ganzen zehn bis fünfzehn Sekunden, begebt Euch in die Stadt und zeigt Eure f t e B te, damit\'s alle sehen und Euch verehren können.$B$B$B<Ein kurzer Blick auf den Rest des Kompendiums lässt Euch mit Kopfschmerzen zurück.>'
 WHERE entry=2637;
 
 UPDATE locales_page_text SET
@@ -5515,7 +5515,7 @@ Text_loc3='Damit dem Anwender der Tinktur die Fähigkeit Tote zu sehen verliehen
 WHERE entry=2983;
 
 UPDATE locales_page_text SET
-Text_loc3='<Nach zahlreichen Seiten todlangweiliger \'Wissenschaft\', die absolut keinen Sinn zu ergeben scheint, entdeckt Ihr ganz am Ende der letzten Seite eine hingekritzelte Notiz...>\n$B\'tschuldigung, Boss. Sieht aus, als würde der Nethersturm bald loswüten. Wahrscheinlich wird der Großteil der Scherbenwelt auch daran glauben müssen.$B$BIch bin mir nicht 100% sicher, aber ich glaube, das Problem hat etwas mit den Aktivitäten der Blutelfen bei den Manaschmieden zu tun.$B$BNur gut, dass Ihr diese Rakete baut!$B$B-- Kupfernickel$B$BP.S. - Ist vielleicht noch ein Platz in der Rakete für mich frei? Ihr werdet mit Sicherheit einen Netheorologen brauchen, wenn Ihr durch den wirbelnden Nether fliegt!'
+Text_loc3='<Nach zahlreichen Seiten todlangweiliger \'Wissenschaft\', die absolut keinen Sinn zu ergeben scheint, entdeckt Ihr ganz am Ende der letzten Seite eine hingekritzelte Notiz...>$B$B\'tschuldigung, Boss. Sieht aus, als würde der Nethersturm bald loswüten. Wahrscheinlich wird der Großteil der Scherbenwelt auch daran glauben müssen.$B$BIch bin mir nicht 100% sicher, aber ich glaube, das Problem hat etwas mit den Aktivitäten der Blutelfen bei den Manaschmieden zu tun.$B$BNur gut, dass Ihr diese Rakete baut!$B$B-- Kupfernickel$B$BP.S. - Ist vielleicht noch ein Platz in der Rakete für mich frei? Ihr werdet mit Sicherheit einen Netheorologen brauchen, wenn Ihr durch den wirbelnden Nether fliegt!'
 WHERE entry=2984;
 
 UPDATE locales_page_text SET
@@ -7439,7 +7439,7 @@ Text_loc3='Erzmagier Antonidas, Großmagus der Kirin Tor$B$BDie großartige Stad
 WHERE entry=3542;
 
 UPDATE locales_page_text SET
-Text_loc3='Jahrelang bin ich nun in diesem magischen Gefängnis eingeschlossen. Heute Nacht werde ich meinen Ausbruch wagen. Ich habe alles, was ich brauche, um den Plan in die Tat umzusetzen.$B$B<Verschmierte Tinte macht diesen Teil des Briefes unleserlich.>\n$BWarum war ich so lange hier? Was habe ich verbrochen, um das zu verdienen? Unzählige Tage mit nur diesen Gedanken im Kopf. Was kann jemand verbrochen haben, um das zu verdienen?$B$B<Verschmierte Tinte macht diesen Teil des Briefes unleserlich.>\n$BVielleicht finde ich die Antwort in einem anderen Leben.'
+Text_loc3='Jahrelang bin ich nun in diesem magischen Gefängnis eingeschlossen. Heute Nacht werde ich meinen Ausbruch wagen. Ich habe alles, was ich brauche, um den Plan in die Tat umzusetzen.$B$B<Verschmierte Tinte macht diesen Teil des Briefes unleserlich.>$B$BWarum war ich so lange hier? Was habe ich verbrochen, um das zu verdienen? Unzählige Tage mit nur diesen Gedanken im Kopf. Was kann jemand verbrochen haben, um das zu verdienen?$B$B<Verschmierte Tinte macht diesen Teil des Briefes unleserlich.>$B$BVielleicht finde ich die Antwort in einem anderen Leben.'
 WHERE entry=3543;
 
 UPDATE locales_page_text SET
