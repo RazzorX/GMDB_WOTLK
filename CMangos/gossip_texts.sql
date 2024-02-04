@@ -20,6 +20,10 @@ UPDATE gossip_texts SET content_loc3='Ich bin bereit. Holen wir Euch da raus.' W
 UPDATE gossip_texts SET content_loc3='Geht schon, Ihr seid frei! Verschwindet von hier!' WHERE entry=-3000113;
 UPDATE gossip_texts SET content_loc3='Ich bin bereit, mit der Destillation zu beginnen, uh, Schluckspecht.' WHERE entry=-3000114;
 UPDATE gossip_texts SET content_loc3='Dreht den Schlüssel, um die Maschine zu starten.' WHERE entry=-3000115;
+UPDATE gossip_texts SET content_loc3='Bitte entschuldigt die Störung, Lady Prestor, aber Hochlord Bolvar schlug vor, dass ich Euren Rat suche.' WHERE entry=-3000120;
+UPDATE gossip_texts SET content_loc3='Entschuldigt bitte, Lady Prestor.' WHERE entry=-3000121;
+UPDATE gossip_texts SET content_loc3='Pardon, Lady Prestor. Das war nicht meine Absicht.' WHERE entry=-3000122;
+UPDATE gossip_texts SET content_loc3='Ich danke Euch für die Zeit, die Ihr aufgewendet habt, Lady Prestor.' WHERE entry=-3000123;
 
 -- -3033 000 SHADOWFANG KEEP
 UPDATE gossip_texts SET content_loc3='Öffnet bitte die Tür zum Hof.' WHERE entry=-3033000;
